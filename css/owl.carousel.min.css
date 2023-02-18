@@ -55,6 +55,8 @@
 }
 
 .owl-carousel .owl-item img {
+    margin-left: 20px;
+    border-radius: 0.5rem;
     display: block;
     width: 100%
 }

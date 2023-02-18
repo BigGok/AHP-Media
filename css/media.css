@@ -18,9 +18,11 @@
 
     button#toggle-bar {
         background-color: #6aa5ff;
-        border-radius: 0.5rem;;
-        border:none;
+        border-radius: 0.5rem;
+        ;
+        border: none;
         padding: 10px 10px;
+        margin-top: 80px;
     }
 
     .cnt-info-col {
@@ -43,16 +45,19 @@
         text-align: center;
         display: none;
     }
-    .active{
+
+    .active {
         color: #0845a0 !important;
     }
+
     .menu a {
         display: block;
-        
+
     }
+
     .menu a:hover {
         color: #0845a0;
-        
+
     }
 
     section.header-bg-parent {
@@ -74,7 +79,7 @@
         height: 100vh;
         width: 100%;
         background-blend-mode: overlay;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .header-col1 h5 {
@@ -112,8 +117,8 @@
         line-height: 28px;
         padding: 0 60px;
     }
-    
-    .blog-col img{
+
+    .blog-col img {
         margin-left: 30px;
         width: 100%;
     }
@@ -161,7 +166,7 @@
     }
 
     .why-choose-col p {
-        padding: 5px;
+        padding: 5px 30px;
     }
 
     .milestone-counter {
@@ -334,9 +339,11 @@
         width: 90%;
         margin: 0 auto;
     }
-    .footer-col.footer-2-col ul li{
+
+    .footer-col.footer-2-col ul li {
         width: 100%;
     }
+
     .footer-col {
         float: none;
         width: 100%;
@@ -354,4 +361,85 @@
         margin: 30px 0px 0px;
     }
 
+    #worldNav {
+        border-top: 1px solid #fff;
+        border-radius: 0.5rem;
+        margin-top: 4px;
+        background-color: #0845a0;
+        padding: 15px 15px 30px 15px;
+    }
+
+    .header-col1 h1 {
+        padding-top: 70px;
+        color: #6aa5ff;
+        font-size: 60px;
+    }
+
+    .header-col1 h2 {
+        color: #0845a0;
+        font-size: 40px;
+        line-height: 43px;
+    }
+
+    .social-icons-footer {
+        display: inline-grid;
+        justify-items: end;
+    }
+
+    .owl-carousel .owl-item img {
+        border-radius: 0.5rem;
+        display: block;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .footer-sp {
+        color: rgb(59, 54, 99);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .footer-col p {
+        display: grid;
+        justify-items: center;
+        color: #696687;
+        font-size: 16px;
+        font-family: "Rubik";
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .footer-lc {
+        padding-left: 95px;
+        color: #3b3663;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: grid;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #worldNav {
+        border-radius: 0.5rem;
+        margin-top: 4px;
+        background-color: #0845a0;
+        padding: 15px 15px 30px 15px;
+    }
+
+    .header-col1 h1 {
+        padding-top: 70px;
+        color: #6aa5ff;
+        font-size: 60px;
+    }
+
+    .header-col1 h2 {
+        color: #0845a0;
+        font-size: 40px;
+        line-height: 43px;
+    }
 }

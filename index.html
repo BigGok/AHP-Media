@@ -27,7 +27,8 @@
     <!--owl carousel-->
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
-
+    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
 </head>
 
@@ -37,75 +38,55 @@
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
 
-    <header id="home">
+    <header class="header-area">
         <div class="container">
-            <div class="top-bar">
-                <div class="nav-col">
-                    <div class="logo">
-                        <img src="images/logo.png" class="img-responsive" alt="logo" />
-                    </div>
-                    <!--logo-->
-                    <div class="menu">
-                        <a class="active" href="#home">TRANG CHỦ</a>
-                        <a href="#why-choose-us">VỀ CHÚNG TÔI</a>
-                        <a href="#expand">DỊCH VỤ</a>
-                        <a href="#blog">TIN TỨC</a>
-                        <a href="#contact">LIÊN HỆ NGAY</a>
-                    </div>
-                    <div class="clear"></div>
-                    <!--clear-->
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <!-- Logo -->
+                        <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="Logo"></a>
+                        <!-- Navbar Toggler -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-sliders"></i></button>
+                        <!-- Navbar -->
+                        <div class="collapse navbar-collapse" id="worldNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">TRANG CHỦ <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#why-choose-us">VỀ CHÚNG TÔI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#expand">DỊCH VỤ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#project">HỢP TÁC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">LIÊN HỆ</a>
+                                </li>
+                            </ul>
+ 
+                        </div>
+                    </nav>
                 </div>
-                <!--nav-col-->
-                <div class="cnt-info-col">
-                </div>
-                <div class="clear"></div>
-                <!--clear-->
             </div>
-            <!--top-bar-->
         </div>
-    </header>
-
-    <section id="mobile-menu">
-        <div class="container-mobile">
-            <div class="mobile-logo">
-                <img src="images/logo.png" class="img-responsive" alt="logo" />
-
-                <div class="clear"></div>
-                <!--clear-->
-            </div>
-            <!--nav-col-->
-            <div class="cnt-info-col">
-                <button type="button" id="toggle-bar"><i class="fa fa-bars"></i></button>
-            </div>
-            <div class="clear"></div>
-            <!--clear-->
-        </div>
-    </section>
-
-    <div class="menu">
-        <a class="active" href="#home">TRANG CHỦ</a>
-        <a href="#why-choose-us">VỀ CHÚNG TÔI</a>
-        <a href="#expand">DỊCH VỤ</a>
-        <a href="#blog">TIN TỨC</a>
-        <a href="#contact">LIÊN HỆ NGAY</a>
-        <a href="#">Contact Us</a>
-        <a href="tel:7652000000">7652000000</a>
-    </div>
+    </header>   
 
     <section class="header-bg-parent">
         <div class="header-col1">
-            <h2>AHP MEDIA</h2>
+            <h1>AHP MEDIA</h1>
             <h2 class="typewrite" data-period="1000" data-type='[ "for business", "to sell online", "for your ideas"]'>
             </h2>
         </div>
         <!--header-col1-->
         <div class="header-col2">
-
         </div>
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->
-        <img class="hedaer-bg-par-img" src="images/corner-img.png" class="img-responsive" alt="corner" />
+
     </section>
     <!--header-bg-parent-->
     
@@ -157,12 +138,12 @@
             <div class="progress-info-col">
                 <div class="progress-info">
                     <h3>Các Dịch Vụ</h3>
-                    <li class="service-li">Sáng tạo nội dung cho các ngành nghề</li>
-                    <li class="service-li">Xây dựng thương hiệu cá nhân(nhân hiệu) với tất cả các tầng lớp xã hội</li>
-                    <li class="service-li">Chăm sóc Fanpage, viết content trên tất cả các nền tảng mạng xã hội</li>
-                    <li class="service-li">Nhận làm quảng cáo bằng hình thức sáng tạo nội dung</li>
-                    <li class="service-li">Triển khai chiến lược marketing online cho doanh nghệp các nhân </li>
-                    <li class="service-li">Triển khai bán online</li>
+                    <li class="service-li">1, Sáng tạo nội dung cho các ngành nghề</li>
+                    <li class="service-li">2, Xây dựng thương hiệu cá nhân(nhân hiệu) với tất cả các tầng lớp xã hội</li>
+                    <li class="service-li">3, Chăm sóc Fanpage, viết content trên tất cả các nền tảng mạng xã hội</li>
+                    <li class="service-li">4, Nhận làm quảng cáo bằng hình thức sáng tạo nội dung</li>
+                    <li class="service-li">5, Triển khai chiến lược marketing online cho doanh nghệp các nhân </li>
+                    <li class="service-li">6, Triển khai bán online</li>
                 </div>
             </div>
             <!--progress-info-col-->
@@ -172,47 +153,35 @@
         <!--clear-->
     </section>
 
-
-    <section id="blog">
+    <Section id="project">
         <div class="text-center">
-            <h5 class="service-h1">TIN TỨC</h5>
+            <h1 class="service-h1">ĐỐI TÁC</h1>
         </div>
-        <div class="container">
-            <div class="blog-col">
-                <img src="images/blog/blog-1.jpg" alt="blog1" class="img-responsive" />
-                <span>May 16 2020</span>
-                <h3>How to Increase Your ROI Through scientific SEM?</h3>
-                <a href="#">Read More</a>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="owl-img-par">
+                    <img src="images/portfolio/portfolio-one.jpg" class="img-responsive" />
+
+                </div>
             </div>
-            <!--blog-col-->
-            <div class="blog-col">
-                <img src="images/blog/blog-2.jpg" alt="blog1" class="img-responsive" />
-                <span>May 16 2020</span>
-                <h3>How to Increase Your ROI Through scientific SEM?</h3>
-                <a href="#">Read More</a>
+            <div class="item">
+                <div class="owl-img-par">
+                    <img src="images/portfolio/portfolio-two.jpg" class="img-responsive" />
+
+                </div>
             </div>
-            <!--blog-col-->
-            <div class="blog-col">
-                <img src="images/blog/blog-3.jpg" alt="blog1" class="img-responsive" />
-                <span>May 16 2020</span>
-                <h3>How to Increase Your ROI Through scientific SEM?</h3>
-                <a href="#">Read More</a>
-            </div>
-            <!--blog-col-->
-            <div class="clear"></div>
         </div>
-        <!--container-->
-    </section>
+    </Section>
 
     <Section id="contact">
         <div class="container">
             <div class="form-par">
                 <h2>LIÊN HỆ CHO CHÚNG TÔI</h2>
                 <form>
-                    <input type="text" placeholder="Họ Tên" class="f-name form-com" />
+                    <input type="text" placeholder="Họ Tên" class="f-name form-com"/>
                     <input type="email" placeholder="Email" class="em-input form-com" />
                     <input type="tel" id="phone" name="phone" class="phone-input form-com" placeholder="Số Điện Thoại"
-                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                        pattern="[0-9]{10}" required>
                     <input type="text" placeholder="Nội Dung" class="web-input form-com" />
                     <input type="submit" value="Xác Nhận" class="submit-btn" />
                 </form>
@@ -225,14 +194,11 @@
     <footer>
         <div class="container">
             <div class="footer-col">
-                <h3 class="h3-footer">Stay with us</h3>
-                <p>We focus on the needs of small to middle market businesses to improve and grow their return.so that
-                    your site will withstand the test of time. We care about your business, which is why we work with
-                    you.</p>
+                <h3 class="h3-footer">Follow Us</h3>
                 <div class="social-icons-footer">
-                    <i class="fa-brands fa-facebook-f fb"></i>
-                    <i class="fa-brands fa-tiktok fb"></i>
-                    <i class="fa-brands fa-youtube fb"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100090142604061"><i class="fa-brands fa-facebook-f fb"></i></a>
+                    <a class="icon-fl" href="https://www.tiktok.com/@ahp.news?lang=vi-VN"><i class="fa-brands fa-tiktok fb"></i></a>
+                    <a class="icon-fl" href=""><i class="fa-brands fa-youtube fb"></i></a>
                     
                 </div>
             </div>
@@ -250,9 +216,9 @@
             <!--footer-col-->
             <div class="footer-col">
                 <h3 class="h3-foot">Liên hệ tuyển dụng</h3>
-                <p><i class="fa fa-envelope-o"></i> <a class="footer-a" href="mailto:demo@gmail.com">ahpmedia@ahpvn.com</a></p>
-                <p><i class="fa fa-mobile-phone"></i> <a class="footer-a" href="tel:9855000000">9855000000</a></p>
-                <p><i class="fa fa-map-o"></i> <span>Lầu 3, Số 666/10/1-3-5, Đường 3/2, Phường 14, Quận 10, TP.HCM.</span></p>
+                <p><i style="margin-top: 13px;" class="fa-solid fa-envelope"></i> <a class="footer-a" href="tel:9855000000">ahpmedia@ahpvn.com</a></p>
+                <p><i class="fa fa-mobile-phone"></i> <span > 0968868227</span></p>
+                <p><i class="fa-solid fa-location-dot"></i> <span class="footer-lc">Lầu 3, Số 666/10/1-3-5, Đường 3/2, Phường 14, Quận 10, TP.HCM.</h5></span></p>  
             </div>
             <!--footer-col-->
             <div class="clear"></div>
@@ -266,6 +232,10 @@
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
+    <script src="js/plugins.js"></script>
+        <!-- Bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/active.js"></script>
 </body>
 <script>
     $(document).ready(function () {
