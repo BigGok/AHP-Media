@@ -182,10 +182,6 @@ a {
     -webkit-text-decoration-skip: objects
 }
 
-a:hover {
-    color: #0056b3;
-    text-decoration: underline
-}
 
 a:not([href]):not([tabindex]) {
     color: inherit;
@@ -265,7 +261,11 @@ input,
 optgroup,
 select,
 textarea {
-    margin: 0;
+    outline: 0 !important;
+    border:none;
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 10px 0px;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit
@@ -309,10 +309,6 @@ input[type=time] {
     -webkit-appearance: listbox
 }
 
-textarea {
-    overflow: auto;
-    resize: vertical
-}
 
 fieldset {
     min-width: 0;
@@ -4330,7 +4326,6 @@ tbody.collapse.show {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .5rem 1rem
 }
 
 .navbar>.container,
@@ -4404,12 +4399,10 @@ tbody.collapse.show {
 }
 
 .navbar-toggler {
-    outline: none !important;
     padding: .55rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
     background-color: #0845a0;
-    border: 1px solid transparent;
     border-radius: .25rem
 }
 

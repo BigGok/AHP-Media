@@ -364,7 +364,6 @@
     #worldNav {
         border-top: 1px solid #fff;
         border-radius: 0.5rem;
-        margin-top: 4px;
         background-color: #0845a0;
         padding: 15px 15px 30px 15px;
     }
@@ -411,27 +410,40 @@
         line-height: 28px;
     }
 
-    .footer-lc {
-        padding-left: 95px;
+    .footer-col .footer-lc {
         color: #3b3663;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 15px;
         font-weight: 600;
         letter-spacing: 1px;
         display: grid;
-        justify-content: start;
+    }
+    .text-area{
+        width: 100%;
+        height: 142px;
+    }
+    .footer-col .fa-location-dot{
+        color: #fff;
+        background-color: #00aeff;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s ease;
     }
 }
 
 @media screen and (max-width:991px) {
     #worldNav {
         border-radius: 0.5rem;
-        margin-top: 4px;
         background-color: #0845a0;
         padding: 15px 15px 30px 15px;
     }
 
     .header-col1 h1 {
+        
         padding-top: 70px;
         color: #6aa5ff;
         font-size: 60px;
@@ -441,5 +453,27 @@
         color: #0845a0;
         font-size: 40px;
         line-height: 43px;
+    }
+    .owl-carousel .owl-item img {
+        border-radius: 0.5rem;
+        display: block;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .form-par {
+        border-radius: 0.355rem;
+        background-image: linear-gradient(20deg, #0845a0 0%, #6aa5ff 57%);
+        padding: 30px 40px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1200px) {
+    .form-par {
+        border-radius: 0.355rem;
+        background-image: linear-gradient(20deg, #0845a0 0%, #6aa5ff 57%);
+        padding: 30px 40px;
+        width: 80%;
+        margin: 0 auto;
     }
 }
