@@ -1,4 +1,4 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:821px) {
 
     #home {
         display: none;
@@ -433,6 +433,33 @@
         cursor: pointer;
         transition: all 0.5s ease;
     }
+    .news-col{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wide-img1{
+        width: 100%;
+    }
+    .news-row1{
+        padding: 20px;
+        width: 100%;
+    }
+    .news-row2{
+        padding: 20px;
+        width: 100%;
+    }
+    .footer-col .fa-location-dot {
+        color: #fff;
+        background-color: #00aeff;
+        border-radius: 50px;
+        width: 40px !important;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -467,6 +494,22 @@
         width: 90%;
         margin: 0 auto;
     }
+    .news-col{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wide-img{
+        width: 100%;
+    }
+    .news-row1{
+        padding: 20px;
+        width: 100%;
+    }
+    .news-row2{
+        padding: 20px;
+        width: 100%;
+    }
 }
 @media screen and (max-width:1200px) {
     .form-par {
@@ -475,5 +518,34 @@
         padding: 30px 40px;
         width: 80%;
         margin: 0 auto;
+    }
+    .news-col{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .news-row1{
+        padding: 20px;
+        width: 100%;
+    }
+    .news-row2{
+        padding: 20px;
+        width: 100%;
+    }
+    .header-area .navbar .navbar-nav .nav-link {
+        color: #fff;
+        padding: 0.5em 1em;
+        font-weight: 500;
+    }
+    .footer-col .fa-location-dot {
+        color: #fff;
+        background-color: #00aeff;
+        border-radius: 50px;
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s ease;
     }
 }
