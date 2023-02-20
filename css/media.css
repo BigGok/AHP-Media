@@ -440,6 +440,7 @@
     }
     .wide-img1{
         width: 100%;
+        padding: 40px 0px;
     }
     .news-row1{
         padding: 20px;
@@ -459,6 +460,11 @@
         text-align: center;
         cursor: pointer;
         transition: all 0.5s ease;
+    }
+    .header-col1 .head-blog {
+        padding-top: 10%;
+        display: flex;
+        justify-content: center;
     }
 }
 
