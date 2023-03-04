@@ -100,6 +100,7 @@ h6 {
 }
 
 p {
+    text-align: justify;
     margin-top: 0;
     margin-bottom: .3rem
 }
@@ -584,8 +585,8 @@ pre code {
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
     margin-right: auto;
     margin-left: auto
 }
@@ -610,7 +611,7 @@ pre code {
 
 @media (min-width:1200px) {
     .container {
-        max-width: 1400px
+        max-width: 1250px
     }
 }
 
