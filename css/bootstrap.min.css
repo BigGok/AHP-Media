@@ -261,8 +261,7 @@ button:focus {
 button,
 input,
 optgroup,
-select,
-textarea {
+select{
     outline: 0 !important;
     border:none;
     padding: 10px;
@@ -591,29 +590,6 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:576px) {
-    .container {
-        max-width: 700px
-    }
-}
-
-@media (min-width:768px) {
-    .container {
-        max-width: 720px
-    }
-}
-
-@media (min-width:992px) {
-    .container {
-        max-width: 960px
-    }
-}
-
-@media (min-width:1200px) {
-    .container {
-        max-width: 1250px
-    }
-}
 
 .container-fluid {
     width: 100%;
