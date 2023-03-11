@@ -170,7 +170,7 @@ section.header-bg-parent {
 }
 
 .header-col2 {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(../images/123.jpg);
     float: right;
     background-size: cover;
     background-position: center center;
@@ -191,12 +191,12 @@ section.header-bg-parent {
 
 .header-col1 h1 {
     padding-top: 30px;
-    color: #6aa5ff;
+    color: #f50505;
     font-size: 70px;
 }
 
 .header-col1 h2 {
-    color: #0845a0;
+    color: #6f0505;
     font-size: 40px;
     line-height: 43px;
 }
@@ -1037,21 +1037,27 @@ hr.footer-hr {
 
 .navbar-nav .nav-item .nav-link .name {
     position: relative;
-    width: 100%;
+    width: 120%;
     display: block;
-    height: 20px;
+    
     overflow: hidden;
+
+    text-align: center;
+    border-radius: 50px;
+    
 }
 
 .navbar-nav .nav-item .nav-link .name span {
+
     cursor: pointer;
     display: block;
     position: relative;
-    color: #FFF;
-    font-weight: 500;
-    font-size: 17px;
+    color: #f90606;
+    font-weight: 700;
+    font-size: 18px;
     line-height: 20px;
     transition: 0.2s;
+
 }
 
 .navbar-nav .nav-item .nav-link .name span::before {
@@ -1061,7 +1067,7 @@ hr.footer-hr {
     left: 0;
     width: 100%;
     height: 100%;
-    color: #059DDE
+    color: #0c0c0c
 }
 
 .navbar-nav .nav-item .nav-link:hover .name span {
@@ -1078,7 +1084,7 @@ hr.footer-hr {
 
 
 .header-area.sticky {
-    background-color: #0845a0;
+    background-color: white;
     margin-top: 0;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
@@ -1116,7 +1122,7 @@ hr.footer-hr {
 
 .head-dr {
     padding: 0 10px;
-    color: #00aeff;
+    color: #ff0000;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -1216,6 +1222,7 @@ hr.footer-hr {
 }
 
 .container-footer {
+    color: white;
     width: 100%;
     padding-right: 35px;
     padding-left: 35px;
@@ -1237,10 +1244,12 @@ hr.footer-hr {
 .contain-col2 {
     width: 60%;
     display: flex;
+    margin-left: 60px;
 }
 
 .foot-cl2 {
-    padding: 0 50px;
+    width: 300px;
+    padding: 40px 10px;
 }
 
 .social-icons-footer {
@@ -1323,6 +1332,9 @@ hr.footer-hr {
 
 .txt-head {
     margin: 20px 0;
+    text-align: center;
+    color: #6d0f0f;
+    font-weight: 700;
 }
 
 .img-about {
@@ -1658,7 +1670,7 @@ align-items: center;
 justify-content: center ;
 }
 .head-service h3{
-    color: #0845a0;
+    color: #a40f0f;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -1681,6 +1693,8 @@ justify-content: center ;
 }
 .items-service h3{
     margin:10px 16px;
+    font-size: 21px;
+    font-weight: 600;
 }
 .items-service a{
     display: grid;
@@ -1698,11 +1712,14 @@ justify-content: center ;
     display: grid;
     grid-gap: 15px 0px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
 }
 .items-list-service li{
     margin-left: 16px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(181, 175, 175);
+    padding-bottom: 10px;
     margin-right: 12px;
+   
 }
 /* NEWS-INDEX */
 .hero-news{
@@ -1750,7 +1767,7 @@ justify-content: center ;
     margin:0 1%;
 }
 .items-about h3{
-    color: #0845a0;
+    color: #950b0b;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -1824,4 +1841,127 @@ justify-content: center ;
 .items-project p{
     margin-left: 16px;
     margin-right: 12px
+}
+
+/*PHẦN MỚI*/
+#contain {
+    width: 100%;
+    height: 500px;
+    background-color: #950c0c;
+    float: left;
+    margin-bottom: 100px;
+
+}
+
+.box2 {
+    width: 700px;
+    height: 400px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.box1 {
+    width: 720px;
+    height: 500px;
+    background-color: #000000;
+    float: right;
+}
+
+.img-abc {
+    width: 720px;
+    height: 500px;
+}
+
+.tao {
+    font-weight: 700;
+}
+
+.teo {
+    font-style: italic;
+    color: antiquewhite;
+}
+.hmd{
+    margin-bottom: 40px;
+    font-weight: 700;
+    box-shadow: inset;
+    color: #7a0e0e;
+}
+@media screen and (max-width: 1360px) {
+    .box2 {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .box1 {
+        width: 70%;
+        height: 500px;
+        background-color: #000000;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    #contain {
+        height: 900px;
+        transition: all;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #contain {
+        height: 1150px;
+        transition: all;
+    }
+}
+/*Logo*/
+.bfh {
+    
+    width: 200px;
+    top: 0;
+    
+}
+.bfg {
+    position: absolute;
+    width: 160px;
+    top: -10px;
+    left: 20px;
+}
+.pico{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    color: #6d0f0f;
+    font-weight: 700;
+}
+.navbar-nav .nav-item .name1 {
+    position: relative;
+    width: 100%;
+    display: block;
+    background-color: rgb(253, 2, 2);
+    overflow: hidden;
+    
+    text-align: left;
+    border-radius: 50px;
+    
+}
+.navbar-nav .nav-item .nav-link .name2 span {
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    color: #f8f4f4;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    transition: 0.2s;
+
 }
