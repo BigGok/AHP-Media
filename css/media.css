@@ -790,7 +790,9 @@
     .location-footer {
         text-align: left;
     }
-    
+    .navbar-nav .nav-item .nav-link .name span {
+        color: #000;
+    }
 }
 
 /* Styles for screens between 576px and 768px */
@@ -912,6 +914,9 @@
         padding: 40px 5px;
         display: flex;
         justify-content: center;
+    }
+    .navbar-nav .nav-item .nav-link .name span {
+        color: #000;
     }
 }
 
