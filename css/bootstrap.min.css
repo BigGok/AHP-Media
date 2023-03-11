@@ -100,7 +100,7 @@ h6 {
 }
 
 p {
-    text-align: justify;
+    text-align: left;
     margin-top: 0;
     margin-bottom: .3rem
 }
@@ -4380,7 +4380,7 @@ tbody.collapse.show {
     padding: .55rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #0845a0;
+    background-color: #6d0f0f;
     border-radius: .25rem
 }
 
