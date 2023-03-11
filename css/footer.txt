@@ -1,0 +1,39 @@
+            <!-- <div class="container">
+            <div class="footer-col">
+                <h3 class="h3-footer">Follow Us</h3>
+                <div class="social-icons-footer">
+                    <p class="footer-p">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
+                        thông tiên tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                    <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
+                            class="fa-brands fa-facebook-f fb "></i></a>
+                    <a href="https://www.tiktok.com/@ahp.news?lang=vi-VN"><i
+                            class="fa-brands fa-tiktok fb icon-fl"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
+
+                </div>
+            </div>
+
+            <div class="footer-col2">
+                <h3 class="h3-footer">Main Menu</h3>
+                <ul class="footer-menu">
+                    <li><a class="foot-lk" href="#home">TRANG CHỦ</a> </li>
+                    <li><a class="foot-lk" href="#why-choose-us">VỀ CHÚNG TÔI</a></li>
+                    <li><a class="foot-lk" href="#expand">DỊCH VỤ</a></li>
+                    <li><a class="foot-lk" href="#blog">TIN TỨC</a></li>
+                    <li><a class="foot-lk" href="#contact">LIÊN HỆ NGAY</a></li>
+                </ul>
+            </div>
+ 
+            <div class="footer-col">
+                <h3 class="h3-foot">Liên hệ tuyển dụng</h3>
+                <p><i style="margin-top: 13px;" class="fa-solid fa-envelope"></i> <a class="footer-a"
+                        href="tel:9855000000">ahpmedia@ahpvn.com</a></p>
+                <p><i class="fa fa-mobile-phone"></i><span class="phone-num"> 0968868227</span></p>
+                <p class="footer-lc"> <i class="fa-solid fa-location-dot"></i><span class="flc">Lầu 3, Số 666/10/1-3-5,
+                        Đường 3/2, Phường 14, Quận 10, TP.HCM.</h5></span></p>
+            </div>
+
+            <div class="clear"></div>
+            <hr class="footer-hr">
+            <p class="copyright-footer">&copy; 2023 Copyright AHP-MEDIA</p>
+        </div> -->
