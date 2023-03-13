@@ -30,13 +30,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://kit.fontawesome.com/36fcf59f66.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleDropdown(id) {
+            var dropdown = document.getElementById(id);
+            if (dropdown.style.display === "none") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
+    </script>
 </head>
 
 <body>
     <a class=" blinking-phone"> <i class="fa fa-mobile-phone"></i></a>
-    <a data-modal-target="#mod-modal" class="blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-    
-    <div id="arrow">     
+    <a data-modal-target="#mod-modal" class="blinking-email"> <i class="fa-solid fa-envelope"
+            aria-hidden="true"></i></a>
+
+    <div id="arrow">
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
 
@@ -184,7 +195,7 @@
     <Section id="project">
         <div class="container">
             <div class="head-service">
-                <h3 >ĐỐI TÁC</h3>
+                <h3>ĐỐI TÁC</h3>
             </div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
@@ -305,7 +316,7 @@
     <section class="container">
         <div class="hero-about">
             <div class="items-about">
-                <h3 >Tại sao nên chọn AHP MEDIA</h3>
+                <h3>Tại sao nên chọn AHP MEDIA</h3>
                 <p>Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
                     thông
                     tiên
@@ -320,7 +331,7 @@
     <!-- REPORT-CUSTOMER -->
     <section class="container">
         <div class="head-service">
-            <h3 >KHÁCH HÀNG ĐÁNH GIÁ</h3>
+            <h3>KHÁCH HÀNG ĐÁNH GIÁ</h3>
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -517,8 +528,8 @@
                     <a href="index.html"><img src="images/logo AHP Agency trắng.png" class="logo-footer"></a>
                     <div class="loc-footer">
                         <p> <i class="fa-solid fa-envelope"></i> <span class="tel-footer">ahpmedia@ahpvn.com</span></p>
-                        <p> <i class="fa fa-mobile-phone"></i></i><span class="email-footer"> 
-                                    096.88.68.227</span></p>
+                        <p> <i class="fa fa-mobile-phone"></i></i><span class="email-footer">
+                                096.88.68.227</span></p>
                         <p> <i class="fa-solid fa-location-dot"></i><span class="location-footer"> Lầu 3, Số
                                 666/10/1-3-5, Đường 3/2, Phường 14, Quận
                                 10, TP.HCM.</span></p>
@@ -536,46 +547,58 @@
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3 >Về chúng tôi</h3>
-                            <p>Giới thiệu AHP</p>
-                            <p>Văn hóa AHP</p>
-                            <p>Tuyển dụng</p>
-                            <p>Đội ngũ nhân sự</p>
-                            <p>Khách hàng của AHP</p>
-                            <p>Bản tin của AHP</p>
-                            <p>Hồ sơ năng lực</p>
+                            <h3>Về chúng tôi <button onclick="toggleDropdown('dropdown-content-1')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-1" class="dropdown-content">
+                                <p>Giới thiệu AHP</p>
+                                <p>Văn hóa AHP</p>
+                                <p>Tuyển dụng</p>
+                                <p>Đội ngũ nhân sự</p>
+                                <p>Khách hàng của AHP</p>
+                                <p>Bản tin của AHP</p>
+                                <p>Hồ sơ năng lực</p>
+                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp</h3>
-                            <p>Tư vấn thương hiệu</p>
-                            <p>Thiết kế thương hiệu</p>
-                            <p>Nhận diện thương hiệu</p>
-                            <p>Thương hiệu mới</p>
-                            <p>Kế hoạch truyền thông</p>
-                            <p>Digital marketing</p>
+                            <h3>Dịch vụ cung cấp <button onclick="toggleDropdown('dropdown-content-2')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-2" class="dropdown-content">
+                                <p>Tư vấn thương hiệu</p>
+                                <p>Thiết kế thương hiệu</p>
+                                <p>Nhận diện thương hiệu</p>
+                                <p>Thương hiệu mới</p>
+                                <p>Kế hoạch truyền thông</p>
+                                <p>Digital marketing</p>
+                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện</h3>
-                            <p>Logo</p>
-                            <p>Đặt tên/slogan</p>
-                            <p>Web/app</p>
-                            <p>Bao bì</p>
-                            <p>Calatogue/Profile</p>
-                            <p>Calatogue/Profile</p>
+                            <h3>Dự án đã thực hiện <button onclick="toggleDropdown('dropdown-content-3')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-3" class="dropdown-content">
+                                <p>Logo</p>
+                                <p>Đặt tên/slogan</p>
+                                <p>Web/app</p>
+                                <p>Bao bì</p>
+                                <p>Calatogue/Profile</p>
+                                <p>Calatogue/Profile</p>
+                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Đơn vị thành viên</h3>
-                            <p>AHP Digital</p>
-                            <p>AHP Pakaging</p>
-                            <p>AHP Academy</p>
-                            <p>AHP Brandgifts</p>
-                            <p>LogoArt</p>
+                            <h3>Đơn vị thành viên <button onclick="toggleDropdown('dropdown-content-4')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-4" class="dropdown-content">
+                                <p>AHP Digital</p>
+                                <p>AHP Pakaging</p>
+                                <p>AHP Academy</p>
+                                <p>AHP Brandgifts</p>
+                                <p>LogoArt</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -607,7 +630,6 @@
             "max-glare": 1,
         });
     </script>
-
 
 </body>
 <script>

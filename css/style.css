@@ -1458,6 +1458,9 @@ hr.footer-hr {
 .footer-rows p{
     font-size: 18px;
 }
+.footer-rows button{
+display: none;
+}
 /*ABOUT US(PAGE)*/
 .about-text {
     text-align: justify;
