@@ -95,7 +95,7 @@ p {
     bottom: 50%;
     right: 25px;
     text-align: center;
-    background-color: #f90606;
+    background-color: #DC2F02;
     font-size: 20px;
     font-weight: 700;
     z-index: 9999;
@@ -108,7 +108,15 @@ p {
     text-align: center;
     border-radius: 50px;
 }
-
+.fa-envelope::before{
+    color: #fff;
+}
+.fa.fa-mobile-phone:before, .fa.fa-mobile:before{
+    color: #fff;
+}
+.fa-location-dot::before{
+    color: #fff;
+}
 .blinking-email:before {
     content: "";
     position: absolute;
@@ -146,14 +154,21 @@ p {
 
 #arrow i {
     position: fixed;
+    transform: .5s ease;
+    display: block;
     bottom: 20px;
     right: 25px;
-    cursor: pointer;
+    text-align: center;
     background-color: #f90606;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 9999;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    border-right: none;
     color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     border-radius: 50px;
 }
@@ -1189,13 +1204,14 @@ hr.footer-hr {
 
 /*BLOG-SINGLE*/
 .header-col1 .head-blog {
+    margin-top: 19px;
     display: flex;
     justify-content: center;
 }
 
 .head-dr {
     padding: 0 10px;
-    color: #ff0000;
+    color: #DC2F02;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -1313,13 +1329,13 @@ hr.footer-hr {
 }
 
 .contain-col1 {
-    width: 40%;
+    width: 25%;
 }
 
 .contain-col2 {
-    width: 60%;
+    width: 75%;
     display: flex;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .foot-cl2 {
@@ -1407,7 +1423,7 @@ hr.footer-hr {
 .loc-footer p {
     color: #b7b7b7;
     display: flex;
-    width: 100%;
+    width: 69%;
     align-items: center;
 }
 
@@ -1417,12 +1433,12 @@ hr.footer-hr {
 }
 
 .tel-footer {
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .email-footer,
 .location-footer {
-    padding-left: 19px;
+    padding-left: 9px;
 }
 
 .footer-rows p {
@@ -1436,10 +1452,12 @@ hr.footer-hr {
 
 .footer-rows h3 {
     margin-bottom: 25px;
-    font-size: 17.5px;
+    font-size: 23px;
     font-weight: 700;
 }
-
+.footer-rows p{
+    font-size: 18px;
+}
 /*ABOUT US(PAGE)*/
 .about-text {
     text-align: justify;

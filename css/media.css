@@ -88,8 +88,7 @@
     }
 
     .header-col1 h2 {
-        color: #6aa5ff;
-        font-size: 36px;
+        font-size: 25px;
         line-height: 50px;
         margin: 0px;
     }
@@ -371,14 +370,7 @@
 
     .header-col1 h1 {
         padding-top: 70px;
-        color: #6aa5ff;
-        font-size: 60px;
-    }
-
-    .header-col1 h2 {
-        color: #0845a0;
-        font-size: 40px;
-        line-height: 43px;
+        font-size: 45px;
     }
 
 
@@ -928,19 +920,6 @@
         border-radius: 0.5rem;
         background-color: #f90606;
         padding: 15px 15px 30px 15px;
-    }
-
-    .header-col1 h1 {
-
-        padding-top: 70px;
-        color: #6aa5ff;
-        font-size: 60px;
-    }
-
-    .header-col1 h2 {
-        color: #0845a0;
-        font-size: 40px;
-        line-height: 43px;
     }
 
     .owl-carousel .owl-item img {
