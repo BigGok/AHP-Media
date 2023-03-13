@@ -879,9 +879,10 @@
     }
 
     .contain-col2 {
-        display: flex;
+        display: grid;
         width: 100%;
         margin-left: 0;
+        grid-template-columns: 1fr 1fr;
     }
 
     .hero-footer {
@@ -915,6 +916,9 @@
     .loc-footer {
         display: flex;
         width: 100%;
+        align-content: center;
+        justify-content: center;
+        
     }
 
     .loc-footer p {
@@ -930,14 +934,22 @@
 
     .foot-cl2 {
         width: 100%;
-        padding: 40px 5px;
+        padding: 40px 0px 40px 109px;
         display: flex;
-        justify-content: center;
     }
-
+    .footer-rows h3{
+    font-size: 27px;
+    font-weight: 700;
+    }
+    .footer-rows p{
+        font-size: 20px;
+    }
     .navbar-nav .nav-item .nav-link .name span {
         color: #000;
     }
+    .dropdown-content {
+        display: block;
+      }
 }
 
 
@@ -1088,6 +1100,7 @@
     .loc-footer {
         display: flex;
         width: 100%;
+        justify-content: center;
     }
 
     .loc-footer p {
