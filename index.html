@@ -30,16 +30,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://kit.fontawesome.com/36fcf59f66.js" crossorigin="anonymous"></script>
-    <script>
-        function toggleDropdown(id) {
-            var dropdown = document.getElementById(id);
-            if (dropdown.style.display === "none") {
-                dropdown.style.display = "block";
-            } else {
-                dropdown.style.display = "none";
-            }
-        }
-    </script>
 </head>
 
 <body>
@@ -131,6 +121,11 @@
                                             </div>
                                             <div class="mod-items2">
                                                 <div class="form-contact">
+                                                    <p class="mod-p">Công ty Truyền Thông AHP MEDIA đã được thành lập với
+                                                        mục đích mang
+                                                        đến những giải pháp truyền thông
+                                                        tiên
+                                                        tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form class="hero-form" action="">
                                                         <input type="text" placeholder="Họ Tên" class="cont-name" />
                                                         <input type="location" placeholder="Địa Chỉ" class="cont-loc" />
@@ -142,6 +137,21 @@
                                                     <textarea class="cont-contect" cols="80" rows="6"
                                                         placeholder="Nội dung"></textarea>
                                                     <input type="submit" value="Xác Nhận" class="submit-btn" />
+                                                    <div class="contact-items">
+                                                        <div class="contact-hov">
+                                                            <span><i class="fa-solid fa-phone"></i> TEL</span>
+                                                            <div class="contact-info">
+                                                                <p class="ph-contact">096.88.68.227</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="contact-hov">
+                                                            <span><i class="fa-solid fa-envelope"></i> Email</span>
+                                                            <div class="contact-info">
+                                                                <p class="tel-contact"><a style="color: #fff;"
+                                                                        href=""> ahpmedia@ahpvn.com</a></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -633,12 +643,14 @@
 
 </body>
 <script>
-    $(document).ready(function () {
-        $("#toggle-bar").click(function () {
-            $(".menu").slideToggle(400);
-        });
-    });
-
+    function toggleDropdown(id) {
+        var dropdown = document.getElementById(id);
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
 </script>
 
 

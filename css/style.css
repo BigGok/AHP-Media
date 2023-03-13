@@ -713,89 +713,6 @@ section#project {
 }
 
 
-/*price table*/
-
-#price-table {
-    background-color: #fcfcfc;
-    padding: 100px 120px;
-    margin-top: 200px;
-}
-
-.basic-price-col {
-    float: left;
-    width: 30%;
-    background-color: #fff;
-    margin-left: 3%;
-    padding: 50px;
-    text-align: center;
-    border-radius: 20px;
-    margin-top: 40px;
-}
-
-.basic-price-info h4 {
-    color: #3b3663;
-    font-family: "Nunito";
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.price p {
-    color: #f47a14;
-    font-family: "Nunito";
-    font-weight: 600;
-    font-size: 40px;
-    margin: 20px 0px;
-}
-
-.price-list ul {
-    list-style: none;
-}
-
-.price-list ul li {
-    color: #696687;
-    font-family: "Rubik";
-    font-size: 17px;
-    font-weight: 400;
-    padding-bottom: 20px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-.price-list ul li:hover {
-    color: #f47a14;
-}
-
-button.price-btn {
-    border: none;
-    color: #fff;
-    padding: 13px 40px;
-    border-radius: 10px;
-    background-image: linear-gradient(20deg, #ff841f 0%, #ff9721 57%) !important;
-    margin-top: 20px;
-    cursor: pointer;
-    transition: all 0.5s ease;
-}
-
-button.price-btn:hover {
-    background-image: linear-gradient(20deg, #ff9721 0%, #ff841f 57%) !important;
-}
-
-.rec-price {
-    background-color: #3b3564;
-}
-
-.rec-price h4 {
-    color: #fff;
-}
-
-.rec-price ul li {
-    color: #fff;
-}
-
-.rec-price p {
-    color: #fff;
-}
-
 /*blog css*/
 
 .blog-col {
@@ -917,7 +834,7 @@ section#blog {
 input.submit-btn {
     color: #fff;
     border: none;
-    background-image: linear-gradient(180deg, #059DDE 0%, #1A2E84 100%);
+    background-image: linear-gradient(180deg, #DC2F02 0%, #9D0208 100%);
     padding: 14px 40px;
     margin: 20px auto 0px;
     display: block;
@@ -927,7 +844,7 @@ input.submit-btn {
 }
 
 input.submit-btn:hover {
-    background-image: linear-gradient(180deg, #1A2E84 0%, #059DDE 100%);
+    background-image: linear-gradient(180deg, #9D0208 0%, #DC2F02 100%);
 }
 
 .footer-col {
@@ -1462,7 +1379,7 @@ hr.footer-hr {
 display: none;
 }
 /*ABOUT US(PAGE)*/
-.about-text {
+.about-text p{
     text-align: justify;
 }
 
@@ -1588,6 +1505,7 @@ display: none;
 }
 
 .contact-items .contact-hov {
+    border-radius: 0.5em;
     margin: 17px 30px;
 }
 
@@ -1754,7 +1672,12 @@ display: none;
     margin-right: 15px;
     padding: 10px;
 }
-
+.mod-items2 .mod-p{
+    display: none;
+}
+.mod-items2 .contact-items{
+    display: none;
+}
 .mod-header .mod-close-button {
     cursor: pointer;
     border: none;
@@ -2089,3 +2012,9 @@ display: none;
     background-color: #6A040F;
 }
 
+.footer-frm-submit{
+    background-image: linear-gradient(180deg, #fefefe 0%, #b1b1b1 100%);
+}
+.footer-frm-submit:hover{
+    background-image: linear-gradient(180deg, #b1b1b1 0%, #fefefe 100%);
+}
