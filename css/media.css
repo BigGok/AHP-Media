@@ -1,5 +1,8 @@
 @media screen and (max-width:576px) {
-
+    #contain {
+        height: 1050px;
+        transition: all;
+    }
     #home {
         display: none;
     }
@@ -797,7 +800,24 @@
 
 /* Styles for screens between 576px and 768px */
 @media (min-width: 577px) and (max-width: 821px) {
-    .navbar-nav .nav-item .name1{
+    .box2 {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .box1 {
+        width: 70%;
+        height: 500px;
+        background-color: #000000;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: none;
+    }
+     .navbar-nav .nav-item .name1{
         background-color: #f90606;
     }
     .hero-service {
@@ -924,6 +944,23 @@
 
 /*screen 991px*/
 @media screen and (max-width:991px) {
+    .box2 {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .box1 {
+        width: 70%;
+        height: 500px;
+        background-color: #000000;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: none;
+    }
     #worldNav {
         border-radius: 0.5rem;
         background-color: #f90606;
@@ -981,6 +1018,23 @@
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
+    .box2 {
+        width: 90%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .box1 {
+        width: 70%;
+        height: 500px;
+        background-color: #000000;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        display: none;
+    }
     .navbar-nav .nav-item .name1{
         background-color: #f90606;
     }
