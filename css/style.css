@@ -904,7 +904,7 @@ section#blog {
 input.submit-btn {
     color: #fff;
     border: none;
-    background-image: linear-gradient(180deg, #c13d3d 0%, #e80808 100%);
+      background-image: linear-gradient(180deg, #DC2F02 0%, #9D0208 100%);
     padding: 14px 40px;
     margin: 20px auto 0px;
     display: block;
@@ -914,7 +914,7 @@ input.submit-btn {
 }
 
 input.submit-btn:hover {
-    background-image: linear-gradient(180deg, #fc0404 0%, #c34242 100%);
+    background-image: linear-gradient(180deg, #9D0208 0%, #DC2F02 100%);
 }
 
 .footer-col {
