@@ -33,7 +33,9 @@
 </head>
 
 <body>
-
+    <a class=" blinking-phone"> <i class="fa fa-mobile-phone"></i></a>
+    <a data-modal-target="#mod-modal" class="blinking-email"> <i class="fa-solid fa-envelope"
+            aria-hidden="true"></i></a>
     <div id="arrow">
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
@@ -151,7 +153,8 @@
             <h2 class="typewrite" data-period="1000" data-type='[ "for business", "to sell online", "for your ideas"]'>
             </h2>
             <div class="head-blog"><a class="head-dr" href="index.html"> TRANG CHỦ</a><i
-            class="fa-solid fa-caret-right"></i> <span class="head-dr2">VỀ CHÚNG TÔI</span></div>
+                    class="fa-solid fa-caret-right"></i> <span class="head-dr2">VỀ CHÚNG TÔI</span>
+            </div>
         </div>
         <!--header-col1-->
         <div class="header-col2">
@@ -236,7 +239,7 @@
                         <h4>Theo dõi chúng tôi</h4>
                         <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
                                 class="fa-brands fa-facebook-f fb "></i></a>
-                        <a href="https://www.tiktok.com/@ahp.news?lang=vi-VN"><i
+                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
                                 class="fa-brands fa-tiktok fb icon-fl"></i></a>
                         <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
 
@@ -245,52 +248,63 @@
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi</h3>
-                            <p>Giới thiệu AHP</p>
-                            <p>Văn hóa AHP</p>
-                            <p>Tuyển dụng</p>
-                            <p>Đội ngũ nhân sự</p>
-                            <p>Khách hàng của AHP</p>
-                            <p>Bản tin của AHP</p>
-                            <p>Hồ sơ năng lực</p>
+                            <h3>Về chúng tôi <button onclick="toggleDropdown('dropdown-content-1')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-1" class="dropdown-content">
+                                <p>Giới thiệu AHP</p>
+                                <p>Văn hóa AHP</p>
+                                <p>Tuyển dụng</p>
+                                <p>Đội ngũ nhân sự</p>
+                                <p>Khách hàng của AHP</p>
+                                <p>Bản tin của AHP</p>
+                                <p>Hồ sơ năng lực</p>
+                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp</h3>
-                            <p>Tư vấn thương hiệu</p>
-                            <p>Thiết kế thương hiệu</p>
-                            <p>Nhận diện thương hiệu</p>
-                            <p>Thương hiệu mới</p>
-                            <p>Kế hoạch truyền thông</p>
-                            <p>Digital marketing</p>
+                            <h3>Dịch vụ cung cấp <button onclick="toggleDropdown('dropdown-content-2')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-2" class="dropdown-content">
+                                <p>Tư vấn thương hiệu</p>
+                                <p>Thiết kế thương hiệu</p>
+                                <p>Nhận diện thương hiệu</p>
+                                <p>Thương hiệu mới</p>
+                                <p>Kế hoạch truyền thông</p>
+                                <p>Digital marketing</p>
+                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện</h3>
-                            <p>Logo</p>
-                            <p>Đặt tên/slogan</p>
-                            <p>Web/app</p>
-                            <p>Bao bì</p>
-                            <p>Calatogue/Profile</p>
-                            <p>Calatogue/Profile</p>
+                            <h3>Dự án đã thực hiện <button onclick="toggleDropdown('dropdown-content-3')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-3" class="dropdown-content">
+                                <p>Logo</p>
+                                <p>Đặt tên/slogan</p>
+                                <p>Web/app</p>
+                                <p>Bao bì</p>
+                                <p>Calatogue/Profile</p>
+                                <p>Calatogue/Profile</p>
+                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Đơn vị thành viên</h3>
-                            <p>AHP Digital</p>
-                            <p>AHP Pakaging</p>
-                            <p>AHP Academy</p>
-                            <p>AHP Brandgifts</p>
-                            <p>LogoArt</p>
+                            <h3>Đơn vị thành viên <button onclick="toggleDropdown('dropdown-content-4')"><i
+                                        class="fa-solid fa-caret-down"></i></button></h3>
+                            <div id="dropdown-content-4" class="dropdown-content">
+                                <p>AHP Digital</p>
+                                <p>AHP Pakaging</p>
+                                <p>AHP Academy</p>
+                                <p>AHP Brandgifts</p>
+                                <p>LogoArt</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
     </footer>
-
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
@@ -303,13 +317,16 @@
     <script src="js/pop.js"></script>
 </body>
 <script>
-    $(document).ready(function () {
-        $("#toggle-bar").click(function () {
-            $(".menu").slideToggle(400);
-        });
-    });
-
+    function toggleDropdown(id) {
+        var dropdown = document.getElementById(id);
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
 </script>
+
 
 
 
