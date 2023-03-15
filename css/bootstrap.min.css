@@ -3483,7 +3483,7 @@ tbody.collapse.show {
 }
 
 .dropdown-toggle::after {
-    display: inline-block;
+    display: none;
     width: 0;
     height: 0;
     margin-left: .255em;
@@ -3617,7 +3617,7 @@ tbody.collapse.show {
     padding: .25rem 1.5rem;
     clear: both;
     font-weight: 400;
-    color: #212529;
+    color: #6A040F;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
@@ -3626,7 +3626,7 @@ tbody.collapse.show {
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-    color: #16181b;
+    color: #DC2F02;
     text-decoration: none;
     background-color: #f8f9fa
 }
@@ -4562,7 +4562,8 @@ tbody.collapse.show {
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
-        position: absolute
+        left: initial;
+        position: absolute;
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu-right {

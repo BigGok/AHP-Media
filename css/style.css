@@ -1361,7 +1361,7 @@ display: none;
     position: relative;
     width: 200px;
     height: 50px;
-    border: 2px solid #000;
+    border: 2px solid #DC2F02;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -1376,7 +1376,7 @@ display: none;
     left: 0;
     width: 0px;
     height: 100%;
-    background-color: #000;
+    background-color: #DC2F02;
     transition: 0.5s ease-in-out;
 }
 
@@ -1390,7 +1390,7 @@ display: none;
     transition: 0.3s;
     font-size: 20px;
     font-weight: 500;
-    color: #000;
+    color: #DC2F02;
 }
 
 .contact-hov span:nth-child(1) {
