@@ -270,6 +270,7 @@ section.header-bg-parent {
     height: 88vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+   
 }
 
 
@@ -282,7 +283,7 @@ section.header-bg-parent {
 
 .header-col1 h1 {
     padding-top: 30px;
-    color: #DC2F02;
+    color: #fb0303;
     font-size: 70px;
 }
 
@@ -1058,7 +1059,7 @@ hr.footer-hr {
     cursor: pointer;
     display: block;
     position: relative;
-    color: #DC2F02;
+    color: #f80606;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
@@ -1734,11 +1735,22 @@ display: none;
 
 .head-service h3 {
     color: #6A040F;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    
 }
+.head-service h2 {
+    color: #6A040F;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: -150px;
+    
+}
+
 
 .hero-service {
     display: grid;
@@ -1959,7 +1971,7 @@ display: none;
 .navbar-nav .nav-item .name1 {
     position: relative;
     width: 100%;
-    background-color: #DC2F02;
+    background-color: #f70404;
     overflow: hidden;
     border-radius: 50px;
 
@@ -2063,3 +2075,38 @@ display: none;
     box-shadow: inset;
     color: #7a0e0e;
 }
+
+.nav-item .submenu {
+    display: none;
+  }
+  
+  .nav-item:hover .submenu {
+    display: block;
+  }
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 74%;
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submenu li {
+    margin-bottom: 10px;
+  }
+  
+  .submenu a {
+    display: block;
+    font-size: 14px;
+    color: #444;
+    text-decoration: none;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .submenu a:hover {
+    color: #222;
+  }
+  
+  

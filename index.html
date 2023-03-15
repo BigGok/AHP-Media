@@ -72,10 +72,15 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="Service.html">
-                                        <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
-                                        </div>
+                                      <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span></div>
                                     </a>
-                                </li>
+                                    <ul class="submenu">
+                                      <li><a href="#">Dịch vụ 1</a></li>
+                                      <li><a href="#">Dịch vụ 2</a></li>
+                                      <li><a href="#">Dịch vụ 3</a></li>
+                                    </ul>
+                                  </li>
+                                  
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.html">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
@@ -180,6 +185,7 @@
         </div>
         <!--header-col1-->
         <div class="header-col2">
+            
         </div>
         <!--header-col2-->
         <div class="clear"></div>
@@ -190,7 +196,7 @@
 
     <!--header-bg-parent-->
     <div class="head-service">
-            <h3>✨AHP MEDIA LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨</h3>
+            <h2>✨AHP MEDIA LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨</h2>
         </div>
     <section  style="background-color: #b31e1e;" id="contain">
         
@@ -659,6 +665,34 @@
             dropdown.style.display = "none";
         }
     }
+    function toggleDropdown() {
+        var dropdown = document.getElementById("service-dropdown");
+        if (dropdown.classList.contains("show")) {
+            dropdown.classList.remove("show");
+        } else {
+            dropdown.classList.add("show");
+        }
+    }
+    const navItem = document.querySelector('.nav-item');
+    const subMenu = document.querySelector('.submenu');
+
+navItem.addEventListener('mouseenter', () => {
+  subMenu.style.display = 'block';
+});
+
+navItem.addEventListener('mouseleave', () => {
+  subMenu.style.display = 'none';
+});
+
+subMenu.addEventListener('mouseenter', () => {
+  subMenu.style.display = 'block';
+});
+
+subMenu.addEventListener('mouseleave', () => {
+  subMenu.style.display = 'none';
+});
+
+    
 </script>
 
 
