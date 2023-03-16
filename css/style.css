@@ -95,7 +95,7 @@ p {
     bottom: 50%;
     right: 25px;
     text-align: center;
-    background-color: #DC2F02;
+    background-color: #fc0202;
     font-size: 20px;
     font-weight: 700;
     z-index: 9999;
@@ -159,7 +159,7 @@ p {
     bottom: 20px;
     right: 25px;
     text-align: center;
-    background-color: #f90606;
+    background-color: #fb0303;
     font-size: 20px;
     font-weight: 700;
     z-index: 9999;
@@ -240,6 +240,7 @@ section.header-bg-parent {
     height: 112vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 168px;
 }
 
 .header-col1 p {
@@ -905,7 +906,7 @@ hr.footer-hr {
     cursor: pointer;
     display: block;
     position: relative;
-    color: #DC2F02;
+    color: #fe0707;
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
@@ -1376,7 +1377,7 @@ display: none;
     left: 0;
     width: 0px;
     height: 100%;
-    background-color: #DC2F02;
+    background-color: #f70505;
     transition: 0.5s ease-in-out;
 }
 
@@ -1585,6 +1586,15 @@ display: none;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 20px;
+
+}
+.head-service h2 {
+    color: #6A040F;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: -130px;
 }
 
 .hero-service {
@@ -1806,7 +1816,7 @@ display: none;
 .navbar-nav .nav-item .name1 {
     position: relative;
     width: 100%;
-    background-color: #DC2F02;
+    background-color: #fb0202;
     overflow: hidden;
     border-radius: 50px;
 
