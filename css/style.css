@@ -888,8 +888,8 @@ hr.footer-hr {
     border-color: #0845a0;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    height: 65px;
-    border-bottom: 2px solid #DC2F02;
+    height: 50px;
+    border-bottom: 2px solid white;
 }
 
 .navbar-nav .nav-item .nav-link .name {
