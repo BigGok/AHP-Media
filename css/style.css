@@ -889,7 +889,7 @@ hr.footer-hr {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     height: 50px;
-    border-bottom: 2px solid white;
+   
 }
 
 .navbar-nav .nav-item .nav-link .name {
