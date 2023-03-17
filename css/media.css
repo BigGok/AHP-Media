@@ -1,4 +1,5 @@
 @media screen and (max-width:576px) {
+   
     #contain {
         height: 1050px;
         transition: all;
@@ -79,12 +80,13 @@
     }
 
     .header-col2 {
+        margin-top: 210px;
         float: none;
-        height: 100vh;
+        height: 30vh;
         width: 100%;
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.2);
-        
+       
     }
 
     .header-col1 h5 {
@@ -832,6 +834,15 @@
 
 /* Styles for screens between 576px and 768px */
 @media (min-width: 577px) and (max-width: 821px) {
+    .header-col2 {
+        margin-top: 210px;
+        float: none;
+        height: 40vh;
+        width: 100%;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.2);
+       
+    }
     .box2 {
         width: 90%;
         float: none;
