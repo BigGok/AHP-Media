@@ -1,4 +1,7 @@
 @media screen and (max-width:576px) {
+   #search-box{
+    margin-left: 100px;
+   }
     .name9{
         color: white;
     }
@@ -26,7 +29,7 @@
     button#toggle-bar {
         background-color: #6aa5ff;
         border-radius: 0.5rem;
-        ;
+        
         border: none;
         padding: 10px 10px;
         margin-top: 80px;
@@ -836,6 +839,17 @@
 
 /* Styles for screens between 576px and 768px */
 @media (min-width: 577px) and (max-width: 821px) {
+    #search-box {
+        display: none;
+        position: absolute;
+        top: 79px;
+        right: -20px;
+        background: #fff;
+        padding: 0px;
+        border: 2px solid #fc0404;
+        border-radius: 5px;
+        
+    }
     .name9{
         color: white;
     }
@@ -1018,6 +1032,18 @@
 
 /*screen 991px*/
 @media screen and (max-width:991px) {
+    #search-box {
+        display: none;
+        position: absolute;
+        top: 79px;
+        right: -20px;
+        background: #fff;
+        padding: 0px;
+        border: 2px solid #fc0404;
+        border-radius: 5px;
+        margin-top: 110px;
+        margin-right: 235px;
+    }
     .navbar-nav .nav-item .nav-link .name span {
         color: #fff;
     }
@@ -1099,6 +1125,16 @@
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
+    #search-box {
+        display: none;
+        position: absolute;
+        top: 49px;
+        right: -20px;
+        background: #fff;
+        padding: 0px;
+        border: 2px solid #fc0404;
+        border-radius: 5px;
+    }
     .box2 {
         width: 90%;
         float: none;

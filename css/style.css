@@ -1935,12 +1935,14 @@ display: none;
 }
 #search-box {
     display: none;
+    width: 300px;
+    height: 65px;
     position: absolute;
     top: 49px;
     right: -80px;
     background: #fff;
     padding: 0px;
-    border: 1px solid #fc0404;
+    border: 2px solid #fc0404;
     border-radius: 5px;
 }
 
