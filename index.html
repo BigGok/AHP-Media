@@ -97,6 +97,16 @@
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
                                     </a>
                                 </li>
+                                <li class="nav-item"> 
+                                    <a class="nav-link" href="#">
+                                        <div class="name name9"><i class="fa fa-search"></i>  </div>
+                                    </a>
+                                                           
+                                </li>
+                                <div id="search-box" style="display: none;">
+                                    <input type="text" placeholder="Tìm kiếm...">
+                                    <button>Tìm kiếm</button>
+                                  </div>    
                                 <li class="nav-item">
                                     <a data-modal-target="#mod-modal" class="nav-link name1">
                                         <div class="name name2"><span data-text="LIÊN HỆ">LIÊN HỆ</span></div>
@@ -678,6 +688,10 @@
             dropdown.style.display = "none";
         }
     }
+    document.getElementById("search-icon").addEventListener("click", function() {
+        document.getElementById("search-box").style.display = "block";
+      });
+      
 </script>
 
 
