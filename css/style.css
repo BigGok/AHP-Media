@@ -888,8 +888,8 @@ hr.footer-hr {
     border-color: #0845a0;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    height: 65px;
-    border-bottom: 2px solid #DC2F02;
+    height: 55px;
+   
 }
 
 .navbar-nav .nav-item .nav-link .name {
@@ -960,7 +960,7 @@ hr.footer-hr {
     margin-top: 15px;
     border-radius: 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-    border: none;
+
 }
 
 .fa-sliders::before {
@@ -1111,13 +1111,16 @@ hr.footer-hr {
 
 .social-icons-footer {
     margin-top: 10px;
+    
 }
 
 .social-icons-footer i {
     color: #b7b7b7;
     font-size: 24px;
     transition: .5s;
+    
 }
+
 
 .social-icons-footer i:hover {
     transform: translateY(-10px)
@@ -1920,4 +1923,6 @@ display: none;
     box-shadow: inset;
     color: #7a0e0e;
 }
-
+.fa-phone{
+    color: white;
+}
