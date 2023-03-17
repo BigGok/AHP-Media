@@ -37,8 +37,8 @@ echo "<script>alert('User not registered with us');</script>";
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="News Portal.">
-        <meta name="author" content="PHPGurukul">
+        <meta name="description" content="AHP Agency">
+        <meta name="author" content="Manh IT">
 
 
         <!-- App title -->
@@ -71,7 +71,7 @@ echo "<script>alert('User not registered with us');</script>";
                             <div class="m-t-40 account-pages">
                                 <div class="text-center account-logo-box">
                                     <h2 class="text-uppercase">
-                                        <a href="index.html" class="text-success">
+                                        <a href="./" class="text-success">
                                             <span><img src="assets/images/logo.png" alt="" height="56"></span>
                                         </a>
                                     </h2>
