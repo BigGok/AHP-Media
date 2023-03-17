@@ -681,6 +681,7 @@ section#blog {
 }
 
 input.submit-btn {
+    
     color: #fff;
     border: none;
     background-image: linear-gradient(180deg, #DC2F02 0%, #9D0208 100%);
