@@ -1933,11 +1933,25 @@ display: none;
     font-size: 15px;
 }
 #search-box {
+    display: none;
     position: absolute;
-    top: 50px;
-    right: 0;
+    top: 49px;
+    right: -80px;
     background: #fff;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+    padding: 0px;
+    border: 1px solid #fc0404;
+    border-radius: 5px;
+}
+
+form:hover + #search-box,
+#search-box:hover {
+    display: block;
+}
+#search-box button{
+    background-color: #f90505;
+    color: white;
+    font-weight: 500;
+}
+
+
   

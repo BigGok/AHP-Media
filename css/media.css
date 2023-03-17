@@ -1,5 +1,7 @@
 @media screen and (max-width:576px) {
-   
+    .name9{
+        color: white;
+    }
     #contain {
         height: 1050px;
         transition: all;
@@ -834,6 +836,9 @@
 
 /* Styles for screens between 576px and 768px */
 @media (min-width: 577px) and (max-width: 821px) {
+    .name9{
+        color: white;
+    }
     .header-col2 {
         margin-top: 210px;
         float: none;
@@ -1013,6 +1018,12 @@
 
 /*screen 991px*/
 @media screen and (max-width:991px) {
+    .navbar-nav .nav-item .nav-link .name span {
+        color: #fff;
+    }
+    .name9{
+        color: white;
+    }
     .box2 {
         width: 90%;
         float: none;

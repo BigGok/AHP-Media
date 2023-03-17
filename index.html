@@ -98,15 +98,16 @@
                                     </a>
                                 </li>
                                 <li class="nav-item"> 
-                                    <a class="nav-link" href="#">
-                                        <div class="name name9"><i class="fa fa-search"></i>  </div>
+                                    <a class="nav-link" href="#" id="search-icon">
+                                      <div class="name name9"><i class="fa fa-search"></i></div>
                                     </a>
-                                                           
-                                </li>
-                                <div id="search-box" style="display: none;">
+                                  </li> 
+                                  <div id="search-box" >
                                     <input type="text" placeholder="Tìm kiếm...">
                                     <button>Tìm kiếm</button>
-                                  </div>    
+                                  </div>
+                              
+                              
                                 <li class="nav-item">
                                     <a data-modal-target="#mod-modal" class="nav-link name1">
                                         <div class="name name2"><span data-text="LIÊN HỆ">LIÊN HỆ</span></div>
@@ -688,9 +689,21 @@
             dropdown.style.display = "none";
         }
     }
-    document.getElementById("search-icon").addEventListener("click", function() {
-        document.getElementById("search-box").style.display = "block";
-      });
+    let form = document.getElementById('search-icon');
+    let searchBox = document.getElementById('search-box');
+    
+    form.addEventListener('mouseenter', (e) => {
+      e.preventDefault();
+      searchBox.style.display = 'block';
+    });
+    
+    searchBox.addEventListener('mouseleave', () => {
+      setTimeout(function(){
+        searchBox.style.display = 'none';
+      }, 300);
+    });
+    
+      
       
 </script>
 
