@@ -1,7 +1,13 @@
 @media screen and (max-width:576px) {
     #search-box {
-        margin-left: 100px;
+        position: absolute;
+        top: -79px;
+
     }
+    #search-box button{
+        float: right;
+    }
+   
 
     .name9 {
         color: white;
@@ -871,15 +877,18 @@
 @media (min-width: 577px) and (max-width: 821px) {
     #search-box {
         display: none;
-        position: absolute;
-        top: 79px;
-        right: -20px;
+        
+       
         background: #fff;
         padding: 0px;
         border: 2px solid #fc0404;
         border-radius: 5px;
 
     }
+    #search-box button{
+        float: right;
+    }
+   
 
     .name9 {
         color: white;
@@ -1092,8 +1101,14 @@
         border: 2px solid #fc0404;
         border-radius: 5px;
         margin-top: 110px;
-        margin-right: 235px;
+        margin-right: 20px;
+        width: 100%;
     }
+    #search-box button{
+        float: right;
+    }
+   
+   
 
     .navbar-nav .nav-item .nav-link .name span {
         color: #fff;
