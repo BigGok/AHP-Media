@@ -4562,7 +4562,7 @@ tbody.collapse.show {
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
-        left: initial;
+        width: 100%;
         position: absolute;
     }
 
@@ -9906,5 +9906,3 @@ a.text-dark:hover {
         border: 1px solid #ddd !important
     }
 }
-
-/*# sourceMappingURL=bootstrap.min.css.map */

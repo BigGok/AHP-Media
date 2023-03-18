@@ -1,10 +1,12 @@
 @media screen and (max-width:576px) {
-   #search-box{
-    margin-left: 100px;
-   }
-    .name9{
+    #search-box {
+        margin-left: 100px;
+    }
+
+    .name9 {
         color: white;
     }
+
     #contain {
         height: 1050px;
         transition: all;
@@ -29,7 +31,7 @@
     button#toggle-bar {
         background-color: #6aa5ff;
         border-radius: 0.5rem;
-        
+
         border: none;
         padding: 10px 10px;
         margin-top: 80px;
@@ -91,7 +93,7 @@
         width: 100%;
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.2);
-       
+
     }
 
     .header-col1 h5 {
@@ -526,7 +528,7 @@
     .social-icons-footer {
         display: block;
     }
-    
+
 
 
     /*NEWS*/
@@ -568,8 +570,8 @@
         border-radius: 10px;
         z-index: 10;
         background-color: white;
-        width: 100%;
-        height: 100%;
+        width: 81%;
+        height: 90%;
     }
 
     .mod-body {
@@ -585,7 +587,22 @@
 
     .mod-items1 {
         width: 0%;
-        opacity: 0;
+        display: none;
+    }
+
+    .mod-header .mod-title {
+        padding-top: 10px;
+        color: #f90606;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .mod-header .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0px 10px;
     }
 
     .cont-contect {
@@ -619,19 +636,17 @@
     }
 
     .mod-header {
-        padding: 0px 45px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        padding: 0px;
+        display: block;
+
     }
 
     .mod-header .mod-close-button {
-        cursor: pointer;
-        border: none;
-        padding: 0;
-        background: none;
-        font-size: 1.25rem;
-        font-weight: bold;
+        margin:0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0px 10px;
     }
 
     .navbar-nav .nav-item .name1 {
@@ -835,6 +850,21 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .modal-content1 {
+        margin-top:0;
+        top: 5%;
+        right: 10%;
+        position: fixed;
+        transition: 200ms ease-in-out;
+        border: 1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-color: white;
+        width: 81%;
+        height: 90%;
+        max-width: 100%;
+    }
 }
 
 /* Styles for screens between 576px and 768px */
@@ -848,11 +878,13 @@
         padding: 0px;
         border: 2px solid #fc0404;
         border-radius: 5px;
-        
+
     }
-    .name9{
+
+    .name9 {
         color: white;
     }
+
     .header-col2 {
         margin-top: 210px;
         float: none;
@@ -860,8 +892,9 @@
         width: 100%;
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.2);
-       
+
     }
+
     .box2 {
         width: 90%;
         float: none;
@@ -1014,17 +1047,34 @@
         font-size: 20px;
         font-weight: 700;
     }
-    .mod-items1{
+
+    .mod-items1 {
         width: 50%;
     }
-    .mod-items2{
+
+    .mod-items2 {
         width: 50%;
     }
+
     .contact-items {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-left: 55px;
+    }
+
+    .modal-content1 {
+        top: 25%;
+        right: 0%;
+        position: fixed;
+        transition: 200ms ease-in-out;
+        border: 1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-color: white;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
     }
 }
 
@@ -1044,12 +1094,15 @@
         margin-top: 110px;
         margin-right: 235px;
     }
+
     .navbar-nav .nav-item .nav-link .name span {
         color: #fff;
     }
-    .name9{
+
+    .name9 {
         color: white;
     }
+
     .box2 {
         width: 90%;
         float: none;
@@ -1121,7 +1174,6 @@
         padding: 20px;
         width: 100%;
     }
-
 }
 
 @media (min-width: 992px) and (max-width: 1280px) {
@@ -1135,6 +1187,7 @@
         border: 2px solid #fc0404;
         border-radius: 5px;
     }
+
     .box2 {
         width: 90%;
         float: none;

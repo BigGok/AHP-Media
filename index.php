@@ -38,10 +38,6 @@ include('includes/config.php');
 </head>
 
 <body>
-    <a class=" blinking-phone"> <i class="fa fa-mobile-phone"></i></a>
-    <a data-modal-target="#mod-modal" class="blinking-email"> <i class="fa-solid fa-envelope"
-            aria-hidden="true"></i></a>
-
     <div id="arrow">
         <i class="fa fa-arrow-up" aria-hidden="true"></i>
     </div>
@@ -93,6 +89,12 @@ include('includes/config.php');
                                     <a class="nav-link" href="News.html">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
                                     </a>
+                                </li>
+                                <li class="nav-item">
+                                    <div id="search-box">
+                                        <input type="text" placeholder="Tìm kiếm...">
+                                        <button>Tìm kiếm</button>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a data-modal-target="#mod-modal" class="nav-link name1">
@@ -189,7 +191,87 @@ include('includes/config.php');
             </div>
         </div>
     </header>
-
+    <div class="mailbox-phone">
+        <a class=" blinking-phone"> <i class="fa fa-phone"> </i></a>
+        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope"
+                aria-hidden="true"></i></a>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content1">
+            <div class="mod-header">
+                <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
+                <button class="close">&times;</button>
+            </div>
+            
+            <div class="mod-body">
+                <div class="mod-items1">
+                    <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
+                        marketing hiệu quả với thiết kế độc đáo thu hút khách hàng tiềm năng
+                        của bạn.
+                        Liên hệ ngay với chúng tôi để được tư vấn tận tình.
+                    </p>
+                    <img class="mod-img" src="images2/business/business_3.png" alt="">
+                    <div class="contain-contact">
+                        <div class="nav-contact">
+                            <div class="contact-items">
+                                <div class="contact-hov">
+                                    <span>Hotline</span>
+                                    <div class="contact-info">
+                                        <p class="ph-contact">0968.868.227</p>
+                                    </div>
+                                </div>
+                                <div class="contact-hov">
+                                    <span>Email</span>
+                                    <div class="contact-info">
+                                        <p class="tel-contact"><a style="color: #fff;"
+                                                href=""> ahpmedia@ahpvn.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mod-items2">
+                    <div class="form-contact">
+                        <p class="mod-p">Công ty Truyền Thông AHP MEDIA đã được thành lập
+                            với
+                            mục đích mang
+                            đến những giải pháp truyền thông
+                            tiên
+                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <form id="form" class="hero-form" action="/">
+                            <input id="idcontname" name="contname" type="text"
+                                placeholder="Họ Tên" class="cont-name" />
+                            <input id="idcontloc" name="contloc" type="location"
+                                placeholder="Địa Chỉ" class="cont-loc" />
+                            <input id="idcontphone" name="contphone" type="phone"
+                                placeholder="Số Điện Thoại" class="cont-phone" />
+                            <input id="idcontemail" name="contemail" type="email"
+                                placeholder="Email" class="cont-email" />
+                            <textarea class="cont-contect" cols="80" rows="6"
+                                placeholder="Nội dung"></textarea>
+                            <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
+                        </form>
+                        <div class="contact-items">
+                            <div class="contact-hov">
+                                <span>Hotline</span>
+                                <div class="contact-info">
+                                    <p class="ph-contact">0968.868.227</p>
+                                </div>
+                            </div>
+                            <div class="contact-hov">
+                                <span>Email</span>
+                                <div class="contact-info">
+                                    <p class="tel-contact"><a style="color: #fff;" href="">
+                                            ahpmedia@ahpvn.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="header-bg-parent">
         <div class="header-col1">
         </div>
