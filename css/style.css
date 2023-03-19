@@ -864,10 +864,10 @@ hr.footer-hr {
     width: 280px;
     
 }
-.food{  
+.food{     
     font-size: 20px;
     font-weight: 600;
-    
+    margin-left: 23px;
 }
 
 .fa-sliders::before {
