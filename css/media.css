@@ -1,4 +1,9 @@
 @media screen and (max-width:576px) {
+    .dropdown-menu{
+        height: 1050px;
+        width: 100%;
+        
+    }
     #search-box {
         position: absolute;
         top: -79px;
@@ -875,6 +880,11 @@
 
 /* Styles for screens between 576px and 768px */
 @media (min-width: 577px) and (max-width: 821px) {
+    .dropdown-menu{
+        height: 800px;
+        width: 100%;
+        
+    }
     #search-box {
         display: none;
         
@@ -1094,8 +1104,13 @@
     }
 }
 
-
-
+@media (min-width: 821px) and (max-width: 991px) {
+    .dropdown-menu{
+        height: 800px;
+        width: 100%;
+        
+    }
+}
 /*screen 991px*/
 @media screen and (max-width:991px) {
     

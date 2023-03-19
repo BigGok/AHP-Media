@@ -3508,6 +3508,7 @@ tbody.collapse.show {
     float: left;
     min-width: 10rem;
     padding: .5rem 0;
+    
     margin: .125rem 0 0;
     font-size: 1rem;
     color: #212529;
@@ -3515,8 +3516,9 @@ tbody.collapse.show {
     list-style: none;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .15);
-    border-radius: .25rem
+    border: 1px solid rgba(249, 4, 4, 0.844);
+    border-radius: .25rem;
+    
 }
 
 .dropup .dropdown-menu {
