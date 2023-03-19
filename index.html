@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
@@ -69,7 +70,7 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item n1">
                                     <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
@@ -771,6 +772,21 @@
             }
         }
     </script>
+    <script>
+        $(document).ready(function(){
+            // Khi đưa chuột vào danh sách dịch vụ
+            $(".nav-item").mouseenter(function(){
+                // Hiển thị danh sách các trang con
+                $(this).find(".dropdown-menu").show();
+            });
+            // Khi đưa chuột ra khỏi danh sách dịch vụ
+            
+            $(".nav-item").mouseleave(function(){
+                // Ẩn danh sách các trang con
+                $(this).find(".dropdown-menu").hide();
+            });
+        });
+        </script>
 
 </body>
 
