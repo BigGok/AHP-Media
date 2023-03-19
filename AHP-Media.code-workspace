@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"name": "AHP-Media",
+			"path": "."
+		},
+		{
+			"name": "baiTapJSDOM",
+			"path": "../../B/Web2/baiTapJSDOM"
+		},
+		{
+			"name": "calendar",
+			"path": "../../B/Web2/calendar"
+		},
+		{
+			"name": "De0",
+			"path": "../../B/Web2/De0"
+		},
+		{
+			"name": "De1",
+			"path": "../../B/Web2/De1"
+		},
+		{
+			"name": "De2",
+			"path": "../../B/Web2/De2"
+		},
+		{
+			"name": "De3",
+			"path": "../../B/Web2/De3"
+		},
+		{
+			"name": "De4",
+			"path": "../../B/Web2/De4"
+		},
+		{
+			"name": "news-template",
+			"path": "../../Báo Cáo_ahp/news-template"
+		},
+		{
+			"name": "htdocs",
+			"path": "C:/xampp/htdocs"
+		},
+		{
+			"path": "C:/Users/bigco/Pictures/AHP-Media-Cong_Anh"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AHP-Media"
+	}
+}
