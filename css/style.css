@@ -1558,7 +1558,7 @@ hr.footer-hr {
     margin: 0 3.8%;
     border-radius: 0.5em;
     width: 93%;
-    height: auto;
+    height: 60%;
 }
 
 .items-news h2 {
@@ -1568,7 +1568,9 @@ hr.footer-hr {
     text-align: justify;
     font-size: 30px;
 }
-
+.items-news {
+    width: 403px;
+}
 .items-news h2 a {
     color: #000;
     font-weight: 500;

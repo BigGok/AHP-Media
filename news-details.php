@@ -317,7 +317,7 @@ endif;
         <!--clear-->
 
     </section>
-
+    <section class = "content-body">
     <div class="container">
 
 
@@ -343,18 +343,15 @@ while ($row=mysqli_fetch_array($query)) {
                 <hr />
 
  <img class="img-fluid rounded" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>">
-  
-              <p class="card-text"><?php 
-$pt=$row['postdetails'];
+ 
+              <p class="card-text"><?php $pt=$row['postdetails'];
               echo  (substr($pt,0));?></p>
              
             </div>
-            <div class="card-footer text-muted">
-             
-           
-            </div>
+            
           </div>
 <?php } ?>
+</section>  
     <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">

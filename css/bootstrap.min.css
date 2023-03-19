@@ -4828,6 +4828,7 @@ tbody.collapse.show {
 }
 
 .card {
+
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4840,7 +4841,6 @@ tbody.collapse.show {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem
 }
 
@@ -4871,6 +4871,7 @@ tbody.collapse.show {
 .card-text:last-child {
     margin-bottom: 0
 }
+
 
 .card-link:hover {
     text-decoration: none
@@ -8162,7 +8163,8 @@ button.bg-dark:hover {
 
 .mb-4,
 .my-4 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1.5rem !important;
+   
 }
 
 .ml-4,
@@ -9655,6 +9657,10 @@ button.bg-dark:hover {
 
     .text-sm-center {
         text-align: center !important
+    }
+    .card-text{
+        width: 100%;
+        height: 50%;
     }
 }
 
