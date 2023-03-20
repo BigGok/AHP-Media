@@ -43,20 +43,7 @@ overlay.addEventListener('click', () => {
 
 
 
-//Drop-Down Search
-let form = document.getElementById('search-icon');
-let searchBox = document.getElementById('search-box');
 
-form.addEventListener('mouseenter', (e) => {
-  e.preventDefault();
-  searchBox.style.display = 'block';
-});
-
-searchBox.addEventListener('mouseleave', () => {
-  setTimeout(function () {
-      searchBox.style.display = 'none';
-  }, 100);
-});
 
 
 const modal = document.getElementById("modal");
