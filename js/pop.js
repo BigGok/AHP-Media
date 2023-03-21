@@ -41,11 +41,6 @@ overlay.addEventListener('click', () => {
 })
 
 
-
-
-
-
-
 const modal = document.getElementById("modal");
 const btnOpenModal = document.getElementById("open-modal");
 const closeBtn = document.getElementsByClassName("close")[0];
