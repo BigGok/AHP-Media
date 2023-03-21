@@ -101,7 +101,7 @@
     .header-col2 {
         margin-top: 210px;
         float: none;
-        height: 30vh;
+        height: 21vh;
         width: 100%;
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.2);
@@ -909,7 +909,7 @@
     .header-col2 {
         
         float: none;
-        height: 45vh;
+        height: 26vh;
         width: 100%;
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.2);
@@ -1113,6 +1113,15 @@
         max-height: 300px; 
         overflow-y: auto;
     }
+    .header-col2 {
+        margin-top: 210px;
+        float: none;
+        height: 42vh;
+        width: 100%;
+        background-blend-mode: overlay;
+        background-color: rgba(0, 0, 0, 0.2);
+
+    }
 }
 /*screen 991px*/
 @media screen and (max-width:991px) {
@@ -1219,9 +1228,9 @@
 
 @media (min-width: 992px) and (max-width: 1280px) {
     .header-col2 {
-        
+        margin-top: 210px;
         float: none;
-        height: 85vh;
+        height: 66vh;
         width: 100%;
         background-blend-mode: overlay;
         background-color: rgba(0, 0, 0, 0.2);

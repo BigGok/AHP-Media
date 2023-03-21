@@ -258,13 +258,13 @@ section.header-bg-parent {
 }
 
 .header-col2 {
-    
+    background-image: url(../images/ảnh\ bìa\ website.jpg);
     float: right;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    height: 112vh;
+    
+    height: 88vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     margin-top: 168px;
@@ -1519,6 +1519,7 @@ hr.footer-hr {
 }
 
 .head-service h2 {
+    text-align: center;
     color: #6A040F;
     font-size: 30px;
     font-weight: 700;
