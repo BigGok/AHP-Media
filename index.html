@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
@@ -869,6 +870,12 @@
                 modal.style.display = "none";
             }
         }
+    </script>
+    <script>
+        if (window.location.hostname.substr(0, 4) !== 'www.') {
+            window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
+        }
+        
     </script>
 
 </body>
