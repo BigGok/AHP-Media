@@ -1915,3 +1915,9 @@ form:hover+#search-box,
     font-size: 1.25rem;
     font-weight: bold;
 }
+.blinking-messenger {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin-right:25px;
+    margin-top:170px;
+}
