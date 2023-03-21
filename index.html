@@ -236,13 +236,11 @@
 
     <div class="mailbox-phone">
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
+        
         <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-    </div>
-    <div class="mailbox-phone">
         <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank" ><i class="fab fa-facebook-messenger"></i></a>
-
-        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
     </div>
+    
     
     <div id="modal" class="modal">
         <div class="modal-content1">
@@ -815,82 +813,14 @@
         });
 
     </script>
-    <script>
-        const openModalButtons = document.querySelectorAll('[data-modal-target]')
-        const closeModalButtons = document.querySelectorAll('[data-close-button]')
-        const overlay = document.getElementById('overlay')
 
-        openModalButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const modal = document.querySelector(button.dataset.modalTarget)
-                openModal(modal)
-            })
-        })
-
-        function openModal(modal) {
-            if (modal == null) return
-            modal.classList.add('active')
-            overlay.classList.add('active')
-        }
-        closeModalButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const modal = button.closest('.mod-modal')
-                closeModal(modal)
-            })
-        })
-
-        function closeModal(modal) {
-            if (modal == null) return
-            modal.classList.remove('active')
-            overlay.classList.remove('active')
-        }
-
-        closeModalButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                const modal = button.closest('.mod-modal')
-                closeModal(modal)
-            })
-        })
-        overlay.addEventListener('click', () => {
-            const modals = document.querySelectorAll('.mod-modal.active')
-            modals.forEach(modal => {
-                closeModal(modal)
-            })
-        })
-
-
-        const modal = document.getElementById("modal");
-        const btnOpenModal = document.getElementById("open-modal");
-        const closeBtn = document.getElementsByClassName("close")[0];
-
-        btnOpenModal.onclick = function () {
-            modal.style.display = "block";
-        }
-
-        closeBtn.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
         
     </script>
-    <style>
-        .blinking-messenger {
-            color: rgb(255, 0, 0);
-            font-size: 50px;
-            margin-right:25px;
-            margin-top:170px;
-        }
-    </style>
+
 
 </body>
 
