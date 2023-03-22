@@ -58,3 +58,44 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+//Drop-Down Search
+let form = document.getElementById('search-icon');
+let searchBox = document.getElementById('search-box');
+
+form.addEventListener('mouseenter', (e) => {
+    e.preventDefault();
+    searchBox.style.display = 'block';
+});
+
+searchBox.addEventListener('mouseleave', () => {
+    setTimeout(function () {
+        searchBox.style.display = 'none';
+    }, 100);
+});
+// khi nhấp vào chỗ bất kì trên màn hình đt thì danh sách menu biến mất
+var navbarToggler = document.querySelector('.navbar-toggler'); // Lấy phần tử toggler
+var navbarCollapse = document.querySelector('.navbar-collapse'); // Lấy phần tử collapse
+
+
+
+document.addEventListener('touchstart', function(event) { // Thêm sự kiện touchstart vào document
+  if (!navbarCollapse.contains(event.target) && // Kiểm tra xem target của sự kiện có thuộc collapse hay không
+      !navbarToggler.contains(event.target)) { // Kiểm tra xem target của sự kiện có thuộc toggler hay không
+    navbarCollapse.classList.remove('show'); // Ẩn menu bằng cách xóa lớp "show"
+  }
+});
+
+// Dịch vụ
+$(document).ready(function () {
+  // Khi đưa chuột vào danh sách dịch vụ
+  $(".nav-item").mouseenter(function () {
+      // Hiển thị danh sách các trang con
+      $(this).find(".dropdown-menu").show();
+  });
+  // Khi đưa chuột ra khỏi danh sách dịch vụ
+
+  $(".nav-item").mouseleave(function () {
+      // Ẩn danh sách các trang con
+      $(this).find(".dropdown-menu").hide();
+  });
+});
