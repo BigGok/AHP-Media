@@ -152,7 +152,7 @@
         float: none;
         height: 21vh;
         width: 100%;
-        background-blend-mode: overlay;
+     
         background-color: rgba(0, 0, 0, 0.2);
 
     }
@@ -962,7 +962,7 @@
         float: none;
         height: 26vh;
         width: 100%;
-        background-blend-mode: overlay;
+      
         background-color: rgba(0, 0, 0, 0.2);
 
     }
@@ -1171,7 +1171,7 @@
         float: none;
         height: 42vh;
         width: 100%;
-        background-blend-mode: overlay;
+        
         background-color: rgba(0, 0, 0, 0.2);
 
     }
@@ -1289,7 +1289,7 @@
         float: none;
         height: 66vh;
         width: 100%;
-        background-blend-mode: overlay;
+      
         background-color: rgba(0, 0, 0, 0.2);
 
     }
