@@ -41,6 +41,7 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 a {
@@ -1490,6 +1491,7 @@ hr.footer-hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .head-service h3 {
@@ -1979,4 +1981,7 @@ form:hover+#search-box,
 }
 body {
     top: 0px !important; 
+}
+.anh1{
+    background-color: #00aeff;
 }
