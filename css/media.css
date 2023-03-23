@@ -1,4 +1,5 @@
 @media screen and (max-width:576px) {
+  
     .tao{
         text-align: center;
         font-size: 26px;
@@ -901,11 +902,13 @@
 
     .logo-footer {
         width: 100%;
+        
     }
 
     .loc-footer i {
         margin: 0;
         padding: 10px 0;
+       
     }
 
     .location-footer {
@@ -1138,7 +1141,7 @@
         display: flex;
         justify-content: center;
     }
-
+    
     .navbar-nav .nav-item .nav-link .name span {
         color: #fff;
     }
