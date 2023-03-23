@@ -1227,6 +1227,7 @@ hr.footer-hr {
 .vertical-menu li a:hover {
     color: #00aeff;
     transition: .3s ease-in-out;
+    padding-left: 10px;
 }
 
 .card-body {
@@ -1234,6 +1235,7 @@ hr.footer-hr {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.55rem;
+   margin-left: -10px;
 }
 
 .bge {

@@ -4843,7 +4843,8 @@ tbody.collapse.show {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border-radius: .25rem
+    border-radius: .25rem;
+
 }
 
 .card>hr {
