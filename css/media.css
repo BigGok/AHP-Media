@@ -725,6 +725,25 @@
         border: 1px solid;
         width: 100%;
         margin: 10px 0;
+        
+    }
+    .it0{
+        background-color: #edc4c4;
+    }
+    .it1{
+        background-color: #b1c8eb;
+    }
+    .it2{
+        background-color: #e8f0ac;
+    }
+    .it3{
+        background-color: #c0edb2;
+    }
+    .it4{
+        background-color: #afd9e7;
+    }
+    .it5{
+        background-color: #d7c4ee;
     }
 
     .img-service {
@@ -1333,6 +1352,7 @@
     }
 
     .items-service {
+        
         margin-bottom: 25px;
     }
 
