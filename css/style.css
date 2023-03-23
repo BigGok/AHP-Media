@@ -1851,7 +1851,10 @@ hr.footer-hr {
     color: #f90303;
     font-size: 15px;
 }
-
+.name9:hover{
+    transition: 400ms ease;
+    transform: rotate(360deg);
+}
 #search-box {
     display: none;
     width: 300px;
@@ -1863,6 +1866,7 @@ hr.footer-hr {
     padding: 0px;
     border: 2px solid #fc0404;
     border-radius: 5px;
+    
 }
 
 form:hover+#search-box,

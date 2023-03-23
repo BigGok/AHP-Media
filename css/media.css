@@ -575,9 +575,9 @@
 
     .contain-col2 {
         margin-top: 20px;
-        display: flex;
+        display: grid;
         width: 100%;
-        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
     }
 
     .foot-cl2 {
@@ -924,6 +924,7 @@
         display: inline-flex;
         align-items: center;
         margin-right: 10px;
+        margin-top:10px;
         margin-bottom: 0px;
     }
 
@@ -964,7 +965,7 @@
 }
 
 /* Styles for screens between 576px and 768px */
-@media (min-width: 577px) and (max-width: 821px) {
+@media (min-width: 577px) and (max-width: 991px) {
     .dropdown-menu {
         height: 800px;
         width: 100%;
@@ -1172,7 +1173,7 @@
     }
 
     .modal-content1 {
-        top: 25%;
+        top: 22%;
         right: 0%;
         position: fixed;
         transition: 200ms ease-in-out;
