@@ -90,9 +90,6 @@
                                         <button>Tìm kiếm</button>
                                     </div>
                                 </li>
-
-
-
                                 <li class="nav-item">
                                     <a data-modal-target="#mod-modal" class="nav-link name1">
                                         <div class="name name2"><span data-text="LIÊN HỆ">LIÊN HỆ</span></div>
@@ -141,13 +138,14 @@
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="/">
                                                         <input id="idcontname" name="contname" type="text"
-                                                            placeholder="Họ Tên" class="cont-name" required/>
+                                                            placeholder="Họ Tên" class="cont-name" required />
                                                         <input id="idcontloc" name="contloc" type="location"
-                                                            placeholder="Địa Chỉ" class="cont-loc" required/>
+                                                            placeholder="Địa Chỉ" class="cont-loc" required />
                                                         <input id="idcontphone" name="contphone" type="phone"
-                                                            placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required/>
+                                                            placeholder="Số Điện Thoại" class="cont-phone"
+                                                            pattern="[0-9]{10}" required />
                                                         <input id="idcontemail" name="contemail" type="email"
-                                                            placeholder="Email" class="cont-email" required/>
+                                                            placeholder="Email" class="cont-email" required />
                                                         <textarea class="cont-contect" cols="80" rows="6"
                                                             placeholder="Nội dung" required></textarea>
                                                         <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
@@ -172,6 +170,12 @@
                                         </div>
                                     </div>
                                     <div id="overlay"></div>
+                                </li>
+                                <li class="nav-items">
+                                    <div id='google_translate_element' class="gg-translate"></div>
+                                    <div class="translate-part">
+                                        <button class="btn-translate" onclick="translateToEnglish()"> En</button>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -229,14 +233,16 @@
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="/">
-                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required/>
-                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ"
-                                class="cont-loc" required/>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
+                                required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
+                                required />
                             <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
-                                class="cont-phone" pattern="[0-9]{10}" required/>
-                            <input id="idcontemail" name="contemail" type="email" placeholder="Email"
-                                class="cont-email" required/>
-                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
+                                class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
+                                required />
+                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
+                                required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -262,9 +268,9 @@
 
     <section class="header-bg-parent">
         <div class="header-col1">
-            
+
             <div class="head-blog"><a class="head-dr" href="index.html"> TRANG CHỦ</a><i
-                class="fa-solid fa-caret-right"></i> <span class="head-dr2">DỊCH VỤ</span></div>
+                    class="fa-solid fa-caret-right"></i> <span class="head-dr2">DỊCH VỤ</span></div>
         </div>
         <!--header-col1-->
         <div class="header-col2">
@@ -274,7 +280,7 @@
         <!--clear-->
 
     </section>
-    
+
 
     <!-- SERVICE -->
     <section class="container">
@@ -293,7 +299,7 @@
                         <li>Quy chế thương hiệu</li>
                         <li>Mở rộng thương hiệu</li>
                         <li>Định giá thương hiệu</li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -372,7 +378,7 @@
 
     </section>
 
-   
+
 
     <!-- NEWS-INDEX -->
     <section class="container">
@@ -433,8 +439,8 @@
 
                         <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
                                 class="fa-brands fa-tiktok"></i></a>
-                        <a href=""><i class="fa-brands fa-youtube "></i></a>
-                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
+                        <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
 
 
                     </div>
@@ -442,63 +448,52 @@
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi <button onclick="toggleDropdown('dropdown-content-1')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-1" class="dropdown-content">
-                                <p>Giới thiệu AHP</p>
-                                <p>Văn hóa AHP</p>
-                                <p>Tuyển dụng</p>
-                                <p>Đội ngũ nhân sự</p>
-                                <p>Khách hàng của AHP</p>
-                                <p>Bản tin của AHP</p>
-                                <p>Hồ sơ năng lực</p>
-                            </div>
+                            <h3>Về chúng tôi</h3>
+                            <p>Giới thiệu AHP</p>
+                            <p>Văn hóa AHP</p>
+                            <p>Tuyển dụng</p>
+                            <p>Đội ngũ nhân sự</p>
+                            <p>Khách hàng của AHP</p>
+                            <p>Bản tin của AHP</p>
+                            <p>Hồ sơ năng lực</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp <button onclick="toggleDropdown('dropdown-content-2')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-2" class="dropdown-content">
-                                <p>Tư vấn thương hiệu</p>
-                                <p>Thiết kế thương hiệu</p>
-                                <p>Nhận diện thương hiệu</p>
-                                <p>Thương hiệu mới</p>
-                                <p>Kế hoạch truyền thông</p>
-                                <p>Digital marketing</p>
-                            </div>
+                            <h3>Dịch vụ cung cấp</h3>
+                            <p>Tư vấn thương hiệu</p>
+                            <p>Thiết kế thương hiệu</p>
+                            <p>Nhận diện thương hiệu</p>
+                            <p>Thương hiệu mới</p>
+                            <p>Kế hoạch truyền thông</p>
+                            <p>Digital marketing</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện <button onclick="toggleDropdown('dropdown-content-3')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-3" class="dropdown-content">
-                                <p>Logo</p>
-                                <p>Đặt tên/slogan</p>
-                                <p>Web/app</p>
-                                <p>Bao bì</p>
-                                <p>Calatogue/Profile</p>
-                                <p>Calatogue/Profile</p>
-                            </div>
+                            <h3>Dự án đã thực hiện</h3>
+                            <p>Logo</p>
+                            <p>Đặt tên/slogan</p>
+                            <p>Web/app</p>
+                            <p>Bao bì</p>
+                            <p>Calatogue/Profile</p>
+                            <p>Calatogue/Profile</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Đơn vị thành viên <button onclick="toggleDropdown('dropdown-content-4')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-4" class="dropdown-content">
-                                <p>AHP Digital</p>
-                                <p>AHP Pakaging</p>
-                                <p>AHP Academy</p>
-                                <p>AHP Brandgifts</p>
-                                <p>LogoArt</p>
-                            </div>
+                            <h3>Đơn vị thành viên </h3>
+                            <p>AHP Digital</p>
+                            <p>AHP Pakaging</p>
+                            <p>AHP Academy</p>
+                            <p>AHP Brandgifts</p>
+                            <p>LogoArt</p>
                         </div>
                     </div>
                 </div>
             </div>
     </footer>
+
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
@@ -510,17 +505,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
     <script src="js/pop.js"></script>
-    <script>
-        function toggleDropdown(id) {
-            var dropdown = document.getElementById(id);
-            if (dropdown.style.display === "none") {
-                dropdown.style.display = "block";
-            } else {
-                dropdown.style.display = "none";
-            }
-        }
-    </script>
-
+    <script src="js/translate.js"></script>
+    <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
 </body>
 
 

@@ -793,7 +793,6 @@ hr.footer-hr {
 }
 
 .header-area .navbar {
-    border-color: #0845a0;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     height: 55px;
@@ -821,28 +820,10 @@ hr.footer-hr {
     transition: 0.2s;
 
 }
-
-.navbar-nav .nav-item .nav-link .name span::before {
-    content: attr(data-text);
-    position: absolute;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #000;
-}
-
 .navbar-nav .nav-item .nav-link:hover .name span {
-    transform: translateY(21px);
+    color: #000;
+    transition: .5s;
 }
-
-
-
-/* .header-area .navbar .navbar-nav .nav-link {
-    color: #fff;
-    padding: 1em 2em;
-    font-weight: 500;
-  } */
 
 
 .header-area.sticky {
@@ -1792,7 +1773,7 @@ hr.footer-hr {
 .footer-frm-name,
 .footer-frm-email {
     margin: 5px;
-    width: 35%;
+    width: 32%;
     border: 1px solid #000;
 }
 
@@ -1933,4 +1914,65 @@ form:hover+#search-box,
     cursor: pointer;
     font-size: 1.25rem;
     font-weight: bold;
+}
+/*TRANSLATE GG*/
+.translator-en {
+    z-index: 1000;
+    right: 0;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+
+    display: none !important;
+
+}
+
+.goog-te-gadget {
+
+    color: transparent !important;
+    font-size: 0;
+
+}
+
+.goog-te-combo {
+    display: none !important;
+}
+
+.gg-translate {
+    display: none;
+}
+
+.btn-translate {
+    cursor: pointer;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-image: url(../images/UKHeader.png);
+    padding: 0px 8px;
+    margin: 6px 10px;
+    font-weight: 800;
+    color: #03071E;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.skiptranslate {
+    position: fixed;
+    top: 1000 !important;
+    right: 0;
+    display: none;
+} 
+
+.back-image{
+    width: 5%;
+    height: 10%;
+}
+.translate-part{
+    display: flex;
+}
+body {
+    top: 0px !important; 
 }

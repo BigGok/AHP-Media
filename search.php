@@ -1,9 +1,9 @@
-<?php 
+<?php
 session_start();
 error_reporting(0);
 include('includes/config.php');
 
-    ?>
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,9 +18,7 @@ include('includes/config.php');
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <!--rubik font family -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
 
@@ -46,7 +44,7 @@ include('includes/config.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>News Portal | Search  Page</title>
+    <title>News Portal | Search Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -54,11 +52,11 @@ include('includes/config.php');
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
-    
-  <div id="arrow">
+<body>
+
+    <div id="arrow">
         <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
 
@@ -68,12 +66,9 @@ include('includes/config.php');
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png"
-                                alt="Logo"></a>
+                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png" alt="Logo"></a>
                         <!-- Navbar Toggler -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav"
-                            aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i
-                                class="fa-solid fa-sliders"></i></button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-sliders"></i></button>
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
@@ -92,8 +87,7 @@ include('includes/config.php');
                                     </a>
                                 </li>
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
@@ -195,8 +189,7 @@ include('includes/config.php');
                                                             <div class="contact-hov">
                                                                 <span> Email</span>
                                                                 <div class="contact-info">
-                                                                    <p class="tel-contact"><a style="color: #fff;"
-                                                                            href=""> ahpmedia@ahpvn.com</a></p>
+                                                                    <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -212,17 +205,11 @@ include('includes/config.php');
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="/">
-                                                        <input id="idcontname" name="contname" type="text"
-                                                            placeholder="Họ Tên" class="cont-name" required />
-                                                        <input id="idcontloc" name="contloc" type="location"
-                                                            placeholder="Địa Chỉ" class="cont-loc" required />
-                                                        <input id="idcontphone" name="contphone" type="phone"
-                                                            placeholder="Số Điện Thoại" class="cont-phone"
-                                                            pattern="[0-9]{10}" required />
-                                                        <input id="idcontemail" name="contemail" type="email"
-                                                            placeholder="Email" class="cont-email" required />
-                                                        <textarea class="cont-contect" cols="80" rows="6"
-                                                            placeholder="Nội dung" required></textarea>
+                                                        <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
+                                                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                                                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                                                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                                                        <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
                                                         <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
@@ -246,6 +233,12 @@ include('includes/config.php');
                                     </div>
                                     <div id="overlay"></div>
                                 </li>
+                                <li class="nav-items">
+                                    <div id='google_translate_element' class="gg-translate"></div>
+                                    <div class="translate-part">
+                                        <button class="btn-translate" onclick="translateToEnglish()"> En</button>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -258,8 +251,7 @@ include('includes/config.php');
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
 
         <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
-                class="fab fa-facebook-messenger"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
     </div>
 
 
@@ -267,91 +259,97 @@ include('includes/config.php');
     <div class="container">
 
 
-     
-      <div class="row" style="margin-top: 4%">
 
-        <!-- Blog Entries Column -->
-        <div class="col-md-8">
+        <div class="row" style="margin-top: 4%">
 
-          <!-- Blog Post -->
-<?php 
-        if($_POST['searchtitle']!=''){
-$st=$_SESSION['searchtitle']=$_POST['searchtitle'];
-}
-$st;
-             
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
 
+                <!-- Blog Post -->
+                <?php
+                if ($_POST['searchtitle'] != '') {
+                    $st = $_SESSION['searchtitle'] = $_POST['searchtitle'];
+                }
+                $st;
 
-
-
-     if (isset($_GET['pageno'])) {
-            $pageno = $_GET['pageno'];
-        } else {
-            $pageno = 1;
-        }
-        $no_of_records_per_page = 8;
-        $offset = ($pageno-1) * $no_of_records_per_page;
+                if (isset($_GET['pageno'])) {
+                    $pageno = $_GET['pageno'];
+                } else {
+                    $pageno = 1;
+                }
+                $no_of_records_per_page = 8;
+                $offset = ($pageno - 1) * $no_of_records_per_page;
 
 
-        $total_pages_sql = "SELECT COUNT(*) FROM tblposts";
-        $result = mysqli_query($con,$total_pages_sql);
-        $total_rows = mysqli_fetch_array($result)[0];
-        $total_pages = ceil($total_rows / $no_of_records_per_page);
+                $total_pages_sql = "SELECT COUNT(*) FROM tblposts";
+                $result = mysqli_query($con, $total_pages_sql);
+                $total_rows = mysqli_fetch_array($result)[0];
+                $total_pages = ceil($total_rows / $no_of_records_per_page);
 
 
-$query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as posttitle,tblcategory.CategoryName as category,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.PostTitle like '%$st%' and tblposts.Is_Active=1 LIMIT $offset, $no_of_records_per_page");
+                $query = mysqli_query($con, "select tblposts.id as pid,tblposts.PostTitle as posttitle,tblcategory.CategoryName as category,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.PostTitle like '%$st%' and tblposts.Is_Active=1 LIMIT $offset, $no_of_records_per_page");
 
-$rowcount=mysqli_num_rows($query);
-if($rowcount==0)
-{
-echo "No record found";
-}
-else {
-while ($row=mysqli_fetch_array($query)) {
+                $rowcount = mysqli_num_rows($query);
+                if ($rowcount == 0) {
+                    echo "No record found";
+                } else {
+                    while ($row = mysqli_fetch_array($query)) {
 
 
-?>
+                ?>
 
-          <div class="card mb-4">
-      
-            <div class="card-body">
-              <h2 class="card-title"><?php echo htmlentities($row['posttitle']);?></h2>
-         
-              <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>" class="btn btn-primary">Read More &rarr;</a>
+                        <div class="card mb-4">
+
+                            <div class="card-body">
+                                <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
+
+                                <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>" class="btn btn-primary">Read More &rarr;</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                Posted on <?php echo htmlentities($row['postingdate']); ?>
+
+                            </div>
+                        </div>
+                    <?php } ?>
+
+                    <ul class="pagination justify-content-center mb-4">
+                        <li class="page-item"><a href="?pageno=1" class="page-link">First</a></li>
+                        <li class="<?php if ($pageno <= 1) {
+                                        echo 'disabled';
+                                    } ?> page-item">
+                            <a href="<?php if ($pageno <= 1) {
+                                            echo '#';
+                                        } else {
+                                            echo "?pageno=" . ($pageno - 1);
+                                        } ?>" class="page-link">Prev</a>
+                        </li>
+                        <li class="<?php if ($pageno >= $total_pages) {
+                                        echo 'disabled';
+                                    } ?> page-item">
+                            <a href="<?php if ($pageno >= $total_pages) {
+                                            echo '#';
+                                        } else {
+                                            echo "?pageno=" . ($pageno + 1);
+                                        } ?> " class="page-link">Next</a>
+                        </li>
+                        <li class="page-item"><a href="?pageno=<?php echo $total_pages; ?>" class="page-link">Last</a></li>
+                    </ul>
+                <?php } ?>
+
+
+
+
+                <!-- Pagination -->
+
+
+
+
             </div>
-            <div class="card-footer text-muted">
-              Posted on <?php echo htmlentities($row['postingdate']);?>
-           
-            </div>
-          </div>
-<?php } ?>
 
-    <ul class="pagination justify-content-center mb-4">
-        <li class="page-item"><a href="?pageno=1"  class="page-link">First</a></li>
-        <li class="<?php if($pageno <= 1){ echo 'disabled'; } ?> page-item">
-            <a href="<?php if($pageno <= 1){ echo '#'; } else { echo "?pageno=".($pageno - 1); } ?>" class="page-link">Prev</a>
-        </li>
-        <li class="<?php if($pageno >= $total_pages){ echo 'disabled'; } ?> page-item">
-            <a href="<?php if($pageno >= $total_pages){ echo '#'; } else { echo "?pageno=".($pageno + 1); } ?> " class="page-link">Next</a>
-        </li>
-        <li class="page-item"><a href="?pageno=<?php echo $total_pages; ?>" class="page-link">Last</a></li>
-    </ul>
-<?php } ?>
-       
-
-      
-
-          <!-- Pagination -->
-
-
-
-
+            <!-- Sidebar Widgets Column -->
+            <?php include('includes/sidebar.php'); ?>
         </div>
-
-        <!-- Sidebar Widgets Column -->
-      <?php include('includes/sidebar.php');?>
-      </div>
-      <!-- /.row -->
+        <!-- /.row -->
 
     </div>
 
@@ -387,11 +385,9 @@ while ($row=mysqli_fetch_array($query)) {
                     </div>
                     <div class="social-icons-footer">
                         <h4>Theo dõi chúng tôi</h4>
-                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                                class="fa-brands fa-facebook-f "></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i class="fa-brands fa-facebook-f "></i></a>
 
-                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                                class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
                         <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
 
@@ -401,58 +397,46 @@ while ($row=mysqli_fetch_array($query)) {
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi <button onclick="toggleDropdown('dropdown-content-1')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-1" class="dropdown-content">
-                                <p>Giới thiệu AHP</p>
-                                <p>Văn hóa AHP</p>
-                                <p>Tuyển dụng</p>
-                                <p>Đội ngũ nhân sự</p>
-                                <p>Khách hàng của AHP</p>
-                                <p>Bản tin của AHP</p>
-                                <p>Hồ sơ năng lực</p>
-                            </div>
+                            <h3>Về chúng tôi</h3>
+                            <p>Giới thiệu AHP</p>
+                            <p>Văn hóa AHP</p>
+                            <p>Tuyển dụng</p>
+                            <p>Đội ngũ nhân sự</p>
+                            <p>Khách hàng của AHP</p>
+                            <p>Bản tin của AHP</p>
+                            <p>Hồ sơ năng lực</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp <button onclick="toggleDropdown('dropdown-content-2')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-2" class="dropdown-content">
-                                <p>Tư vấn thương hiệu</p>
-                                <p>Thiết kế thương hiệu</p>
-                                <p>Nhận diện thương hiệu</p>
-                                <p>Thương hiệu mới</p>
-                                <p>Kế hoạch truyền thông</p>
-                                <p>Digital marketing</p>
-                            </div>
+                            <h3>Dịch vụ cung cấp</h3>
+                            <p>Tư vấn thương hiệu</p>
+                            <p>Thiết kế thương hiệu</p>
+                            <p>Nhận diện thương hiệu</p>
+                            <p>Thương hiệu mới</p>
+                            <p>Kế hoạch truyền thông</p>
+                            <p>Digital marketing</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện <button onclick="toggleDropdown('dropdown-content-3')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-3" class="dropdown-content">
-                                <p>Logo</p>
-                                <p>Đặt tên/slogan</p>
-                                <p>Web/app</p>
-                                <p>Bao bì</p>
-                                <p>Calatogue/Profile</p>
-                                <p>Calatogue/Profile</p>
-                            </div>
+                            <h3>Dự án đã thực hiện</h3>
+                            <p>Logo</p>
+                            <p>Đặt tên/slogan</p>
+                            <p>Web/app</p>
+                            <p>Bao bì</p>
+                            <p>Calatogue/Profile</p>
+                            <p>Calatogue/Profile</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Đơn vị thành viên <button onclick="toggleDropdown('dropdown-content-4')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-4" class="dropdown-content">
-                                <p>AHP Digital</p>
-                                <p>AHP Pakaging</p>
-                                <p>AHP Academy</p>
-                                <p>AHP Brandgifts</p>
-                                <p>LogoArt</p>
-                            </div>
+                            <h3>Đơn vị thành viên </h3>
+                            <p>AHP Digital</p>
+                            <p>AHP Pakaging</p>
+                            <p>AHP Academy</p>
+                            <p>AHP Brandgifts</p>
+                            <p>LogoArt</p>
                         </div>
                     </div>
                 </div>
@@ -469,7 +453,8 @@ while ($row=mysqli_fetch_array($query)) {
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
     <script src="js/pop.js"></script>
-
+    <script src="js/translate.js"></script>
+    <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -495,19 +480,18 @@ while ($row=mysqli_fetch_array($query)) {
             }
         }
     </script>
-   
-    
+
+
 
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
-
     </script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 
 </html>

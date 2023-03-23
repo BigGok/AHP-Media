@@ -226,6 +226,12 @@
                                     </div>
                                     <div id="overlay"></div>
                                 </li>
+                                <li class="nav-items">
+                                    <div id='google_translate_element' class="gg-translate"></div>
+                                    <div class="translate-part">
+                                        <button class="btn-translate" onclick="translateToEnglish()"> En</button>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -690,9 +696,7 @@
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi <button onclick="toggleDropdown('dropdown-content-1')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-1" class="dropdown-content">
+                            <h3>Về chúng tôi</h3>
                                 <p>Giới thiệu AHP</p>
                                 <p>Văn hóa AHP</p>
                                 <p>Tuyển dụng</p>
@@ -700,48 +704,38 @@
                                 <p>Khách hàng của AHP</p>
                                 <p>Bản tin của AHP</p>
                                 <p>Hồ sơ năng lực</p>
-                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp <button onclick="toggleDropdown('dropdown-content-2')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-2" class="dropdown-content">
+                            <h3>Dịch vụ cung cấp</h3>
                                 <p>Tư vấn thương hiệu</p>
                                 <p>Thiết kế thương hiệu</p>
                                 <p>Nhận diện thương hiệu</p>
                                 <p>Thương hiệu mới</p>
                                 <p>Kế hoạch truyền thông</p>
                                 <p>Digital marketing</p>
-                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện <button onclick="toggleDropdown('dropdown-content-3')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-3" class="dropdown-content">
+                            <h3>Dự án đã thực hiện</h3>
                                 <p>Logo</p>
                                 <p>Đặt tên/slogan</p>
                                 <p>Web/app</p>
                                 <p>Bao bì</p>
                                 <p>Calatogue/Profile</p>
                                 <p>Calatogue/Profile</p>
-                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Đơn vị thành viên <button onclick="toggleDropdown('dropdown-content-4')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-4" class="dropdown-content">
+                            <h3>Đơn vị thành viên </h3>
                                 <p>AHP Digital</p>
                                 <p>AHP Pakaging</p>
                                 <p>AHP Academy</p>
                                 <p>AHP Brandgifts</p>
                                 <p>LogoArt</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -758,7 +752,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
     <script src="js/pop.js"></script>
-
+    <script src="js/translate.js"></script>
+    <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -774,17 +769,6 @@
             "max-glare": 1,
         });
     </script>
-    <script>
-        function toggleDropdown(id) {
-            var dropdown = document.getElementById(id);
-            if (dropdown.style.display === "none") {
-                dropdown.style.display = "block";
-            } else {
-                dropdown.style.display = "none";
-            }
-        }
-    </script>
-   
     
 
     <script>
