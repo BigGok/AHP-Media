@@ -1265,8 +1265,10 @@ hr.footer-hr {
 
 .contact-items .contact-hov {
     border-radius: 0.5em;
-    margin: 17px 30px;
+    margin: 12px 30px;
+    margin-bottom: 1px;
 }
+
 
 .contact-hov {
     position: relative;
@@ -1278,6 +1280,7 @@ hr.footer-hr {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+
 }
 
 .contact-hov::before {
