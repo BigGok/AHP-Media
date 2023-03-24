@@ -338,7 +338,7 @@ endif;
 
         <!-- Blog Entries Column -->
         <div class="col-md-8">
-        border: 1px solid white
+
           <!-- Blog Post -->
 <?php
 $pid=intval($_GET['nid']);
@@ -346,7 +346,7 @@ $pid=intval($_GET['nid']);
 while ($row=mysqli_fetch_array($query)) {
 ?>
 
-          <div class="card mb-4" style="   margin-left: -25px;margin-right: -25px">
+          <div class="card mb-4" style="   margin-left: -25px;margin-right: -25px; border: 1px solid white">
       
             <div class="card-body">
               <h2 class="card-title"><?php echo htmlentities($row['posttitle']);?></h2>
@@ -367,12 +367,6 @@ $pt=$row['postdetails'];
             </div>
           </div>
 <?php } ?>
-       
-
-      
-
-     
-
         </div>
 
         <!-- Sidebar Widgets Column -->
@@ -389,18 +383,18 @@ $pt=$row['postdetails'];
               <form name="Comment" method="post">
       <input type="hidden" name="csrftoken" value="<?php echo htmlentities($_SESSION['token']); ?>" />
  <div class="form-group">
-<input type="text" name="name" class="form-control" placeholder="Nhập họ và têntên" required>
+<input type="text" name="name" class="form-control" placeholder="Nhập họ và tên" required>
 </div>
 
  <div class="form-group">
- <input type="email" name="email" class="form-control" placeholder="Nhập email của bạnbạn" required>
+ <input type="email" name="email" class="form-control" placeholder="Nhập email của bạn" required>
  </div>
 
 
                 <div class="form-group">
                   <textarea class="form-control" name="comment" rows="3" placeholder="Comment" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary" name="submit">GửiGửi</button>
+                <button type="submit" class="btn btn-primary" name="submit">Gửi</button>
               </form>
             </div>
           </div>
