@@ -71,8 +71,10 @@ endif;
 
 <body>
 
+
+
     <div id="arrow">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
 
     <header class="header-area">
@@ -81,7 +83,7 @@ endif;
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="index.html"><img class="bfg" src="images/logo AHP Agency.png"
+                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png"
                                 alt="Logo"></a>
                         <!-- Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav"
@@ -91,7 +93,7 @@ endif;
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">
+                                    <a class="nav-link" href="#">
                                         <div class="name">
                                             <span data-text="TRANG CHỦ"> TRANG CHỦ </span>
                                         </div>
@@ -104,31 +106,69 @@ endif;
                                         </div>
                                     </a>
                                 </li>
-
-                                <li class="nav-item">
+                                <li class="nav-item n1">
                                     <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="Trangcon_1.html">Thiết kế thương hiệu</a>
-                                        <a class="dropdown-item" href="#">Thiết kế logo</a>
-                                        <a class="dropdown-item" href="#">Bộ nhận diện thương hiệu</a>
-                                        <a class="dropdown-item" href="#">Nhận diện thương hiệu văn phòng</a>
-                                        <a class="dropdown-item" href="#">Thiết kế Marketing</a>
-                                        <a class="dropdown-item" href="#">Thiết kế Brochure</a>
-                                        <a class="dropdown-item" href="#">Thiết kế Profile</a>
-                                        <a class="dropdown-item" href="#">Thiết kế Catalogue</a>
-                                        <a class="dropdown-item" href="#">Nhận diện thương hiệu số</a>
-                                        <a class="dropdown-item" href="#">Thiết kế Landing Page</a>
-                                        <a class="dropdown-item" href="#">Thiết kế Website</a>
-                                        <a class="dropdown-item" href="#">Giao diện Profile</a>
+                                        <div class="dichvu dic1">
+                                            <a class="food">Thiết kế thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Thiết kế Logo</a>
+                                            <a class="dropdown-item" href="#">Thiết kế nhận diện thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Đặt tên thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Sáng tác slogan</a>
+                                            <a class="dropdown-item" href="#">Đăng ký bản quyền Logo</a>
+                                            <a class="dropdown-item" href="#">Nhận diện thương hiệu văn phòng</a>
+                                            <a class="dropdown-item" href="#">Nhận diện thương hiệu tại điểm bán</a>
+                                            <a class="dropdown-item" href="#">Nhận diện thương hiệu Sản Phẩm</a>
+
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế Marketing</a>
+                                            <a class="dropdown-item" href="#">Name card</a>
+                                            <a class="dropdown-item" href="#">Bao thư</a>
+                                            <a class="dropdown-item" href="#">Profile</a>
+                                            <a class="dropdown-item" href="#">Kẹp file,folder</a>
+                                            <a class="dropdown-item" href="#">Catalogue</a>
+                                            <a class="dropdown-item" href="#">Brochure,Tờ gấp</a>
+                                            <a class="dropdown-item" href="#">Tờ rơi,Flyer</a>
+                                            <a class="dropdown-item" href="#">Giấy tiêu đề,Letterhead</a>
+
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế quảng cáo</a>
+                                            <a class="dropdown-item" href="#">Quảng cáo</a>
+                                            <a class="dropdown-item" href="#">Backdrop,bảng hiệu</a>
+                                            <a class="dropdown-item" href="#">Standee</a>
+                                            <a class="dropdown-item" href="#">Poster</a>
+                                            <a class="dropdown-item" href="#">Tranh Canvas</a>
+                                            <a class="dropdown-item" href="#">Menu</a>
+                                            <a class="dropdown-item" href="#">Bao lì xì</a>
+                                            <a class="dropdown-item" href="#">Lịch tết</a>
+
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế bao bì sản phẩm</a>
+                                            <a class="dropdown-item" href="#">Hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="#">Bao bì, hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="#">Decal,tem nhãn</a>
+                                            <a class="dropdown-item" href="#">Túi giấy</a>
+
+                                        </div>
                                     </div>
+
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.html">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="search-icon">
+                                        <div class="name name9"><i class="fa fa-search"></i></div>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -143,37 +183,29 @@ endif;
                                     </a>
                                     <div class="mod-modal" id="mod-modal">
                                         <div class="mod-header">
-                                            <div class="mod-title">LIÊN HỆ NGAY</div>
+                                            <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                                             <button data-close-button class="mod-close-button">&times;</button>
                                         </div>
                                         <!-- MOD-BODY -->
                                         <div class="mod-body">
                                             <div class="mod-items1">
-                                                <p class="mod-p">Công ty Truyền Thông AHP MEDIA đã được thành lập với
-                                                    mục đích mang
-                                                    đến những giải pháp truyền thông
-                                                    tiên
-                                                    tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                                                <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
+                                                    marketing hiệu quả với thiết kế độc đáo thu hút khách hàng tiềm năng
+                                                    của bạn.
+                                                    Liên hệ ngay với chúng tôi để được tư vấn tận tình.
+                                                </p>
                                                 <img class="mod-img" src="images2/business/business_3.png" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
                                                             <div class="contact-hov">
-                                                                <span><i class="fa-solid fa-phone"></i> TEL</span>
+                                                                <span>Hotline</span>
                                                                 <div class="contact-info">
-                                                                    <p class="ph-contact">096.88.68.227</p>
+                                                                    <p class="ph-contact">0968.868.227</p>
                                                                 </div>
                                                             </div>
                                                             <div class="contact-hov">
-                                                                <span><svg xmlns="http://www.w3.org/2000/svg"
-                                                                        viewBox="0 0 48 48" width="20px" height="20px">
-                                                                        <path fill="#35c1f1"
-                                                                            d="M41.621,5.058l-35.9,12.281c-0.747,0.255-0.967,1.205-0.409,1.763l23.585,23.585 c0.558,0.558,1.508,0.338,1.763-0.409l12.281-35.9C43.222,5.561,42.439,4.778,41.621,5.058z">
-                                                                        </path>
-                                                                        <path fill="#1b9de2"
-                                                                            d="M38,10L13,26.789V34c0,0.552,0.448,1,1,1h7.211L38,10z">
-                                                                        </path>
-                                                                    </svg> Email</span>
+                                                                <span> Email</span>
                                                                 <div class="contact-info">
                                                                     <p class="tel-contact"><a style="color: #fff;"
                                                                             href=""> ahpmedia@ahpvn.com</a></p>
@@ -193,26 +225,27 @@ endif;
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="/">
                                                         <input id="idcontname" name="contname" type="text"
-                                                            placeholder="Họ Tên" class="cont-name" />
+                                                            placeholder="Họ Tên" class="cont-name" required />
                                                         <input id="idcontloc" name="contloc" type="location"
-                                                            placeholder="Địa Chỉ" class="cont-loc" />
+                                                            placeholder="Địa Chỉ" class="cont-loc" required />
                                                         <input id="idcontphone" name="contphone" type="phone"
-                                                            placeholder="Số Điện Thoại" class="cont-phone" />
+                                                            placeholder="Số Điện Thoại" class="cont-phone"
+                                                            pattern="[0-9]{10}" required />
                                                         <input id="idcontemail" name="contemail" type="email"
-                                                            placeholder="Email" class="cont-email" />
+                                                            placeholder="Email" class="cont-email" required />
                                                         <textarea class="cont-contect" cols="80" rows="6"
-                                                            placeholder="Nội dung"></textarea>
-                                                        <input type="submit" value="Xác Nhận" class="submit-btn" />
+                                                            placeholder="Nội dung" required></textarea>
+                                                        <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
                                                         <div class="contact-hov">
-                                                            <span><i class="fa-solid fa-phone"></i> TEL</span>
+                                                            <span>Hotline</span>
                                                             <div class="contact-info">
-                                                                <p class="ph-contact">096.88.68.227</p>
+                                                                <p class="ph-contact">0968.868.227</p>
                                                             </div>
                                                         </div>
                                                         <div class="contact-hov">
-                                                            <span><i class="fa-solid fa-envelope"></i> Email</span>
+                                                            <span>Email</span>
                                                             <div class="contact-info">
                                                                 <p class="tel-contact"><a style="color: #fff;" href="">
                                                                         ahpmedia@ahpvn.com</a></p>
@@ -238,18 +271,23 @@ endif;
             </div>
         </div>
     </header>
+
     <div class="mailbox-phone">
-        <a class=" blinking-phone"> <i class="fa fa-phone"> </i></a>
-        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope"
-                aria-hidden="true"></i></a>
+        <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
+
+        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
+                class="fab fa-facebook-messenger"></i></a>
     </div>
+
+
     <div id="modal" class="modal">
         <div class="modal-content1">
             <div class="mod-header">
                 <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                 <button class="close">&times;</button>
             </div>
-            
+
             <div class="mod-body">
                 <div class="mod-items1">
                     <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
@@ -270,8 +308,8 @@ endif;
                                 <div class="contact-hov">
                                     <span>Email</span>
                                     <div class="contact-info">
-                                        <p class="tel-contact"><a style="color: #fff;"
-                                                href=""> ahpmedia@ahpvn.com</a></p>
+                                        <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -287,16 +325,16 @@ endif;
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="/">
-                            <input id="idcontname" name="contname" type="text"
-                                placeholder="Họ Tên" class="cont-name" />
-                            <input id="idcontloc" name="contloc" type="location"
-                                placeholder="Địa Chỉ" class="cont-loc" />
-                            <input id="idcontphone" name="contphone" type="phone"
-                                placeholder="Số Điện Thoại" class="cont-phone" />
-                            <input id="idcontemail" name="contemail" type="email"
-                                placeholder="Email" class="cont-email" />
-                            <textarea class="cont-contect" cols="80" rows="6"
-                                placeholder="Nội dung"></textarea>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
+                                required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
+                                required />
+                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
+                                class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
+                                required />
+                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
+                                required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -319,11 +357,14 @@ endif;
             </div>
         </div>
     </div>
+
     <section class="header-bg-parent">
         <div class="header-col1">
         </div>
         <!--header-col1-->
-        
+        <div class="header-col2">
+
+        </div>
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->
