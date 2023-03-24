@@ -3,13 +3,16 @@ session_start();
 include('includes/config.php');
 
     ?>
+
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>AHP MEDIA</title>
+    <title>AHP Agency</title>
+    <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
@@ -34,12 +37,15 @@ include('includes/config.php');
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
-    <script src="https://kit.fontawesome.com/36fcf59f66.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
+
+
+
     <div id="arrow">
-        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
 
     <header class="header-area">
@@ -71,23 +77,69 @@ include('includes/config.php');
                                         </div>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item n1">
                                     <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="Trangcon_1.html">Trang con 1</a>
-                                        <a class="dropdown-item" href="#">Trang con 2</a>
-                                        <a class="dropdown-item" href="#">Trang con 3</a>
-                                        <a class="dropdown-item" href="#">Trang con 4</a>
-                                        <a class="dropdown-item" href="#">Trang con 5</a>
+                                        <div class="dichvu dic1">
+                                            <a class="food">Thiết kế thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Thiết kế Logo</a>
+                                            <a class="dropdown-item" href="#">Thiết kế nhận diện thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Đặt tên thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Sáng tác slogan</a>
+                                            <a class="dropdown-item" href="#">Đăng ký bản quyền Logo</a>
+                                            <a class="dropdown-item" href="#">Nhận diện thương hiệu văn phòng</a>
+                                            <a class="dropdown-item" href="#">Nhận diện thương hiệu tại điểm bán</a>
+                                            <a class="dropdown-item" href="#">Nhận diện thương hiệu Sản Phẩm</a>
+
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế Marketing</a>
+                                            <a class="dropdown-item" href="#">Name card</a>
+                                            <a class="dropdown-item" href="#">Bao thư</a>
+                                            <a class="dropdown-item" href="#">Profile</a>
+                                            <a class="dropdown-item" href="#">Kẹp file,folder</a>
+                                            <a class="dropdown-item" href="#">Catalogue</a>
+                                            <a class="dropdown-item" href="#">Brochure,Tờ gấp</a>
+                                            <a class="dropdown-item" href="#">Tờ rơi,Flyer</a>
+                                            <a class="dropdown-item" href="#">Giấy tiêu đề,Letterhead</a>
+
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế quảng cáo</a>
+                                            <a class="dropdown-item" href="#">Quảng cáo</a>
+                                            <a class="dropdown-item" href="#">Backdrop,bảng hiệu</a>
+                                            <a class="dropdown-item" href="#">Standee</a>
+                                            <a class="dropdown-item" href="#">Poster</a>
+                                            <a class="dropdown-item" href="#">Tranh Canvas</a>
+                                            <a class="dropdown-item" href="#">Menu</a>
+                                            <a class="dropdown-item" href="#">Bao lì xì</a>
+                                            <a class="dropdown-item" href="#">Lịch tết</a>
+
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế bao bì sản phẩm</a>
+                                            <a class="dropdown-item" href="#">Hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="#">Bao bì, hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="#">Decal,tem nhãn</a>
+                                            <a class="dropdown-item" href="#">Túi giấy</a>
+
+                                        </div>
                                     </div>
+
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.html">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" id="search-icon">
+                                        <div class="name name9"><i class="fa fa-search"></i></div>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -102,37 +154,29 @@ include('includes/config.php');
                                     </a>
                                     <div class="mod-modal" id="mod-modal">
                                         <div class="mod-header">
-                                            <div class="mod-title">LIÊN HỆ NGAY</div>
+                                            <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                                             <button data-close-button class="mod-close-button">&times;</button>
                                         </div>
                                         <!-- MOD-BODY -->
                                         <div class="mod-body">
                                             <div class="mod-items1">
-                                                <p class="mod-p">Công ty Truyền Thông AHP MEDIA đã được thành lập với
-                                                    mục đích mang
-                                                    đến những giải pháp truyền thông
-                                                    tiên
-                                                    tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                                                <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
+                                                    marketing hiệu quả với thiết kế độc đáo thu hút khách hàng tiềm năng
+                                                    của bạn.
+                                                    Liên hệ ngay với chúng tôi để được tư vấn tận tình.
+                                                </p>
                                                 <img class="mod-img" src="images2/business/business_3.png" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
                                                             <div class="contact-hov">
-                                                                <span><i class="fa-solid fa-phone"></i> TEL</span>
+                                                                <span>Hotline</span>
                                                                 <div class="contact-info">
-                                                                    <p class="ph-contact">096.88.68.227</p>
+                                                                    <p class="ph-contact">0968.868.227</p>
                                                                 </div>
                                                             </div>
                                                             <div class="contact-hov">
-                                                                <span><svg xmlns="http://www.w3.org/2000/svg"
-                                                                        viewBox="0 0 48 48" width="20px" height="20px">
-                                                                        <path fill="#35c1f1"
-                                                                            d="M41.621,5.058l-35.9,12.281c-0.747,0.255-0.967,1.205-0.409,1.763l23.585,23.585 c0.558,0.558,1.508,0.338,1.763-0.409l12.281-35.9C43.222,5.561,42.439,4.778,41.621,5.058z">
-                                                                        </path>
-                                                                        <path fill="#1b9de2"
-                                                                            d="M38,10L13,26.789V34c0,0.552,0.448,1,1,1h7.211L38,10z">
-                                                                        </path>
-                                                                    </svg> Email</span>
+                                                                <span> Email</span>
                                                                 <div class="contact-info">
                                                                     <p class="tel-contact"><a style="color: #fff;"
                                                                             href=""> ahpmedia@ahpvn.com</a></p>
@@ -152,26 +196,27 @@ include('includes/config.php');
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="/">
                                                         <input id="idcontname" name="contname" type="text"
-                                                            placeholder="Họ Tên" class="cont-name" />
+                                                            placeholder="Họ Tên" class="cont-name" required />
                                                         <input id="idcontloc" name="contloc" type="location"
-                                                            placeholder="Địa Chỉ" class="cont-loc" />
+                                                            placeholder="Địa Chỉ" class="cont-loc" required />
                                                         <input id="idcontphone" name="contphone" type="phone"
-                                                            placeholder="Số Điện Thoại" class="cont-phone" />
+                                                            placeholder="Số Điện Thoại" class="cont-phone"
+                                                            pattern="[0-9]{10}" required />
                                                         <input id="idcontemail" name="contemail" type="email"
-                                                            placeholder="Email" class="cont-email" />
+                                                            placeholder="Email" class="cont-email" required />
                                                         <textarea class="cont-contect" cols="80" rows="6"
-                                                            placeholder="Nội dung"></textarea>
-                                                        <input type="submit" value="Xác Nhận" class="submit-btn" />
+                                                            placeholder="Nội dung" required></textarea>
+                                                        <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
                                                         <div class="contact-hov">
-                                                            <span><i class="fa-solid fa-phone"></i> TEL</span>
+                                                            <span>Hotline</span>
                                                             <div class="contact-info">
-                                                                <p class="ph-contact">096.88.68.227</p>
+                                                                <p class="ph-contact">0968.868.227</p>
                                                             </div>
                                                         </div>
                                                         <div class="contact-hov">
-                                                            <span><i class="fa-solid fa-envelope"></i> Email</span>
+                                                            <span>Email</span>
                                                             <div class="contact-info">
                                                                 <p class="tel-contact"><a style="color: #fff;" href="">
                                                                         ahpmedia@ahpvn.com</a></p>
@@ -184,6 +229,12 @@ include('includes/config.php');
                                     </div>
                                     <div id="overlay"></div>
                                 </li>
+                                <li class="nav-items">
+                                    <div id='google_translate_element' class="gg-translate"></div>
+                                    <div class="translate-part">
+                                        <button class="btn-translate" onclick="translateToEnglish()"> En</button>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -191,18 +242,23 @@ include('includes/config.php');
             </div>
         </div>
     </header>
+
     <div class="mailbox-phone">
-        <a class=" blinking-phone"> <i class="fa fa-phone"> </i></a>
-        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope"
-                aria-hidden="true"></i></a>
+        <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
+
+        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
+                class="fab fa-facebook-messenger"></i></a>
     </div>
+
+
     <div id="modal" class="modal">
         <div class="modal-content1">
             <div class="mod-header">
                 <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                 <button class="close">&times;</button>
             </div>
-            
+
             <div class="mod-body">
                 <div class="mod-items1">
                     <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
@@ -223,8 +279,8 @@ include('includes/config.php');
                                 <div class="contact-hov">
                                     <span>Email</span>
                                     <div class="contact-info">
-                                        <p class="tel-contact"><a style="color: #fff;"
-                                                href=""> ahpmedia@ahpvn.com</a></p>
+                                        <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -240,16 +296,16 @@ include('includes/config.php');
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="/">
-                            <input id="idcontname" name="contname" type="text"
-                                placeholder="Họ Tên" class="cont-name" />
-                            <input id="idcontloc" name="contloc" type="location"
-                                placeholder="Địa Chỉ" class="cont-loc" />
-                            <input id="idcontphone" name="contphone" type="phone"
-                                placeholder="Số Điện Thoại" class="cont-phone" />
-                            <input id="idcontemail" name="contemail" type="email"
-                                placeholder="Email" class="cont-email" />
-                            <textarea class="cont-contect" cols="80" rows="6"
-                                placeholder="Nội dung"></textarea>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
+                                required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
+                                required />
+                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
+                                class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
+                                required />
+                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
+                                required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -272,22 +328,24 @@ include('includes/config.php');
             </div>
         </div>
     </div>
+
     <section class="header-bg-parent">
         <div class="header-col1">
         </div>
         <!--header-col1-->
         <div class="header-col2">
+
         </div>
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->
 
     </section>
-    
+
 
     <!--header-bg-parent-->
     <div class="head-service">
-        <h2>✨AHP MEDIA LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨</h2>
+        <h2>✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨</h2>
     </div>
     <section style="background-color: #b31e1e;" id="contain">
 
@@ -314,13 +372,13 @@ include('includes/config.php');
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/blog/blog-3.jpg" class="img-responsive" />
+                        <img src="images/logo1.png" class="img-responsive" />
 
                     </div>
                 </div>
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/blog/homecontact-bg.png" class="img-responsive" />
+                        <img src="images/logo2.png" class="img-responsive" />
 
                     </div>
 
@@ -331,12 +389,12 @@ include('includes/config.php');
     </Section>
 
     <!-- SERVICE -->
-    <section class="container">
+    <section class="container ">
         <div class="head-service">
             <h3>DỊCH VỤ TIÊU BIỂU</h3>
         </div>
         <div class="hero-service">
-            <div class="items-service">
+            <div class="items-service it0">
                 <img class="img-service" src="images/homecontact-bg.jpg" alt="">
                 <h3>Tư vấn thương hiệu</h3>
                 <div class="list-service">
@@ -351,7 +409,7 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            <div class="items-service">
+            <div class="items-service it1">
                 <img class="img-service" src="images/homecontact-bg.jpg" alt="">
                 <h3>Thiết kế thương hiệu</h3>
                 <div class="list-service">
@@ -365,7 +423,7 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            <div class="items-service">
+            <div class="items-service it2">
                 <img class="img-service" src="images/homecontact-bg.jpg" alt="">
                 <h3>Thương hiệu số</h3>
                 <div class="list-service">
@@ -379,7 +437,7 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            <div class="items-service">
+            <div class="items-service it3">
                 <img class="img-service" src="images/homecontact-bg.jpg" alt="">
                 <h3>Bao bì nhãn mác</h3>
                 <div class="list-service">
@@ -393,7 +451,7 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            <div class="items-service">
+            <div class="items-service it4">
                 <img class="img-service" src="images/homecontact-bg.jpg" alt="">
                 <h3>Bản quyền & Giấy phép</h3>
                 <div class="list-service">
@@ -407,7 +465,7 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            <div class="items-service">
+            <div class="items-service it5">
                 <img class="img-service" src="images/homecontact-bg.jpg" alt="">
                 <h3>Truyền thông</h3>
                 <div class="list-service">
@@ -429,7 +487,7 @@ include('includes/config.php');
     <section class="container">
         <div class="hero-about">
             <div class="items-about">
-                <h3>Tại sao nên chọn AHP MEDIA</h3>
+                <h3>Tại sao nên chọn AHP Agency</h3>
                 <p>Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
                     thông
                     tiên
@@ -498,30 +556,6 @@ include('includes/config.php');
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                     </div>
                 </div>
-                <div class="card22 swiper-slide">
-                    <div class="card__content">
-                        <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
-                        <span class="card__title">Mobile Designer</span>
-                        <span class="card__name">Kelsey West</span>
-                        <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
-                            những giải pháp truyền
-                            thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                    </div>
-                </div>
-                <div class="card22 swiper-slide">
-                    <div class="card__content">
-                        <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
-                        <span class="card__title">Mobile Designer</span>
-                        <span class="card__name">Kelsey West</span>
-                        <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
-                            những giải pháp truyền
-                            thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                    </div>
-                </div>
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -535,42 +569,44 @@ include('includes/config.php');
         <div class="hero-project">
             <div class="items-project">
                 <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                    <img class="img-project" src="images2/art/art_10.png" alt="">
+                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                 </div>
-                <h4>VELAR</h4>
+                <a href="/du-an-la-siesta.html">
+                    <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                </a>
                 <p>NHẬN DIỆN</p>
             </div>
             <div class="items-project">
                 <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images2/art/art_10.png" alt="">
+                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                 </div>
                 <h4>VECO</h4>
                 <p>NHẬN DIỆN</p>
             </div>
             <div class="items-project">
                 <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images2/art/art_10.png" alt="">
+                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                 </div>
                 <h4>AUTOTECH</h4>
                 <p>NHẬN DIỆN</p>
             </div>
             <div class="items-project">
                 <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images2/art/art_10.png" alt="">
+                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                 </div>
                 <h4>DEOCAGROUP</h4>
                 <p>NHẬN DIỆN</p>
             </div>
             <div class="items-project">
                 <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images2/art/art_10.png" alt="">
+                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                 </div>
                 <h4>GLEXHOMES</h4>
                 <p>NHẬN DIỆN</p>
             </div>
             <div class="items-project">
                 <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images2/art/art_10.png" alt="">
+                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                 </div>
                 <h4>DABACO GROUP</h4>
                 <p>NHẬN DIỆN</p>
@@ -579,42 +615,43 @@ include('includes/config.php');
     </section>
 
     <!-- NEWS-INDEX -->
-    <section class="container">
-        <div class="head-service">
-            <h3 style="color: #7a0e0e;">TIN TỨC</h3>
-        </div>
-        <div class="hero-news">
-        <?php  if (isset($_GET['pageno'])) {
-            $pageno = $_GET['pageno'];
-        } else {
-            $pageno = 1;
-        }
-        $no_of_records_per_page = 4;
-        $offset = ($pageno-1) * $no_of_records_per_page;
-        
-
-        $total_pages_sql = "SELECT COUNT(*) FROM tblposts ";
-        $result = mysqli_query($con,$total_pages_sql);
-        $total_rows = mysqli_fetch_array($result)[0];
-        $total_pages = ceil($total_rows / $no_of_records_per_page);
-
-        $query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.Is_Active=1 order by tblposts.id desc  LIMIT $offset, $no_of_records_per_page");
-        if($result){
-        while ($row=mysqli_fetch_array($query)) {
-        ?>
-            <div class="items-news" >
-            <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <img class="img-news" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt=""> </a>
-                <div class="news-abs">
-                    <h2><a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <?php echo htmlentities($row['posttitle']);?></a></h2>
+        <!-- NEWS-INDEX -->
+        <section class="container">
+            <div class="head-service">
+                <h3 style="color: #7a0e0e;">TIN TỨC</h3>
+            </div>
+            <div class="hero-news">
+            <?php  if (isset($_GET['pageno'])) {
+                $pageno = $_GET['pageno'];
+            } else {
+                $pageno = 1;
+            }
+            $no_of_records_per_page = 4;
+            $offset = ($pageno-1) * $no_of_records_per_page;
+            
+    
+            $total_pages_sql = "SELECT COUNT(*) FROM tblposts ";
+            $result = mysqli_query($con,$total_pages_sql);
+            $total_rows = mysqli_fetch_array($result)[0];
+            $total_pages = ceil($total_rows / $no_of_records_per_page);
+    
+            $query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.Is_Active=1 order by tblposts.id desc  LIMIT $offset, $no_of_records_per_page");
+            if($result){
+            while ($row=mysqli_fetch_array($query)) {
+            ?>
+                <div class="items-news" >
+                <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <img class="img-news" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt=""> </a>
+                    <div class="news-abs">
+                        <h2><a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <?php echo htmlentities($row['posttitle']);?></a></h2>
+                    </div>
+                    <div class="card-footer text-muted">
+                  Posted on <?php echo htmlentities($row['postingdate']);?>
+               
                 </div>
-                <div class="card-footer text-muted">
-              Posted on <?php echo htmlentities($row['postingdate']);?>
-           
+                </div>
+            <?php }} ?>
             </div>
-            </div>
-        <?php }} ?>
-        </div>
-    </section>
+        </section>
 
     <div class=" bg-hero">
         <div class="container">
@@ -624,9 +661,9 @@ include('includes/config.php');
                 </div>
                 <div class="items-footer2">
                     <form method="POST" action="email-script.php">
-                        <input type="text" placeholder="Họ Tên" name="nameKH" id="nameKH" class="footer-frm-name">
-                        <input type="text" placeholder="Email" name="email" id="email" class="footer-frm-email">
-                        <input type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
+                        <input type="text" placeholder="Họ Tên" name="" id="" class="footer-frm-name">
+                        <input type="text" placeholder="Email" name="" id="" class="footer-frm-email">
+                        <input style="color: rgb(120, 8, 8);" type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
                     </form>
                 </div>
             </div>
@@ -649,19 +686,20 @@ include('includes/config.php');
                     <div class="social-icons-footer">
                         <h4>Theo dõi chúng tôi</h4>
                         <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                                class="fa-brands fa-facebook-f fb "></i></a>
+                                class="fa-brands fa-facebook-f "></i></a>
+
                         <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                                class="fa-brands fa-tiktok fb icon-fl"></i></a>
-                        <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
+                                class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
+                        <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
+
 
                     </div>
                 </div>
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi <button onclick="toggleDropdown('dropdown-content-1')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-1" class="dropdown-content">
+                            <h3>Về chúng tôi</h3>
                                 <p>Giới thiệu AHP</p>
                                 <p>Văn hóa AHP</p>
                                 <p>Tuyển dụng</p>
@@ -669,48 +707,38 @@ include('includes/config.php');
                                 <p>Khách hàng của AHP</p>
                                 <p>Bản tin của AHP</p>
                                 <p>Hồ sơ năng lực</p>
-                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp <button onclick="toggleDropdown('dropdown-content-2')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-2" class="dropdown-content">
+                            <h3>Dịch vụ cung cấp</h3>
                                 <p>Tư vấn thương hiệu</p>
                                 <p>Thiết kế thương hiệu</p>
                                 <p>Nhận diện thương hiệu</p>
                                 <p>Thương hiệu mới</p>
                                 <p>Kế hoạch truyền thông</p>
                                 <p>Digital marketing</p>
-                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện <button onclick="toggleDropdown('dropdown-content-3')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-3" class="dropdown-content">
+                            <h3>Dự án đã thực hiện</h3>
                                 <p>Logo</p>
                                 <p>Đặt tên/slogan</p>
                                 <p>Web/app</p>
                                 <p>Bao bì</p>
                                 <p>Calatogue/Profile</p>
                                 <p>Calatogue/Profile</p>
-                            </div>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Đơn vị thành viên <button onclick="toggleDropdown('dropdown-content-4')"><i
-                                        class="fa-solid fa-caret-down"></i></button></h3>
-                            <div id="dropdown-content-4" class="dropdown-content">
+                            <h3>Đơn vị thành viên </h3>
                                 <p>AHP Digital</p>
                                 <p>AHP Pakaging</p>
                                 <p>AHP Academy</p>
                                 <p>AHP Brandgifts</p>
                                 <p>LogoArt</p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -727,7 +755,8 @@ include('includes/config.php');
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
     <script src="js/pop.js"></script>
-
+    <script src="js/translate.js"></script>
+    <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -743,29 +772,11 @@ include('includes/config.php');
             "max-glare": 1,
         });
     </script>
-
-</body>
-<script>
-    function toggleDropdown(id) {
-        var dropdown = document.getElementById(id);
-        if (dropdown.style.display === "none") {
-            dropdown.style.display = "block";
-        } else {
-            dropdown.style.display = "none";
+    <script>
+        if (window.location.hostname.substr(0, 4) !== 'www.') {
+            window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
-    }
-</script>
 
-<script>
-    $(document).ready(function () {
-        $("#toggle-bar").click(function () {
-            $(".menu").slideToggle(400);
-        });
-    });
-
-</script>
-
-
-
-
+    </script>
+</body>
 </html>
