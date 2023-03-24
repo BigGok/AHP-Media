@@ -400,7 +400,7 @@ $pt=$row['postdetails'];
                 <div class="form-group">
                   <textarea class="form-control" name="comment" rows="3" placeholder="Comment" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary" name="submit">GửiGửi</button>
+                <button type="submit" class="btn btn-primary" name="submit">Gửi</button>
               </form>
             </div>
           </div>
