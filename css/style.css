@@ -1542,8 +1542,6 @@ hr.footer-hr {
 
 .items-list-service li {
     margin-left: 16px;
-    border-bottom: 1px solid rgb(181, 175, 175);
-    padding-bottom: 10px;
     margin-right: 12px;
 
 }
@@ -1640,19 +1638,17 @@ hr.footer-hr {
 
 .card__title {
     display: block;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
-    margin: 20px 0;
 }
 
 .card__name {
     display: block;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .card__text {
-    text-align: center;
+    text-align: justify;
     margin-bottom: 20px;
 }
 
@@ -1662,7 +1658,22 @@ hr.footer-hr {
     border: 5px solid seagreen;
     width: 30%;
 }
+.container-testimoni{
+    display: flex;
+    justify-content: center;
+}
+.contain-testimoni{
+    margin:20px 10px;
+}
+.fa-quote-left{
+    margin-bottom: 10px;
+    color: #6A040F;
+    font-size: 60px;
+    float: left;
+    display: flex;
+    width: 100%;
 
+}
 /*PROJECT-INDEXT*/
 .hero-project {
     display: grid;
@@ -1691,8 +1702,38 @@ hr.footer-hr {
     margin-right: 12px
 }
 
+.js-project{
+    margin-left: 19px;
+    display: flex;
+    width: 97%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    justify-content: center;
+    border-radius: 1rem;
 
+}
+.js-project li{
+    padding: 30px 65px;
+    list-style: none;
+}
+ .btn-project{
+    cursor: pointer;
+    background: 0;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6A040F;
+}
+ .btn-project:hover{
+    color: #9D0208;
+}
+.slide1 {
+    display: none;
+ }
 
+ .active {
+    display: block;
+ }
 /*Logo*/
 .bfh {
 
@@ -1995,4 +2036,7 @@ body {
 
 .swiper-pagination-bullet-active {
     background-color: #FFBA08 !important;
+}
+.img-service2{
+    display: none;
 }
