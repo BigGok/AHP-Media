@@ -38,6 +38,7 @@ include('includes/config.php');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
 </head>
 
 <body>
@@ -333,9 +334,17 @@ include('includes/config.php');
         <div class="header-col1">
         </div>
         <!--header-col1-->
-        <div class="header-col2">
-
+        <div class="swiper1 Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
+
+   
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->

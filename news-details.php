@@ -1,32 +1,30 @@
-<?php 
+<?php
 session_start();
 include('includes/config.php');
 //Genrating CSRF Token
 if (empty($_SESSION['token'])) {
- $_SESSION['token'] = bin2hex(random_bytes(32));
+    $_SESSION['token'] = bin2hex(random_bytes(32));
 }
 
-if(isset($_POST['submit']))
-{
-  //Verifying CSRF Token
-if (!empty($_POST['csrftoken'])) {
-    if (hash_equals($_SESSION['token'], $_POST['csrftoken'])) {
-$name=$_POST['name'];
-$email=$_POST['email'];
-$comment=$_POST['comment'];
-$postid=intval($_GET['nid']);
-$st1='0';
-$query=mysqli_query($con,"insert into tblcomments(postId,name,email,comment,status) values('$postid','$name','$email','$comment','$st1')");
-if($query):
-  echo "<script>alert('comment successfully submit. Comment will be display after admin review ');</script>";
-  unset($_SESSION['token']);
-else :
- echo "<script>alert('Something went wrong. Please try again.');</script>";  
+if (isset($_POST['submit'])) {
+    //Verifying CSRF Token
+    if (!empty($_POST['csrftoken'])) {
+        if (hash_equals($_SESSION['token'], $_POST['csrftoken'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $comment = $_POST['comment'];
+            $postid = intval($_GET['nid']);
+            $st1 = '0';
+            $query = mysqli_query($con, "insert into tblcomments(postId,name,email,comment,status) values('$postid','$name','$email','$comment','$st1')");
+            if ($query) :
+                echo "<script>alert('comment successfully submit. Comment will be display after admin review ');</script>";
+                unset($_SESSION['token']);
+            else :
+                echo "<script>alert('Something went wrong. Please try again.');</script>";
 
-endif;
-
-}
-}
+            endif;
+        }
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -46,9 +44,7 @@ endif;
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
 
@@ -83,12 +79,9 @@ endif;
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png"
-                                alt="Logo"></a>
+                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png" alt="Logo"></a>
                         <!-- Navbar Toggler -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav"
-                            aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i
-                                class="fa-solid fa-sliders"></i></button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-sliders"></i></button>
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
@@ -107,8 +100,7 @@ endif;
                                     </a>
                                 </li>
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
@@ -207,8 +199,7 @@ endif;
                                                             <div class="contact-hov">
                                                                 <span> Email</span>
                                                                 <div class="contact-info">
-                                                                    <p class="tel-contact"><a style="color: #fff;"
-                                                                            href=""> ahpmedia@ahpvn.com</a></p>
+                                                                    <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -224,17 +215,11 @@ endif;
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="/">
-                                                        <input id="idcontname" name="contname" type="text"
-                                                            placeholder="Họ Tên" class="cont-name" required />
-                                                        <input id="idcontloc" name="contloc" type="location"
-                                                            placeholder="Địa Chỉ" class="cont-loc" required />
-                                                        <input id="idcontphone" name="contphone" type="phone"
-                                                            placeholder="Số Điện Thoại" class="cont-phone"
-                                                            pattern="[0-9]{10}" required />
-                                                        <input id="idcontemail" name="contemail" type="email"
-                                                            placeholder="Email" class="cont-email" required />
-                                                        <textarea class="cont-contect" cols="80" rows="6"
-                                                            placeholder="Nội dung" required></textarea>
+                                                        <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
+                                                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                                                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                                                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                                                        <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
                                                         <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
@@ -276,8 +261,7 @@ endif;
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
 
         <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
-                class="fab fa-facebook-messenger"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
     </div>
 
 
@@ -325,16 +309,11 @@ endif;
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="/">
-                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
-                                required />
-                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
-                                required />
-                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
-                                class="cont-phone" pattern="[0-9]{10}" required />
-                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
-                                required />
-                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
-                                required></textarea>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -362,107 +341,116 @@ endif;
         <div class="header-col1">
         </div>
         <!--header-col1-->
-        <div class="header-col2">
-
+        <div class="swiper1 Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
+
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->
 
     </section>
-    <section class = "content-body">
+    <section class="content-body">
         <div class="container">
 
 
-     
-      <div class="row" style="margin-top: 4%">
 
-        <!-- Blog Entries Column -->
-        <div class="col-md-8">
+            <div class="row" style="margin-top: 4%">
 
-          <!-- Blog Post -->
-<?php
-$pid=intval($_GET['nid']);
- $query=mysqli_query($con,"select tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.id='$pid'");
-while ($row=mysqli_fetch_array($query)) {
-?>
+                <!-- Blog Entries Column -->
+                <div class="col-md-8">
 
-          <div class="card mb-4" style="   margin-left: -25px;margin-right: -25px; border: 1px solid white">
-      
-            <div class="card-body">
-              <h2 class="card-title"><?php echo htmlentities($row['posttitle']);?></h2>
-              <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> |
-                <b>Sub Category : </b><?php echo htmlentities($row['subcategory']);?> <b> Posted on </b><?php echo htmlentities($row['postingdate']);?></p>
-                <hr />
+                    <!-- Blog Post -->
+                    <?php
+                    $pid = intval($_GET['nid']);
+                    $query = mysqli_query($con, "select tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.id='$pid'");
+                    while ($row = mysqli_fetch_array($query)) {
+                    ?>
 
- <img class="img-fluid rounded" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>">
-  
-              <p class="card-text"><?php 
-$pt=$row['postdetails'];
-              echo  (substr($pt,0));?></p>
-             
-            </div>
-            <div class="card-footer text-muted">
-             
-           
-            </div>
-          </div>
-<?php } ?>
-        </div>
+                        <div class="card mb-4" style="   margin-left: -25px;margin-right: -25px; border: 1px solid white">
 
-        <!-- Sidebar Widgets Column -->
-      <?php include('includes/sidebar.php');?>
-      </div>
-      <!-- /.row -->
-<!---Comment Section --->
+                            <div class="card-body">
+                                <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
+                                <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid']) ?>"><?php echo htmlentities($row['category']); ?></a> |
+                                    <b>Sub Category : </b><?php echo htmlentities($row['subcategory']); ?> <b> Posted on </b><?php echo htmlentities($row['postingdate']); ?>
+                                </p>
+                                <hr />
 
- <div class="row" style="margin-top: -8%">
-   <div class="col-md-8">
-<div class="card my-4">
-            <h5 class="card-header">Leave a Comment:</h5>
-            <div class="card-body">
-              <form name="Comment" method="post">
-      <input type="hidden" name="csrftoken" value="<?php echo htmlentities($_SESSION['token']); ?>" />
- <div class="form-group">
-<input type="text" name="name" class="form-control" placeholder="Nhập họ và tên" required>
-</div>
+                                <img class="img-fluid rounded" src="admin/postimages/<?php echo htmlentities($row['PostImage']); ?>" alt="<?php echo htmlentities($row['posttitle']); ?>">
 
- <div class="form-group">
- <input type="email" name="email" class="form-control" placeholder="Nhập email của bạn" required>
- </div>
+                                <p class="card-text"><?php
+                                                        $pt = $row['postdetails'];
+                                                        echo (substr($pt, 0)); ?></p>
+
+                            </div>
+                            <div class="card-footer text-muted">
 
 
-                <div class="form-group">
-                  <textarea class="form-control" name="comment" rows="3" placeholder="Comment" required></textarea>
+                            </div>
+                        </div>
+                    <?php } ?>
                 </div>
-                <button type="submit" class="btn btn-primary" name="submit">Gửi</button>
-              </form>
+
+                <!-- Sidebar Widgets Column -->
+                <?php include('includes/sidebar.php'); ?>
             </div>
-          </div>
+            <!-- /.row -->
+            <!---Comment Section --->
 
-  <!---Comment Display Section --->
+            <div class="row" style="margin-top: -8%">
+                <div class="col-md-8">
+                    <div class="card my-4">
+                        <h5 class="card-header">Leave a Comment:</h5>
+                        <div class="card-body">
+                            <form name="Comment" method="post">
+                                <input type="hidden" name="csrftoken" value="<?php echo htmlentities($_SESSION['token']); ?>" />
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Nhập họ và tên" required>
+                                </div>
 
- <?php 
- $sts=1;
- $query=mysqli_query($con,"select name,comment,postingDate from  tblcomments where postId='$pid' and status='$sts'");
-while ($row=mysqli_fetch_array($query)) {
-?>
-<div class="media mb-4">
-            <img class="d-flex mr-3 rounded-circle" src="images/usericon.png" alt="">
-            <div class="media-body">
-              <h5 class="mt-0"><?php echo htmlentities($row['name']);?> <br />
-                  <span style="font-size:11px;"><b>at</b> <?php echo htmlentities($row['postingDate']);?></span>
-            </h5>
-           
-             <?php echo htmlentities($row['comment']);?>            </div>
-          </div>
-<?php } ?>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Nhập email của bạn" required>
+                                </div>
 
+
+                                <div class="form-group">
+                                    <textarea class="form-control" name="comment" rows="3" placeholder="Comment" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" name="submit">Gửi</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!---Comment Display Section --->
+
+                    <?php
+                    $sts = 1;
+                    $query = mysqli_query($con, "select name,comment,postingDate from  tblcomments where postId='$pid' and status='$sts'");
+                    while ($row = mysqli_fetch_array($query)) {
+                    ?>
+                        <div class="media mb-4">
+                            <img class="d-flex mr-3 rounded-circle" src="images/usericon.png" alt="">
+                            <div class="media-body">
+                                <h5 class="mt-0"><?php echo htmlentities($row['name']); ?> <br />
+                                    <span style="font-size:11px;"><b>at</b> <?php echo htmlentities($row['postingDate']); ?></span>
+                                </h5>
+
+                                <?php echo htmlentities($row['comment']); ?>
+                            </div>
+                        </div>
+                    <?php } ?>
+
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-</section>  
+    </section>
     <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
@@ -495,11 +483,9 @@ while ($row=mysqli_fetch_array($query)) {
                     </div>
                     <div class="social-icons-footer">
                         <h4>Theo dõi chúng tôi</h4>
-                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                                class="fa-brands fa-facebook-f "></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i class="fa-brands fa-facebook-f "></i></a>
 
-                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                                class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
                         <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
