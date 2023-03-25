@@ -338,19 +338,7 @@ if (isset($_POST['submit'])) {
     </div>
 
     <section class="header-bg-parent">
-        <div class="header-col1">
-        </div>
-        <!--header-col1-->
-        <div class="swiper1 Swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-
+    
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->
@@ -373,7 +361,7 @@ if (isset($_POST['submit'])) {
                     while ($row = mysqli_fetch_array($query)) {
                     ?>
 
-                        <div class="card mb-4" style="   margin-left: -25px;margin-right: -25px; border: 1px solid white">
+                        <div class="card mb-4" style="   margin-left: -25px;margin-right: -475px; border: 1px solid white">
 
                             <div class="card-body">
                                 <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
@@ -395,7 +383,7 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <!-- Sidebar Widgets Column -->
-            
+  
             </div>
             <!-- /.row -->
             <!---Comment Section --->
