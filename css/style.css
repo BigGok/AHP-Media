@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -1502,7 +1503,7 @@ hr.footer-hr {
 }
 
 .items-service {
-    
+
     margin-bottom: 35px;
 }
 
@@ -1658,14 +1659,17 @@ hr.footer-hr {
     border: 5px solid seagreen;
     width: 30%;
 }
-.container-testimoni{
+
+.container-testimoni {
     display: flex;
     justify-content: center;
 }
-.contain-testimoni{
-    margin:20px 10px;
+
+.contain-testimoni {
+    margin: 20px 10px;
 }
-.fa-quote-left{
+
+.fa-quote-left {
     margin-bottom: 10px;
     color: #6A040F;
     font-size: 60px;
@@ -1673,6 +1677,20 @@ hr.footer-hr {
     display: flex;
     width: 100%;
 
+}
+.swiper-button-next::after{
+    font-size: 30px!important;
+    background-color: #ccc;
+    padding: 10px 13px 10px 16px;
+    border-radius: 50px;
+    color: #6A040F;
+}
+.swiper-button-prev::after{
+    font-size: 30px!important;
+    background-color: #ccc;
+    padding: 10px 16px 10px 13px;
+    border-radius: 50px;
+    color: #6A040F;
 }
 /*PROJECT-INDEXT*/
 .hero-project {
@@ -1702,20 +1720,21 @@ hr.footer-hr {
     margin-right: 12px
 }
 
-.js-project{
+.js-project {
     margin-left: 19px;
     display: flex;
     width: 97%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     justify-content: center;
     border-radius: 1rem;
-
 }
-.js-project li{
+
+.js-project li {
     padding: 30px 65px;
     list-style: none;
 }
- .btn-project{
+
+.btn-project {
     cursor: pointer;
     background: 0;
     padding: 0;
@@ -1724,16 +1743,19 @@ hr.footer-hr {
     font-weight: 600;
     color: #6A040F;
 }
- .btn-project:hover{
+
+.btn-project:hover {
     color: #9D0208;
 }
+
 .slide1 {
     display: none;
- }
+}
 
- .active {
+.active {
     display: block;
- }
+}
+
 /*Logo*/
 .bfh {
 
@@ -2019,6 +2041,7 @@ body {
 .anh1 {
     background-color: #00aeff;
 }
+
 /*SWIPER*/
 .swiper1 {
     overflow: hidden;
@@ -2037,6 +2060,7 @@ body {
 .swiper-pagination-bullet-active {
     background-color: #FFBA08 !important;
 }
-.img-service2{
+
+.img-service2 {
     display: none;
 }
