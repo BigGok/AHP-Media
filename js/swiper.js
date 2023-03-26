@@ -20,3 +20,14 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+var swiper = new Swiper(".Swiper", {
+    autoplay: {
+        delay: 5000,
+      },  
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+      clickable: true,
+    },
+  });
