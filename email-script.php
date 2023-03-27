@@ -33,7 +33,7 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'AHP Agency thank to '.$nameKH;
+    $mail->Subject = 'AHP Agency Thank To '.$nameKH;
     $mail->Body    = 'Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền thông tiên tiến và chất lượng cao cho các doanh nghiệp và tổ chức. Với đội ngũ nhân viên giàu kinh nghiệm và sáng tạo, chúng tôi tin tưởng rằng có thể cung cấp cho khách hàng những dịch vụ truyền thông chất lượng tốt nhất. Chúng tôi tập trung vào việc sử dụng công nghệ mới nhất và tiên tiến nhất để giúp khách hàng của chúng tôi tiếp cận với đối tượng tiềm năng và gia tăng sức mạnh kinh doanh của họ. Với mục tiêu luôn hướng đến sự hài lòng của khách hàng, chúng tôi cam kết cung cấp dịch vụ chất lượng và giá cả cạnh tranh.
 
     Từ việc quảng bá sản phẩm đến việc xây dựng thương hiệu, chúng tôi cung cấp mọi dịch vụ truyền thông mà khách hàng cần. Hãy liên hệ với chúng tôi để biết thêm chi tiết về các giải pháp truyền thông của chúng tôi. Chúng tôi sẵn sàng giúp đỡ và hỗ trợ bạn ấu một cách tốt nhất. Chúng tôi tin rằng, qua sự hợp tác của chúng tôi, chúng ta có thể giúp cho doanh nghiệp và tổ chức của bạn phát triển và tăng trưởng một cách tốt nhất.';

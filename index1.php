@@ -252,14 +252,13 @@ include('includes/config.php');
                 class="fab fa-facebook-messenger"></i></a>
     </div>
 
-
+    <!-- MAIL-BOX -->
     <div id="modal" class="modal">
         <div class="modal-content1">
             <div class="mod-header">
                 <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                 <button class="close">&times;</button>
             </div>
-
             <div class="mod-body">
                 <div class="mod-items1">
                     <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
@@ -329,11 +328,11 @@ include('includes/config.php');
             </div>
         </div>
     </div>
+    <!-- END MAIL-BOX -->
 
+    <!-- SLIDE BANNER -->
     <section class="header-bg-parent">
-        <div class="header-col1">
-        </div>
-        <!--header-col1-->
+        <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -348,16 +347,11 @@ include('includes/config.php');
             </div>
             <div class="swiper-pagination"></div>
         </div>
-
-   
-        <!--header-col2-->
         <div class="clear"></div>
-        <!--clear-->
-
     </section>
+    <!-- END SLIDE BANNER -->
 
-
-    <!--header-bg-parent-->
+    <!-- AHP-HERE-TO-HELP-YOU -->
     <div class="head-service">
         <h2>✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨</h2>
     </div>
@@ -368,39 +362,37 @@ include('includes/config.php');
         </div>
         <div class="box box2">
             <h1 class="tao">CHỦ DOANH NGHIỆP ĐANG ĐAU ĐẦU ?</h1>
-            <p>✌Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p>✌Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh
+            <p>👉Làm thế nào để biết khách hàng thực sự muốn gì?</p>
+            <p>👉Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh
             </p>
-            <p>✌Hoạt động kinh doanh không tốt. Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
+            <p>👉Hoạt động kinh doanh không tốt. Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
             <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Media chính là giải pháp
                 tốt nhất giúp bạn giải quyết vấn đề này. Hãy để AHP Media giúp bạn giải quyết các vấn đề trên.</p>
-
         </div>
     </section>
+    <!-- END AHP-HERE-TO-HELP-YOU -->
 
+    <!-- PARTNER -->
     <Section id="project">
         <div class="container">
             <div class="head-service">
-                <h3>ĐỐI TÁC</h3>
+                <h3>KHÁCH HÀNG ĐỐI TÁC</h3>
             </div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="owl-img-par">
                         <img src="images/logo1.png" class="img-responsive" />
-
                     </div>
                 </div>
                 <div class="item">
                     <div class="owl-img-par">
                         <img src="images/logo2.png" class="img-responsive" />
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     </Section>
+    <!-- END PARTNER -->
 
     <!-- SERVICE -->
     <section class="container ">
@@ -419,7 +411,7 @@ include('includes/config.php');
                         <li>Quy chế thương hiệu</li>
                         <li>Mở rộng thương hiệu</li>
                         <li>Định giá thương hiệu</li>
-
+                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
                     </ul>
                 </div>
             </div>
@@ -434,6 +426,7 @@ include('includes/config.php');
                         <li>Nhận diện văn phòng</li>
                         <li>Sáng tác slogan</li>
                         <li>Nhận diện điểm bán</li>
+                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
                     </ul>
                 </div>
             </div>
@@ -448,6 +441,7 @@ include('includes/config.php');
                         <li>Online Sales Kit</li>
                         <li>landing page</li>
                         <li>Giải pháp VR360</li>
+                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
                     </ul>
                 </div>
             </div>
@@ -462,6 +456,7 @@ include('includes/config.php');
                         <li>Nhãn mác sản phẩm</li>
                         <li>Nhãn mác dược phẩm</li>
                         <li>Nhãn mác đồ uống</li>
+                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
                     </ul>
                 </div>
             </div>
@@ -476,6 +471,7 @@ include('includes/config.php');
                         <li>Mã số mã vạch</li>
                         <li>Bản quyền tác giả</li>
                         <li>Giấy phép quảng cáo</li>
+                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
                     </ul>
                 </div>
             </div>
@@ -490,28 +486,49 @@ include('includes/config.php');
                         <li>Social Branding</li>
                         <li>Kế hoạch truyền thông</li>
                         <li>Kế hoạch marketing</li>
+                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
                     </ul>
                 </div>
             </div>
         </div>
-
     </section>
+    <!-- END SERVICE -->
 
     <!-- WHY CHOOSE US -->
     <section class="container">
         <div class="hero-about">
-            <div class="items-about">
-                <h3>Tại sao nên chọn AHP Agency</h3>
-                <p>Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
-                    thông
-                    tiên
-                    tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                <img class="img-head-about" src="images/why-choose-us.png" alt="">
+            <div class="contain-about">
+                <div class="items-about">
+                    <h3>TẠI SAO NÊN CHỌN AHP AGENCY?</h3>
+                    <p>Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
+                        thông
+                        tiên
+                        tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                </div>
+                <div class="icon-about">
+                    <div class="icon-about-items">
+                        <img src="images/about/icon-about01.png" alt="">
+                        <span>CHẤT LƯỢNG </span> 
+                    </div>
+                    <div class="icon-about-items">
+                        <img src="images/about/icon-about02.png" alt="">
+                        <span>CHUYÊN NGHIỆP </span> 
+                    </div>
+                    <div class="icon-about-items">
+                        <img src="images/about/icon-about03.png" alt="">
+                        <span>TẬN TÂM</span>
+                    </div>
+                    <div class="icon-about-items">
+                        <img src="images/about/icon-about04.jpg" alt="">
+                        <span>UY TÍN</span> 
+                    </div>
+                </div>
             </div>
-            <div class="items-about">
-                <img src="images/blog/blog-2.jpg" alt="">
-            </div>
+
         </div>
     </section>
+    <!-- END WHY CHOOSE US -->
 
     <!-- REPORT-CUSTOMER -->
     <section class="container">
@@ -520,54 +537,72 @@ include('includes/config.php');
         </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-
                 <div class="card22 swiper-slide">
-
                     <div class="card__content">
-                        <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
-                        <span class="card__title">Mr.Văn Mạnh</span>
-                        <span class="card__name">Ban IT AHP Agency</span>
+                        <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
                             những giải pháp truyền
                             thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <div class="container-testimoni">
+                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <div class="contain-testimoni">
+                                <span class="card__title">Mr.Văn Mạnh</span>
+                                <span class="card__name">IT AHP Agency</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card22 swiper-slide">
                     <div class="card__content">
-                        <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
-                        <span class="card__title">Mr.Công Anh</span>
-                        <span class="card__name">Ban IT AHP Agency</span>
+                        <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
                             những giải pháp truyền
                             thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <div class="container-testimoni">
+                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <div class="contain-testimoni">
+                                <span class="card__title">Mr.Văn Mạnh</span>
+                                <span class="card__name">IT AHP Agency</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card22 swiper-slide">
                     <div class="card__content">
-                        <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
-                        <span class="card__title">Mr.Đức Tài</span>
-                        <span class="card__name">Ban IT AHP Agency</span>
+                        <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
                             những giải pháp truyền
                             thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <div class="container-testimoni">
+                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <div class="contain-testimoni">
+                                <span class="card__title">Mr.Văn Mạnh</span>
+                                <span class="card__name">IT AHP Agency</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card22 swiper-slide">
                     <div class="card__content">
-                        <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
-                        <span class="card__title">Mobile Designer</span>
-                        <span class="card__name">Kelsey West</span>
+                        <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
                             những giải pháp truyền
                             thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <div class="container-testimoni">
+                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <div class="contain-testimoni">
+                                <span class="card__title">Mr.Văn Mạnh</span>
+                                <span class="card__name">IT AHP Agency</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -575,60 +610,184 @@ include('includes/config.php');
             <div class="swiper-button-prev"></div>
         </div>
     </section>
+    <!-- END REPORT-CUSTOMER -->
 
+    <!--PROJECT -->
     <section class="container">
         <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
-        <div class="hero-project">
-            <div class="items-project">
-                <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+        <div class="js-project">
+            <li><button id="btn-pr1" class="btn-project">THƯƠNG HIỆU</button> </li>
+            <li><button id="btn-pr1" class="btn-project">BAO BÌ</button> </li>
+            <li><button id="btn-pr1" class="btn-project">QUẢNG CÁO</button> </li>
+            <li><button id="btn-pr1" class="btn-project">MARKETING</button> </li>
+            <li><button id="btn-pr1" class="btn-project">WEBSITE</button> </li>
+        </div>
+        <!-- slide-1 -->
+        <div id="slide1" class="contain-blk">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
                 </div>
-                <a href="/du-an-la-siesta.html">
-                    <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                </a>
-                <p>NHẬN DIỆN</p>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
             </div>
-            <div class="items-project">
-                <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+        </div>
+        <!-- slide-2 -->
+        <div id="slide2" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
                 </div>
-                <h4>VECO</h4>
-                <p>NHẬN DIỆN</p>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
             </div>
-            <div class="items-project">
-                <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+        </div>
+        <!-- slide-3 -->
+        <div id="slide3" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
                 </div>
-                <h4>AUTOTECH</h4>
-                <p>NHẬN DIỆN</p>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
             </div>
-            <div class="items-project">
-                <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+        </div>
+        <!-- slide 4 -->
+        <div id="slide4" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
                 </div>
-                <h4>DEOCAGROUP</h4>
-                <p>NHẬN DIỆN</p>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
             </div>
-            <div class="items-project">
-                <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+        </div>
+        <!-- slide 5 -->
+        <div id="slide5" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
                 </div>
-                <h4>GLEXHOMES</h4>
-                <p>NHẬN DIỆN</p>
-            </div>
-            <div class="items-project">
-                <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                    <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
                 </div>
-                <h4>DABACO GROUP</h4>
-                <p>NHẬN DIỆN</p>
             </div>
         </div>
     </section>
+    <!-- END PROJECT -->
 
-    <!-- NEWS-INDEX -->
         <!-- NEWS-INDEX -->
         <section class="container">
             <div class="head-service">
