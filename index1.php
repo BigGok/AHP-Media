@@ -336,7 +336,12 @@ include('includes/config.php');
         <!--header-col1-->
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="images/hinh.jpg">
+                        <img class="slider-bar" src="images/ảnh bìa website.jpg" alt="">
+                    </picture>
+                </div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
