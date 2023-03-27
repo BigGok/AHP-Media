@@ -905,12 +905,18 @@
         flex-wrap: wrap;
     }
     .items-project h4 {
-        font-size: 18px;
+        margin: 10px;
+        font-size: 16px;
     }
     .items-project p {
-        margin-left: 16px;
+        margin-left: 10px;
         margin-right: 12px;
         font-size: 15px;
+    }
+    .items-pa {
+        margin: 0 11px 10px 13px;
+        border-radius: 0 0 0.5rem 0.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
     /*FOOTER-INFO*/
     .hero-footer {
@@ -1206,6 +1212,11 @@
     }
     .items-project h4 {
         font-size: 19px;
+    }
+    .items-pa {
+        margin: 0 11px 10px 14px;
+        border-radius: 0 0 0.5rem 0.5rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
     /*FOOTER*/
     .footer-ct {
