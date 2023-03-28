@@ -2,8 +2,7 @@
 session_start();
 include('includes/config.php');
 
-    ?>
-
+?>
 <!DOCTYPE html>
 <html>
 
@@ -38,7 +37,8 @@ include('includes/config.php');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
 </head>
 
 <body>
@@ -166,7 +166,7 @@ include('includes/config.php');
                                                     của bạn.
                                                     Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                                                 </p>
-                                                <img class="mod-img" src="images2/business/business_3.png" alt="">
+                                                <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
@@ -266,7 +266,7 @@ include('includes/config.php');
                         của bạn.
                         Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                     </p>
-                    <img class="mod-img" src="images2/business/business_3.png" alt="">
+                    <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
                     <div class="contain-contact">
                         <div class="nav-contact">
                             <div class="contact-items">
@@ -335,12 +335,7 @@ include('includes/config.php');
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <picture>
-                        <source media="(max-width: 576px)" srcset="images/hinh.jpg">
-                        <img class="slider-bar" src="images/ảnh bìa website.jpg" alt="">
-                    </picture>
-                </div>
+                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
@@ -351,30 +346,31 @@ include('includes/config.php');
     </section>
     <!-- END SLIDE BANNER -->
 
+
     <!-- AHP-HERE-TO-HELP-YOU -->
     <section class="u-clearfix u-valign-middle u-section-1" id="sec-1db6">
       
-      <div class="section-2 u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-image u-layout-cell u-size-60 u-image-1" data-image-width="1512" data-image-height="899">
-              <div class="u-container-layout u-container-layout-1">
-                <h2 class="u-align-center-xs u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-palette-2-base u-text-1" data-lang-en="AHP Agency luôn ở đây để giúp&amp;nbsp;" data-lang-vi="AHP Agency luôn ở đây để giúp&amp;nbsp;">AHP Agency luôn ở đây để giúp bạn&nbsp;</h2>
-                <h3 class="u-text u-text-default u-text-2" data-lang-en="Chủ doanh nghiệp đang đau&amp;nbsp;&amp;nbsp;" data-lang-vi="Chủ doanh nghiệp đang đau&amp;nbsp;&amp;nbsp;">Chủ doanh nghiệp đang đau đầu&nbsp; &nbsp;</h3>
-                <div class="u-hover-feature u-video u-video-contain u-video-1">
-                  <div class="embed-responsive embed-responsive-1">
-                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/B9YKnNtFqds?mute=100&amp;showinfo=0&amp;controls=0&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
+        <div class="section-2 u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-image u-layout-cell u-size-60 u-image-1" data-image-width="1512" data-image-height="899">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-align-center-xs u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-palette-2-base u-text-1" data-lang-en="AHP Agency luôn ở đây để giúp&amp;nbsp;" data-lang-vi="AHP Agency luôn ở đây để giúp&amp;nbsp;">AHP Agency luôn ở đây để giúp bạn&nbsp;</h2>
+                  <h3 class="u-text u-text-default u-text-2" data-lang-en="Chủ doanh nghiệp đang đau&amp;nbsp;&amp;nbsp;" data-lang-vi="Chủ doanh nghiệp đang đau&amp;nbsp;&amp;nbsp;">Chủ doanh nghiệp đang đau đầu&nbsp; &nbsp;</h3>
+                  <div class="u-hover-feature u-video u-video-contain u-video-1">
+                    <div class="embed-responsive embed-responsive-1">
+                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&ampmute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen="";showinfo=0&amp;controls=0&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
                   </div>
+                  <h4 class="u-custom-font u-text u-text-default u-text-3" data-lang-en="Làm thế nào để biết khách hàng thực sự muốn gì?" data-lang-vi="Làm thế nào để biết khách hàng thực sự muốn gì?">- Làm thế nào để biết khách hàng thực sự muốn gì?<br>- Không biết marketing thế nào để sản phẩm của mình<br>&nbsp;KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh<br>- Hoạt động kinh doanh không tốt.&nbsp;<br>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu
+                  </h4>
+                  <h5 class="u-text u-text-custom-color-1 u-text-4" data-lang-en="“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì<br>AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.<br>&amp;nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên" data-lang-vi="“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì<br>AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.<br>&amp;nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.&nbsp;&nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</h5>
                 </div>
-                <h4 class="u-custom-font u-text u-text-default u-text-3" data-lang-en="Làm thế nào để biết khách hàng thực sự muốn gì?" data-lang-vi="Làm thế nào để biết khách hàng thực sự muốn gì?">- Làm thế nào để biết khách hàng thực sự muốn gì?<br>- Không biết marketing thế nào để sản phẩm của mình<br>&nbsp;KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh<br>- Hoạt động kinh doanh không tốt.&nbsp;<br>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu
-                </h4>
-                <h5 class="u-text u-text-custom-color-1 u-text-4" data-lang-en="“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì<br>AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.<br>&amp;nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên" data-lang-vi="“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì<br>AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.<br>&amp;nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.&nbsp;&nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</h5>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     <!-- END AHP-HERE-TO-HELP-YOU -->
 
     <!-- PARTNER -->
@@ -502,7 +498,7 @@ include('includes/config.php');
     <!-- WHY CHOOSE US -->
     <section class="container">
         <div class="hero-about">
-                <img class="img-head-about" src="images/why-choose-us.png" alt="">
+            <img class="img-head-about" src="images/why-choose-us.png" alt="">
             <div class="contain-about">
                 <div class="items-about">
                     <h3>TẠI SAO NÊN CHỌN AHP AGENCY?</h3>
@@ -514,11 +510,11 @@ include('includes/config.php');
                 <div class="icon-about">
                     <div class="icon-about-items">
                         <img src="images/about/icon-about01.png" alt="">
-                        <span>CHẤT LƯỢNG </span> 
+                        <span>CHẤT LƯỢNG </span>
                     </div>
                     <div class="icon-about-items">
                         <img src="images/about/icon-about02.png" alt="">
-                        <span>CHUYÊN NGHIỆP </span> 
+                        <span>CHUYÊN NGHIỆP </span>
                     </div>
                     <div class="icon-about-items">
                         <img src="images/about/icon-about03.png" alt="">
@@ -526,7 +522,7 @@ include('includes/config.php');
                     </div>
                     <div class="icon-about-items">
                         <img src="images/about/icon-about04.jpg" alt="">
-                        <span>UY TÍN</span> 
+                        <span>UY TÍN</span>
                     </div>
                 </div>
             </div>
@@ -636,45 +632,68 @@ include('includes/config.php');
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
+
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -793,8 +812,10 @@ include('includes/config.php');
     </section>
     <!-- END PROJECT -->
 
-        <!-- NEWS-INDEX -->
-        <section class="container">
+
+
+    <!-- NEWS-INDEX -->
+    <section class="container">
             <div class="head-service">
                 <h3 style="color: #7a0e0e;">TIN TỨC</h3>
             </div>
@@ -830,7 +851,6 @@ include('includes/config.php');
             <?php }} ?>
             </div>
         </section>
-
     <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
@@ -841,7 +861,8 @@ include('includes/config.php');
                     <form method="POST" action="email-script.php">
                         <input type="text" placeholder="Họ Tên" name="" id="" class="footer-frm-name">
                         <input type="text" placeholder="Email" name="" id="" class="footer-frm-email">
-                        <input style="color: rgb(120, 8, 8);" type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
+                        <input style="color: rgb(120, 8, 8);" type="submit" value="Đăng kí nhận thông tin"
+                            class="footer-frm-submit">
                     </form>
                 </div>
             </div>
@@ -878,45 +899,45 @@ include('includes/config.php');
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Về chúng tôi</h3>
-                                <p>Giới thiệu AHP</p>
-                                <p>Văn hóa AHP</p>
-                                <p>Tuyển dụng</p>
-                                <p>Đội ngũ nhân sự</p>
-                                <p>Khách hàng của AHP</p>
-                                <p>Bản tin của AHP</p>
-                                <p>Hồ sơ năng lực</p>
+                            <p>Giới thiệu AHP</p>
+                            <p>Văn hóa AHP</p>
+                            <p>Tuyển dụng</p>
+                            <p>Đội ngũ nhân sự</p>
+                            <p>Khách hàng của AHP</p>
+                            <p>Bản tin của AHP</p>
+                            <p>Hồ sơ năng lực</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Dịch vụ cung cấp</h3>
-                                <p>Tư vấn thương hiệu</p>
-                                <p>Thiết kế thương hiệu</p>
-                                <p>Nhận diện thương hiệu</p>
-                                <p>Thương hiệu mới</p>
-                                <p>Kế hoạch truyền thông</p>
-                                <p>Digital marketing</p>
+                            <p>Tư vấn thương hiệu</p>
+                            <p>Thiết kế thương hiệu</p>
+                            <p>Nhận diện thương hiệu</p>
+                            <p>Thương hiệu mới</p>
+                            <p>Kế hoạch truyền thông</p>
+                            <p>Digital marketing</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Dự án đã thực hiện</h3>
-                                <p>Logo</p>
-                                <p>Đặt tên/slogan</p>
-                                <p>Web/app</p>
-                                <p>Bao bì</p>
-                                <p>Calatogue/Profile</p>
-                                <p>Calatogue/Profile</p>
+                            <p>Logo</p>
+                            <p>Đặt tên/slogan</p>
+                            <p>Web/app</p>
+                            <p>Bao bì</p>
+                            <p>Calatogue/Profile</p>
+                            <p>Calatogue/Profile</p>
                         </div>
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Đơn vị thành viên </h3>
-                                <p>AHP Digital</p>
-                                <p>AHP Pakaging</p>
-                                <p>AHP Academy</p>
-                                <p>AHP Brandgifts</p>
-                                <p>LogoArt</p>
+                            <p>AHP Digital</p>
+                            <p>AHP Pakaging</p>
+                            <p>AHP Academy</p>
+                            <p>AHP Brandgifts</p>
+                            <p>LogoArt</p>
                         </div>
                     </div>
                 </div>
@@ -957,4 +978,5 @@ include('includes/config.php');
 
     </script>
 </body>
+
 </html>
