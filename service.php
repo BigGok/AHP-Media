@@ -361,17 +361,16 @@ if (isset($_POST['submit'])) {
                     while ($row = mysqli_fetch_array($query)) {
                     ?>
 
-                        <div class="card mb-4" style="   margin-left: -25px; border: 1px solid white">
+                        <div class="card mb-4" style="margin-left: -25px; border: 1px solid white">
 
                             <div class="card-body">
                                 <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
-                                <hr />
+                                <hr/>
 
-                                <img class="img-fluid rounded" src="admin/postimages/<?php echo htmlentities($row['PostImage']); ?>" alt="<?php echo htmlentities($row['posttitle']); ?>">
-
-                                <p class="card-text"><?php
+                                <p class="card-pic"><?php
                                                         $pt = $row['postdetails'];
-                                                        echo (substr($pt, 0)); ?></p>
+                                                        echo (substr($pt, 0)); ?>
+                                </p>
 
                             </div>
                             <div class="card-footer text-muted">
