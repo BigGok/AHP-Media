@@ -352,7 +352,7 @@ if (isset($_POST['submit'])) {
             <div class="row" style="margin-top: 4%">
 
                 <!-- Blog Entries Column -->
-                <div class="col-md-8">
+                <div>
 
                     <!-- Blog Post -->
                     <?php
@@ -361,7 +361,7 @@ if (isset($_POST['submit'])) {
                     while ($row = mysqli_fetch_array($query)) {
                     ?>
 
-                        <div class="card mb-4" style="   margin-left: -25px;margin-right: -475px; border: 1px solid white">
+                        <div class="card mb-4" style="   margin-left: -25px; border: 1px solid white">
 
                             <div class="card-body">
                                 <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
@@ -422,7 +422,6 @@ if (isset($_POST['submit'])) {
                     <div class="social-icons-footer">
                         <h4>Theo dõi chúng tôi</h4>
                         <a href="https://www.facebook.com/profile.php?id=100090142604061"><i class="fa-brands fa-facebook-f "></i></a>
-
                         <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
                         <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
                         <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
