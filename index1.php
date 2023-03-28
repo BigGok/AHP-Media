@@ -352,23 +352,28 @@ include('includes/config.php');
     <!-- END SLIDE BANNER -->
 
     <!-- AHP-HERE-TO-HELP-YOU -->
-    <div class="head-service">
-        <h2>✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨</h2>
-    </div>
-    <section style="background-color: #b31e1e;" id="contain">
-
-        <div class="box box1">
-            <img src="images/header-bg.jpg" alt="contain" class="img-abc" />
+    <section class="u-clearfix u-valign-middle u-section-1" id="sec-1db6">
+      
+      <div class="section-2 u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+        <div class="u-layout">
+          <div class="u-layout-row">
+            <div class="u-container-style u-image u-layout-cell u-size-60 u-image-1" data-image-width="1512" data-image-height="899">
+              <div class="u-container-layout u-container-layout-1">
+                <h2 class="u-align-center-xs u-text u-text-default-lg u-text-default-md u-text-default-sm u-text-default-xl u-text-palette-2-base u-text-1" data-lang-en="AHP Agency luôn ở đây để giúp&amp;nbsp;" data-lang-vi="AHP Agency luôn ở đây để giúp&amp;nbsp;">AHP Agency luôn ở đây để giúp bạn&nbsp;</h2>
+                <h3 class="u-text u-text-default u-text-2" data-lang-en="Chủ doanh nghiệp đang đau&amp;nbsp;&amp;nbsp;" data-lang-vi="Chủ doanh nghiệp đang đau&amp;nbsp;&amp;nbsp;">Chủ doanh nghiệp đang đau đầu&nbsp; &nbsp;</h3>
+                <div class="u-hover-feature u-video u-video-contain u-video-1">
+                  <div class="embed-responsive embed-responsive-1">
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/B9YKnNtFqds?mute=100&amp;showinfo=0&amp;controls=0&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
+                  </div>
+                </div>
+                <h4 class="u-custom-font u-text u-text-default u-text-3" data-lang-en="Làm thế nào để biết khách hàng thực sự muốn gì?" data-lang-vi="Làm thế nào để biết khách hàng thực sự muốn gì?">- Làm thế nào để biết khách hàng thực sự muốn gì?<br>- Không biết marketing thế nào để sản phẩm của mình<br>&nbsp;KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh<br>- Hoạt động kinh doanh không tốt.&nbsp;<br>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu
+                </h4>
+                <h5 class="u-text u-text-custom-color-1 u-text-4" data-lang-en="“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì<br>AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.<br>&amp;nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên" data-lang-vi="“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì<br>AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.<br>&amp;nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.&nbsp;&nbsp;Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</h5>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="box box2">
-            <h1 class="tao">CHỦ DOANH NGHIỆP ĐANG ĐAU ĐẦU ?</h1>
-            <p>👉Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p>👉Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh
-            </p>
-            <p>👉Hoạt động kinh doanh không tốt. Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
-            <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Media chính là giải pháp
-                tốt nhất giúp bạn giải quyết vấn đề này. Hãy để AHP Media giúp bạn giải quyết các vấn đề trên.</p>
-        </div>
+      </div>
     </section>
     <!-- END AHP-HERE-TO-HELP-YOU -->
 
