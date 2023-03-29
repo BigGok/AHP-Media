@@ -591,7 +591,7 @@
     }
 
     .social-icons-footer {
-        display: block;
+        display: flex;
     }
 
 
@@ -920,7 +920,6 @@
     .items-pa {
         margin: 0 11px 10px 13px;
         border-radius: 0 0 0.5rem 0.5rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
     /*FOOTER-INFO*/
     .hero-footer {
@@ -1227,7 +1226,6 @@
     .items-pa {
         margin: 0 11px 10px 14px;
         border-radius: 0 0 0.5rem 0.5rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
     /*FOOTER*/
     .footer-ct {
