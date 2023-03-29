@@ -47,6 +47,8 @@ if (isset($_POST['submit'])) {
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="css/news.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link type="text/css" rel="stylesheet" href="css/media.css" />
@@ -59,17 +61,13 @@ if (isset($_POST['submit'])) {
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="scss/style.scss">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://kit.fontawesome.com/36fcf59f66.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-
-
-    <div id="arrow">
+<div id="arrow">
         <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
 
@@ -79,9 +77,12 @@ if (isset($_POST['submit'])) {
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png" alt="Logo"></a>
+                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png"
+                                alt="Logo"></a>
                         <!-- Navbar Toggler -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-sliders"></i></button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav"
+                            aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i
+                                class="fa-solid fa-sliders"></i></button>
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
@@ -100,7 +101,8 @@ if (isset($_POST['submit'])) {
                                     </a>
                                 </li>
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
@@ -186,7 +188,7 @@ if (isset($_POST['submit'])) {
                                                     của bạn.
                                                     Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                                                 </p>
-                                                <img class="mod-img" src="images2/business/business_3.png" alt="">
+                                                <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
@@ -199,7 +201,8 @@ if (isset($_POST['submit'])) {
                                                             <div class="contact-hov">
                                                                 <span> Email</span>
                                                                 <div class="contact-info">
-                                                                    <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a></p>
+                                                                    <p class="tel-contact"><a style="color: #fff;"
+                                                                            href=""> ahpmedia@ahpvn.com</a></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -215,11 +218,17 @@ if (isset($_POST['submit'])) {
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="/">
-                                                        <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
-                                                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
-                                                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
-                                                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
-                                                        <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
+                                                        <input id="idcontname" name="contname" type="text"
+                                                            placeholder="Họ Tên" class="cont-name" required />
+                                                        <input id="idcontloc" name="contloc" type="location"
+                                                            placeholder="Địa Chỉ" class="cont-loc" required />
+                                                        <input id="idcontphone" name="contphone" type="phone"
+                                                            placeholder="Số Điện Thoại" class="cont-phone"
+                                                            pattern="[0-9]{10}" required />
+                                                        <input id="idcontemail" name="contemail" type="email"
+                                                            placeholder="Email" class="cont-email" required />
+                                                        <textarea class="cont-contect" cols="80" rows="6"
+                                                            placeholder="Nội dung" required></textarea>
                                                         <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
@@ -261,17 +270,17 @@ if (isset($_POST['submit'])) {
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
 
         <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
+                class="fab fa-facebook-messenger"></i></a>
     </div>
 
-
+    <!-- MAIL-BOX -->
     <div id="modal" class="modal">
         <div class="modal-content1">
             <div class="mod-header">
                 <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                 <button class="close">&times;</button>
             </div>
-
             <div class="mod-body">
                 <div class="mod-items1">
                     <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
@@ -279,7 +288,7 @@ if (isset($_POST['submit'])) {
                         của bạn.
                         Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                     </p>
-                    <img class="mod-img" src="images2/business/business_3.png" alt="">
+                    <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
                     <div class="contain-contact">
                         <div class="nav-contact">
                             <div class="contact-items">
@@ -309,11 +318,16 @@ if (isset($_POST['submit'])) {
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="/">
-                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
-                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
-                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
-                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
-                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
+                                required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
+                                required />
+                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
+                                class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
+                                required />
+                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
+                                required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -336,58 +350,23 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
+    <!-- END MAIL-BOX -->
+    <div class="container">
+            <?php
+            $pid = intval($_GET['nid']);
+            $query = mysqli_query($con, "select tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.id='$pid'");
+            while ($row = mysqli_fetch_array($query)) {
+            ?>
+                        <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
+                        <hr />
 
-    <section class="header-bg-parent">
-    
-        <!--header-col2-->
-        <div class="clear"></div>
-        <!--clear-->
-
-    </section>
-    <section class="content-body">
-        <div class="container">
-
-
-
-            <div class="row" style="margin-top: 4%">
-
-                <!-- Blog Entries Column -->
-                <div>
-
-                    <!-- Blog Post -->
-                    <?php
-                    $pid = intval($_GET['nid']);
-                    $query = mysqli_query($con, "select tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.id='$pid'");
-                    while ($row = mysqli_fetch_array($query)) {
-                    ?>
-
-                        <div class="card mb-4" style="margin-left: -25px; border: 1px solid white">
-
-                            <div class="card-body">
-                                <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
-                                <hr/>
-
-                                <p class="card-pic"><?php
-                                                        $pt = $row['postdetails'];
-                                                        echo (substr($pt, 0)); ?>
-                                </p>
-
-                            </div>
-                            <div class="card-footer text-muted">
-
-
-                            </div>
+                        <div class="card-pic"><?php
+                                            $pt = $row['postdetails'];
+                                            echo (substr($pt, 0)); ?>
                         </div>
-                    <?php } ?>
-                </div>
-
-                <!-- Sidebar Widgets Column -->
-  
-            </div>
-            <!-- /.row -->
-            <!---Comment Section --->
-
-    </section>
+                        
+            <?php } ?>
+    </div>
     <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
@@ -514,8 +493,4 @@ if (isset($_POST['submit'])) {
         }
     }
 </script>
-
-
-
-
 </html>
