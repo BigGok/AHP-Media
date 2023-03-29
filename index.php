@@ -745,20 +745,6 @@ include('includes/config.php');
                     </a>
                     <p>NHẬN DIỆN</p>
                 </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
             </div>
         </div>
         <!-- slide-3 -->
@@ -773,48 +759,11 @@ include('includes/config.php');
                     </a>
                     <p>NHẬN DIỆN</p>
                 </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
             </div>
         </div>
         <!-- slide 4 -->
         <div id="slide4" class="contain-blk" style="display: none;">
             <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
@@ -827,15 +776,6 @@ include('includes/config.php');
         <!-- slide 5 -->
         <div id="slide5" class="contain-blk" style="display: none;">
             <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">

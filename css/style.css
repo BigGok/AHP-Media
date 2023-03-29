@@ -991,7 +991,6 @@ hr.footer-hr {
 
 .social-icons-footer {
     display: flex;
-    margin-top: .1px;
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
@@ -2140,5 +2139,6 @@ body {
 }
 
 .ban-footer {
+    margin-top: 1px;
     background-color: #A90006;
 }
