@@ -634,22 +634,22 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        <a href="/zony-peanut.html">
+                            <h4>ZONY PEANUT</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
                     </div>
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                        <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        <a href="/Vina-coffee.html">
+                            <h4>VINA COFFEE</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
                     </div>
