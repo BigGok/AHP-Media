@@ -32,8 +32,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
+    <link id="u-theme-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
 </head>
 
 <body>
@@ -343,21 +345,27 @@
 
 
     <!-- AHP-HERE-TO-HELP-YOU -->
-   <section class="container">
-        <div class="head-service"><h3> ✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨ </h3></div>
-        
-        <div class="box1">
-            <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen="" ></iframe>
+    <section class="container">
+        <div class="head-service">
+            <h3> ✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨ </h3>
         </div>
-        <div class="box2" >
+
+        <div class="box1">
+            <iframe class="embed-responsive-item"
+                src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1"
+                data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div class="box2">
             <h2>Chủ doanh nghiệp đang đau đầu?</h2>
             <p>👉 Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p>👉 Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
+            <p>👉 Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh
+            </p>
             <p>👉 Hoạt động kinh doanh không tốt. </p>
             <p>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
-            <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.  Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
+            <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp
+                tốt nhất giúp bạn giải quyết vấn đề này. Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
         </div>
-   </section>
+    </section>
     <!-- END AHP-HERE-TO-HELP-YOU -->
 
     <!-- PARTNER -->
@@ -874,20 +882,21 @@
                     <div class="social-icons-footer">
                         <h4>Theo dõi chúng tôi</h4>
                         <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                                class="fa-brands fa-facebook-f "></i></a>
-
+                                class="fa-brands fa-facebook-f fb "></i></a>
                         <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                                class="fa-brands fa-tiktok"></i></a>
-                        <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
-                        <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
-
+                                class="fa-brands fa-tiktok fb icon-fl"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
 
                     </div>
                 </div>
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi</h3>
+                            <h3>Về chúng tôi </h3>
+                            <button onclick="toggleDropdown('dropdown-content-1')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-1" class="dropdown-content">
                             <p>Giới thiệu AHP</p>
                             <p>Văn hóa AHP</p>
                             <p>Tuyển dụng</p>
@@ -899,7 +908,11 @@
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp</h3>
+                            <h3>Dịch vụ cung cấp </h3>
+                            <button onclick="toggleDropdown('dropdown-content-2')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-2" class="dropdown-content">
                             <p>Tư vấn thương hiệu</p>
                             <p>Thiết kế thương hiệu</p>
                             <p>Nhận diện thương hiệu</p>
@@ -910,7 +923,10 @@
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện</h3>
+                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-3" class="dropdown-content">
                             <p>Logo</p>
                             <p>Đặt tên/slogan</p>
                             <p>Web/app</p>
@@ -922,6 +938,10 @@
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Đơn vị thành viên </h3>
+                            <button onclick="toggleDropdown('dropdown-content-4')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-4" class="dropdown-content">
                             <p>AHP Digital</p>
                             <p>AHP Pakaging</p>
                             <p>AHP Academy</p>
@@ -959,6 +979,16 @@
             glare: true,
             "max-glare": 1,
         });
+    </script>
+    <script>
+        function toggleDropdown(id) {
+            var dropdown = document.getElementById(id);
+            if (dropdown.style.display === "none") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
     </script>
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
