@@ -1886,7 +1886,9 @@ hr.footer-hr {
     font-size: 25px;
     color: #000;
 }
-
+.box2 h2{
+    font-weight: 400;
+}
 .box1 {
     width: 600px;
     height: 400px;
