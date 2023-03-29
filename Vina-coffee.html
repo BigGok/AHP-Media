@@ -1,54 +1,20 @@
-<?php
-session_start();
-include('includes/config.php');
-//Genrating CSRF Token
-if (empty($_SESSION['token'])) {
-    $_SESSION['token'] = bin2hex(random_bytes(32));
-}
-
-if (isset($_POST['submit'])) {
-    //Verifying CSRF Token
-    if (!empty($_POST['csrftoken'])) {
-        if (hash_equals($_SESSION['token'], $_POST['csrftoken'])) {
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $comment = $_POST['comment'];
-            $postid = intval($_GET['nid']);
-            $st1 = '0';
-            $query = mysqli_query($con, "insert into tblcomments(postId,name,email,comment,status) values('$postid','$name','$email','$comment','$st1')");
-            if ($query) :
-                echo "<script>alert('comment successfully submit. Comment will be display after admin review ');</script>";
-                unset($_SESSION['token']);
-            else :
-                echo "<script>alert('Something went wrong. Please try again.');</script>";
-
-            endif;
-        }
-    }
-}
-?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>AHP Agency</title>
+    <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <!--rubik font family -->
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
     <!--custom css-->
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-    <link href="css/news.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link type="text/css" rel="stylesheet" href="css/media.css" />
@@ -61,13 +27,13 @@ if (isset($_POST['submit'])) {
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
-    <script src="https://kit.fontawesome.com/36fcf59f66.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<div id="arrow">
+    <div id="arrow">
         <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
 
@@ -87,7 +53,7 @@ if (isset($_POST['submit'])) {
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="./">
                                         <div class="name">
                                             <span data-text="TRANG CHỦ"> TRANG CHỦ </span>
                                         </div>
@@ -117,7 +83,6 @@ if (isset($_POST['submit'])) {
                                             <a class="dropdown-item" href="#">Nhận diện thương hiệu văn phòng</a>
                                             <a class="dropdown-item" href="#">Nhận diện thương hiệu tại điểm bán</a>
                                             <a class="dropdown-item" href="#">Nhận diện thương hiệu Sản Phẩm</a>
-
                                         </div>
                                         <div class="dichvu dic2">
                                             <a class="food">Thiết kế Marketing</a>
@@ -129,7 +94,6 @@ if (isset($_POST['submit'])) {
                                             <a class="dropdown-item" href="#">Brochure,Tờ gấp</a>
                                             <a class="dropdown-item" href="#">Tờ rơi,Flyer</a>
                                             <a class="dropdown-item" href="#">Giấy tiêu đề,Letterhead</a>
-
                                         </div>
                                         <div class="dichvu dic2">
                                             <a class="food">Thiết kế quảng cáo</a>
@@ -141,7 +105,6 @@ if (isset($_POST['submit'])) {
                                             <a class="dropdown-item" href="#">Menu</a>
                                             <a class="dropdown-item" href="#">Bao lì xì</a>
                                             <a class="dropdown-item" href="#">Lịch tết</a>
-
                                         </div>
                                         <div class="dichvu dic2">
                                             <a class="food">Thiết kế bao bì sản phẩm</a>
@@ -149,11 +112,8 @@ if (isset($_POST['submit'])) {
                                             <a class="dropdown-item" href="#">Bao bì, hộp sản phẩm</a>
                                             <a class="dropdown-item" href="#">Decal,tem nhãn</a>
                                             <a class="dropdown-item" href="#">Túi giấy</a>
-
                                         </div>
                                     </div>
-
-
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.html">
@@ -171,6 +131,7 @@ if (isset($_POST['submit'])) {
                                         <button>Tìm kiếm</button>
                                     </div>
                                 </li>
+
                                 <li class="nav-item">
                                     <a data-modal-target="#mod-modal" class="nav-link name1">
                                         <div class="name name2"><span data-text="LIÊN HỆ">LIÊN HỆ</span></div>
@@ -188,7 +149,7 @@ if (isset($_POST['submit'])) {
                                                     của bạn.
                                                     Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                                                 </p>
-                                                <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
+                                                <img class="mod-img" src="images2/business/business_3.png" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
@@ -274,13 +235,13 @@ if (isset($_POST['submit'])) {
                 class="fab fa-facebook-messenger"></i></a>
     </div>
 
-    <!-- MAIL-BOX -->
     <div id="modal" class="modal">
         <div class="modal-content1">
             <div class="mod-header">
                 <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                 <button class="close">&times;</button>
             </div>
+
             <div class="mod-body">
                 <div class="mod-items1">
                     <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
@@ -288,7 +249,7 @@ if (isset($_POST['submit'])) {
                         của bạn.
                         Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                     </p>
-                    <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
+                    <img class="mod-img" src="images2/business/business_3.png" alt="">
                     <div class="contain-contact">
                         <div class="nav-contact">
                             <div class="contact-items">
@@ -350,23 +311,51 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-    <!-- END MAIL-BOX -->
-    <div class="container">
-            <?php
-            $pid = intval($_GET['nid']);
-            $query = mysqli_query($con, "select tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.id='$pid'");
-            while ($row = mysqli_fetch_array($query)) {
-            ?>
-                        <h2 class="card-title"><?php echo htmlentities($row['posttitle']); ?></h2>
-                        <hr />
 
-                        <div class="card-pic"><?php
-                                            $pt = $row['postdetails'];
-                                            echo (substr($pt, 0)); ?>
-                        </div>
-                        
-            <?php } ?>
-    </div>
+    <section class="header-bg-parent">
+        <div class="header-col1">
+
+            <div class="head-blog"><a class="head-dr" href="index.html"> TRANG CHỦ</a><i
+                    class="fa-solid fa-caret-right"></i> <span class="head-dr2">VỀ CHÚNG TÔI</span>
+            </div>
+        </div>
+        <!--header-col1-->
+        <div class="swiper1 Swiper">
+            
+            <div class="swiper-pagination"></div>
+        </div>
+
+      
+        <!--header-col2-->
+        <div class="clear"></div>
+        <!--clear-->
+
+    </section>
+
+   
+        <div class="emi">
+            <img class="imgzn" src="images/Vina coffee/1.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/2.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/3.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/4.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/5.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/6.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/7.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/8.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/9.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/10.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/11.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/12.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/13.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/14.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/15.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/16.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/17.jpg" alt="">
+            <img class="imgzn" src="images/Vina coffee/18.jpg" alt="">
+       
+        </div>  
+
+   
     <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
@@ -374,7 +363,7 @@ if (isset($_POST['submit'])) {
                     <h4 style="color: #fff;">ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
                 </div>
                 <div class="items-footer2">
-                    <form action="">
+                    <form method="POST" action="email-script.php">
                         <input type="text" placeholder="Họ Tên" name="" id="" class="footer-frm-name">
                         <input type="text" placeholder="Email" name="" id="" class="footer-frm-email">
                         <input type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
@@ -383,7 +372,6 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </div>
-
     <footer class="footer-all">
         <div class="container-footer">
             <div class="footer-ct">
@@ -399,8 +387,11 @@ if (isset($_POST['submit'])) {
                     </div>
                     <div class="social-icons-footer">
                         <h4>Theo dõi chúng tôi</h4>
-                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i class="fa-brands fa-facebook-f "></i></a>
-                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
+                                class="fa-brands fa-facebook-f "></i></a>
+
+                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
+                                class="fa-brands fa-tiktok"></i></a>
                         <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
                         <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
@@ -454,6 +445,7 @@ if (isset($_POST['submit'])) {
             </div>
     </footer>
 
+
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
@@ -466,31 +458,18 @@ if (isset($_POST['submit'])) {
     <script src="js/pop.js"></script>
     <script src="js/translate.js"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
-    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script src="js/swiper.js"></script>
-    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 
     <script>
-        VanillaTilt.init(document.querySelectorAll(".img-project"), {
-            max: 1,
-            speed: 900,
-            glare: true,
-            "max-glare": 1,
-        });
+        if (window.location.hostname.substr(0, 4) !== 'www.') {
+            window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
+        }
+
     </script>
 
 </body>
-<script>
-    function toggleDropdown(id) {
-        var dropdown = document.getElementById(id);
-        if (dropdown.style.display === "none") {
-            dropdown.style.display = "block";
-        } else {
-            dropdown.style.display = "none";
-        }
-    }
-</script>
+
 </html>
