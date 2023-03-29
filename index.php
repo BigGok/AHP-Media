@@ -335,7 +335,12 @@ include('includes/config.php');
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="images/hinh.jpg">
+                        <img class="slider-bar" src="images/baner1.png" alt="">
+                    </picture>
+                </div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
@@ -356,9 +361,9 @@ include('includes/config.php');
         </div>
         <div class="box2" >
             <h2>Chủ doanh nghiệp đang đau đầu?</h2>
-            <p>👉 Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p>👉 Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
-            <p>👉 Hoạt động kinh doanh không tốt. </p>
+            <p> Làm thế nào để biết khách hàng thực sự muốn gì?</p>
+            <p> Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
+            <p> Hoạt động kinh doanh không tốt. </p>
             <p>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
             <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.  Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
         </div>
@@ -374,12 +379,49 @@ include('includes/config.php');
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo1.png" class="img-responsive" />
+                        <img src="images/logo/logo1.png" class="img-responsive" />
                     </div>
                 </div>
+
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo2.png" class="img-responsive" />
+                        <img src="images/logo/bhnt.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/ff.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/fss.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/logo.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/logo-kensmum.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/phuminh.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/tony.png" class="img-responsive" />
                     </div>
                 </div>
             </div>
