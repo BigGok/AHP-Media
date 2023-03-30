@@ -384,50 +384,46 @@ include('includes/config.php');
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo1.png" class="img-responsive" />
+                        <img src="images/logo/1.png" class="img-responsive" />
                     </div>
                 </div>
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo2.jpg" class="img-responsive" />
+                        <img src="images/logo/2.png" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo3.jpg" class="img-responsive" />
+                        <img src="images/logo/3.png" class="img-responsive" />
                     </div>
                 </div>
                          
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo4.jpg" class="img-responsive" />
+                        <img src="images/logo/4.png" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo5.jpg" class="img-responsive" />
+                        <img src="images/logo/5.png" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo6.jpg" class="img-responsive" />
+                        <img src="images/logo/6.png" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo.jpg" class="img-responsive" />
+                        <img src="images/logo/7.png" class="img-responsive" />
                     </div>
                 </div>
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/phuminh.png" class="img-responsive" />
-                    </div>
-                </div>
+                
             </div>
         </div>
     </Section>
