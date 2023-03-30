@@ -5,14 +5,15 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+header("Location: ./");
 
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 $mail = new PHPMailer(true);
 //Create an instance; passing `true` enables exceptions
-$nameKH = $_POST['name1'];
+$nameKH = $_POST['contname'];
 if (isset($_POST['email1'])) {
-    $email = $_POST['email1'];
+    $email = $_POST['contemail'];
 } else {
     echo "Vui lòng nhập email";
 }
@@ -48,4 +49,5 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+exit;
 ?>

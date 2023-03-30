@@ -197,7 +197,7 @@ include('includes/config.php');
                                                         đến những giải pháp truyền thông
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                                                    <form id="form" class="hero-form" action="/">
+                                                    <form id="form" class="hero-form" action="email-script.php">
                                                         <input id="idcontname" name="contname" type="text"
                                                             placeholder="Họ Tên" class="cont-name" required />
                                                         <input id="idcontloc" name="contloc" type="location"
@@ -301,7 +301,7 @@ include('includes/config.php');
                             đến những giải pháp truyền thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                        <form id="form" class="hero-form" action="/">
+                        <form id="form" class="hero-form" action="email-script.php">
                             <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
                                 required />
                             <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
@@ -829,8 +829,8 @@ include('includes/config.php');
                 </div>
                 <div class="items-footer2">
                     <form method="POST" action="email-script.php">
-                        <input type="text" placeholder="Họ Tên" name="name1" id="name1" class="footer-frm-name">
-                        <input type="text" placeholder="Email" name="email1" id="email1" class="footer-frm-email">
+                        <input type="text" placeholder="Họ Tên" name="contname" id="contname" class="footer-frm-name">
+                        <input type="text" placeholder="Email" name="contemail" id="contemail" class="footer-frm-email">
                         <button style="color: rgb(120, 8, 8);" type="submit" class="footer-frm-submit">Đăng ký nhận thông tin</button>
                     </form>
                 </div>
