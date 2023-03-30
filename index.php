@@ -375,7 +375,7 @@ include('includes/config.php');
     <Section id="project">
         <div class="container">
             <div class="head-service">
-                <h3>KHÁCH HÀNG ĐỐI TÁC</h3>
+                <h3>ĐỐI TÁC</h3>
             </div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
