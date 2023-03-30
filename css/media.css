@@ -570,14 +570,15 @@
     }
 
     .contain-col2 {
+        margin-right: 30px;
         margin-top: 20px;
-        display: grid;
+        display: flex;
         width: 100%;
-        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
     }
 
     .foot-cl2 {
-        display: flex;
+        border-bottom: 1px solid;
         width: 100%;
         padding: 0;
     }
@@ -590,7 +591,7 @@
     }
 
     .social-icons-footer {
-        display: block;
+        display: flex;
     }
 
 
@@ -919,7 +920,6 @@
     .items-pa {
         margin: 0 11px 10px 13px;
         border-radius: 0 0 0.5rem 0.5rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
     /*FOOTER-INFO*/
     .hero-footer {
@@ -970,6 +970,8 @@
 
 
     .footer-rows h3 {
+        width: 70%;
+        font-size: 25px;
         display: inline-flex;
         align-items: center;
         margin-right: 10px;
@@ -978,6 +980,7 @@
     }
 
     .footer-rows button {
+        width: 30%;
         display: block;
         color: #fff;
         background: none;
@@ -986,17 +989,23 @@
         font-size: 30px;
         margin-left: 20px
     }
-
-    .footer-rows .dropdown-content {
-        display: none;
+    .footer-rows{
+        display: flex;
+        width: 100%;
     }
-
     .mod-items2 .contact-items {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .dropdown-content{
+        width: 100%;
+        display: none;
+        color: #b1b1b1;
+    }
+    .dropdown-content p{
+        margin-bottom: 1rem;
+    }
     .modal-content1 {
         margin-top: 0;
         top: 5%;
@@ -1074,12 +1083,7 @@
         height: auto;
         border-radius: 0.5em;
     }
-    .footer-rows h3{
-        font-size: 18px;
-    }
-    .footer-rows p {
-        font-size: 13px;
-    }
+
 }
 
 /* Styles for screens between 576px and 768px */
@@ -1222,7 +1226,6 @@
     .items-pa {
         margin: 0 11px 10px 14px;
         border-radius: 0 0 0.5rem 0.5rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
     /*FOOTER*/
     .footer-ct {

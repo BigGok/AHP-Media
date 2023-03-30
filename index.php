@@ -335,10 +335,16 @@ include('includes/config.php');
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="images/hinh.jpg">
+                        <img class="slider-bar" src="images/baner1.png" alt="">
+                    </picture>
+                </div>
+                <!-- <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                -->
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -356,9 +362,9 @@ include('includes/config.php');
         </div>
         <div class="box2" >
             <h2>Chủ doanh nghiệp đang đau đầu?</h2>
-            <p>👉 Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p>👉 Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
-            <p>👉 Hoạt động kinh doanh không tốt. </p>
+            <p> Làm thế nào để biết khách hàng thực sự muốn gì?</p>
+            <p> Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
+            <p> Hoạt động kinh doanh không tốt. </p>
             <p>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
             <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.  Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
         </div>
@@ -374,12 +380,48 @@ include('includes/config.php');
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo1.png" class="img-responsive" />
+                        <img src="images/logo/logo1.png" class="img-responsive" />
                     </div>
                 </div>
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo2.png" class="img-responsive" />
+                        <img src="images/logo/logo-kensmum.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/bhnt.png" class="img-responsive" />
+                    </div>
+                </div>
+                         
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/fss.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/logo.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/tony.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/ff.png" class="img-responsive" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/phuminh.png" class="img-responsive" />
                     </div>
                 </div>
             </div>
@@ -625,7 +667,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
+                        <a href="./du-an-la-siesta.html">
                             <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
@@ -637,10 +679,10 @@ include('includes/config.php');
                         <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/zony-peanut.html">
-                            <h4>ZONY PEANUT</h4>
+                        <a href="./zony-peanut.html">
+                            <h4>TONY PEANUT</h4>
                         </a>
-                        <p>NHẬN DIỆN</p>
+                        <p>NHẬN DIỆN,BAO BÌ, QUẢNG CÁO</p>
                     </div>
                 </div>
                 <div class="items-project">
@@ -648,18 +690,19 @@ include('includes/config.php');
                         <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/Vina-coffee.html">
+                        <a href="./Vina-coffee.html">
                             <h4>VINA COFFEE</h4>
                         </a>
-                        <p>NHẬN DIỆN</p>
+                        <p>BAO BÌ, BỘ QUÀ TẶNG</p>
                     </div>
                 </div>
+                <!--
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
+                        <a href="./du-an-la-siesta.html">
                             <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
@@ -687,6 +730,7 @@ include('includes/config.php');
                         <p>NHẬN DIỆN</p>
                     </div>
                 </div>
+            -->
             </div>
         </div>
         <!-- slide-2 -->
@@ -699,20 +743,6 @@ include('includes/config.php');
                     <a href="/du-an-la-siesta.html">
                         <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                     </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
                     <p>NHẬN DIỆN</p>
                 </div>
             </div>
@@ -729,48 +759,11 @@ include('includes/config.php');
                     </a>
                     <p>NHẬN DIỆN</p>
                 </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
             </div>
         </div>
         <!-- slide 4 -->
         <div id="slide4" class="contain-blk" style="display: none;">
             <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
@@ -783,15 +776,6 @@ include('includes/config.php');
         <!-- slide 5 -->
         <div id="slide5" class="contain-blk" style="display: none;">
             <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
@@ -874,23 +858,15 @@ include('includes/config.php');
                                 666/10/1-3-5, Đường 3/2, Phường 14, Quận
                                 10, TP.HCM.</span></p>
                     </div>
-                    <div class="social-icons-footer">
-                        <h4>Theo dõi chúng tôi</h4>
-                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                                class="fa-brands fa-facebook-f "></i></a>
-
-                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                                class="fa-brands fa-tiktok"></i></a>
-                        <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
-                        <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
-
-
-                    </div>
                 </div>
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi</h3>
+                            <h3>Về chúng tôi </h3>
+                            <button onclick="toggleDropdown('dropdown-content-1')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-1" class="dropdown-content">
                             <p>Giới thiệu AHP</p>
                             <p>Văn hóa AHP</p>
                             <p>Tuyển dụng</p>
@@ -902,7 +878,11 @@ include('includes/config.php');
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp</h3>
+                            <h3>Dịch vụ cung cấp </h3>
+                            <button onclick="toggleDropdown('dropdown-content-2')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-2" class="dropdown-content">
                             <p>Tư vấn thương hiệu</p>
                             <p>Thiết kế thương hiệu</p>
                             <p>Nhận diện thương hiệu</p>
@@ -913,7 +893,10 @@ include('includes/config.php');
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện</h3>
+                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-3" class="dropdown-content">
                             <p>Logo</p>
                             <p>Đặt tên/slogan</p>
                             <p>Web/app</p>
@@ -925,6 +908,10 @@ include('includes/config.php');
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Đơn vị thành viên </h3>
+                            <button onclick="toggleDropdown('dropdown-content-4')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-4" class="dropdown-content">
                             <p>AHP Digital</p>
                             <p>AHP Pakaging</p>
                             <p>AHP Academy</p>
@@ -935,6 +922,21 @@ include('includes/config.php');
                 </div>
             </div>
     </footer>
+    <div class="ban-footer">
+        <div class="container">
+            <div class="social-icons-footer">
+                <h4>Theo dõi chúng tôi</h4>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
+                            class="fa-brands fa-facebook-f fb "></i></a>
+                    <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
+                            class="fa-brands fa-tiktok fb icon-fl"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>

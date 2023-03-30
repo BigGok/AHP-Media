@@ -41,7 +41,7 @@
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    
+
 }
 
 a {
@@ -990,17 +990,26 @@ hr.footer-hr {
 }
 
 .social-icons-footer {
-    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 
+}
+
+.social-icons-footer h4 {
+    font-size: 20px;
+    color: #b1b1b1;
+    margin-right: 30px;
+    margin-bottom: 0;
 }
 
 .social-icons-footer i {
     color: #b7b7b7;
-    font-size: 24px;
+    font-size: 15px;
     transition: .5s;
 
 }
-
 
 .social-icons-footer i:hover {
     transform: translateY(-10px)
@@ -1384,7 +1393,7 @@ hr.footer-hr {
     z-index: 10;
     background-color: white;
     width: 1150px;
-    height: auto;
+    height: 98%;
     max-width: 100%;
 }
 
@@ -1595,43 +1604,46 @@ hr.footer-hr {
     justify-content: space-between;
 }
 
-.items-about{
+.items-about {
     width: 100%;
 }
 
 .items-about h3 {
     text-transform: uppercase;
-	background: linear-gradient(to right, #DC2F02 0%, #6A040F 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #DC2F02 0%, #6A040F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 30px;
     letter-spacing: 1px;
 }
 
 .items-about p {
-    margin-right: 165px;    
+    margin-right: 165px;
     text-align: justify;
 }
 
-.contain-about{
+.contain-about {
     margin: 0 12px 0 120px;
     width: 100%;
 }
-.icon-about{
+
+.icon-about {
     margin-top: 20px;
     display: grid;
-    grid-template-columns:  1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 20px 10px;
 }
-.icon-about-items img{
+
+.icon-about-items img {
     width: 40px;
     height: 40px;
 }
 
-.icon-about-items span{
+.icon-about-items span {
     margin-left: 10px;
 
 }
+
 /* SLIDER-INDEX*/
 .card22 {
     display: flex;
@@ -1773,11 +1785,12 @@ hr.footer-hr {
     display: block;
 }
 
-.items-pa{
+.items-pa {
     margin: 0 13px 10px 17px;
-    border-radius:0 0 0.5rem 0.5rem ;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15);
 }
+
 /*Logo*/
 .bfh {
 
@@ -1868,6 +1881,10 @@ hr.footer-hr {
     background-image: linear-gradient(180deg, #b1b1b1 0%, #fefefe 100%);
 }
 
+.dropdown-content p {
+    color: #b1b1b1;
+}
+
 /*PHẦN MỚI*/
 #contain {
     width: 100%;
@@ -1886,15 +1903,17 @@ hr.footer-hr {
     font-size: 25px;
     color: #000;
 }
-.box2 h2{
+
+.box2 h2 {
     font-weight: 400;
 }
+
 .box1 {
     width: 600px;
     height: 400px;
     background-color: rgb(253, 253, 253);
     float: right;
-   
+
 }
 
 
@@ -2042,7 +2061,7 @@ form:hover+#search-box,
     padding: 0px 8px;
     margin: 6px 10px;
     font-weight: 800;
-    color: #03071E;
+    color: white;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -2095,7 +2114,7 @@ body {
 }
 
 /*video*/
-.embed-responsive-item{
+.embed-responsive-item {
     width: 90%;
     height: 300px;
     margin-left: 30px;
@@ -2105,15 +2124,21 @@ body {
 
 /*zony peanut*/
 
-.emi{
+.emi {
     width: 100%;
    
     margin-top: 50px;
 }
-.imgzn{
+
+.imgzn {
     width: 100%;
 }
 
-.card-pic{
+.card-pic {
     width: 100%;
-  }
+}
+
+.ban-footer {
+    margin-top: 1px;
+    background-color: #A90006;
+}

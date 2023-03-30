@@ -384,21 +384,15 @@
                                 666/10/1-3-5, Đường 3/2, Phường 14, Quận
                                 10, TP.HCM.</span></p>
                     </div>
-                    <div class="social-icons-footer">
-                        <h4>Theo dõi chúng tôi</h4>
-                        <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                                class="fa-brands fa-facebook-f "></i></a>
-
-                        <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                                class="fa-brands fa-tiktok"></i></a>
-                        <a href="https://www.youtube.com/@ahpagency_08"><i class="fa-brands fa-youtube "></i></a>
-                        <a href="https://www.instagram.com/ahpagency/"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
                 </div>
                 <div class="contain-col2">
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Về chúng tôi</h3>
+                            <h3>Về chúng tôi </h3>
+                            <button onclick="toggleDropdown('dropdown-content-1')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-1" class="dropdown-content">
                             <p>Giới thiệu AHP</p>
                             <p>Văn hóa AHP</p>
                             <p>Tuyển dụng</p>
@@ -410,7 +404,11 @@
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp</h3>
+                            <h3>Dịch vụ cung cấp </h3>
+                            <button onclick="toggleDropdown('dropdown-content-2')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-2" class="dropdown-content">
                             <p>Tư vấn thương hiệu</p>
                             <p>Thiết kế thương hiệu</p>
                             <p>Nhận diện thương hiệu</p>
@@ -421,7 +419,10 @@
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện</h3>
+                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-3" class="dropdown-content">
                             <p>Logo</p>
                             <p>Đặt tên/slogan</p>
                             <p>Web/app</p>
@@ -433,6 +434,10 @@
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Đơn vị thành viên </h3>
+                            <button onclick="toggleDropdown('dropdown-content-4')"><i
+                                    class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                        <div id="dropdown-content-4" class="dropdown-content">
                             <p>AHP Digital</p>
                             <p>AHP Pakaging</p>
                             <p>AHP Academy</p>
@@ -443,6 +448,21 @@
                 </div>
             </div>
     </footer>
+    <div class="ban-footer">
+        <div class="container">
+            <div class="social-icons-footer">
+                <h4>Theo dõi chúng tôi</h4>
+                <div>
+                    <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
+                            class="fa-brands fa-facebook-f fb "></i></a>
+                    <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
+                            class="fa-brands fa-tiktok fb icon-fl"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
