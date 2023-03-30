@@ -397,7 +397,8 @@ h1 {
 
 .h2,
 h2 {
-    font-size: 2rem
+    font-size: 2rem;
+    font-family: 'K2D', sans-serif;
 }
 
 .h3,

@@ -1487,7 +1487,8 @@ hr.footer-hr {
 
 .head-service h3 {
     color: #6A040F;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Lalezar', cursive;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
@@ -1496,6 +1497,7 @@ hr.footer-hr {
     text-align: center;
     color: #6A040F;
     font-size: 30px;
+    font-family: 'K2D', sans-serif;
     letter-spacing: 1px;
     margin-bottom: 20px;
     margin-top: -130px;

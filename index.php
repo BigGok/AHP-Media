@@ -11,7 +11,9 @@ include('includes/config.php');
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet">
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
@@ -359,7 +361,7 @@ include('includes/config.php');
 
     <!-- AHP-HERE-TO-HELP-YOU -->
     <section class="container">
-        <div class="head-service"><h3> ✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨ </h3></div>
+        <div class="head-service"><h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3></div>
         
         <div class="box1">
             <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen="" ></iframe>
@@ -421,6 +423,12 @@ include('includes/config.php');
                 <div class="item">
                     <div class="owl-img-par">
                         <img src="images/logo/7.png" class="img-responsive" />
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="owl-img-par">
+                        <img src="images/logo/8.png" class="img-responsive" />
                     </div>
                 </div>
                 
@@ -575,11 +583,7 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
-                            những giải pháp truyền
-                            thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <p class="card__text">Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể.</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
                             <div class="contain-testimoni">
@@ -592,11 +596,8 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
-                            những giải pháp truyền
-                            thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <p class="card__text"> Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể                                       
+                                 .</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
                             <div class="contain-testimoni">
@@ -609,11 +610,8 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
-                            những giải pháp truyền
-                            thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <p class="card__text">Tôi rất đánh giá cao sự tận tâm và hỗ trợ của đội ngũ AHP Agency. Họ luôn sẵn sàng tư vấn và hỗ trợ tôi trong quá trình triển khai chiến dịch truyền thông và quảng cáo, giúp tôi hiểu rõ hơn về chiến lược và cách thức thực hiện                                                      
+                                  .</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
                             <div class="contain-testimoni">
@@ -626,11 +624,7 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến
-                            những giải pháp truyền
-                            thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
+                        <p class="card__text">Tôi cũng rất thích cách tiếp cận sáng tạo và đổi mới của AHP Agency. Họ không ngừng đưa ra những ý tưởng mới để làm cho chiến dịch của tôi trở nên độc đáo và thu hút được sự chú ý của khách hàng. Tôi tin tưởng rằng với sự sáng tạo và đổi mới này, AHP Agency sẽ giúp tôi đạt được nhiều thành công hơn trong tương lai.</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
                             <div class="contain-testimoni">
