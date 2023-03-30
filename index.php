@@ -358,7 +358,7 @@ include('includes/config.php');
 
 
     <!-- AHP-HERE-TO-HELP-YOU -->
-    <section class="container">
+    <section class="container ccc">
         <div class="head-service"><h3> ✨AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN✨ </h3></div>
         
         <div class="box1">
@@ -1003,7 +1003,7 @@ include('includes/config.php');
 
 .slider:before {
   position: absolute;
-  content: "";
+    content:"";
   height: 20px;
   width: 20px;
   left: 3px;
@@ -1013,11 +1013,12 @@ include('includes/config.php');
   background-repeat: no-repeat;
   -webkit-transition: .4s;
   transition: .4s;
+  
 }
-
 
 input:checked + .slider {
   background-color: #baadab;
+   
 }
 
 input:focus + .slider {
@@ -1029,6 +1030,8 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
   background-image: url("images/eng.png");
+  
+
 }
 
 .slider.round {
@@ -1037,6 +1040,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+  
 }
 
 </style>  
