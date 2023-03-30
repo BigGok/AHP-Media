@@ -347,10 +347,14 @@ include('includes/config.php');
                         <img class="slider-bar" src="images/baner1.png" alt="">
                     </picture>
                 </div>
-                <!-- <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                -->
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
+                        <img class="slider-bar" src="images/Banner2.jpg" alt="">
+                    </picture>
+                </div>
+              
+               
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -360,7 +364,7 @@ include('includes/config.php');
 
 
     <!-- AHP-HERE-TO-HELP-YOU -->
-    <section class="container">
+    <section class="container ccc">
         <div class="head-service"><h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3></div>
         
         <div class="box1">
@@ -688,6 +692,17 @@ include('includes/config.php');
                             <h4>VINA COFFEE</h4>
                         </a>
                         <p>Bao bì, bộ quà tặng</p>
+                    </div>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/Ken-mum/1.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="/Ken-mum.html">
+                            <h4>KEN'S MUM</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
                     </div>
                 </div>
                 <!--
