@@ -690,6 +690,17 @@ include('includes/config.php');
                         <p>Bao bì, bộ quà tặng</p>
                     </div>
                 </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./zony-peanut.html">
+                            <h4>KEN'S MUM</h4>
+                        </a>
+                        <p>Nhận diện, bao bì, quảng cáo</p>
+                    </div>
+                </div>
                 <!--
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
