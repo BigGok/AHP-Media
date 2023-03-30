@@ -385,38 +385,38 @@ include('includes/config.php');
                 </div>
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo-kensmum.png" class="img-responsive" />
+                        <img src="images/logo/logo2.jpg" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/bhnt.png" class="img-responsive" />
+                        <img src="images/logo/logo3.jpg" class="img-responsive" />
                     </div>
                 </div>
                          
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/fss.png" class="img-responsive" />
+                        <img src="images/logo/logo4.jpg" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/logo.png" class="img-responsive" />
+                        <img src="images/logo/logo5.jpg" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/tony.png" class="img-responsive" />
+                        <img src="images/logo/logo6.jpg" class="img-responsive" />
                     </div>
                 </div>
 
                 <div class="item">
                     <div class="owl-img-par">
-                        <img src="images/logo/ff.png" class="img-responsive" />
+                        <img src="images/logo/logo.jpg" class="img-responsive" />
                     </div>
                 </div>
                 <div class="item">
@@ -668,9 +668,9 @@ include('includes/config.php');
                     </div>
                     <div class="items-pa">
                         <a href="./du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                            <h4>RESORT & SPA LA SIESTA</h4>
                         </a>
-                        <p>NHẬN DIỆN</p>
+                        <p>Nhận diện</p>
                     </div>
 
                 </div>
@@ -682,7 +682,7 @@ include('includes/config.php');
                         <a href="./zony-peanut.html">
                             <h4>TONY PEANUT</h4>
                         </a>
-                        <p>NHẬN DIỆN,BAO BÌ, QUẢNG CÁO</p>
+                        <p>Nhận diện, bao bì, quảng cáo</p>
                     </div>
                 </div>
                 <div class="items-project">
@@ -693,7 +693,7 @@ include('includes/config.php');
                         <a href="./Vina-coffee.html">
                             <h4>VINA COFFEE</h4>
                         </a>
-                        <p>BAO BÌ, BỘ QUÀ TẶNG</p>
+                        <p>Bao bì, bộ quà tặng</p>
                     </div>
                 </div>
                 <!--
