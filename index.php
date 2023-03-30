@@ -13,7 +13,7 @@ include('includes/config.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet"> 
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
@@ -347,10 +347,10 @@ include('includes/config.php');
                         <img class="slider-bar" src="images/baner1.png" alt="">
                     </picture>
                 </div>
-                 <div class="swiper-slide"><img class="slider-bar" src="images/" alt=""></div>
+                <!-- <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                
+                -->
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -360,7 +360,7 @@ include('includes/config.php');
 
 
     <!-- AHP-HERE-TO-HELP-YOU -->
-    <section class="container ccc">
+    <section class="container">
         <div class="head-service"><h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3></div>
         
         <div class="box1">
@@ -587,7 +587,7 @@ include('includes/config.php');
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
                             <div class="contain-testimoni">
-                                <span class="card__title">Mr.Văn Mạnh</span>
+                                <span class="card__title">Bếp Bánh Ken's </span>
                                 <span class="card__name">IT AHP Agency</span>
                             </div>
                         </div>
@@ -688,17 +688,6 @@ include('includes/config.php');
                             <h4>VINA COFFEE</h4>
                         </a>
                         <p>Bao bì, bộ quà tặng</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Ken-mum/1.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./Ken-mum.html">
-                            <h4>KEN'S MUM</h4>
-                        </a>
-                        <p>Nhận diện, bao bì, quảng cáo</p>
                     </div>
                 </div>
                 <!--
@@ -840,10 +829,9 @@ include('includes/config.php');
                 </div>
                 <div class="items-footer2">
                     <form method="POST" action="email-script.php">
-                        <input type="text" placeholder="Họ Tên" name="" id="" class="footer-frm-name">
-                        <input type="text" placeholder="Email" name="" id="" class="footer-frm-email">
-                        <input style="color: rgb(120, 8, 8);" type="submit" value="Đăng kí nhận thông tin"
-                            class="footer-frm-submit">
+                        <input type="text" placeholder="Họ Tên" name="name1" id="name1" class="footer-frm-name">
+                        <input type="text" placeholder="Email" name="email1" id="email1" class="footer-frm-email">
+                        <button style="color: rgb(120, 8, 8);" type="submit" class="footer-frm-submit">Đăng ký nhận thông tin</button>
                     </form>
                 </div>
             </div>
@@ -976,75 +964,71 @@ include('includes/config.php');
         }
 
     </script>
-    
     <style>
-        .switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 24px;
-  }
-  
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-      content:"";
-    height: 20px;
-    width: 20px;
-    left: 3px;
-    bottom: 3px;
-    background-image: url("images/viet.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    -webkit-transition: .4s;
-    transition: .4s;
-    
-  }
-  
-  input:checked + .slider {
-    background-color: #baadab;
-     
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-    background-image: url("images/eng.png");
-    
-  
-  }
-  
-  .slider.round {
-    border-radius: 30px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-    
-  }
-    </style>
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-image: url("images/viet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: #baadab;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-image: url("images/eng.png");
+}
+
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+</style>  
 </body>
 
 </html>

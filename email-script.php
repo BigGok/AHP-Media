@@ -10,7 +10,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 $mail = new PHPMailer(true);
 //Create an instance; passing `true` enables exceptions
-
+$nameKH = $_POST['name1'];
 if (isset($_POST['email1'])) {
     $email = $_POST['email1'];
 } else {
