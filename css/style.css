@@ -1126,6 +1126,7 @@ hr.footer-hr {
 /*ABOUT US(PAGE)*/
 .about-text p {
     text-align: justify;
+    font-size: 20px;
 }
 
 .txt-head {
@@ -1133,6 +1134,8 @@ hr.footer-hr {
     text-align: center;
     color: #6d0f0f;
     font-weight: 700;
+    font-family: 'Lalezar', cursive;
+    font-size: 40px;
 }
 
 .img-about {
@@ -1152,6 +1155,7 @@ hr.footer-hr {
     padding: 5px 0;
     letter-spacing: 1px;
     color: #000;
+    font-size: 19px;
 }
 
 /*NEWS(PAGE)*/
@@ -1814,6 +1818,7 @@ hr.footer-hr {
     margin-top: 60px;
     color: #6d0f0f;
     font-weight: 700;
+    font-family: 'Lalezar', cursive;
 }
 
 .navbar-nav .nav-item .name1 {
@@ -2147,3 +2152,76 @@ body {
     margin-top: 1px;
     background-color: #A90006;
 }
+.ccc{
+    margin-top: -100px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+      content:"";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-image: url("images/viet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  input:checked + .slider {
+    background-color: #baadab;
+     
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-image: url("images/eng.png");
+    
+  
+  }
+  
+  .slider.round {
+    border-radius: 30px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    
+  }
+  .bbb{
+    margin-top: -60px;
+  }
+  
