@@ -2050,6 +2050,7 @@ form:hover+#search-box,
 
 .gg-translate {
     display: none;
+    margin-top: 10px;
 }
 
 .btn-translate {
@@ -2080,6 +2081,8 @@ form:hover+#search-box,
 .translate-part {
     display: flex;
     justify-content: center;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 body {

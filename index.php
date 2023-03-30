@@ -233,7 +233,11 @@ include('includes/config.php');
                                 <li class="nav-items">
                                     <div id='google_translate_element' class="gg-translate"></div>
                                     <div class="translate-part">
-                                        <button class="btn-translate" onclick="translateToEnglish()"> En</button>
+                                    <label class="switch" onclick="translateToEnglish()">
+                                        <input type="checkbox" id="lang-toggle">
+                                        <span class="slider round"><span>
+                                    </label>
+                                        
                                     </div>
                                 </li>
                             </ul>
@@ -337,7 +341,7 @@ include('includes/config.php');
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <picture>
-                        <source media="(max-width: 576px)" srcset="images/hinh.jpg">
+                        <source media="(max-width: 576px)" srcset="images/hinh.png">
                         <img class="slider-bar" src="images/baner1.png" alt="">
                     </picture>
                 </div>
@@ -971,6 +975,71 @@ include('includes/config.php');
         }
 
     </script>
+    <style>
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-image: url("images/viet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: #baadab;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-image: url("images/eng.png");
+}
+
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+</style>  
 </body>
 
 </html>
