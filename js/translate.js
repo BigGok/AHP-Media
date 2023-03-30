@@ -18,24 +18,29 @@ function getLanguageCookie() {
   return "";
 }
 
-function translateToEnglish() {
+function changeLanguage(lang) {
   var select = document.querySelector('#google_translate_element select');
-  select.value = 'en';
+  select.value = lang;
   select.dispatchEvent(new Event('change'));
-  setLanguageCookie('en');
+  setLanguageCookie(lang);
 }
-
 
 function initializeGoogleTranslate() {
   var language = getLanguageCookie() || 'vi';
   new google.translate.TranslateElement({
     pageLanguage: language,
     autoDisplay: 'false',
-    includedLanguages: 'en',
+    includedLanguages: 'en,vi',
     layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
   }, 'google_translate_element');
+  selectLanguage(language);
+}
+
+function selectLanguage(language) {
   if (language === 'en') {
-    translateToEnglish();
+    changeLanguage('en');
+  } else {
+    changeLanguage('vi');
   }
 }
 

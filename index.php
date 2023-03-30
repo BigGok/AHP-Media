@@ -347,10 +347,10 @@ include('includes/config.php');
                         <img class="slider-bar" src="images/baner1.png" alt="">
                     </picture>
                 </div>
-                <!-- <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                 <div class="swiper-slide"><img class="slider-bar" src="images/" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
                 <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                -->
+                
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -692,10 +692,10 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
+                        <img class="img-project" src="images/Ken-mum/1.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./zony-peanut.html">
+                        <a href="./Ken-mum.html">
                             <h4>KEN'S MUM</h4>
                         </a>
                         <p>Nhận diện, bao bì, quảng cáo</p>
