@@ -371,7 +371,7 @@ include('includes/config.php');
             <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen="" ></iframe>
         </div>
         <div class="box2" >
-            <h2>Chủ doanh nghiệp đang đau đầu?</h2>
+            <h2>CHỦ DOANH NGHIỆP ĐANG ĐAU ĐẦU?</h2>
             <p>🔸Làm thế nào để biết khách hàng thực sự muốn gì?</p>
             <p>🔸Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
             <p>🔸Hoạt động kinh doanh không tốt. </p>
