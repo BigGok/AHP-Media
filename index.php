@@ -449,7 +449,7 @@ include('includes/config.php');
         <div class="hero-service">
             <div class="items-service it0">
                 <img class="img-service" src="images/dichvutieubieu/tuvan.jpg" alt="">
-                <h3>Tư vấn thương hiệu</h3>
+                <a href="./tu-van-thuong-hieu.html"><h3>Tư vấn thương hiệu</h3></a> 
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Chiến lược thương hiệu</li>
@@ -464,7 +464,7 @@ include('includes/config.php');
             </div>
             <div class="items-service it1">
                 <img class="img-service" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
-                <h3>Thiết kế thương hiệu</h3>
+                <a href="./thiet-ke-thuong-hieu.html"><h3>Thiết kế thương hiệu</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Thiết kế logo</li>
@@ -480,7 +480,7 @@ include('includes/config.php');
         
           <div class="items-service it2">
                 <img class="img-service" src="images/dichvutieubieu/congngheso.jpg" alt="">
-                <h3>Thương hiệu số</h3>
+                <a href="./thuong-hieu-so.html"><h3>Thương hiệu số</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Thiết kế website</li>
@@ -495,7 +495,7 @@ include('includes/config.php');
             </div>
             <div class="items-service it3">
                 <img class="img-service" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
-                <h3>Bao bì nhãn mác</h3>
+                <a href="./bao-bi-nhan-mac.html"><h3>Bao bì nhãn mác</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Bao bì sản phẩm</li>
@@ -511,7 +511,7 @@ include('includes/config.php');
             
             <div class="items-service it4">
                 <img class="img-service" src="images/dichvutieubieu/banquyen.jpg" alt="">
-                <h3>Bản quyền & Giấy phép</h3>
+                <a href="./ban-quyen-giay-phep.html"><h3>Bản quyền & Giấy phép</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Bảo hộ nhãn hiệu</li>
@@ -527,7 +527,7 @@ include('includes/config.php');
             
             <div class="items-service it5">
                 <img class="img-service" src="images/dichvutieubieu/truyenthong.jpg" alt="">
-                <h3>Truyền thông</h3>
+                <a href="./truyen-thong.html"><h3>Truyền thông</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Brand Lauching</li>

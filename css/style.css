@@ -1526,16 +1526,17 @@ hr.footer-hr {
     height: auto;
 }
 
+
 .items-service h3 {
     margin: 10px 16px;
     font-size: 21px;
     font-weight: 600;
+    
 }
 
 .items-service a {
     display: grid;
-    grid-gap: 15px 30px;
-    grid-template-columns: 1fr 1fr;
+    color: #000;
 }
 
 .list-service {
