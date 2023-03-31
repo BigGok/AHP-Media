@@ -670,7 +670,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./du-an-la-siesta.html">
+                        <a href="./la-sieta.html">
                             <h4>RESORT & SPA LA SIESTA</h4>
                         </a>
                         <p>Nhận diện</p>
