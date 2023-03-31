@@ -594,10 +594,10 @@ include('includes/config.php');
                         <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể.</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <img class="img-testimonial" src="images/logo/2.png" alt="">
                             <div class="contain-testimoni">
                                 <span class="card__title">Bếp Bánh Ken's </span>
-                                <span class="card__name">IT AHP Agency</span>
+                                <span class="card__name"></span>
                             </div>
                         </div>
                     </div>
@@ -608,10 +608,10 @@ include('includes/config.php');
                         <p class="card__text"> Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể                                       
                                  .</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <img class="img-testimonial" src="images/logo/7.png" alt="">
                             <div class="contain-testimoni">
-                                <span class="card__title">Mr.Văn Mạnh</span>
-                                <span class="card__name">IT AHP Agency</span>
+                                <span class="card__title">LA SIESTA</span>
+                                <span class="card__name"></span>
                             </div>
                         </div>
                     </div>
@@ -622,10 +622,10 @@ include('includes/config.php');
                         <p class="card__text">Tôi rất đánh giá cao sự tận tâm và hỗ trợ của đội ngũ AHP Agency. Họ luôn sẵn sàng tư vấn và hỗ trợ tôi trong quá trình triển khai chiến dịch truyền thông và quảng cáo, giúp tôi hiểu rõ hơn về chiến lược và cách thức thực hiện                                                      
                                   .</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <img class="img-testimonial" src="images/logo/3.png" alt="">
                             <div class="contain-testimoni">
-                                <span class="card__title">Mr.Văn Mạnh</span>
-                                <span class="card__name">IT AHP Agency</span>
+                                <span class="card__title">Vina coffee</span>
+                                <span class="card__name"></span>
                             </div>
                         </div>
                     </div>
@@ -635,10 +635,10 @@ include('includes/config.php');
                         <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Tôi cũng rất thích cách tiếp cận sáng tạo và đổi mới của AHP Agency. Họ không ngừng đưa ra những ý tưởng mới để làm cho chiến dịch của tôi trở nên độc đáo và thu hút được sự chú ý của khách hàng. Tôi tin tưởng rằng với sự sáng tạo và đổi mới này, AHP Agency sẽ giúp tôi đạt được nhiều thành công hơn trong tương lai.</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/testimonial/testi1.jpg" alt="">
+                            <img class="img-testimonial" src="images/logo/5.png" alt="">
                             <div class="contain-testimoni">
-                                <span class="card__title">Mr.Văn Mạnh</span>
-                                <span class="card__name">IT AHP Agency</span>
+                                <span class="card__title">Tony Peanut</span>
+                                <span class="card__name"></span>
                             </div>
                         </div>
                     </div>
