@@ -1133,8 +1133,8 @@ hr.footer-hr {
     margin: 20px 0;
     text-align: center;
     color: #D00000;
-    font-weight: 700;
-    font-family: 'Lalezar', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
     font-size: 40px;
 }
 
@@ -1492,7 +1492,8 @@ hr.footer-hr {
 .head-service h3 {
     color: #D00000;
     font-size: 40px;
-    font-family: 'Lalezar', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
@@ -1816,9 +1817,9 @@ hr.footer-hr {
     text-align: center;
     font-size: 40px;
     margin-top: 60px;
-    color: #6d0f0f;
-    font-weight: 700;
-    font-family: 'Lalezar', cursive;
+    color: #D00000;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
 }
 
 .navbar-nav .nav-item .name1 {

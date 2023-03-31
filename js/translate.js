@@ -1,47 +1,21 @@
-function setLanguageCookie(lang) {
-  document.cookie = "language=" + lang + "; path=/";
-}
+function switchLanguage() {
+  const toggle = document.getElementById("lang-toggle");
+  const slider = document.querySelector(".slider");
+  const translateElement = document.getElementById("google_translate_element");
 
-function getLanguageCookie() {
-  var name = "language=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var cookieArray = decodedCookie.split(';');
-  for (var i = 0; i < cookieArray.length; i++) {
-    var cookie = cookieArray[i];
-    while (cookie.charAt(0) == ' ') {
-      cookie = cookie.substring(1);
-    }
-    if (cookie.indexOf(name) == 0) {
-      return cookie.substring(name.length, cookie.length);
-    }
-  }
-  return "";
-}
-
-function changeLanguage(lang) {
-  var select = document.querySelector('#google_translate_element select');
-  select.value = lang;
-  select.dispatchEvent(new Event('change'));
-  setLanguageCookie(lang);
-}
-
-function initializeGoogleTranslate() {
-  var language = getLanguageCookie() || 'vi';
-  new google.translate.TranslateElement({
-    pageLanguage: language,
-    autoDisplay: 'false',
-    includedLanguages: 'en,vi',
-    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-  }, 'google_translate_element');
-  selectLanguage(language);
-}
-
-function selectLanguage(language) {
-  if (language === 'en') {
-    changeLanguage('en');
+  if (toggle.checked) {
+    slider.style.backgroundColor = "#baadab";
+    slider.style.boxShadow = "none";
+    slider.style.borderRadius = "30px";
+    slider.style.backgroundImage = "url('images/eng.png')";
+    translateElement.setAttribute("class", "gg-translate");
+    translateElement.innerHTML = "";
   } else {
-    changeLanguage('vi');
+    slider.style.backgroundColor = "#ccc";
+    slider.style.boxShadow = "0 0 1px #2196F3";
+    slider.style.borderRadius = "30px";
+    slider.style.backgroundImage = "url('images/viet.png')";
+    translateElement.setAttribute("class", "gg-translate notranslate");
+    translateElement.innerHTML = "<div class='skiptranslate goog-te-gadget' dir='ltr'><div id=':0.targetLanguage'><select class='goog-te-combo'><option value='' selected>Chọn ngôn ngữ</option><option value='en'>Tiếng Anh</option></select></div></div>";
   }
 }
-
-window.onload = initializeGoogleTranslate;
