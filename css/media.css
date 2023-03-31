@@ -18,7 +18,7 @@
         float: none;
         margin-left: auto;
         margin-right: auto;
-        height: 1000px;
+        height: auto;
     }
 
     .box1 {
@@ -1119,7 +1119,7 @@
         float: none;
         margin-left: auto;
         margin-right: auto;
-        height: 600px;
+        height: auto;
     }
 
     .box1 {

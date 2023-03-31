@@ -372,10 +372,10 @@ include('includes/config.php');
         </div>
         <div class="box2" >
             <h2>Chủ doanh nghiệp đang đau đầu?</h2>
-            <p> Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p> Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
-            <p> Hoạt động kinh doanh không tốt. </p>
-            <p>Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
+            <p>🔸Làm thế nào để biết khách hàng thực sự muốn gì?</p>
+            <p>🔸Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
+            <p>🔸Hoạt động kinh doanh không tốt. </p>
+            <p>🔸Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
             <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.  Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
         </div>
    </section>
@@ -448,7 +448,7 @@ include('includes/config.php');
         </div>
         <div class="hero-service">
             <div class="items-service it0">
-                <img class="img-service" src="images/homecontact-bg.jpg" alt="">
+                <img class="img-service" src="images/dichvutieubieu/tuvan.jpg" alt="">
                 <h3>Tư vấn thương hiệu</h3>
                 <div class="list-service">
                     <ul class="items-list-service">
@@ -458,12 +458,12 @@ include('includes/config.php');
                         <li>Quy chế thương hiệu</li>
                         <li>Mở rộng thương hiệu</li>
                         <li>Định giá thương hiệu</li>
-                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
+                        <img class="img-service2" src="images/dichvutieubieu/tuvan.jpg" alt="">
                     </ul>
                 </div>
             </div>
             <div class="items-service it1">
-                <img class="img-service" src="images/homecontact-bg.jpg" alt="">
+                <img class="img-service" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
                 <h3>Thiết kế thương hiệu</h3>
                 <div class="list-service">
                     <ul class="items-list-service">
@@ -473,12 +473,13 @@ include('includes/config.php');
                         <li>Nhận diện văn phòng</li>
                         <li>Sáng tác slogan</li>
                         <li>Nhận diện điểm bán</li>
-                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
+                        <img class="img-service2" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
                     </ul>
                 </div>
             </div>
-            <div class="items-service it2">
-                <img class="img-service" src="images/homecontact-bg.jpg" alt="">
+        
+          <div class="items-service it2">
+                <img class="img-service" src="images/dichvutieubieu/congngheso.jpg" alt="">
                 <h3>Thương hiệu số</h3>
                 <div class="list-service">
                     <ul class="items-list-service">
@@ -488,12 +489,12 @@ include('includes/config.php');
                         <li>Online Sales Kit</li>
                         <li>landing page</li>
                         <li>Giải pháp VR360</li>
-                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
+                        <img class="img-service2" src="images/dichvutieubieu/congngheso.jpg" alt="">
                     </ul>
                 </div>
             </div>
             <div class="items-service it3">
-                <img class="img-service" src="images/homecontact-bg.jpg" alt="">
+                <img class="img-service" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
                 <h3>Bao bì nhãn mác</h3>
                 <div class="list-service">
                     <ul class="items-list-service">
@@ -503,12 +504,13 @@ include('includes/config.php');
                         <li>Nhãn mác sản phẩm</li>
                         <li>Nhãn mác dược phẩm</li>
                         <li>Nhãn mác đồ uống</li>
-                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
+                        <img class="img-service2" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
                     </ul>
                 </div>
             </div>
+            
             <div class="items-service it4">
-                <img class="img-service" src="images/homecontact-bg.jpg" alt="">
+                <img class="img-service" src="images/dichvutieubieu/banquyen.jpg" alt="">
                 <h3>Bản quyền & Giấy phép</h3>
                 <div class="list-service">
                     <ul class="items-list-service">
@@ -518,12 +520,13 @@ include('includes/config.php');
                         <li>Mã số mã vạch</li>
                         <li>Bản quyền tác giả</li>
                         <li>Giấy phép quảng cáo</li>
-                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
+                        <img class="img-service2" src="images/dichvutieubieu/banquyen.jpg" alt="">
                     </ul>
                 </div>
             </div>
+            
             <div class="items-service it5">
-                <img class="img-service" src="images/homecontact-bg.jpg" alt="">
+                <img class="img-service" src="images/dichvutieubieu/truyenthong.jpg" alt="">
                 <h3>Truyền thông</h3>
                 <div class="list-service">
                     <ul class="items-list-service">
@@ -533,11 +536,13 @@ include('includes/config.php');
                         <li>Social Branding</li>
                         <li>Kế hoạch truyền thông</li>
                         <li>Kế hoạch marketing</li>
-                        <img class="img-service2" src="images/homecontact-bg.jpg" alt="">
+                        <img class="img-service2" src="images/dichvutieubieu/truyenthong.jpg" alt="">
                     </ul>
                 </div>
             </div>
+            
         </div>
+        
     </section>
     <!-- END SERVICE -->
 
@@ -696,7 +701,7 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Ken-mum/1.jpg" alt="">
+                        <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
                     </div>
                     <div class="items-pa">
                         <a href="/Ken-mum.html">
@@ -802,7 +807,7 @@ include('includes/config.php');
     <!-- NEWS-INDEX -->
     <section class="container">
             <div class="head-service">
-                <h3 style="color: #7a0e0e;">TIN TỨC</h3>
+                <h3 style="color: #D00000;">TIN TỨC</h3>
             </div>
             <div class="hero-news">
             <?php  if (isset($_GET['pageno'])) {
@@ -972,6 +977,16 @@ include('includes/config.php');
             glare: true,
             "max-glare": 1,
         });
+    </script>
+    <script>
+        function toggleDropdown(id) {
+            var dropdown = document.getElementById(id);
+            if (dropdown.style.display === "none") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
+        }
     </script>
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {

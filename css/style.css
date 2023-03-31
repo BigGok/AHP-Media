@@ -1079,7 +1079,7 @@ hr.footer-hr {
 }
 
 .loc-footer p {
-    color: #b7b7b7;
+    color: white;
     display: flex;
     width: 69%;
     align-items: center;
@@ -1490,7 +1490,7 @@ hr.footer-hr {
 }
 
 .head-service h3 {
-    color: #6A040F;
+    color: #D00000;
     font-size: 40px;
     font-family: 'Lalezar', cursive;
     letter-spacing: 1px;
@@ -1889,7 +1889,8 @@ hr.footer-hr {
 }
 
 .dropdown-content p {
-    color: #b1b1b1;
+    color: white;
+  
 }
 
 /*PHẦN MỚI*/
@@ -1907,7 +1908,7 @@ hr.footer-hr {
     height: 400px;
     background-color: rgb(255, 255, 255);
     margin-left: 30px;
-    font-size: 25px;
+    font-size: 23px;
     color: #000;
 }
 
