@@ -1,4 +1,3 @@
-
 function setLanguageCookie(lang) {
   document.cookie = "language=" + lang + "; path=/";
 }

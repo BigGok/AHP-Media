@@ -1008,7 +1008,7 @@
         }
         .modal-content1 {
             margin-top: 0;
-            top: 5%;
+            top: 3%;
             right: 10%;
             position: fixed;
             transition: 200ms ease-in-out;
@@ -1017,7 +1017,7 @@
             z-index: 10;
             background-color: white;
             width: 81%;
-            height: 90%;
+            height: 94%;
             max-width: 100%;
         }
 
@@ -1083,7 +1083,9 @@
             height: auto;
             border-radius: 0.5em;
         }
-
+        .fa-facebook-f, .fa-tiktok, .fa-youtube {
+            margin-right: 16px;
+        }
     }
 
     /* Styles for screens between 576px and 768px */
