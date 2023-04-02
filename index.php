@@ -342,12 +342,7 @@ include('includes/config.php');
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <picture>
-                        <source media="(max-width: 576px)" srcset="images/hinh.png">
-                        <img class="slider-bar" src="images/baner1.png" alt="">
-                    </picture>
-                </div>
+                
                 <div class="swiper-slide">
                     <picture>
                         <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
