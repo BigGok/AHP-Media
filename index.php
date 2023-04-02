@@ -25,7 +25,8 @@ include('includes/config.php');
     <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
-    <link type="text/css" rel="stylesheet" href="css/media.css" />
+    <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    
 
     <!--jquery ui files-->
     <link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css" />
