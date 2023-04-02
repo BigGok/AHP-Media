@@ -929,6 +929,7 @@
         }
 
         .items-footer1 {
+            margin: 0;
             display: flex;
             width: 100%;
             text-align: center;
@@ -1085,6 +1086,13 @@
         }
         .fa-facebook-f, .fa-tiktok, .fa-youtube {
             margin-right: 16px;
+        }
+        .items-footer1 h4{
+            font-size: 25px;
+            width: 100%;
+        }
+        .items-footer1 img{
+            display: none;
         }
     }
 
