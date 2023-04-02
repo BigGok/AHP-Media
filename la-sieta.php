@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>AHP Agency</title>
+    <title>AHP Agency - Túi Giấy</title>
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,152 +42,159 @@
 <body>
     <?php include 'header.php' ?>
 
-    <section class="header-bg-parent">
-        <div class="header-col1">
-
-     
-            </div>
-        </div>
-        <!--header-col1-->
-        <div class="swiper1 Swiper">
-            
-            <div class="swiper-pagination"></div>
-        </div>
-
-      
-        <!--header-col2-->
-        <div class="clear"></div>
-        <!--clear-->
-
-    </section>
 
     <section class="container">
-        <div class="emi">
-            <img class="imgzn" src="images/La-sieta/1.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/2.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/3.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/4.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/5.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/6.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/7.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/8.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/9.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/10.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/11.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/12.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/13.jpg" alt="">
-       
-        </div>  
+        <div class="head-service">
+            <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
+        </div>
+        <div class="js-project">
+            <li><button id="btn-pr1" class="btn-project">THƯƠNG HIỆU</button> </li>
+            <li><button id="btn-pr1" class="btn-project">BAO BÌ</button> </li>
+            <li><button id="btn-pr1" class="btn-project">QUẢNG CÁO</button> </li>
+            <li><button id="btn-pr1" class="btn-project">MARKETING</button> </li>
+            <li><button id="btn-pr1" class="btn-project">WEBSITE</button> </li>
+        </div>
+        <!-- slide-1 -->
+        <div id="slide1" class="contain-blk">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./la-sieta.html">
+                            <h4>RESORT & SPA LA SIESTA</h4>
+                        </a>
+                        <p>Nhận diện</p>
+                    </div>
+
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./zony-peanut.html">
+                            <h4>TONY PEANUT</h4>
+                        </a>
+                        <p>Nhận diện, bao bì, quảng cáo</p>
+                    </div>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./Vina-coffee.html">
+                            <h4>VINA COFFEE</h4>
+                        </a>
+                        <p>Bao bì, bộ quà tặng</p>
+                    </div>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="/Ken-mum.html">
+                            <h4>KEN'S MUM</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
+                </div>
+                <!--
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
+                </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="/du-an-la-siesta.html">
+                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
+                </div>
+            -->
+            </div>
+        </div>
+        <!-- slide-2 -->
+        <div id="slide2" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
+                </div>
+            </div>
+        </div>
+        <!-- slide-3 -->
+        <div id="slide3" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <a href="/du-an-la-siesta.html">
+                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                    </a>
+                    <p>NHẬN DIỆN</p>
+                </div>
+            </div>
+        </div>
+        <!-- slide 4 -->
+        <div id="slide4" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+            </div>
+        </div>
+        <!-- slide 5 -->
+        <div id="slide5" class="contain-blk" style="display: none;">
+            <div class="hero-project">
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    </div>
+                    <h4>VECO</h4>
+                    <p>NHẬN DIỆN</p>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- END PROJECT -->
    
-    <div class=" bg-hero">
-        <div class="container">
-            <div class="hero-footer">
-                <div class="items-footer1">
-                    <h4 style="color: #fff;">ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
-                </div>
-                <div class="items-footer2">
-                    <form method="POST" action="email-script.php">
-                        <input type="text" placeholder="Họ Tên" name="" id="" class="footer-frm-name">
-                        <input type="text" placeholder="Email" name="" id="" class="footer-frm-email">
-                        <input type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer class="footer-all">
-        <div class="container-footer">
-            <div class="footer-ct">
-                <div class="contain-col1">
-                    <a href="index.html"><img src="images/logo AHP Agency trắng.png" class="logo-footer"></a>
-                    <div class="loc-footer">
-                        <p> <i class="fa-solid fa-envelope"></i> <span class="tel-footer">ahpmedia@ahpvn.com</span></p>
-                        <p> <i class="fa fa-mobile-phone"></i></i><span class="email-footer">
-                                096.88.68.227</span></p>
-                        <p> <i class="fa-solid fa-location-dot"></i><span class="location-footer"> Lầu 3, Số
-                                666/10/1-3-5, Đường 3/2, Phường 14, Quận
-                                10, TP.HCM.</span></p>
-                    </div>
-                </div>
-                <div class="contain-col2">
-                    <div class="foot-cl2">
-                        <div class="footer-rows">
-                            <h3>Về chúng tôi </h3>
-                            <button onclick="toggleDropdown('dropdown-content-1')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
-                        </div>
-                        <div id="dropdown-content-1" class="dropdown-content">
-                            <p>Giới thiệu AHP</p>
-                            <p>Văn hóa AHP</p>
-                            <p>Tuyển dụng</p>
-                            <p>Đội ngũ nhân sự</p>
-                            <p>Khách hàng của AHP</p>
-                            <p>Bản tin của AHP</p>
-                            <p>Hồ sơ năng lực</p>
-                        </div>
-                    </div>
-                    <div class="foot-cl2">
-                        <div class="footer-rows">
-                            <h3>Dịch vụ cung cấp </h3>
-                            <button onclick="toggleDropdown('dropdown-content-2')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
-                        </div>
-                        <div id="dropdown-content-2" class="dropdown-content">
-                            <p>Tư vấn thương hiệu</p>
-                            <p>Thiết kế thương hiệu</p>
-                            <p>Nhận diện thương hiệu</p>
-                            <p>Thương hiệu mới</p>
-                            <p>Kế hoạch truyền thông</p>
-                            <p>Digital marketing</p>
-                        </div>
-                    </div>
-                    <div class="foot-cl2">
-                        <div class="footer-rows">
-                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
-                        </div>
-                        <div id="dropdown-content-3" class="dropdown-content">
-                            <p>Logo</p>
-                            <p>Đặt tên/slogan</p>
-                            <p>Web/app</p>
-                            <p>Bao bì</p>
-                            <p>Calatogue/Profile</p>
-                            <p>Calatogue/Profile</p>
-                        </div>
-                    </div>
-                    <div class="foot-cl2">
-                        <div class="footer-rows">
-                            <h3>Đơn vị thành viên </h3>
-                            <button onclick="toggleDropdown('dropdown-content-4')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
-                        </div>
-                        <div id="dropdown-content-4" class="dropdown-content">
-                            <p>AHP Digital</p>
-                            <p>AHP Pakaging</p>
-                            <p>AHP Academy</p>
-                            <p>AHP Brandgifts</p>
-                            <p>LogoArt</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </footer>
-    <div class="ban-footer">
-        <div class="container">
-            <div class="social-icons-footer">
-                <h4>Theo dõi chúng tôi</h4>
-                <div>
-                    <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
-                            class="fa-brands fa-facebook-f fb "></i></a>
-                    <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                            class="fa-brands fa-tiktok fb icon-fl"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include 'footer.php'?>
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
