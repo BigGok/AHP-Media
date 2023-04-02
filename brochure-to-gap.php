@@ -193,9 +193,9 @@
         </div>
     </section>
     <!-- END PROJECT -->
-   
-    <?php include 'footer.php'?>
 
+    <?php include 'footer.php'?>
+    
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>

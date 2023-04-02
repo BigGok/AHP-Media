@@ -1,4 +1,28 @@
-
+<div class=" bg-hero">
+        <div class="container">
+            <div class="hero-footer">
+                <div class="items-footer1">
+                    <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP AGENCY</h4>
+                    <img src="images/logo AHP Agency.png" alt="">
+                </div>
+                <div class="items-footer2">
+                    <form method="POST" action="email-script.php">
+                        <input id="idcontname" name="contname" type="text" placeholder="Họ & Tên" class="cont-name"
+                            required />
+                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
+                            required />
+                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
+                            class="cont-phone" pattern="[0-9]{10}" required />
+                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
+                            required />
+                        <textarea class="cont-contect2" cols="80" rows="6" placeholder="Nội dung cần tư vấn" required></textarea>
+                        <input  type="submit" value="Đăng kí nhận thông tin"
+                            class="footer-frm-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 <footer class="footer-all">
         <div class="container-footer">
             <div class="footer-ct">
