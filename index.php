@@ -22,7 +22,7 @@ include('includes/config.php');
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
         rel="stylesheet">
     <!--custom css-->
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link type="text/css" rel="stylesheet" href="css/media.css" />
@@ -35,7 +35,7 @@ include('includes/config.php');
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="scss/style.scss">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
