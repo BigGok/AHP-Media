@@ -155,7 +155,7 @@ include('includes/config.php');
         <div class="hero-service">
             <div class="items-service it0">
                 <img class="img-service" src="images/dichvutieubieu/tuvan.jpg" alt="">
-                <a href="./tu-van-thuong-hieu.html"><h3>Tư vấn thương hiệu</h3></a> 
+                <a href="./tu-van-thuong-hieu.php"><h3>Tư vấn thương hiệu</h3></a> 
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Chiến lược thương hiệu</li>
@@ -170,7 +170,7 @@ include('includes/config.php');
             </div>
             <div class="items-service it1">
                 <img class="img-service" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
-                <a href="./thiet-ke-thuong-hieu.html"><h3>Thiết kế thương hiệu</h3></a>
+                <a href="./thiet-ke-thuong-hieu.php"><h3>Thiết kế thương hiệu</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Thiết kế logo</li>
@@ -186,7 +186,7 @@ include('includes/config.php');
         
           <div class="items-service it2">
                 <img class="img-service" src="images/dichvutieubieu/congngheso.jpg" alt="">
-                <a href="./thuong-hieu-so.html"><h3>Thương hiệu số</h3></a>
+                <a href="./thuong-hieu-so.php"><h3>Thương hiệu số</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Thiết kế website</li>
@@ -201,7 +201,7 @@ include('includes/config.php');
             </div>
             <div class="items-service it3">
                 <img class="img-service" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
-                <a href="./bao-bi-nhan-mac.html"><h3>Bao bì nhãn mác</h3></a>
+                <a href="./bao-bi-nhan-mac.php"><h3>Bao bì nhãn mác</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Bao bì sản phẩm</li>
@@ -217,7 +217,7 @@ include('includes/config.php');
             
             <div class="items-service it4">
                 <img class="img-service" src="images/dichvutieubieu/banquyen.jpg" alt="">
-                <a href="./ban-quyen-giay-phep.html"><h3>Bản quyền & Giấy phép</h3></a>
+                <a href="./ban-quyen-giay-phep.php"><h3>Bản quyền & Giấy phép</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Bảo hộ nhãn hiệu</li>
@@ -233,7 +233,7 @@ include('includes/config.php');
             
             <div class="items-service it5">
                 <img class="img-service" src="images/dichvutieubieu/truyenthong.jpg" alt="">
-                <a href="./truyen-thong.html"><h3>Truyền thông</h3></a>
+                <a href="./truyen-thong.php"><h3>Truyền thông</h3></a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Brand Lauching</li>
@@ -376,7 +376,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./la-sieta.html">
+                        <a href="./la-sieta.php">
                             <h4>RESORT & SPA LA SIESTA</h4>
                         </a>
                         <p>Nhận diện</p>
@@ -388,7 +388,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./zony-peanut.html">
+                        <a href="./zony-peanut.php">
                             <h4>TONY PEANUT</h4>
                         </a>
                         <p>Nhận diện, bao bì, quảng cáo</p>
@@ -399,7 +399,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./Vina-coffee.html">
+                        <a href="./Vina-coffee.php">
                             <h4>VINA COFFEE</h4>
                         </a>
                         <p>Bao bì, bộ quà tặng</p>
@@ -410,7 +410,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/Ken-mum.html">
+                        <a href="/Ken-mum.php">
                             <h4>KEN'S MUM</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
@@ -422,7 +422,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./du-an-la-siesta.html">
+                        <a href="./du-an-la-siesta.php">
                             <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
@@ -433,7 +433,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
+                        <a href="/du-an-la-siesta.php">
                             <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
@@ -444,7 +444,7 @@ include('includes/config.php');
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
+                        <a href="/du-an-la-siesta.php">
                             <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
@@ -460,7 +460,7 @@ include('includes/config.php');
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
                         <img class="img-project" src="images/homecontact-bg.jpg" alt="">
                     </div>
-                    <a href="/du-an-la-siesta.html">
+                    <a href="/du-an-la-siesta.php">
                         <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                     </a>
                     <p>NHẬN DIỆN</p>
@@ -474,7 +474,7 @@ include('includes/config.php');
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
                         <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
                     </div>
-                    <a href="/du-an-la-siesta.html">
+                    <a href="/du-an-la-siesta.php">
                         <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                     </a>
                     <p>NHẬN DIỆN</p>
