@@ -842,17 +842,27 @@ include('includes/config.php');
             <?php }} ?>
             </div>
         </section>
+
     <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
                 <div class="items-footer1">
-                    <h4 style="color: #fff;">ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
+                    <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
+                    <img src="images/logo AHP Agency.png" alt="">
                 </div>
                 <div class="items-footer2">
                     <form method="POST" action="email-script.php">
-                        <input type="text" placeholder="Họ Tên" name="contname" id="contname" class="footer-frm-name">
-                        <input type="text" placeholder="Email" name="contemail" id="contemail" class="footer-frm-email">
-                        <button style="color: rgb(120, 8, 8);" type="submit" class="footer-frm-submit">Đăng ký nhận thông tin</button>
+                        <input id="idcontname" name="contname" type="text" placeholder="Họ & Tên" class="cont-name"
+                            required />
+                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
+                            required />
+                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
+                            class="cont-phone" pattern="[0-9]{10}" required />
+                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
+                            required />
+                        <textarea class="cont-contect2" cols="80" rows="6" placeholder="Nội dung cần tư vấn" required></textarea>
+                        <input  type="submit" value="Đăng kí nhận thông tin"
+                            class="footer-frm-submit">
                     </form>
                 </div>
             </div>
