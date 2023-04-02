@@ -838,7 +838,7 @@ include('includes/config.php');
         <div class="container">
             <div class="hero-footer">
                 <div class="items-footer1">
-                    <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
+                    <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP AGENCY</h4>
                     <img src="images/logo AHP Agency.png" alt="">
                 </div>
                 <div class="items-footer2">
@@ -942,7 +942,7 @@ include('includes/config.php');
             <div class="social-icons-footer">
                 <h4>Theo dõi chúng tôi</h4>
                 <div>
-                    <a href="https://www.facebook.com/profile.php?id=100090142604061"><i
+                    <a href="https://www.facebook.com/ahp.agency"><i
                             class="fa-brands fa-facebook-f fb "></i></a>
                     <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
                             class="fa-brands fa-tiktok fb icon-fl"></i></a>
