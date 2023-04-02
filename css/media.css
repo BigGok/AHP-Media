@@ -1094,6 +1094,9 @@
         .items-footer1 img{
             display: none;
         }
+        .card__text{
+            height: auto;
+        }
     }
 
     /* Styles for screens between 576px and 768px */
