@@ -26,7 +26,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="About-Us.html">
+                                    <a class="nav-link" href="About-Us.php">
                                         <div class="name">
                                             <span data-text="VỀ CHÚNG TÔI">VỀ CHÚNG TÔI</span>
                                         </div>
@@ -34,7 +34,7 @@
                                 </li>
                                 
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
+                                    <a class="nav-link dropdown-toggle" href="Service.php" id="navbarDropdown"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
