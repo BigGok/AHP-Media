@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>AHP Agency - Túi Giấy</title>
+    <title>AHP Agency</title>
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,157 +42,44 @@
 <body>
     <?php include 'header.php' ?>
 
+    <section class="header-bg-parent">
+        <div class="header-col1">
+
+     
+            </div>
+        </div>
+        <!--header-col1-->
+        <div class="swiper1 Swiper">
+            
+            <div class="swiper-pagination"></div>
+        </div>
+
+      
+        <!--header-col2-->
+        <div class="clear"></div>
+        <!--clear-->
+
+    </section>
 
     <section class="container">
-        <div class="head-service">
-            <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
-        </div>
-        <div class="js-project">
-            <li><button id="btn-pr1" class="btn-project">THƯƠNG HIỆU</button> </li>
-            <li><button id="btn-pr1" class="btn-project">BAO BÌ</button> </li>
-            <li><button id="btn-pr1" class="btn-project">QUẢNG CÁO</button> </li>
-            <li><button id="btn-pr1" class="btn-project">MARKETING</button> </li>
-            <li><button id="btn-pr1" class="btn-project">WEBSITE</button> </li>
-        </div>
-        <!-- slide-1 -->
-        <div id="slide1" class="contain-blk">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./la-sieta.html">
-                            <h4>RESORT & SPA LA SIESTA</h4>
-                        </a>
-                        <p>Nhận diện</p>
-                    </div>
-
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./zony-peanut.html">
-                            <h4>TONY PEANUT</h4>
-                        </a>
-                        <p>Nhận diện, bao bì, quảng cáo</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./Vina-coffee.html">
-                            <h4>VINA COFFEE</h4>
-                        </a>
-                        <p>Bao bì, bộ quà tặng</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/Ken-mum.html">
-                            <h4>KEN'S MUM</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <!--
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-            -->
-            </div>
-        </div>
-        <!-- slide-2 -->
-        <div id="slide2" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
-        <!-- slide-3 -->
-        <div id="slide3" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
-        <!-- slide 4 -->
-        <div id="slide4" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
-        <!-- slide 5 -->
-        <div id="slide5" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
+        <div class="emi">
+            <img class="imgzn" src="images/La-sieta/1.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/2.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/3.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/4.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/5.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/6.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/7.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/8.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/9.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/10.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/11.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/12.jpg" alt="">
+            <img class="imgzn" src="images/La-sieta/13.jpg" alt="">
+          
+       
+        </div>  
     </section>
-    <!-- END PROJECT -->
    
     <?php include 'footer.php'?>
 

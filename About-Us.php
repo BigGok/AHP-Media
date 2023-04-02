@@ -43,28 +43,22 @@
     <?php include 'header.php' ?>
 
     <section class="header-bg-parent">
-        <div class="header-col1">
-
-            <div class="head-blog"><a class="head-dr" href="index.html"> TRANG CHỦ</a><i
-                    class="fa-solid fa-caret-right"></i> <span class="head-dr2">VỀ CHÚNG TÔI</span>
-            </div>
-        </div>
-        <!--header-col1-->
+        <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
-                <div class="swiper-slide"><img class="slider-bar" src="images/ảnh bìa website.jpg" alt=""></div>
+                
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
+                        <img class="slider-bar" src="images/Banner2.jpg" alt="">
+                    </picture>
+                </div>
+              
+               
             </div>
             <div class="swiper-pagination"></div>
         </div>
-
-      
-        <!--header-col2-->
         <div class="clear"></div>
-        <!--clear-->
-
     </section>
 
     <section class="container bbb">

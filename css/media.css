@@ -1277,11 +1277,16 @@
             display: flex;
             width: 100%;
         }
-
+     
+       
+        .items-footer1 img{
+            display: none;
+        }
+       
         .items-footer2 input {
             display: flex;
             justify-content: center;
-            width: 96%;
+            width: 100%;
         }
 
         .footer-frm-name,
@@ -1617,11 +1622,14 @@
             display: flex;
             width: 100%;
         }
+        .items-footer1 img{
+            display: none;
+        }
 
         .items-footer2 input {
             display: flex;
             justify-content: center;
-            width: 96%;
+            width: 100%;
         }
 
         .footer-frm-name,

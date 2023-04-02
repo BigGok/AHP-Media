@@ -2,8 +2,9 @@
         <div class="container">
             <div class="hero-footer">
                 <div class="items-footer1">
+                <img src="images/logo AHP Agency.png" alt="">
                     <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP AGENCY</h4>
-                    <img src="images/logo AHP Agency.png" alt="">
+                   
                 </div>
                 <div class="items-footer2">
                     <form method="POST" action="email-script.php">
