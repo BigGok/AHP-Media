@@ -1,8 +1,3 @@
-<?php 
-session_start();
-include('includes/config.php');
-
-?>
 <!DOCTYPE html>
 <html>
 
@@ -45,9 +40,6 @@ include('includes/config.php');
 </head>
 
 <body>
-
-
-
     <div id="arrow">
         <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
@@ -68,7 +60,7 @@ include('includes/config.php');
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="./">
                                         <div class="name">
                                             <span data-text="TRANG CHỦ"> TRANG CHỦ </span>
                                         </div>
@@ -81,7 +73,6 @@ include('includes/config.php');
                                         </div>
                                     </a>
                                 </li>
-                                
                                 <li class="nav-item n1">
                                     <a class="nav-link dropdown-toggle" href="Service.html" id="navbarDropdown"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -131,7 +122,6 @@ include('includes/config.php');
                                         </div>
                                     </div>
                                 </li>
-                                
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.html">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
@@ -148,6 +138,7 @@ include('includes/config.php');
                                         <button>Tìm kiếm</button>
                                     </div>
                                 </li>
+
                                 <li class="nav-item">
                                     <a data-modal-target="#mod-modal" class="nav-link name1">
                                         <div class="name name2"><span data-text="LIÊN HỆ">LIÊN HỆ</span></div>
@@ -165,7 +156,7 @@ include('includes/config.php');
                                                     của bạn.
                                                     Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                                                 </p>
-                                                <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
+                                                <img class="mod-img" src="images2/business/business_3.png" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
@@ -194,7 +185,7 @@ include('includes/config.php');
                                                         đến những giải pháp truyền thông
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                                                    <form id="form" class="hero-form" action="email-script.php">
+                                                    <form id="form" class="hero-form" action="/">
                                                         <input id="idcontname" name="contname" type="text"
                                                             placeholder="Họ Tên" class="cont-name" required />
                                                         <input id="idcontloc" name="contloc" type="location"
@@ -232,11 +223,10 @@ include('includes/config.php');
                                 <li class="nav-items">
                                     <div id='google_translate_element' class="gg-translate"></div>
                                     <div class="translate-part">
-                                    <label class="switch" onclick="translateToEnglish()">
-                                        <input type="checkbox" id="lang-toggle">
-                                        <span class="slider round"><span>
-                                    </label>
-                                        
+                                        <label class="switch" onclick="translateToEnglish()">
+                                            <input type="checkbox" id="lang-toggle">
+                                            <span class="slider round"><span>
+                                        </label>
                                     </div>
                                 </li>
                             </ul>
@@ -255,13 +245,13 @@ include('includes/config.php');
                 class="fab fa-facebook-messenger"></i></a>
     </div>
 
-    <!-- MAIL-BOX -->
     <div id="modal" class="modal">
         <div class="modal-content1">
             <div class="mod-header">
                 <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
                 <button class="close">&times;</button>
             </div>
+
             <div class="mod-body">
                 <div class="mod-items1">
                     <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
@@ -269,7 +259,7 @@ include('includes/config.php');
                         của bạn.
                         Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                     </p>
-                    <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
+                    <img class="mod-img" src="images2/business/business_3.png" alt="">
                     <div class="contain-contact">
                         <div class="nav-contact">
                             <div class="contact-items">
@@ -298,7 +288,7 @@ include('includes/config.php');
                             đến những giải pháp truyền thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                        <form id="form" class="hero-form" action="email-script.php">
+                        <form id="form" class="hero-form" action="/">
                             <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
                                 required />
                             <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
@@ -331,318 +321,8 @@ include('includes/config.php');
             </div>
         </div>
     </div>
-    <!-- END MAIL-BOX -->
-
-    <!-- SLIDE BANNER -->
-    <section class="header-bg-parent">
-        <div class="header-col1"></div>
-        <div class="swiper1 Swiper">
-            <div class="swiper-wrapper">
-                
-                <div class="swiper-slide">
-                    <picture>
-                        <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
-                        <img class="slider-bar" src="images/Banner2.jpg" alt="">
-                    </picture>
-                </div>
-              
-               
-            </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <div class="clear"></div>
-    </section>
-    <!-- END SLIDE BANNER -->
 
 
-    <!-- AHP-HERE-TO-HELP-YOU -->
-    <section class="container ccc">
-        <div class="head-service"><h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3></div>
-        
-        <div class="box1">
-            <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen="" ></iframe>
-        </div>
-        <div class="box2" >
-            <h2>CHỦ DOANH NGHIỆP ĐANG ĐAU ĐẦU?</h2>
-            <p>🔸Làm thế nào để biết khách hàng thực sự muốn gì?</p>
-            <p>🔸Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
-            <p>🔸Hoạt động kinh doanh không tốt. </p>
-            <p>🔸Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
-            <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.  Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
-        </div>
-   </section>
-    <!-- END AHP-HERE-TO-HELP-YOU -->
-
-    <!-- PARTNER -->
-    <Section id="project">
-        <div class="container">
-            <div class="head-service">
-                <h3>ĐỐI TÁC</h3>
-            </div>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/1.png" class="img-responsive" />
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/2.png" class="img-responsive" />
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/3.png" class="img-responsive" />
-                    </div>
-                </div>
-                         
-
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/4.png" class="img-responsive" />
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/5.png" class="img-responsive" />
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/6.png" class="img-responsive" />
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/7.png" class="img-responsive" />
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="owl-img-par">
-                        <img src="images/logo/8.png" class="img-responsive" />
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </Section>
-    <!-- END PARTNER -->
-
-    <!-- SERVICE -->
-    <section class="container ">
-        <div class="head-service">
-            <h3>DỊCH VỤ TIÊU BIỂU</h3>
-        </div>
-        <div class="hero-service">
-            <div class="items-service it0">
-                <img class="img-service" src="images/dichvutieubieu/tuvan.jpg" alt="">
-                <a href="./tu-van-thuong-hieu.html"><h3>Tư vấn thương hiệu</h3></a> 
-                <div class="list-service">
-                    <ul class="items-list-service">
-                        <li>Chiến lược thương hiệu</li>
-                        <li>Tái định vị thương hiệu</li>
-                        <li>Ra mắt thương hiệu</li>
-                        <li>Quy chế thương hiệu</li>
-                        <li>Mở rộng thương hiệu</li>
-                        <li>Định giá thương hiệu</li>
-                        <img class="img-service2" src="images/dichvutieubieu/tuvan.jpg" alt="">
-                    </ul>
-                </div>
-            </div>
-            <div class="items-service it1">
-                <img class="img-service" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
-                <a href="./thiet-ke-thuong-hieu.html"><h3>Thiết kế thương hiệu</h3></a>
-                <div class="list-service">
-                    <ul class="items-list-service">
-                        <li>Thiết kế logo</li>
-                        <li>Nhận diện thương hiệu</li>
-                        <li>Đặt tên thương hiệu</li>
-                        <li>Nhận diện văn phòng</li>
-                        <li>Sáng tác slogan</li>
-                        <li>Nhận diện điểm bán</li>
-                        <img class="img-service2" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
-                    </ul>
-                </div>
-            </div>
-        
-          <div class="items-service it2">
-                <img class="img-service" src="images/dichvutieubieu/congngheso.jpg" alt="">
-                <a href="./thuong-hieu-so.html"><h3>Thương hiệu số</h3></a>
-                <div class="list-service">
-                    <ul class="items-list-service">
-                        <li>Thiết kế website</li>
-                        <li>UX UI design</li>
-                        <li>Nhận diện số</li>
-                        <li>Online Sales Kit</li>
-                        <li>landing page</li>
-                        <li>Giải pháp VR360</li>
-                        <img class="img-service2" src="images/dichvutieubieu/congngheso.jpg" alt="">
-                    </ul>
-                </div>
-            </div>
-            <div class="items-service it3">
-                <img class="img-service" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
-                <a href="./bao-bi-nhan-mac.html"><h3>Bao bì nhãn mác</h3></a>
-                <div class="list-service">
-                    <ul class="items-list-service">
-                        <li>Bao bì sản phẩm</li>
-                        <li>Nhãn mác sản phẩm</li>
-                        <li>Kiểu dáng công nghiệp</li>
-                        <li>Nhãn mác sản phẩm</li>
-                        <li>Nhãn mác dược phẩm</li>
-                        <li>Nhãn mác đồ uống</li>
-                        <img class="img-service2" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="items-service it4">
-                <img class="img-service" src="images/dichvutieubieu/banquyen.jpg" alt="">
-                <a href="./ban-quyen-giay-phep.html"><h3>Bản quyền & Giấy phép</h3></a>
-                <div class="list-service">
-                    <ul class="items-list-service">
-                        <li>Bảo hộ nhãn hiệu</li>
-                        <li>Công bố sản phẩm</li>
-                        <li>Bảo hộ quốc tế</li>
-                        <li>Mã số mã vạch</li>
-                        <li>Bản quyền tác giả</li>
-                        <li>Giấy phép quảng cáo</li>
-                        <img class="img-service2" src="images/dichvutieubieu/banquyen.jpg" alt="">
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="items-service it5">
-                <img class="img-service" src="images/dichvutieubieu/truyenthong.jpg" alt="">
-                <a href="./truyen-thong.html"><h3>Truyền thông</h3></a>
-                <div class="list-service">
-                    <ul class="items-list-service">
-                        <li>Brand Lauching</li>
-                        <li>Corporate Brand Image</li>
-                        <li>Digital Branding</li>
-                        <li>Social Branding</li>
-                        <li>Kế hoạch truyền thông</li>
-                        <li>Kế hoạch marketing</li>
-                        <img class="img-service2" src="images/dichvutieubieu/truyenthong.jpg" alt="">
-                    </ul>
-                </div>
-            </div>
-            
-        </div>
-        
-    </section>
-    <!-- END SERVICE -->
-
-    <!-- WHY CHOOSE US -->
-    <section class="container">
-        <div class="hero-about">
-            <img class="img-head-about" src="images/why-choose-us.png" alt="">
-            <div class="contain-about">
-                <div class="items-about">
-                    <h3>TẠI SAO NÊN CHỌN AHP AGENCY?</h3>
-                    <p>Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
-                        thông
-                        tiên
-                        tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                </div>
-                <div class="icon-about">
-                    <div class="icon-about-items">
-                        <img src="images/about/icon-about01.png" alt="">
-                        <span>CHẤT LƯỢNG </span>
-                    </div>
-                    <div class="icon-about-items">
-                        <img src="images/about/icon-about02.png" alt="">
-                        <span>CHUYÊN NGHIỆP </span>
-                    </div>
-                    <div class="icon-about-items">
-                        <img src="images/about/icon-about03.png" alt="">
-                        <span>TẬN TÂM</span>
-                    </div>
-                    <div class="icon-about-items">
-                        <img src="images/about/icon-about04.jpg" alt="">
-                        <span>UY TÍN</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- END WHY CHOOSE US -->
-
-    <!-- REPORT-CUSTOMER -->
-    <section class="container">
-        <div class="head-service">
-            <h3>KHÁCH HÀNG ĐÁNH GIÁ</h3>
-        </div>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="card22 swiper-slide">
-                    <div class="card__content">
-                        <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể.</p>
-                        <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/2.png" alt="">
-                            <div class="contain-testimoni">
-                                <span class="card__title">Bếp Bánh Ken's </span>
-                                <span class="card__name"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card22 swiper-slide">
-                    <div class="card__content">
-                        <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text"> Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể                                       
-                                 .</p>
-                        <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/7.png" alt="">
-                            <div class="contain-testimoni">
-                                <span class="card__title">LA SIESTA</span>
-                                <span class="card__name"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card22 swiper-slide">
-                    <div class="card__content">
-                        <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Tôi rất đánh giá cao sự tận tâm và hỗ trợ của đội ngũ AHP Agency. Họ luôn sẵn sàng tư vấn và hỗ trợ tôi trong quá trình triển khai chiến dịch truyền thông và quảng cáo, giúp tôi hiểu rõ hơn về chiến lược và cách thức thực hiện                                                      
-                                  .</p>
-                        <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/3.png" alt="">
-                            <div class="contain-testimoni">
-                                <span class="card__title">Vina coffee</span>
-                                <span class="card__name"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card22 swiper-slide">
-                    <div class="card__content">
-                        <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Tôi cũng rất thích cách tiếp cận sáng tạo và đổi mới của AHP Agency. Họ không ngừng đưa ra những ý tưởng mới để làm cho chiến dịch của tôi trở nên độc đáo và thu hút được sự chú ý của khách hàng. Tôi tin tưởng rằng với sự sáng tạo và đổi mới này, AHP Agency sẽ giúp tôi đạt được nhiều thành công hơn trong tương lai.</p>
-                        <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/5.png" alt="">
-                            <div class="contain-testimoni">
-                                <span class="card__title">Tony Peanut</span>
-                                <span class="card__name"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-    <!-- END REPORT-CUSTOMER -->
-
-    <!--PROJECT -->
     <section class="container">
         <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
@@ -793,73 +473,8 @@ include('includes/config.php');
         </div>
     </section>
     <!-- END PROJECT -->
-
-
-
-    <!-- NEWS-INDEX -->
-    <section class="container">
-            <div class="head-service">
-                <h3 style="color: #D00000;">TIN TỨC</h3>
-            </div>
-            <div class="hero-news">
-            <?php  if (isset($_GET['pageno'])) {
-                $pageno = $_GET['pageno'];
-            } else {
-                $pageno = 1;
-            }
-            $no_of_records_per_page = 4;
-            $offset = ($pageno-1) * $no_of_records_per_page;
-            
+   
     
-            $total_pages_sql = "SELECT COUNT(*) FROM tblposts ";
-            $result = mysqli_query($con,$total_pages_sql);
-            $total_rows = mysqli_fetch_array($result)[0];
-            $total_pages = ceil($total_rows / $no_of_records_per_page);
-    
-            $query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.Is_Active=1 order by tblposts.id desc  LIMIT $offset, $no_of_records_per_page");
-            if($result){
-            while ($row=mysqli_fetch_array($query)) {
-            ?>
-                <div class="items-news" >
-                <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <img class="img-news" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt=""> </a>
-                    <div class="news-abs">
-                        <h2><a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <?php echo htmlentities($row['posttitle']);?></a></h2>
-                    </div>
-                    <div class="card-footer text-muted">
-                  Posted on <?php echo htmlentities($row['postingdate']);?>
-               
-                </div>
-                </div>
-            <?php }} ?>
-            </div>
-        </section>
-
-    <div class=" bg-hero">
-        <div class="container">
-            <div class="hero-footer">
-                <div class="items-footer1">
-                    <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
-                    <img src="images/logo AHP Agency.png" alt="">
-                </div>
-                <div class="items-footer2">
-                    <form method="POST" action="email-script.php">
-                        <input id="idcontname" name="contname" type="text" placeholder="Họ & Tên" class="cont-name"
-                            required />
-                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
-                            required />
-                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
-                            class="cont-phone" pattern="[0-9]{10}" required />
-                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
-                            required />
-                        <textarea class="cont-contect2" cols="80" rows="6" placeholder="Nội dung cần tư vấn" required></textarea>
-                        <input  type="submit" value="Đăng kí nhận thông tin"
-                            class="footer-frm-submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <footer class="footer-all">
         <div class="container-footer">
             <div class="footer-ct">
@@ -965,31 +580,11 @@ include('includes/config.php');
     <script src="js/pop.js"></script>
     <script src="js/translate.js"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
-    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script src="js/swiper.js"></script>
-    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".img-project"), {
-            max: 1,
-            speed: 900,
-            glare: true,
-            "max-glare": 1,
-        });
-    </script>
-    <script>
-        function toggleDropdown(id) {
-            var dropdown = document.getElementById(id);
-            if (dropdown.style.display === "none") {
-                dropdown.style.display = "block";
-            } else {
-                dropdown.style.display = "none";
-            }
-        }
-    </script>
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
@@ -997,70 +592,73 @@ include('includes/config.php');
 
     </script>
     <style>
-    .switch {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 24px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 20px;
-  width: 20px;
-  left: 3px;
-  bottom: 3px;
-  background-image: url("images/viet.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-
-input:checked + .slider {
-  background-color: #baadab;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-  background-image: url("images/eng.png");
-}
-
-.slider.round {
-  border-radius: 30px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-</style>  
+        .switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+      content:"";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-image: url("images/viet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  input:checked + .slider {
+    background-color: #baadab;
+     
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-image: url("images/eng.png");
+    
+  
+  }
+  
+  .slider.round {
+    border-radius: 30px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    
+  }
+    </style>
 </body>
 
 </html>
