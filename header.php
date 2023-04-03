@@ -42,43 +42,43 @@
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <div class="dichvu dic1">
                                             <a class="food">Thiết kế thương hiệu</a>
-                                            <a class="dropdown-item" href="./Service-php/thiet-ke-logo.php">Thiết kế Logo</a>
-                                            <a class="dropdown-item" href="./Service-php/thiet-ke-nhan-dien-thuong-hieu.php">Thiết kế nhận diện thương hiệu</a>
-                                            <a class="dropdown-item" href="./Service-php/dat-ten-thuong-hieu.php">Đặt tên thương hiệu</a>
-                                            <a class="dropdown-item" href="./Service-php/sang-tac-slogan.php">Sáng tác slogan</a>
-                                            <a class="dropdown-item" href="./Service-php/dang-ku-ban-quyen-logo.php">Đăng ký bản quyền Logo</a>
-                                            <a class="dropdown-item" href="./Service-php/nhan-dien-thuong-hieu-van-phong.php">Nhận diện thương hiệu văn phòng</a>
-                                            <a class="dropdown-item" href="./Service-php/nhan-dien-thuong-hieu-tai-diem-ban.php">Nhận diện thương hiệu tại điểm bán</a>
-                                            <a class="dropdown-item" href="./Service-php/nhan-dien-thuong-hieu-san-pham.php">Nhận diện thương hiệu Sản Phẩm</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế Logo</a>
+                                            <a class="dropdown-item" href="./thiet-ke-nhan-dien-thuong-hieu.php">Thiết kế nhận diện thương hiệu</a>
+                                            <a class="dropdown-item" href="./dat-ten-thuong-hieu.php">Đặt tên thương hiệu</a>
+                                            <a class="dropdown-item" href="./sang-tac-slogan.php">Sáng tác slogan</a>
+                                            <a class="dropdown-item" href="./dang-ku-ban-quyen-logo.php">Đăng ký bản quyền Logo</a>
+                                            <a class="dropdown-item" href="./nhan-dien-thuong-hieu-van-phong.php">Nhận diện thương hiệu văn phòng</a>
+                                            <a class="dropdown-item" href="./nhan-dien-thuong-hieu-tai-diem-ban.php">Nhận diện thương hiệu tại điểm bán</a>
+                                            <a class="dropdown-item" href="./nhan-dien-thuong-hieu-san-pham.php">Nhận diện thương hiệu Sản Phẩm</a>
                                         </div>
                                         <div class="dichvu dic2">
                                             <a class="food">Thiết kế Marketing</a>
-                                            <a class="dropdown-item" href="./Service-php/name-card.php">Name card</a>
-                                            <a class="dropdown-item" href="./Service-php/bao-thu.php">Bao thư</a>
-                                            <a class="dropdown-item" href="./Service-php/profile.php">Profile</a>
-                                            <a class="dropdown-item" href="./Service-php/kep-file-folder.php">Kẹp file,folder</a>
-                                            <a class="dropdown-item" href="./Service-php/catalogue.php">Catalogue</a>
-                                            <a class="dropdown-item" href="./Service-php/brochure-to-gap.php">Brochure,Tờ gấp</a>
-                                            <a class="dropdown-item" href="./Service-php/to-roi-flyer.php">Tờ rơi,Flyer</a>
-                                            <a class="dropdown-item" href="./Service-php/giay-tieu-de.php">Giấy tiêu đề,Letterhead</a>
+                                            <a class="dropdown-item" href="./name-card.php">Name card</a>
+                                            <a class="dropdown-item" href="./bao-thu.php">Bao thư</a>
+                                            <a class="dropdown-item" href="./profile.php">Profile</a>
+                                            <a class="dropdown-item" href="./kep-file-folder.php">Kẹp file,folder</a>
+                                            <a class="dropdown-item" href="./catalogue.php">Catalogue</a>
+                                            <a class="dropdown-item" href="./brochure-to-gap.php">Brochure,Tờ gấp</a>
+                                            <a class="dropdown-item" href="./to-roi-flyer.php">Tờ rơi,Flyer</a>
+                                            <a class="dropdown-item" href="./giay-tieu-de.php">Giấy tiêu đề,Letterhead</a>
                                         </div>
                                         <div class="dichvu dic2">
                                             <a class="food">Thiết kế quảng cáo</a>
-                                            <a class="dropdown-item" href="./Service-php/quang-cao.php">Quảng cáo</a>
-                                            <a class="dropdown-item" href="./Service-php/back-drop-bang-hieu.php">Backdrop,bảng hiệu</a>
-                                            <a class="dropdown-item" href="./Service-php/standee.php">Standee</a>
-                                            <a class="dropdown-item" href="./Service-php/poster.php">Poster</a>
-                                            <a class="dropdown-item" href="./Service-php/tranh-canvas.php">Tranh Canvas</a>
-                                            <a class="dropdown-item" href="./Service-php/menu.php">Menu</a>
-                                            <a class="dropdown-item" href="./Service-php/bao-li-xi.php">Bao lì xì</a>
-                                            <a class="dropdown-item" href="./Service-php/lich-tet.php">Lịch tết</a>
+                                            <a class="dropdown-item" href="./quang-cao.php">Quảng cáo</a>
+                                            <a class="dropdown-item" href="./back-drop-bang-hieu.php">Backdrop,bảng hiệu</a>
+                                            <a class="dropdown-item" href="standee.php">Standee</a>
+                                            <a class="dropdown-item" href="./poster.php">Poster</a>
+                                            <a class="dropdown-item" href="./tranh-canvas.php">Tranh Canvas</a>
+                                            <a class="dropdown-item" href="./menu.php">Menu</a>
+                                            <a class="dropdown-item" href="./bao-li-xi.php">Bao lì xì</a>
+                                            <a class="dropdown-item" href="./lich-tet.php">Lịch tết</a>
                                         </div>
                                         <div class="dichvu dic2">
                                             <a class="food">Thiết kế bao bì sản phẩm</a>
-                                            <a class="dropdown-item" href="./Service-php/hop-san-pham.php">Hộp sản phẩm</a>
-                                            <a class="dropdown-item" href="./Service-php/bao-bi-hop-san-pham.php">Bao bì, hộp sản phẩm</a>
-                                            <a class="dropdown-item" href="./Service-php/decal-tem-nhan.php">Decal,tem nhãn</a>
-                                            <a class="dropdown-item" href="./Service-php/tui-giay.php">Túi giấy</a>
+                                            <a class="dropdown-item" href="./hop-san-pham.php">Hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="./bao-bi-hop-san-pham.php">Bao bì, hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="./decal-tem-nhan.php">Decal,tem nhãn</a>
+                                            <a class="dropdown-item" href="./tui-giay.php">Túi giấy</a>
                                         </div>
                                     </div>
                                 </li>
