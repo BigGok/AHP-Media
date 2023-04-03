@@ -43,7 +43,7 @@
     <?php include 'header.php' ?>
 
 
-    <section class="container">
+    <section class="container ctn1">
         <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>

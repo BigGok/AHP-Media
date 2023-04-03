@@ -259,7 +259,7 @@ include('includes/config.php');
             <div class="contain-about">
                 <div class="items-about">
                     <h3>TẠI SAO NÊN CHỌN AHP AGENCY?</h3>
-                    <p>Công ty Truyền Thông AHP MEDIA đã được thành lập với mục đích mang đến những giải pháp truyền
+                    <p>Công ty Truyền Thông AHP AGENCY đã được thành lập với mục đích mang đến những giải pháp truyền
                         thông
                         tiên
                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
