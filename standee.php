@@ -45,7 +45,7 @@
                 <div class="swiper-slide">
                     <picture>
                         <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
-                        <img class="slider-bar" src="images/Banner2.jpg" alt="">
+                        <img class="slider-bar2" src="images/Banner2.jpg" alt="">
                     </picture>
                 </div>
             </div>
