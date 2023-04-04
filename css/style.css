@@ -113,8 +113,8 @@ p {
 }
 
 .blinking-email {
+    cursor: pointer;
     position: fixed;
-    transform: .5s ease;
     display: block;
     bottom: 100%;
     right: 25px;
@@ -1673,6 +1673,8 @@ hr.footer-hr {
 }
 
 .card__content {
+    display: flex;
+    flex-wrap: wrap;
     margin: 13px;
     background: #F6F6F6;
     text-align: center;

@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include('includes/config.php');
 
@@ -12,21 +12,21 @@ include('includes/config.php');
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet">
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <!--rubik font family -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
     <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-    
+    <!-- JS project -->
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 
     <!--jquery ui files-->
     <link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css" />
@@ -36,9 +36,7 @@ include('includes/config.php');
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="scss/style.scss">
-    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
@@ -46,21 +44,21 @@ include('includes/config.php');
 
 <body>
     <?php include 'header.php' ?>
-  
-        <!-- SLIDE BANNER -->
-        <section class="header-bg-parent">
+
+    <!-- SLIDE BANNER -->
+    <section class="header-bg-parent">
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
             <div class="swiper-wrapper">
-                
+
                 <div class="swiper-slide">
                     <picture>
                         <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
                         <img class="slider-bar" src="images/Banner2.jpg" alt="">
                     </picture>
                 </div>
-              
-               
+
+
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -71,20 +69,22 @@ include('includes/config.php');
 
     <!-- AHP-HERE-TO-HELP-YOU -->
     <section class="container ccc">
-        <div class="head-service"><h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3></div>
-        
-        <div class="box1">
-            <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen="" ></iframe>
+        <div class="head-service">
+            <h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3>
         </div>
-        <div class="box2" >
+
+        <div class="box1">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/htWsFwsbbPM?mute=1&amp;showinfo=0&amp;controls=1&amp;start=0&amp;autoplay=1" data-autoplay="1" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+        <div class="box2">
             <h2>CHỦ DOANH NGHIỆP ĐANG ĐAU ĐẦU?</h2>
             <p>🔸Làm thế nào để biết khách hàng thực sự muốn gì?</p>
             <p>🔸Không biết marketing thế nào để sản phẩm của mình KHÁC BIỆT, ngoài việc chỉ biết hạ giá để cạnh tranh</p>
             <p>🔸Hoạt động kinh doanh không tốt. </p>
             <p>🔸Tốn nhiều chi phí quảng cáo nhưng hiệu quả chưa tối ưu</p>
-            <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này.  Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
+            <p class="teo">“Nếu một trong các vấn đề trên vẫn đang là bế tắc của bạn thì AHP Agency chính là giải pháp tốt nhất giúp bạn giải quyết vấn đề này. Hãy để AHP Agency giúp bạn giải quyết các vấn đề trên</p>
         </div>
-   </section>
+    </section>
     <!-- END AHP-HERE-TO-HELP-YOU -->
 
     <!-- PARTNER -->
@@ -110,7 +110,7 @@ include('includes/config.php');
                         <img src="images/logo/3.png" class="img-responsive" />
                     </div>
                 </div>
-                         
+
 
                 <div class="item">
                     <div class="owl-img-par">
@@ -141,7 +141,7 @@ include('includes/config.php');
                         <img src="images/logo/8.png" class="img-responsive" />
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </Section>
@@ -155,7 +155,9 @@ include('includes/config.php');
         <div class="hero-service">
             <div class="items-service it0">
                 <img class="img-service" src="images/dichvutieubieu/tuvan.jpg" alt="">
-                <a href="./tu-van-thuong-hieu.php"><h3>Tư vấn thương hiệu</h3></a> 
+                <a href="./tu-van-thuong-hieu.php">
+                    <h3>Tư vấn thương hiệu</h3>
+                </a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Chiến lược thương hiệu</li>
@@ -170,7 +172,9 @@ include('includes/config.php');
             </div>
             <div class="items-service it1">
                 <img class="img-service" src="images/dichvutieubieu/thietkethuonghieu.jpg" alt="">
-                <a href="./thiet-ke-thuong-hieu.php"><h3>Thiết kế thương hiệu</h3></a>
+                <a href="./thiet-ke-thuong-hieu.php">
+                    <h3>Thiết kế thương hiệu</h3>
+                </a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Thiết kế logo</li>
@@ -183,10 +187,12 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-        
-          <div class="items-service it2">
+
+            <div class="items-service it2">
                 <img class="img-service" src="images/dichvutieubieu/congngheso.jpg" alt="">
-                <a href="./thuong-hieu-so.php"><h3>Thương hiệu số</h3></a>
+                <a href="./thuong-hieu-so.php">
+                    <h3>Thương hiệu số</h3>
+                </a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Thiết kế website</li>
@@ -201,7 +207,9 @@ include('includes/config.php');
             </div>
             <div class="items-service it3">
                 <img class="img-service" src="images/dichvutieubieu/thietkebaobi.jpg" alt="">
-                <a href="./bao-bi-nhan-mac.php"><h3>Bao bì nhãn mác</h3></a>
+                <a href="./bao-bi-nhan-mac.php">
+                    <h3>Bao bì nhãn mác</h3>
+                </a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Bao bì sản phẩm</li>
@@ -214,10 +222,12 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            
+
             <div class="items-service it4">
                 <img class="img-service" src="images/dichvutieubieu/banquyen.jpg" alt="">
-                <a href="./ban-quyen-giay-phep.php"><h3>Bản quyền & Giấy phép</h3></a>
+                <a href="./ban-quyen-giay-phep.php">
+                    <h3>Bản quyền & Giấy phép</h3>
+                </a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Bảo hộ nhãn hiệu</li>
@@ -230,10 +240,12 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            
+
             <div class="items-service it5">
                 <img class="img-service" src="images/dichvutieubieu/truyenthong.jpg" alt="">
-                <a href="./truyen-thong.php"><h3>Truyền thông</h3></a>
+                <a href="./truyen-thong.php">
+                    <h3>Truyền thông</h3>
+                </a>
                 <div class="list-service">
                     <ul class="items-list-service">
                         <li>Brand Lauching</li>
@@ -246,9 +258,9 @@ include('includes/config.php');
                     </ul>
                 </div>
             </div>
-            
+
         </div>
-        
+
     </section>
     <!-- END SERVICE -->
 
@@ -311,8 +323,8 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text"> Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể                                       
-                                 .</p>
+                        <p class="card__text"> Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể
+                            .</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/7.png" alt="">
                             <div class="contain-testimoni">
@@ -325,8 +337,8 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Tôi rất đánh giá cao sự tận tâm và hỗ trợ của đội ngũ AHP Agency. Họ luôn sẵn sàng tư vấn và hỗ trợ tôi trong quá trình triển khai chiến dịch truyền thông và quảng cáo, giúp tôi hiểu rõ hơn về chiến lược và cách thức thực hiện                                                      
-                                  .</p>
+                        <p class="card__text">Tôi rất đánh giá cao sự tận tâm và hỗ trợ của đội ngũ AHP Agency. Họ luôn sẵn sàng tư vấn và hỗ trợ tôi trong quá trình triển khai chiến dịch truyền thông và quảng cáo, giúp tôi hiểu rõ hơn về chiến lược và cách thức thực hiện
+                            .</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/3.png" alt="">
                             <div class="contain-testimoni">
@@ -512,41 +524,42 @@ include('includes/config.php');
 
     <!-- NEWS-INDEX -->
     <section class="container">
-            <div class="head-service">
-                <h3 style="color: #D00000;">TIN TỨC</h3>
-            </div>
-            <div class="hero-news">
-            <?php  if (isset($_GET['pageno'])) {
+        <div class="head-service">
+            <h3 style="color: #D00000;">TIN TỨC</h3>
+        </div>
+        <div class="hero-news">
+            <?php if (isset($_GET['pageno'])) {
                 $pageno = $_GET['pageno'];
             } else {
                 $pageno = 1;
             }
             $no_of_records_per_page = 4;
-            $offset = ($pageno-1) * $no_of_records_per_page;
-            
-    
+            $offset = ($pageno - 1) * $no_of_records_per_page;
+
+
             $total_pages_sql = "SELECT COUNT(*) FROM tblposts ";
-            $result = mysqli_query($con,$total_pages_sql);
+            $result = mysqli_query($con, $total_pages_sql);
             $total_rows = mysqli_fetch_array($result)[0];
             $total_pages = ceil($total_rows / $no_of_records_per_page);
-    
-            $query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.Is_Active=1 order by tblposts.id desc  LIMIT $offset, $no_of_records_per_page");
-            if($result){
-            while ($row=mysqli_fetch_array($query)) {
+
+            $query = mysqli_query($con, "select tblposts.id as pid,tblposts.PostTitle as posttitle,tblposts.PostImage,tblcategory.CategoryName as category,tblcategory.id as cid,tblsubcategory.Subcategory as subcategory,tblposts.PostDetails as postdetails,tblposts.PostingDate as postingdate,tblposts.PostUrl as url from tblposts left join tblcategory on tblcategory.id=tblposts.CategoryId left join  tblsubcategory on  tblsubcategory.SubCategoryId=tblposts.SubCategoryId where tblposts.Is_Active=1 order by tblposts.id desc  LIMIT $offset, $no_of_records_per_page");
+            if ($result) {
+                while ($row = mysqli_fetch_array($query)) {
             ?>
-                <div class="items-news" >
-                <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <img class="img-news" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt=""> </a>
-                    <div class="news-abs">
-                        <h2><a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <?php echo htmlentities($row['posttitle']);?></a></h2>
+                    <div class="items-news">
+                        <a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>"> <img class="img-news" src="admin/postimages/<?php echo htmlentities($row['PostImage']); ?>" alt=""> </a>
+                        <div class="news-abs">
+                            <h2><a href="news-details.php?nid=<?php echo htmlentities($row['pid']) ?>"> <?php echo htmlentities($row['posttitle']); ?></a></h2>
+                        </div>
+                        <div class="card-footer text-muted">
+                            Posted on <?php echo htmlentities($row['postingdate']); ?>
+
+                        </div>
                     </div>
-                    <div class="card-footer text-muted">
-                  Posted on <?php echo htmlentities($row['postingdate']);?>
-               
-                </div>
-                </div>
-            <?php }} ?>
-            </div>
-        </section>
+            <?php }
+            } ?>
+        </div>
+    </section>
 
     <?php include 'footer.php' ?>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -590,73 +603,71 @@ include('includes/config.php');
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
-
     </script>
     <style>
-    .switch {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 24px;
-}
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
 
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
 
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 20px;
-  width: 20px;
-  left: 3px;
-  bottom: 3px;
-  background-image: url("images/viet.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-image: url("images/viet.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
 
 
-input:checked + .slider {
-  background-color: #baadab;
-}
+        input:checked+.slider {
+            background-color: #baadab;
+        }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
+        input:focus+.slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-  background-image: url("images/eng.png");
-}
+        input:checked+.slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+            background-image: url("images/eng.png");
+        }
 
-.slider.round {
-  border-radius: 30px;
-}
+        .slider.round {
+            border-radius: 30px;
+        }
 
-.slider.round:before {
-  border-radius: 50%;
-}
-
-</style>  
+        .slider.round:before {
+            border-radius: 50%;
+        }
+    </style>
 </body>
 
 </html>
