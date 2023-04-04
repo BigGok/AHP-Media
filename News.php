@@ -238,22 +238,7 @@
             </div>
         </div>
     </div>
-    <div class=" bg-hero">
-        <div class="container">
-            <div class="hero-footer">
-                <div class="items-footer1">
-                    <h4 style="color: #fff;">ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP MEDIA</h4>
-                </div>
-                <div class="items-footer2">
-                    <form method="POST" action="email-script.php">
-                        <input type="text" placeholder="Họ Tên" name="" id="" class="footer-frm-name">
-                        <input type="text" placeholder="Email" name="" id="" class="footer-frm-email">
-                        <input type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
     <?php include 'footer.php'?>
 
