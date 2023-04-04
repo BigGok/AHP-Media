@@ -1681,6 +1681,7 @@ hr.footer-hr {
     padding: 40px;
     height: auto;
     border-radius: 0.5em;
+    justify-content: center;
 }
 
 .card__title {
@@ -1702,14 +1703,15 @@ hr.footer-hr {
 
 .img-testimonial {
     margin-bottom: 20px;
-    border-radius: 30%;
-    border: 1px solid seagreen;
-    width: 30%;
+    border-radius: 50%;
+    border: 1px solid #A90006;
+    width: 80px;
+    height: 70px;
 }
 
 .container-testimoni {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .contain-testimoni {
@@ -1967,8 +1969,15 @@ hr.footer-hr {
 }
 
 .box2 h2 {
+    font-size: 30px;
+    margin-top: 21px;
     font-weight: 500;
     font-family: 'Fira Sans', sans-serif;
+}
+
+.box2 p{
+    margin-top:10px;
+    font-size: 18px;
 }
 
 .box1 {
