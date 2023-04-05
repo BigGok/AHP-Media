@@ -421,47 +421,24 @@ include('includes/config.php');
                         <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="/Ken-mum.php">
+                        <a href="./Ken-mum.php">
                             <h4>KEN'S MUM</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
                     </div>
                 </div>
-                <!--
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                        <img class="img-project" src="images/Mie/Ảnh con.jpg" alt="">
                     </div>
                     <div class="items-pa">
-                        <a href="./du-an-la-siesta.php">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
+                        <a href="./Mie.php">
+                            <h4>MIE</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
                     </div>
                 </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.php">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.php">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-            -->
+                
             </div>
         </div>
         <!-- slide-2 -->
