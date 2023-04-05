@@ -73,6 +73,10 @@
              <img class="imgzn" src="images/Ken-mum/8.jpg" alt="">
              <img class="imgzn" src="images/Ken-mum/9.jpg" alt="">
              <img class="imgzn" src="images/Ken-mum/10.jpg" alt="">
+             <img class="imgzn" src="images/Ken-mum/11.jpg" alt="">
+             <img class="imgzn" src="images/Ken-mum/12.jpg" alt="">
+             <img class="imgzn" src="images/Ken-mum/13.jpg" alt="">
+             <img class="imgzn" src="images/Ken-mum/14.jpg" alt="">
             
        
         </div>  
