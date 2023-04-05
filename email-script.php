@@ -1,22 +1,31 @@
-
 <?php
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-header("Location: ./");
-
+mb_internal_encoding('UTF-8');
+header('location: ./');
 //Load Composer's autoloader
 require 'vendor/autoload.php';
+$mail->CharSet = "UTF-8";
 $mail = new PHPMailer(true);
+$mail->Encoding = 'base64';
 //Create an instance; passing `true` enables exceptions
 $nameKH = $_POST['contname'];
-if (isset($_POST['email1'])) {
-    $email = $_POST['contemail'];
-} else {
-    echo "Vui lòng nhập email";
-}
+$nameKH = mb_convert_encoding($nameKH, "UTF-8");
+
+$phone = $_POST['contphone'];
+$phone = mb_convert_encoding($phone, "UTF-8");
+
+$email = $_POST['contemail'];
+$email = mb_convert_encoding($email, "UTF-8");
+
+$diachi = $_POST['contloc'];
+$diachi = mb_convert_encoding($diachi, "UTF-8");
+
+$noidung = $_POST['noidung'];
+$noidung = mb_convert_encoding($noidung, "UTF-8");
 
 try {
     //Server settings
@@ -31,19 +40,18 @@ try {
 
     //Recipients
     $mail->setFrom('ahpmedia@ahpvn.com', 'AHP Agency');
-    $mail->addAddress($email);               //Name is optional
-    $mail->addReplyTo($email, $nameKH);
+    $mail->addAddress('ahpmedia@ahpvn.com');               //Name is optional
+    $mail->addReplyTo('ahpmedia@ahpvn.com', $nameKH);
 
 
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'AHP Agency Thank To You ';
-    $mail->Body    = 'Công ty Truyền Thông AHP Agency đã được thành lập với mục đích mang đến những giải pháp truyền thông tiên tiến và chất lượng cao cho các doanh nghiệp và tổ chức. Với đội ngũ nhân viên giàu kinh nghiệm và sáng tạo, chúng tôi tin tưởng rằng có thể cung cấp cho khách hàng những dịch vụ truyền thông chất lượng tốt nhất. Chúng tôi tập trung vào việc sử dụng công nghệ mới nhất và tiên tiến nhất để giúp khách hàng của chúng tôi tiếp cận với đối tượng tiềm năng và gia tăng sức mạnh kinh doanh của họ. Với mục tiêu luôn hướng đến sự hài lòng của khách hàng, chúng tôi cam kết cung cấp dịch vụ chất lượng và giá cả cạnh tranh.
-
-    Từ việc quảng bá sản phẩm đến việc xây dựng thương hiệu, chúng tôi cung cấp mọi dịch vụ truyền thông mà khách hàng cần. Hãy liên hệ với chúng tôi để biết thêm chi tiết về các giải pháp truyền thông của chúng tôi. Chúng tôi sẵn sàng giúp đỡ và hỗ trợ bạn ấu một cách tốt nhất. Chúng tôi tin rằng, qua sự hợp tác của chúng tôi, chúng ta có thể giúp cho doanh nghiệp và tổ chức của bạn phát triển và tăng trưởng một cách tốt nhất.';
+    $mail->Body    = 'Thong tin khach hang: <br> Ten: '.$nameKH. '<br> Email: ' . $email .'<br> SDT: '.$phone.'<br> Dia Chi: '.$diachi. '<br> Noi Dung:'.$noidung;
 
 
+    
     $mail->send();
     echo 'Message has been sent';
 } catch (Exception $e) {
