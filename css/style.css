@@ -954,9 +954,8 @@ hr.footer-hr {
 /* Footer */
 .footer-all {
     padding-bottom: 20px;
-    background-color: #A90006;
+    background: linear-gradient(to right,#710808, #dd1818);
 }
-
 .container-footer {
     max-width: 1250px;
 }
