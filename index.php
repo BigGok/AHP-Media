@@ -267,7 +267,7 @@ include('includes/config.php');
     <!-- WHY CHOOSE US -->
     <section class="container">
         <div class="hero-about">
-            <img class="img-head-about" src="images/why-choose-us.png" alt="">
+            <img class="img-head-about" src="images/huy chuong 2 (1).png" alt="">
             <div class="contain-about">
                 <div class="items-about">
                     <h3>TẠI SAO NÊN CHỌN AHP AGENCY?</h3>

@@ -999,13 +999,13 @@ hr.footer-hr {
 
 .social-icons-footer h4 {
     font-size: 20px;
-    color: #b1b1b1;
+    color: #fcf9f9;
     margin-right: 30px;
     margin-bottom: 0;
 }
 
 .social-icons-footer i {
-    color: #b7b7b7;
+    color: #fbf9f9;
     font-size: 15px;
     transition: .5s;
 
@@ -2297,4 +2297,4 @@ body {
   .bbb{
     margin-top: -60px;
   }
-  
+ 

@@ -106,6 +106,17 @@
                         <p>NHẬN DIỆN</p>
                     </div>
                 </div>
+                <div class="items-project">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/Mie/Ảnh con.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./Mie.php">
+                            <h4>MIE</h4>
+                        </a>
+                        <p>NHẬN DIỆN</p>
+                    </div>
+                </div>
                 <!--
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
