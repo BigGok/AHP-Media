@@ -310,7 +310,7 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể.</p>
+                        <p class="card__text">Mình cảm thấy rất ấn tượng với phong cách làm việc của các bạn: Trách nhiệm, tốc độ và niềm tin, chúc AHP Agency ngày càng phát triển.</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/2.png" alt="">
                             <div class="contain-testimoni">
@@ -323,8 +323,7 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text"> Tôi rất hài lòng với dịch vụ của AHP Agency, họ thực hiện các chiến dịch truyền thông và quảng cáo với sự chuyên nghiệp và hiệu quả cao. Tôi đã nhận được nhiều phản hồi tích cực từ khách hàng và doanh số bán hàng của tôi cũng tăng lên đáng kể
-                            .</p>
+                        <p class="card__text"> Chúng tôi thấy đây là một dịch vụ cần thiết giúp chúng tôi tiết kiệm chi phí, giảm thời gian và tăng hiệu suất công việc.</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/7.png" alt="">
                             <div class="contain-testimoni">
@@ -351,7 +350,7 @@ include('includes/config.php');
                 <div class="card22 swiper-slide">
                     <div class="card__content">
                         <i class="fa-solid fa-quote-left"></i>
-                        <p class="card__text">Tôi cũng rất thích cách tiếp cận sáng tạo và đổi mới của AHP Agency. Họ không ngừng đưa ra những ý tưởng mới để làm cho chiến dịch của tôi trở nên độc đáo và thu hút được sự chú ý của khách hàng. Tôi tin tưởng rằng với sự sáng tạo và đổi mới này, AHP Agency sẽ giúp tôi đạt được nhiều thành công hơn trong tương lai.</p>
+                        <p class="card__text">Website tôi đã được khoác một bộ áo mới nhờ đó lượng khách hàng truy cập nhiều hơn, Sản phẩm bán chạy hơn.</p>
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/5.png" alt="">
                             <div class="contain-testimoni">

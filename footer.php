@@ -2,7 +2,7 @@
         <div class="container">
             <div class="hero-footer">
                 <div class="items-footer1">
-                <img src="images/logo AHP Agency.png" alt="">
+                    <img src="images/logo AHP Agency.png" alt="">
                     <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP AGENCY</h4>
                    
                 </div>
@@ -106,11 +106,9 @@
             <div class="social-icons-footer">
                 <h4>Theo dõi chúng tôi</h4>
                 <div>
-                    <a href="https://www.facebook.com/ahp.agency"><i
-                            class="fa-brands fa-facebook-f fb "></i></a>
-                    <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i
-                            class="fa-brands fa-tiktok fb icon-fl"></i></a>
-                    <a href=""><i class="fa-brands fa-youtube fb icon-fl"></i></a>
+                    <a href="https://www.facebook.com/ahp.agency"><i class="fa-brands fa-facebook-f fb "></i></a>
+                    <a href="https://www.tiktok.com/@ahp.tv?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fb icon-fl"></i></a>
+                    <a href="https://www.youtube.com/channel/UC69txnCkPNI_Q-JBqt0sKPA"><i class="fa-brands fa-youtube fb icon-fl"></i></a>
                     <a href=""><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
