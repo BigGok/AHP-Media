@@ -41,6 +41,10 @@ include('includes/config.php');
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
 </head>
 
 <body>
@@ -647,5 +651,13 @@ include('includes/config.php');
         }
     </style>
 </body>
+<script>
+    $(document).on('click', '#success', function(e) {
+			swal(
+				'Gửi thành công',
+				'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.!',
+			)
+		});
+</script>
 
 </html>

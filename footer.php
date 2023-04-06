@@ -17,8 +17,7 @@
                         <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
                             required />
                         <textarea name ="noidung" class="cont-contect2" cols="80" rows="6" placeholder="Nội dung cần tư vấn" required></textarea>
-                        <input  type="submit" value="Đăng kí nhận thông tin"
-                            class="footer-frm-submit">
+                        <input  id="success" type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
                     </form>
                 </div>
             </div>
