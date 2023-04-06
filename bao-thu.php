@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -39,6 +38,7 @@
 </head>
 
 <body>
+    
     <section class="header-bg-parent">
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
@@ -46,7 +46,7 @@
                 <div class="swiper-slide">
                     <picture>
                         <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
-                        <img class="slider-bar2" src="images/Banner2.jpg" alt="">
+                        <img class="slider-bar2" src="images/anh-banner-1.png" alt="">
                     </picture>
                 </div>
             </div>
@@ -56,7 +56,7 @@
     </section>
     <?php include 'header.php' ?>
     <section class="container">
-        <div class="head-service">
+        <div class="head-service1">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
         <!-- slide-1 -->

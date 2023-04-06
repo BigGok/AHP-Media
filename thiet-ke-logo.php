@@ -38,6 +38,7 @@
 </head>
 
 <body>
+    
     <section class="header-bg-parent">
         <div class="header-col1"></div>
         <div class="swiper1 Swiper">
@@ -45,7 +46,7 @@
                 <div class="swiper-slide">
                     <picture>
                         <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
-                        <img class="slider-bar2" src="images/Banner2.jpg" alt="">
+                        <img class="slider-bar2" src="images/anh-banner-1.png" alt="">
                     </picture>
                 </div>
             </div>
@@ -55,7 +56,7 @@
     </section>
     <?php include 'header.php' ?>
     <section class="container">
-        <div class="head-service">
+        <div class="head-service1">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
         <!-- slide-1 -->
@@ -102,17 +103,6 @@
                     <div class="items-pa">
                         <a href="/Ken-mum.html">
                             <h4>KEN'S MUM</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Mie/Ảnh con.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./Mie.php">
-                            <h4>MIE</h4>
                         </a>
                         <p>NHẬN DIỆN</p>
                     </div>

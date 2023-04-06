@@ -2,26 +2,24 @@
 <html>
 
 <head>
-    <title>AHP Agency - Túi Giấy</title>
+    <title>AHP Agency</title>
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet">
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <!--rubik font family -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
     <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-    
+
 
     <!--jquery ui files-->
     <link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css" />
@@ -40,19 +38,26 @@
 </head>
 
 <body>
-    <?php include 'header.php' ?>
-
-
-    <section class="container">
-        <div class="head-service">
-            <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
+    
+    <section class="header-bg-parent">
+        <div class="header-col1"></div>
+        <div class="swiper1 Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
+                        <img class="slider-bar2" src="images/anh-banner-1.png" alt="">
+                    </picture>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="js-project">
-            <li><button id="btn-pr1" class="btn-project">THƯƠNG HIỆU</button> </li>
-            <li><button id="btn-pr1" class="btn-project">BAO BÌ</button> </li>
-            <li><button id="btn-pr1" class="btn-project">QUẢNG CÁO</button> </li>
-            <li><button id="btn-pr1" class="btn-project">MARKETING</button> </li>
-            <li><button id="btn-pr1" class="btn-project">WEBSITE</button> </li>
+        <div class="clear"></div>
+    </section>
+    <?php include 'header.php' ?>
+    <section class="container">
+        <div class="head-service1">
+            <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
         <!-- slide-1 -->
         <div id="slide1" class="contain-blk">
@@ -193,10 +198,10 @@
         </div>
     </section>
     <!-- END PROJECT -->
-   
 
-    <?php include 'footer.php'?>
-    
+
+    <?php include 'footer.php' ?>
+
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
@@ -218,75 +223,70 @@
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
-
     </script>
     <style>
         .switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 24px;
-  }
-  
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-      content:"";
-    height: 20px;
-    width: 20px;
-    left: 3px;
-    bottom: 3px;
-    background-image: url("images/viet.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    -webkit-transition: .4s;
-    transition: .4s;
-    
-  }
-  
-  input:checked + .slider {
-    background-color: #baadab;
-     
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-    background-image: url("images/eng.png");
-    
-  
-  }
-  
-  .slider.round {
-    border-radius: 30px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-    
-  }
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 3px;
+            bottom: 3px;
+            background-image: url("images/viet.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+
+        input:checked+.slider {
+            background-color: #baadab;
+        }
+
+        input:focus+.slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked+.slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+            background-image: url("images/eng.png");
+        }
+
+        .slider.round {
+            border-radius: 30px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
     </style>
 </body>
 

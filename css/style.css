@@ -1499,6 +1499,14 @@ hr.footer-hr {
     justify-content: center;
 
 }
+.head-service1 {
+    margin-top: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 .head-service h3 {
     color: #D00000;

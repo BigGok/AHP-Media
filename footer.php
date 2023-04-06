@@ -7,7 +7,7 @@
                    
                 </div>
                 <div class="items-footer2">
-                    <form method="POST" action="email-script.php">
+                    <form method="POST" action="email-script.php"  accept-charset="utf-8">
                         <input id="idcontname" name="contname" type="text" placeholder="Họ & Tên" class="cont-name"
                             required />
                         <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
