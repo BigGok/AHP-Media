@@ -56,7 +56,7 @@
     </section>
     <?php include 'header.php' ?>
     <section class="container">
-        <div class="head-service1">
+        <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
         <!-- slide-1 -->

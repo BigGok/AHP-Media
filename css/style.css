@@ -562,13 +562,14 @@ div#faq-accordion {
 }
 
 .owl-img-par img {
-    filter: brightness(0.8);
+   
     transition: all 0.5s ease;
+    border: 1px solid rgb(208, 201, 201);
 }
 
-.owl-img-par img:hover {
+/*.owl-img-par img:hover {
     transform: scale(1.1, 1.1);
-}
+}*/
 
 section#project {
     position: relative;
@@ -1499,14 +1500,7 @@ hr.footer-hr {
     justify-content: center;
 
 }
-.head-service1 {
-    margin-top: 1px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
 
 .head-service h3 {
     color: #D00000;
@@ -1711,8 +1705,8 @@ hr.footer-hr {
 .img-testimonial {
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 1px solid #A90006;
-    width: 80px;
+    border: 1px solid #cac2c2;
+    width: 85px;
     height: 70px;
 }
 
@@ -1988,7 +1982,7 @@ hr.footer-hr {
 
 .box2 p{
     margin-top:10px;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .box1 {

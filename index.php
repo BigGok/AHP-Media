@@ -144,6 +144,7 @@ include('includes/config.php');
                 </div>
 
             </div>
+            
         </div>
     </Section>
     <!-- END PARTNER -->
