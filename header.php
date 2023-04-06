@@ -157,7 +157,7 @@
                                                             placeholder="Email" class="cont-email" required />
                                                         <textarea name ="noidung" class="cont-contect" cols="80" rows="6"
                                                             placeholder="Nội dung" required></textarea>
-                                                        <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
+                                                        <input id="success" type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
                                                         <div class="contact-hov">
@@ -260,7 +260,7 @@
                                 required />
                             <textarea name ="noidung" class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
                                 required></textarea>
-                            <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
+                            <input id="success" type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
                             <div class="contact-hov">
