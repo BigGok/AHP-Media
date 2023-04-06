@@ -424,7 +424,7 @@ include('includes/config.php');
                         <a href="./Ken-mum.php">
                             <h4>KEN'S MUM</h4>
                         </a>
-                        <p>NHẬN DIỆN</p>
+                        <p>Nhận diện</p>
                     </div>
                 </div>
                 <div class="items-project">
@@ -435,7 +435,7 @@ include('includes/config.php');
                         <a href="./Mie.php">
                             <h4>MIE</h4>
                         </a>
-                        <p>NHẬN DIỆN</p>
+                        <p>Nhận diện</p>
                     </div>
                 </div>
                 
@@ -451,7 +451,7 @@ include('includes/config.php');
                     <a href="/du-an-la-siesta.php">
                         <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
                     </a>
-                    <p>NHẬN DIỆN</p>
+                    <p>Nhận diện</p>
                 </div>
             </div>
         </div>
