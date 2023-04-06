@@ -145,7 +145,7 @@
                                                         đến những giải pháp truyền thông
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                                                    <form id="form" class="hero-form" action="email-script.php">
+                                                    <form id="form" class="hero-form" action="email-script.php" method="POST">
                                                         <input id="idcontname" name="contname" type="text"
                                                             placeholder="Họ Tên" class="cont-name" required />
                                                         <input id="idcontloc" name="contloc" type="location"
@@ -155,7 +155,7 @@
                                                             pattern="[0-9]{10}" required />
                                                         <input id="idcontemail" name="contemail" type="email"
                                                             placeholder="Email" class="cont-email" required />
-                                                        <textarea class="cont-contect" cols="80" rows="6"
+                                                        <textarea name ="noidung" class="cont-contect" cols="80" rows="6"
                                                             placeholder="Nội dung" required></textarea>
                                                         <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
@@ -249,7 +249,7 @@
                             đến những giải pháp truyền thông
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                        <form id="form" class="hero-form" action="email-script.php">
+                        <form id="form" class="hero-form" action="email-script.php" method="POST">
                             <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
                                 required />
                             <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
@@ -258,7 +258,7 @@
                                 class="cont-phone" pattern="[0-9]{10}" required />
                             <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
                                 required />
-                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
+                            <textarea name ="noidung" class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
                                 required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>

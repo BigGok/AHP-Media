@@ -85,19 +85,10 @@
                         </div>
                     </div>
                     <div class="foot-cl2">
-                        <div class="footer-rows">
-                            <h3>Đơn vị thành viên </h3>
-                            <button onclick="toggleDropdown('dropdown-content-4')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
-                        </div>
-                        <div id="dropdown-content-4" class="dropdown-content">
-                            <p>AHP Digital</p>
-                            <p>AHP Pakaging</p>
-                            <p>AHP Academy</p>
-                            <p>AHP Brandgifts</p>
-                            <p>LogoArt</p>
+                       
+    
                             <a href="https://www.facebook.com/ahp.agency"><img class="aoll" src="images/ảnh fanpage.jpg" alt=""></a>   
-                        </div>
+                       
                     </div>
                 </div>
             </div>

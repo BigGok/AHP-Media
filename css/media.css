@@ -1,5 +1,7 @@
     @media screen and (max-width:576px) {
-        
+        .aoll{
+            margin-top: -70px;
+        }
         .embed-responsive-item{
             width:80%;
             height: auto;

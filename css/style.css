@@ -784,11 +784,11 @@ hr.footer-hr {
     display: block;
     overflow: hidden;
     text-align: center;
-
+    
 }
 
 .navbar-nav .nav-item .nav-link .name span {
-
+    
     cursor: pointer;
     display: block;
     position: relative;
@@ -1500,7 +1500,14 @@ hr.footer-hr {
     justify-content: center;
 
 }
+.head-service1 {
+    margin-top: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
 .head-service h3 {
     color: #D00000;
@@ -1952,6 +1959,7 @@ hr.footer-hr {
 .aoll{
     height: auto;
     width: 100%;
+    margin-top: 70px;
 }
 
 /*PHẦN MỚI*/
