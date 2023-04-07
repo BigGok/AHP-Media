@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit5d6e15088c700b3965059169019eb5d3
 {
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zalo\\' => 5,
+        ),
         'P' => 
         array (
             'PHPMailer\\PHPMailer\\' => 20,
@@ -14,6 +18,10 @@ class ComposerStaticInit5d6e15088c700b3965059169019eb5d3
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zalo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zaloplatform/zalo-php-sdk/src',
+        ),
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
