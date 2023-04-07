@@ -7,6 +7,9 @@ include('includes/config.php');
 <html>
 
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.css" integrity="sha512-Sp6v1zcpU5eAR9MmWRH1IMiYpmDR8+b2c+z5U6w5U6FhU6E+hBLpX9bKjOKRnYRoYr/5i3Em3fZCxx2UiNn17g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.js" integrity="sha512-zhe8W0C+ZweTZwZJfymcwGMa8GRQenmY/S8/bpWcA9Jk+cdmQ2ggh+DGLWJxM7wZD/wN+GdIbAaDK2nCfJq3sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <title>AHP Agency</title>
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -651,13 +654,94 @@ include('includes/config.php');
         }
     </style>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<audio id="notification-sound">
+<source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
+</audio>
+
+<style>
+  /* Thêm animation vào hiển thị thông báo */
+  .swal2-show {
+    animation: swal2-show-animation 0.3s;
+  }
+
+  /* Hiệu ứng animation */
+  @keyframes swal2-show-animation {
+    0% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .swal2-popup {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.swal2-title {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.swal2-content {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.swal2-success {
+  background-image: url("https://cdn.jsdelivr.net/npm/sweetalert2@10/assets/success.png");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.swal2-actions {
+  margin-top: 30px;
+}
+
+.swal2-confirm {
+  background-color: #D00000;
+  color: #D00000;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.swal2-confirm:hover {
+  background-color: #D00000;
+}
+
+</style>
+
 <script>
-    $(document).on('click', '#success', function(e) {
-			swal(
-				'Gửi thành công',
-				'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.!',
-			)
-		});
+  $(document).on('click', '#success', function(e) {
+    Swal.fire({
+      title: 'Gửi thành công',
+      text: 'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.',
+      icon: 'success',
+      showClass: {
+        popup: 'animated bounceIn'
+      },
+      hideClass: {
+        popup: 'animated bounceOut'
+      },
+      onOpen: function() {
+        var audioElement = document.getElementById('notification-sound');
+        audioElement.play();
+      }
+    });
+  });
 </script>
+
 
 </html>
