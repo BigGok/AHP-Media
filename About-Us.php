@@ -104,11 +104,6 @@
                     <li class="list-about"> Triển khai chiến lược marketing online cho doanh nghệp các nhân </li>
                     <li class="list-about"> Triển khai bán online</li>
                 </ul>
-                <img class="img-about" src="images/worksp.png" alt="">
-                <p>Với định hướng là một trong những thương hiệu truyền thông uy tín và chuyên nghiệp hàng đầu tại Việt
-                    Nam. AHP AGENCY  đã và đang không ngừng sáng tạo để đa dạng hóa các sản phẩm dịch vụ có nhiều tính
-                    năng ưu việt để mang lại lợi ích tối đa nhất cho khách hàng.</p>
-
         </div>
 
     </Section>
