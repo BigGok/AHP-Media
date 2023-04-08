@@ -39,7 +39,7 @@ include('includes/config.php');
     <!--owl carousel-->
     <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
     <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="scss/style.scss?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
@@ -614,6 +614,7 @@ include('includes/config.php');
         }
     }
 
+<<<<<<< HEAD
 
 .swal2-title {
   font-size: 24px;
@@ -621,12 +622,17 @@ include('includes/config.php');
   margin-top: 20px;
 }
 
+=======
+>>>>>>> dd02646674eb6235fef1f38634d689be7fe9fa3d
     .swal2-popup {
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd02646674eb6235fef1f38634d689be7fe9fa3d
 
     .swal2-title {
         font-size: 24px;
@@ -685,7 +691,10 @@ include('includes/config.php');
                 audioElement.play();
             }
         });
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd02646674eb6235fef1f38634d689be7fe9fa3d
     });
 </script>
 </html>

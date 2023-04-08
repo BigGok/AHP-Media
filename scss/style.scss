@@ -67,7 +67,6 @@ a {
     font-weight: 400;
     font-family: $ubuntu-fonts;
     color: $text-color;
-    &:hover,
     &:focus {
         font-family: $ubuntu-fonts;
         @include trans-duration(500ms);
