@@ -1,29 +1,35 @@
-<div class=" bg-hero">
+<html>
+
+<head>
+    <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+
+    <!--media css-->
+    <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
                 <div class="items-footer1">
                     <img src="images/logo AHP Agency.png" alt="">
                     <h4>ĐĂNG KÍ NHẬN THÔNG TIN TỪ AHP AGENCY</h4>
-                   
                 </div>
                 <div class="items-footer2">
-                    <form method="POST" action="email-script.php"  accept-charset="utf-8">
-                        <input id="idcontname" name="contname" type="text" placeholder="Họ & Tên" class="cont-name"
-                            required />
-                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
-                            required />
-                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
-                            class="cont-phone" pattern="[0-9]{10}" required />
-                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
-                            required />
-                        <textarea name ="noidung" class="cont-contect2" cols="80" rows="6" placeholder="Nội dung cần tư vấn" required></textarea>
-                        <input  id="success" type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
+                    <form method="POST" action="email-script.php" accept-charset="utf-8">
+                        <input id="idcontname" name="contname" type="text" placeholder="Họ & Tên" class="cont-name" required />
+                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                        <textarea name="noidung" class="cont-contect2" cols="80" rows="6" placeholder="Nội dung cần tư vấn" required></textarea>
+                        <input id="success" type="submit" value="Đăng kí nhận thông tin" class="footer-frm-submit">
                     </form>
                 </div>
             </div>
         </div>
     </div>
-<footer class="footer-all">
+    <footer class="footer-all">
         <div class="container-footer">
             <div class="footer-ct">
                 <div class="contain-col1">
@@ -41,8 +47,7 @@
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Về chúng tôi </h3>
-                            <button onclick="toggleDropdown('dropdown-content-1')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
+                            <button onclick="toggleDropdown('dropdown-content-1')"><i class="fa-solid fa-caret-down"></i></button>
                         </div>
                         <div id="dropdown-content-1" class="dropdown-content">
                             <p>Giới thiệu AHP</p>
@@ -57,8 +62,7 @@
                     <div class="foot-cl2">
                         <div class="footer-rows">
                             <h3>Dịch vụ cung cấp </h3>
-                            <button onclick="toggleDropdown('dropdown-content-2')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
+                            <button onclick="toggleDropdown('dropdown-content-2')"><i class="fa-solid fa-caret-down"></i></button>
                         </div>
                         <div id="dropdown-content-2" class="dropdown-content">
                             <p>Tư vấn thương hiệu</p>
@@ -71,8 +75,7 @@
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i
-                                    class="fa-solid fa-caret-down"></i></button>
+                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i class="fa-solid fa-caret-down"></i></button>
                         </div>
                         <div id="dropdown-content-3" class="dropdown-content">
                             <p>Logo</p>
@@ -84,10 +87,10 @@
                         </div>
                     </div>
                     <div class="foot-cl2">
-                       
-    
-                            <a href="https://www.facebook.com/ahp.agency"><img class="aoll" src="images/ảnh fanpage.jpg" alt=""></a>   
-                       
+
+
+                        <a href="https://www.facebook.com/ahp.agency"><img class="aoll" src="images/ảnh fanpage.jpg" alt=""></a>
+
                     </div>
                 </div>
             </div>
@@ -106,3 +109,6 @@
         </div>
     </div>
 
+
+</body>
+</html>

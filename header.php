@@ -1,5 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<div id="arrow">
+<head>
+    <head>
+        <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+        <!--media css-->
+        <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    </head>
+</head>
+<body>
+    <div id="arrow">
         <i class="fa fa-arrow-up" aria-shidden="true"></i>
     </div>
 
@@ -9,12 +20,9 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png"
-                                alt="Logo"></a>
+                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png" alt="Logo"></a>
                         <!-- Navbar Toggler -->
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav"
-                            aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i
-                                class="fa-solid fa-sliders"></i></button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-sliders"></i></button>
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
@@ -32,10 +40,9 @@
                                         </div>
                                     </a>
                                 </li>
-                                
+
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" href="Service.php" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="Service.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
@@ -82,7 +89,7 @@
                                         </div>
                                     </div>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.php">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
@@ -129,8 +136,7 @@
                                                             <div class="contact-hov">
                                                                 <span> Email</span>
                                                                 <div class="contact-info">
-                                                                    <p class="tel-contact"><a style="color: #fff;"
-                                                                            href=""> ahpmedia@ahpvn.com</a></p>
+                                                                    <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -146,17 +152,11 @@
                                                         tiên
                                                         tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                                                     <form id="form" class="hero-form" action="email-script.php" method="POST">
-                                                        <input id="idcontname" name="contname" type="text"
-                                                            placeholder="Họ Tên" class="cont-name" required />
-                                                        <input id="idcontloc" name="contloc" type="location"
-                                                            placeholder="Địa Chỉ" class="cont-loc" required />
-                                                        <input id="idcontphone" name="contphone" type="phone"
-                                                            placeholder="Số Điện Thoại" class="cont-phone"
-                                                            pattern="[0-9]{10}" required />
-                                                        <input id="idcontemail" name="contemail" type="email"
-                                                            placeholder="Email" class="cont-email" required />
-                                                        <textarea name ="noidung" class="cont-contect" cols="80" rows="6"
-                                                            placeholder="Nội dung" required></textarea>
+                                                        <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
+                                                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                                                        <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                                                        <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                                                        <textarea name="noidung" class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
                                                         <input id="success" type="submit" value="Gửi yêu cầu" class="submit-btn" />
                                                     </form>
                                                     <div class="contact-items">
@@ -183,7 +183,7 @@
                                 <li class="nav-items">
                                     <div id='google_translate_element' class="gg-translate"></div>
                                     <div class="translate-part">
-                                    <label class="switch" onclick="toggleLanguage()">
+                                        <label class="switch" onclick="toggleLanguage()">
                                             <input type="checkbox" id="lang-toggle">
                                             <span class="slider round"></span>
                                         </label>
@@ -201,8 +201,7 @@
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
 
         <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
-                class="fab fa-facebook-messenger"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
     </div>
 
     <!-- MAIL-BOX -->
@@ -249,16 +248,11 @@
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="email-script.php" method="POST">
-                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
-                                required />
-                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
-                                required />
-                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
-                                class="cont-phone" pattern="[0-9]{10}" required />
-                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
-                                required />
-                            <textarea name ="noidung" class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
-                                required></textarea>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                            <textarea name="noidung" class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
                             <input id="success" type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -282,4 +276,5 @@
         </div>
     </div>
     <!-- END MAIL-BOX -->
-
+</body>
+</html>

@@ -562,7 +562,7 @@ div#faq-accordion {
 }
 
 .owl-img-par img {
-   
+
     transition: all 0.5s ease;
     border: 1px solid rgb(208, 201, 201);
 }
@@ -784,11 +784,11 @@ hr.footer-hr {
     display: block;
     overflow: hidden;
     text-align: center;
-    
+
 }
 
 .navbar-nav .nav-item .nav-link .name span {
-    
+
     cursor: pointer;
     display: block;
     position: relative;
@@ -955,8 +955,9 @@ hr.footer-hr {
 /* Footer */
 .footer-all {
     padding-bottom: 20px;
-    background: linear-gradient(to right,#710808, #dd1818);
+    background: linear-gradient(to right, #710808, #dd1818);
 }
+
 .container-footer {
     max-width: 1250px;
 }
@@ -1370,7 +1371,7 @@ hr.footer-hr {
 .cont-loc,
 .cont-phone,
 .cont-email {
-    border:2px solid #A90006;
+    border: 2px solid #A90006;
     width: 100%;
 }
 
@@ -1385,6 +1386,7 @@ hr.footer-hr {
     font-size: inherit;
     line-height: inherit
 }
+
 .cont-contect {
     height: 130px;
     width: 100%;
@@ -1500,6 +1502,7 @@ hr.footer-hr {
     justify-content: center;
 
 }
+
 .head-service1 {
     margin-top: 1px;
     width: 100%;
@@ -1551,7 +1554,7 @@ hr.footer-hr {
     margin: 10px 16px;
     font-size: 21px;
     font-weight: 600;
-    
+
 }
 
 .items-service a {
@@ -1886,7 +1889,7 @@ hr.footer-hr {
     margin-right: 150px;
 }
 
-.items-footer1 h4{
+.items-footer1 h4 {
     text-transform: uppercase;
     background: linear-gradient(to left, #DC2F02 0%, #6A040F 100%);
     -webkit-background-clip: text;
@@ -1894,11 +1897,13 @@ hr.footer-hr {
     font-weight: 400;
     font-size: 40px;
 }
-.items-footer1 img{
+
+.items-footer1 img {
     margin-top: -200px;
     width: 90%;
 
 }
+
 .items-footer2 {
     width: 30%;
 }
@@ -1931,7 +1936,8 @@ hr.footer-hr {
 
 }
 
-.footer-frm-submit::after, .footer-frm-submit::before{
+.footer-frm-submit::after,
+.footer-frm-submit::before {
     content: "";
     position: absolute;
     opacity: 3;
@@ -1944,19 +1950,20 @@ hr.footer-hr {
     transition: .3s ease;
 }
 
-.footer-frm-submit:hover{
+.footer-frm-submit:hover {
     transform: translate(-3px, -3px);
 }
 
-.footer-frm-submit:hover::before{
+.footer-frm-submit:hover::before {
     transform: translate(3px, 3px);
 }
 
 .dropdown-content p {
     color: white;
-  
+
 }
-.aoll{
+
+.aoll {
     height: auto;
     width: 100%;
     margin-top: 70px;
@@ -1988,8 +1995,8 @@ hr.footer-hr {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.box2 p{
-    margin-top:10px;
+.box2 p {
+    margin-top: 10px;
     font-size: 19px;
 }
 
@@ -2192,6 +2199,7 @@ body {
     height: 100%;
     object-fit: contain;
 }
+
 .swiper-slide .slider-bar2 {
     margin-top: 167px;
     display: block;
@@ -2220,7 +2228,7 @@ body {
 
 .emi {
     width: 100%;
-   
+
     margin-top: 80px;
 }
 
@@ -2236,7 +2244,8 @@ body {
     margin-top: 1px;
     background-color: #A90006;
 }
-.ccc{
+
+.ccc {
     margin-top: -100px;
 }
 
@@ -2246,15 +2255,15 @@ body {
     display: inline-block;
     width: 50px;
     height: 24px;
-  }
-  
-  .switch input {
+}
+
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -2264,49 +2273,48 @@ body {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
-      content:"";
+    content: "";
     height: 20px;
     width: 20px;
     left: 3px;
     bottom: 3px;
-    background-image: url("images/viet.png");
+    background-image: url('../images/viet.png');
     background-size: contain;
     background-repeat: no-repeat;
     -webkit-transition: .4s;
     transition: .4s;
-    
-  }
-  
-  input:checked + .slider {
+
+}
+
+input:checked+.slider {
     background-color: #baadab;
-     
-  }
-  
-  input:focus + .slider {
+
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-    background-image: url("images/eng.png");
-    
-  
-  }
-  
-  .slider.round {
+    background-image: url('../images/eng.png');
+}
+
+.slider.round {
     border-radius: 30px;
-  }
-  
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-    
-  }
-  .bbb{
+
+}
+
+.bbb {
     margin-top: -60px;
-  }
+}
