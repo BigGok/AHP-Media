@@ -71,7 +71,8 @@
                     </div>
                     <div class="foot-cl2">
                         <div class="footer-rows">
-                            <h3>Dự án đã thực hiện </h3><button onclick="toggleDropdown('dropdown-content-3')"><i
+                            <h3>Dự án đã thực hiện </h3>
+                            <button onclick="toggleDropdown('dropdown-content-3')"><i
                                     class="fa-solid fa-caret-down"></i></button>
                         </div>
                         <div id="dropdown-content-3" class="dropdown-content">

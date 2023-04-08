@@ -685,7 +685,7 @@ include('includes/config.php');
 .swal2-title {
   font-size: 24px;
   color: #333;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .swal2-content {
@@ -726,7 +726,7 @@ include('includes/config.php');
 <script>
   $(document).on('click', '#success', function(e) {
     Swal.fire({
-      title: 'Gửi thành công',
+      title: 'GỬI THÀNH CÔNG',
       text: 'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.',
       icon: 'success',
       showClass: {
