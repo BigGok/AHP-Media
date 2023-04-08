@@ -614,11 +614,19 @@ include('includes/config.php');
         }
     }
 
+<<<<<<< HEAD
+.swal2-title {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+=======
     .swal2-popup {
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
+>>>>>>> 4541e8b2976087b4a8841e68ab79a818ec86a052
 
     .swal2-title {
         font-size: 24px;
@@ -661,6 +669,23 @@ include('includes/config.php');
 </style>
 
 <script>
+<<<<<<< HEAD
+  $(document).on('click', '#success', function(e) {
+    Swal.fire({
+      title: 'GỬI THÀNH CÔNG',
+      text: 'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.',
+      icon: 'success',
+      showClass: {
+        popup: 'animated bounceIn'
+      },
+      hideClass: {
+        popup: 'animated bounceOut'
+      },
+      onOpen: function() {
+        var audioElement = document.getElementById('notification-sound');
+        audioElement.play();
+      }
+=======
     $(document).on('click', '#success', function(e) {
         Swal.fire({
             title: 'Gửi thành công',
@@ -677,6 +702,7 @@ include('includes/config.php');
                 audioElement.play();
             }
         });
+>>>>>>> 4541e8b2976087b4a8841e68ab79a818ec86a052
     });
 </script>
 </html>
