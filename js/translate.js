@@ -15,17 +15,17 @@ function getLanguageCookie() {
       return cookie.substring(name.length, cookie.length);
     }
   }
-  return "vi"; // default to Vietnamese if no language cookie is found
+  return "vi"; 
 }
 
 function toggleLanguage() {
   var select = document.querySelector('#google_translate_element select');
   var langToggle = document.querySelector('#lang-toggle');
 
-  if (langToggle.checked) { // toggle is on, switch to English
+  if (langToggle.checked) { 
     select.value = 'en';
     setLanguageCookie('en');
-  } else { // toggle is off, switch to Vietnamese
+  } else { 
     select.value = 'vi';
     setLanguageCookie('vi');
   }
