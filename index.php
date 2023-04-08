@@ -7,13 +7,13 @@ include('includes/config.php');
 <html>
 
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.css" integrity="sha512-Sp6v1zcpU5eAR9MmWRH1IMiYpmDR8+b2c+z5U6w5U6FhU6E+hBLpX9bKjOKRnYRoYr/5i3Em3fZCxx2UiNn17g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.js" integrity="sha512-zhe8W0C+ZweTZwZJfymcwGMa8GRQenmY/S8/bpWcA9Jk+cdmQ2ggh+DGLWJxM7wZD/wN+GdIbAaDK2nCfJq3sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.css" integrity="sha512-Sp6v1zcpU5eAR9MmWRH1IMiYpmDR8+b2c+z5U6w5U6FhU6E+hBLpX9bKjOKRnYRoYr/5i3Em3fZCxx2UiNn17g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.js" integrity="sha512-zhe8W0C+ZweTZwZJfymcwGMa8GRQenmY/S8/bpWcA9Jk+cdmQ2ggh+DGLWJxM7wZD/wN+GdIbAaDK2nCfJq3sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <title>AHP Agency</title>
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,9 +45,9 @@ include('includes/config.php');
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- SweetAlert2 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
 </head>
 
 <body>
@@ -151,7 +151,7 @@ include('includes/config.php');
                 </div>
 
             </div>
-            
+
         </div>
     </Section>
     <!-- END PARTNER -->
@@ -447,7 +447,7 @@ include('includes/config.php');
                         <p>Nhận diện</p>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- slide-2 -->
@@ -589,141 +589,87 @@ include('includes/config.php');
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
     </script>
-    <style>
-        .switch {
-            position: relative;
-            display: inline-block;
-            width: 50px;
-            height: 24px;
-        }
-
-        .switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #ccc;
-            -webkit-transition: .4s;
-            transition: .4s;
-        }
-
-        .slider:before {
-            position: absolute;
-            content: "";
-            height: 20px;
-            width: 20px;
-            left: 3px;
-            bottom: 3px;
-            background-image: url("images/viet.png");
-            background-size: contain;
-            background-repeat: no-repeat;
-            -webkit-transition: .4s;
-            transition: .4s;
-        }
-
-
-        input:checked+.slider {
-            background-color: #baadab;
-        }
-
-        input:focus+.slider {
-            box-shadow: 0 0 1px #2196F3;
-        }
-
-        input:checked+.slider:before {
-            -webkit-transform: translateX(26px);
-            -ms-transform: translateX(26px);
-            transform: translateX(26px);
-            background-image: url("images/eng.png");
-        }
-
-        .slider.round {
-            border-radius: 30px;
-        }
-
-        .slider.round:before {
-            border-radius: 50%;
-        }
-    </style>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <audio id="notification-sound">
-<source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
+    <source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
 </audio>
 
 <style>
-  /* Thêm animation vào hiển thị thông báo */
-  .swal2-show {
-    animation: swal2-show-animation 0.3s;
-  }
-
-  /* Hiệu ứng animation */
-  @keyframes swal2-show-animation {
-    0% {
-      transform: scale(0.7);
-      opacity: 0;
+    /* Thêm animation vào hiển thị thông báo */
+    .swal2-show {
+        animation: swal2-show-animation 0.3s;
     }
-    100% {
-      transform: scale(1);
-      opacity: 1;
-    }
-  }
-  .swal2-popup {
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
 
+    /* Hiệu ứng animation */
+    @keyframes swal2-show-animation {
+        0% {
+            transform: scale(0.7);
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+<<<<<<< HEAD
 .swal2-title {
   font-size: 24px;
   color: #333;
   margin-top: 20px;
 }
+=======
+    .swal2-popup {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+>>>>>>> 4541e8b2976087b4a8841e68ab79a818ec86a052
 
-.swal2-content {
-  font-size: 16px;
-  color: #666;
-  margin-top: 20px;
-}
+    .swal2-title {
+        font-size: 24px;
+        color: #333;
+        margin-top: 10px;
+    }
 
-.swal2-success {
-  background-image: url("https://cdn.jsdelivr.net/npm/sweetalert2@10/assets/success.png");
-  background-size: cover;
-  width: 80px;
-  height: 80px;
-  margin: 0 auto;
-}
+    .swal2-content {
+        font-size: 16px;
+        color: #666;
+        margin-top: 20px;
+    }
 
-.swal2-actions {
-  margin-top: 30px;
-}
+    .swal2-success {
+        background-image: url("https://cdn.jsdelivr.net/npm/sweetalert2@10/assets/success.png");
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
 
-.swal2-confirm {
-  background-color: #D00000;
-  color: #D00000;
-  border: none;
-  border-radius: 3px;
-  font-size: 16px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+    .swal2-actions {
+        margin-top: 30px;
+    }
 
-.swal2-confirm:hover {
-  background-color: #D00000;
-}
+    .swal2-confirm {
+        background-color: #D00000;
+        color: #D00000;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
 
+    .swal2-confirm:hover {
+        background-color: #D00000;
+    }
 </style>
 
 <script>
+<<<<<<< HEAD
   $(document).on('click', '#success', function(e) {
     Swal.fire({
       title: 'GỬI THÀNH CÔNG',
@@ -739,9 +685,24 @@ include('includes/config.php');
         var audioElement = document.getElementById('notification-sound');
         audioElement.play();
       }
+=======
+    $(document).on('click', '#success', function(e) {
+        Swal.fire({
+            title: 'Gửi thành công',
+            text: 'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.',
+            icon: 'success',
+            showClass: {
+                popup: 'animated bounceIn'
+            },
+            hideClass: {
+                popup: 'animated bounceOut'
+            },
+            onOpen: function() {
+                var audioElement = document.getElementById('notification-sound');
+                audioElement.play();
+            }
+        });
+>>>>>>> 4541e8b2976087b4a8841e68ab79a818ec86a052
     });
-  });
 </script>
-
-
 </html>

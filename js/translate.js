@@ -15,28 +15,48 @@ function getLanguageCookie() {
       return cookie.substring(name.length, cookie.length);
     }
   }
-  return "";
+  return "vi"; 
 }
 
-function translateToEnglish() {
+function toggleLanguage() {
   var select = document.querySelector('#google_translate_element select');
-  select.value = 'en';
+  var langToggle = document.querySelector('#lang-toggle');
+
+  if (langToggle.checked) { 
+    select.value = 'en';
+    setLanguageCookie('en');
+  } else { 
+    select.value = 'vi';
+    setLanguageCookie('vi');
+  }
+
   select.dispatchEvent(new Event('change'));
-  setLanguageCookie('en');
 }
+
 
 function initializeGoogleTranslate() {
-  var language = getLanguageCookie() || 'vi';
+  var language = getLanguageCookie();
+  var select = document.querySelector('#google_translate_element select');
+
   new google.translate.TranslateElement({
     pageLanguage: language,
-    autoDisplay: 'false',
-    includedLanguages: 'en',
-    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+    autoDisplay: false,
+    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+    includedLanguages: "en,vi",
+    gaTrack: true,
+    gaId: "UA-XXXXX-X"
   }, 'google_translate_element');
-  if (language === 'en') {
-    translateToEnglish();
-  }
+
+  select.addEventListener('change', function() {
+    var langToggle = document.querySelector('#lang-toggle');
+    langToggle.checked = select.value === 'en';
+    setLanguageCookie(select.value);
+  });
+
+  var langToggle = document.querySelector('#lang-toggle');
+  langToggle.checked = select.value === 'en';
+  langToggle.addEventListener('click', toggleLanguage);
 }
 
-window.onload = initializeGoogleTranslate;
 
+window.onload = initializeGoogleTranslate;
