@@ -183,11 +183,10 @@
                                 <li class="nav-items">
                                     <div id='google_translate_element' class="gg-translate"></div>
                                     <div class="translate-part">
-                                    <label class="switch" onclick="translateToEnglish()">
-                                        <input type="checkbox" id="lang-toggle">
-                                        <span class="slider round"><span>
-                                    </label>
-                                        
+                                    <label class="switch" onclick="toggleLanguage()">
+                                            <input type="checkbox" id="lang-toggle">
+                                            <span class="slider round"></span>
+                                        </label>
                                     </div>
                                 </li>
                             </ul>
