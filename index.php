@@ -614,11 +614,25 @@ include('includes/config.php');
         }
     }
 
+<<<<<<< HEAD
+
+.swal2-title {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+=======
+>>>>>>> dd02646674eb6235fef1f38634d689be7fe9fa3d
     .swal2-popup {
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     }
+<<<<<<< HEAD
+
+=======
+>>>>>>> dd02646674eb6235fef1f38634d689be7fe9fa3d
 
     .swal2-title {
         font-size: 24px;
@@ -677,6 +691,10 @@ include('includes/config.php');
                 audioElement.play();
             }
         });
+<<<<<<< HEAD
+
+=======
+>>>>>>> dd02646674eb6235fef1f38634d689be7fe9fa3d
     });
 </script>
 </html>
