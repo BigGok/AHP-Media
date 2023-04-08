@@ -40,9 +40,9 @@ try {
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('ahpmedia@ahpvn.com', 'AHP Agency');
-    $mail->addAddress('ahpmedia@ahpvn.com');               //Name is optional
-    $mail->addReplyTo('ahpmedia@ahpvn.com', $nameKH);
+    $mail->setFrom('ahpagency@ahpvn.com', 'AHP Agency');
+    $mail->addAddress('ahpagency@ahpvn.com');               //Name is optional
+    $mail->addReplyTo('ahpagency@ahpvn.com', $nameKH);
 
 
 

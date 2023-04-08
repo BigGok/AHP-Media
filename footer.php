@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div class=" bg-hero">
         <div class="container">
             <div class="hero-footer">
@@ -107,11 +107,10 @@
             </div>
         </div>
     </div>
-=======
+
 <head>
     <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
->>>>>>> 4541e8b2976087b4a8841e68ab79a818ec86a052
+
 
     <!--media css-->
     <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
