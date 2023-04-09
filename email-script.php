@@ -4,25 +4,43 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 header('Location: ./');
+include 'includes/config.php';
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
 $mail = new PHPMailer(true);
 
+$nameKH = "";
+$phone ="";
+$email ="";
+$noidung ="";
 
-$nameKH = $_POST['contname'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if(isset($_POST["contname"])) {
+    $nameKH = $_POST['contname'];
+}
 
+if(isset($_POST["contphone"])) {
+    $phone = $_POST['contphone'];
+}
 
-$phone = $_POST['contphone'];
+if(isset($_POST["contemail"])) {
+    $email = $_POST['contemail'];
+}
 
+if(isset($_POST["noidung"])) {
+    $noidung = $_POST['noidung'];
+}
+}
+    $sql = "INSERT INTO thongtinKH (HoTen, SDT, Email, noidung)
+    VALUES ('$nameKH', '$phone', '$email', '$noidung')";
 
-$email = $_POST['contemail'];
+    if ($con->query($sql) === TRUE) {
+        echo "Thêm dữ liệu thành công";
+    } else {
+        echo "Error: " . $sql . "<br>" . $connect->error;
+    }
 
-
-$diachi = $_POST['contloc'];
-
-
-$noidung = $_POST['noidung'];
 
 
 $body    = 'Thong tin khach hang: <br> Ten: '.$nameKH. '<br> Email: ' . $email .'<br> SDT: '.$phone.'<br> Dia Chi: '.$diachi. '<br> Noi Dung:'.$noidung;
@@ -40,9 +58,9 @@ try {
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('ahpmedia@ahpvn.com', 'AHP Agency');
-    $mail->addAddress('ahpmedia@ahpvn.com');               //Name is optional
-    $mail->addReplyTo('ahpmedia@ahpvn.com', $nameKH);
+    $mail->setFrom('ahpagency@ahpvn.com', 'AHP Agency');
+    $mail->addAddress('ahpagency@ahpvn.com');               //Name is optional
+    $mail->addReplyTo('ahpagency@ahpvn.com', $nameKH);
 
 
 
