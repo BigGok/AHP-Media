@@ -15,6 +15,7 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 10,
         },
     },
+    
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -31,3 +32,27 @@ var swiper = new Swiper(".Swiper", {
       clickable: true,
     },
   });
+
+//   About-us
+  var swiper = new Swiper(".mySwiper2", {
+    loop: true,
+    breakpoints: {
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 5,
+        },
+    },
+    
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

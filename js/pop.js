@@ -1,44 +1,41 @@
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = document.querySelector(button.dataset.modalTarget)
-    openModal(modal)
-  })
-})
+    const modal = document.querySelector(button.dataset.modalTarget);
+    openModal(modal);
+  });
+});
 
 function openModal(modal) {
-  if (modal == null) return
-  modal.classList.add('active')
-  overlay.classList.add('active')
+  if (modal == null) return;
+  modal.classList.add('active');
+  overlay.classList.add('active');
 }
+
 closeModalButtons.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = button.closest('.mod-modal')
-    closeModal(modal)
-  })
-})
+    const modal = button.closest('.mod-modal');
+    closeModal(modal);
+  });
+});
 
 function closeModal(modal) {
-  if (modal == null) return
-  modal.classList.remove('active')
-  overlay.classList.remove('active')
+  if (modal == null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
 }
 
-closeModalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    const modal = button.closest('.mod-modal')
-    closeModal(modal)
-  })
-})
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.mod-modal.active')
+  const modals = document.querySelectorAll('.mod-modal.active');
   modals.forEach(modal => {
-    closeModal(modal)
-  })
-})
+    closeModal(modal);
+  });
+});
+
+
 
 
 const modal = document.getElementById("modal");
@@ -58,6 +55,7 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
+
 //Drop-Down Search
 let form = document.getElementById('search-icon');
 let searchBox = document.getElementById('search-box');
@@ -72,6 +70,7 @@ searchBox.addEventListener('mouseleave', () => {
     searchBox.style.display = 'none';
   }, 100);
 });
+
 // khi nhấp vào chỗ bất kì trên màn hình đt thì danh sách menu biến mất
 var navbarToggler = document.querySelector('.navbar-toggler'); // Lấy phần tử toggler
 var navbarCollapse = document.querySelector('.navbar-collapse'); // Lấy phần tử collapse

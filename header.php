@@ -200,81 +200,9 @@
     <div class="mailbox-phone">
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
 
-        <a id="open-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        <a data-modal-target="#mod-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
         <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
     </div>
 
-    <!-- MAIL-BOX -->
-    <div id="modal" class="modal">
-        <div class="modal-content1">
-            <div class="mod-header">
-                <div class="mod-title">KẾT NỐI NGAY VỚI AHP AGENCY</div>
-                <button class="close">&times;</button>
-            </div>
-            <div class="mod-body">
-                <div class="mod-items1">
-                    <p class="mod-p">Hãy để chúng tôi giúp bạn xây dựng chiến lược
-                        marketing hiệu quả với thiết kế độc đáo thu hút khách hàng tiềm năng
-                        của bạn.
-                        Liên hệ ngay với chúng tôi để được tư vấn tận tình.
-                    </p>
-                    <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
-                    <div class="contain-contact">
-                        <div class="nav-contact">
-                            <div class="contact-items">
-                                <div class="contact-hov">
-                                    <span>Hotline</span>
-                                    <div class="contact-info">
-                                        <p class="ph-contact">0968.868.227</p>
-                                    </div>
-                                </div>
-                                <div class="contact-hov">
-                                    <span>Email</span>
-                                    <div class="contact-info">
-                                        <p class="tel-contact"><a style="color: #fff;" href=""> ahpmedia@ahpvn.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mod-items2">
-                    <div class="form-contact">
-                        <p class="mod-p">Công ty Truyền Thông AHP MEDIA đã được thành lập
-                            với
-                            mục đích mang
-                            đến những giải pháp truyền thông
-                            tiên
-                            tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
-                        <form id="form" class="hero-form" action="email-script.php" method="POST">
-                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
-                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
-                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
-                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
-                            <textarea name="noidung" class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
-                            <input id="success" type="submit" value="Gửi yêu cầu" class="submit-btn" />
-                        </form>
-                        <div class="contact-items">
-                            <div class="contact-hov">
-                                <span>Hotline</span>
-                                <div class="contact-info">
-                                    <p class="ph-contact">0968.868.227</p>
-                                </div>
-                            </div>
-                            <div class="contact-hov">
-                                <span>Email</span>
-                                <div class="contact-info">
-                                    <p class="tel-contact"><a style="color: #fff;" href="">
-                                            ahpmedia@ahpvn.com</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END MAIL-BOX -->
 </body>
 </html>

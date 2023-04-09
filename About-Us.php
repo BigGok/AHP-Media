@@ -107,6 +107,48 @@
         </div>
 
     </Section>
+    <section class="container">
+        <div class="head-service">
+            <h3>THÀNH VIÊN AHP ANGENCY</h3>
+        </div>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="card22 swiper-slide">
+                    <div class="card__content2">
+                        <img src="images/hinh.png" alt="">
+                    </div>
+                </div>
+                <div class="card22 swiper-slide">
+                    <div class="card__content2">
+                        <img src="images/hinh.png" alt="">
+                    </div>
+                </div>
+                <div class="card22 swiper-slide">
+                    <div class="card__content2">
+                        <img src="images/hinh.png" alt="">
+                    </div>
+                </div>
+                <div class="card22 swiper-slide">
+                    <div class="card__content2">
+                        <img src="images/hinh.png" alt="">
+                    </div>
+                </div>
+                <div class="card22 swiper-slide">
+                    <div class="card__content2">
+                        <img src="images/hinh.png" alt="">
+                    </div>
+                </div>
+                <div class="card22 swiper-slide">
+                    <div class="card__content2">
+                        <img src="images/hinh.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
     <?php include 'footer.php' ?>
 
 
