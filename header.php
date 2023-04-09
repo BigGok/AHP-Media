@@ -2,13 +2,16 @@
 <html lang="en">
 
 <head>
+
     <head>
         <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
         <!--media css-->
         <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     </head>
+
 </head>
+
 <body>
     <div id="arrow">
         <i class="fa fa-arrow-up" aria-shidden="true"></i>
@@ -42,7 +45,7 @@
                                 </li>
 
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" href="Service.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
                                         </div>
                                     </a>
@@ -89,6 +92,56 @@
                                         </div>
                                     </div>
                                 </li>
+
+                                <li class="nav-item n1">
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <div class="name"><span data-text="DỊCH VỤ">BẢNG GIÁ</span>
+                                        </div>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dichvu dic1">
+                                            <a class="food">Thiết kế thương hiệu</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế Logo</a>
+                                            <a class="dropdown-item" href="">Thiết kế nhận diện thương hiệu</a>
+                                            <a class="dropdown-item" href="">Đặt tên thương hiệu</a>
+                                            <a class="dropdown-item" href="">Sáng tác slogan</a>
+                                            <a class="dropdown-item" href="">Đăng ký bản quyền Logo</a>
+                                            <a class="dropdown-item" href="">Nhận diện thương hiệu văn phòng</a>
+                                            <a class="dropdown-item" href="">Nhận diện thương hiệu tại điểm bán</a>
+                                            <a class="dropdown-item" href="">Nhận diện thương hiệu Sản Phẩm</a>
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế Marketing</a>
+                                            <a class="dropdown-item" href="">Name card</a>
+                                            <a class="dropdown-item" href="">Bao thư</a>
+                                            <a class="dropdown-item" href="">Profile</a>
+                                            <a class="dropdown-item" href="">Kẹp file,folder</a>
+                                            <a class="dropdown-item" href="">Catalogue</a>
+                                            <a class="dropdown-item" href="">Brochure,Tờ gấp</a>
+                                            <a class="dropdown-item" href="">Tờ rơi,Flyer</a>
+                                            <a class="dropdown-item" href="">Giấy tiêu đề,Letterhead</a>
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế quảng cáo</a>
+                                            <a class="dropdown-item" href="">Quảng cáo</a>
+                                            <a class="dropdown-item" href="">Backdrop,bảng hiệu</a>
+                                            <a class="dropdown-item" href="">Standee</a>
+                                            <a class="dropdown-item" href="">Poster</a>
+                                            <a class="dropdown-item" href="">Tranh Canvas</a>
+                                            <a class="dropdown-item" href="">Menu</a>
+                                            <a class="dropdown-item" href="">Bao lì xì</a>
+                                            <a class="dropdown-item" href="">Lịch tết</a>
+                                        </div>
+                                        <div class="dichvu dic2">
+                                            <a class="food">Thiết kế bao bì sản phẩm</a>
+                                            <a class="dropdown-item" href="">Hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="">Bao bì, hộp sản phẩm</a>
+                                            <a class="dropdown-item" href="">Decal,tem nhãn</a>
+                                            <a class="dropdown-item" href="">Túi giấy</a>
+                                        </div>
+                                    </div>
+                                </li>
+
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="News.php">
@@ -203,6 +256,24 @@
         <a data-modal-target="#mod-modal" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
         <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropdowns = document.querySelectorAll('.nav-item');
 
+            dropdowns.forEach((dropdown) => {
+                const link = dropdown.querySelector('.nav-link');
+                const menu = dropdown.querySelector('.dropdown-menu');
+
+                link.addEventListener('mouseover', (e) => {
+                    menu.style.display = 'block';
+                });
+
+                dropdown.addEventListener('mouseleave', (e) => {
+                    menu.style.display = 'none';
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>
