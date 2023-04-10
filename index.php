@@ -1,7 +1,6 @@
 <?php
 session_start();
 include('includes/config.php');
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,7 +12,7 @@ include('includes/config.php');
     <title>AHP Agency</title>
     <link rel="icon" type="image/x-icon" href="/images/ahp icon.png">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+    <meta http-equiv="Cache-control" content="no-cache">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -557,8 +556,7 @@ include('includes/config.php');
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
-    <script src="js/pop.js"></script>
-    <script src="js/translate.js"></script>
+    <script src="js/translate.js?ver=1.0"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -576,16 +574,6 @@ include('includes/config.php');
         });
     </script>
     <script>
-        function toggleDropdown(id) {
-            var dropdown = document.getElementById(id);
-            if (dropdown.style.display === "none") {
-                dropdown.style.display = "block";
-            } else {
-                dropdown.style.display = "none";
-            }
-        }
-    </script>
-    <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
@@ -595,78 +583,6 @@ include('includes/config.php');
 <audio id="notification-sound">
     <source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
 </audio>
-
-<style>
-    /* Thêm animation vào hiển thị thông báo */
-    .swal2-show {
-        animation: swal2-show-animation 0.3s;
-    }
-
-    /* Hiệu ứng animation */
-    @keyframes swal2-show-animation {
-        0% {
-            transform: scale(0.7);
-            opacity: 0;
-        }
-
-        100% {
-            transform: scale(1);
-            opacity: 1;
-        }
-    }
-
-    .swal2-title {
-        font-size: 24px;
-        color: #333;
-        margin-top: 20px;
-    }
-
-    .swal2-popup {
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .swal2-title {
-        font-size: 24px;
-        color: #333;
-        margin-top: 10px;
-    }
-
-    .swal2-content {
-        font-size: 16px;
-        color: #666;
-        margin-top: 20px;
-    }
-
-    .swal2-success {
-        background-image: url("https://cdn.jsdelivr.net/npm/sweetalert2@10/assets/success.png");
-        background-size: cover;
-        width: 80px;
-        height: 80px;
-        margin: 0 auto;
-    }
-
-    .swal2-actions {
-        margin-top: 30px;
-    }
-
-    .swal2-confirm {
-        background-color: #D00000;
-        color: #D00000;
-        border: none;
-        border-radius: 3px;
-        font-size: 16px;
-        padding: 10px 20px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    .swal2-confirm:hover {
-        background-color: #D00000;
-    }
-</style>
-
 <script>
     $(document).on('click', '#success', function(e) {
         Swal.fire({
@@ -686,5 +602,6 @@ include('includes/config.php');
         });
     });
 </script>
+
 
 </html>

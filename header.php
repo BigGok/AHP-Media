@@ -274,6 +274,21 @@
             });
         });
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        let form = document.getElementById('search-icon');
+        let searchBox = document.getElementById('search-box');
+
+        form.addEventListener('mouseenter', () => {
+            searchBox.style.display = 'block';
+        });
+
+        searchBox.addEventListener('mouseleave', () => {
+            setTimeout(function() {
+                searchBox.style.display = 'none';
+            }, 100);
+        });
+    </script>
 </body>
 
 </html>

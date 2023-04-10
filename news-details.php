@@ -36,21 +36,19 @@ if (isset($_POST['submit'])) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D&family=Lalezar&display=swap" rel="stylesheet">
     <!--/*font awesome icons*/-->
     <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
     <!--rubik font family -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
     <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-    
+
 
     <!--jquery ui files-->
     <link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css" />
@@ -67,6 +65,7 @@ if (isset($_POST['submit'])) {
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900">
 </head>
+
 <body>
 
 
@@ -455,7 +454,7 @@ if (isset($_POST['submit'])) {
     </section>
     <?php include 'footer.php' ?>
 
-    
+
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
@@ -467,7 +466,6 @@ if (isset($_POST['submit'])) {
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
     <script src="js/pop.js"></script>
-    <script src="js/translate.js"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -484,20 +482,68 @@ if (isset($_POST['submit'])) {
             "max-glare": 1,
         });
     </script>
-
-</body>
-<script>
-    function toggleDropdown(id) {
-        var dropdown = document.getElementById(id);
-        if (dropdown.style.display === "none") {
-            dropdown.style.display = "block";
-        } else {
-            dropdown.style.display = "none";
+    <!-- Translate to English -->
+    <script>
+        function setLanguageCookie(lang) {
+            document.cookie = "language=" + lang + "; path=/";
         }
-    }
-</script>
 
+        function getLanguageCookie() {
+            var name = "language=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var cookieArray = decodedCookie.split(';');
+            for (var i = 0; i < cookieArray.length; i++) {
+                var cookie = cookieArray[i];
+                while (cookie.charAt(0) == ' ') {
+                    cookie = cookie.substring(1);
+                }
+                if (cookie.indexOf(name) == 0) {
+                    return cookie.substring(name.length, cookie.length);
+                }
+            }
+            return "vi";
+        }
 
+        function toggleLanguage() {
+            var select = document.querySelector('#google_translate_element select');
+            var langToggle = document.querySelector('#lang-toggle');
 
+            if (langToggle.checked) {
+                select.value = 'en';
+                setLanguageCookie('en');
+            } else {
+                select.value = 'vi';
+                setLanguageCookie('vi');
+            }
+
+            select.dispatchEvent(new Event('change'));
+        }
+
+        function initializeGoogleTranslate() {
+            var language = getLanguageCookie();
+            var select = document.querySelector('#google_translate_element select');
+
+            new google.translate.TranslateElement({
+                pageLanguage: language,
+                autoDisplay: false,
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+                includedLanguages: "en,vi",
+                gaTrack: true,
+                gaId: "UA-XXXXX-X"
+            }, 'google_translate_element');
+
+            select.addEventListener('change', function() {
+                var langToggle = document.querySelector('#lang-toggle');
+                langToggle.checked = select.value === 'en';
+                setLanguageCookie(select.value);
+            });
+
+            var langToggle = document.querySelector('#lang-toggle');
+            langToggle.checked = select.value === 'en';
+            langToggle.addEventListener('click', toggleLanguage);
+        }
+        window.onload = initializeGoogleTranslate;
+    </script>
+</body>
 
 </html>

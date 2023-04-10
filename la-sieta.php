@@ -92,13 +92,10 @@
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
-    <script src="js/pop.js"></script>
-    <script src="js/translate.js"></script>
+    <script src="js/translate.js?ver=2.0"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script src="js/swiper.js"></script>
+    <script src="js/swiper.js?ver=1.0"></script>
 
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {

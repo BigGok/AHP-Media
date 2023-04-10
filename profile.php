@@ -107,41 +107,6 @@
                         <p>NHẬN DIỆN</p>
                     </div>
                 </div>
-                <!--
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-            -->
             </div>
         </div>
         <!-- slide-2 -->
@@ -211,10 +176,10 @@
     <!-- Bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
-    <script src="js/pop.js"></script>
-    <script src="js/translate.js"></script>
+    <script src="js/translate.js?ver=2.0"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js?ver=1.0"></script>
 
     <!-- Initialize Swiper -->
     <script src="js/swiper.js"></script>
@@ -223,6 +188,29 @@
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
+    </script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <audio id="notification-sound">
+        <source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        $(document).on('click', '#success', function(e) {
+            Swal.fire({
+                title: 'Gửi thành công',
+                text: 'Cảm ơn bạn đã điền thông tin! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể.',
+                icon: 'success',
+                showClass: {
+                    popup: 'animated bounceIn'
+                },
+                hideClass: {
+                    popup: 'animated bounceOut'
+                },
+                onOpen: function() {
+                    var audioElement = document.getElementById('notification-sound');
+                    audioElement.play();
+                }
+            });
+        });
     </script>
 </body>
 
