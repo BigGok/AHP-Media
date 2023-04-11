@@ -562,14 +562,8 @@ div#faq-accordion {
 }
 
 .owl-img-par img {
-
     transition: all 0.5s ease;
-    border: 1px solid rgb(208, 201, 201);
 }
-
-/*.owl-img-par img:hover {
-    transform: scale(1.1, 1.1);
-}*/
 
 section#project {
     position: relative;
@@ -2270,7 +2264,7 @@ body {
     margin-top: 167px;
     display: block;
     width: 100%;
-    height: auto;
+    height: 350px;
 }
 
 .swiper-pagination-bullet-active {
@@ -2391,6 +2385,7 @@ input:checked+.slider:before {
 }
 
 .items-price {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     margin: 10px 20px;
     display: flex;
     flex-direction: column;

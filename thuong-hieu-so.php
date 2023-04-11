@@ -181,15 +181,12 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/swiper.js?ver=1.0"></script>
 
-    <!-- Initialize Swiper -->
-    <script src="js/swiper.js"></script>
-
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
     </script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <audio id="notification-sound">
         <source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
     </audio>

@@ -1116,6 +1116,10 @@
         grid-gap: 30px;
         grid-template-columns: 1fr;
     }
+    .contain-price-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 /* Styles for screens between 576px and 768px */
