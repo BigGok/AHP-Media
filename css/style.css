@@ -950,7 +950,7 @@ hr.footer-hr {
 /* Footer */
 .footer-all {
     padding-bottom: 20px;
-    background: linear-gradient(to right, #710808, #dd1818);
+    background: linear-gradient(to bottom,  #dd1818,#710808);
 }
 
 .container-footer {
@@ -1751,7 +1751,7 @@ hr.footer-hr {
     border-radius: 50%;
     border: 1px solid #cac2c2;
     width: 85px;
-    height: 70px;
+    height: auto;
 }
 
 .container-testimoni {
@@ -2112,8 +2112,8 @@ hr.footer-hr {
     width: 300px;
     height: 65px;
     position: absolute;
-    top: 49px;
-    right: -80px;
+    top: 46px;
+    right: -40px;
     background: #fff;
     padding: 0px;
     border: 2px solid #fc0404;

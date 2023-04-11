@@ -321,7 +321,7 @@ include('includes/config.php');
                         <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Mình cảm thấy rất ấn tượng với phong cách làm việc của các bạn: Trách nhiệm, tốc độ và niềm tin, chúc AHP Agency ngày càng phát triển.</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/2.png" alt="">
+                            <img class="img-testimonial" src="images/logo/KEN_S MUM@4x.png" alt="">
                             <div class="contain-testimoni">
                                 <span class="card__title">Bếp Bánh Ken's </span>
                                 <span class="card__name"></span>
@@ -334,7 +334,7 @@ include('includes/config.php');
                         <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text"> Chúng tôi thấy đây là một dịch vụ cần thiết giúp chúng tôi tiết kiệm chi phí, giảm thời gian và tăng hiệu suất công việc.</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/7.png" alt="">
+                            <img class="img-testimonial" src="images/logo/VINACOFFEE@4x.png" alt="">
                             <div class="contain-testimoni">
                                 <span class="card__title">LA SIESTA</span>
                                 <span class="card__name"></span>
@@ -348,7 +348,7 @@ include('includes/config.php');
                         <p class="card__text">Tôi rất đánh giá cao sự tận tâm và hỗ trợ của đội ngũ AHP Agency. Họ luôn sẵn sàng tư vấn và hỗ trợ tôi trong quá trình triển khai chiến dịch truyền thông và quảng cáo, giúp tôi hiểu rõ hơn về chiến lược và cách thức thực hiện
                             .</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/3.png" alt="">
+                            <img class="img-testimonial" src="images/logo/LA SIESTA@4x.png" alt="">
                             <div class="contain-testimoni">
                                 <span class="card__title">Vina coffee</span>
                                 <span class="card__name"></span>
@@ -361,7 +361,7 @@ include('includes/config.php');
                         <i class="fa-solid fa-quote-left"></i>
                         <p class="card__text">Website tôi đã được khoác một bộ áo mới nhờ đó lượng khách hàng truy cập nhiều hơn, Sản phẩm bán chạy hơn.</p>
                         <div class="container-testimoni">
-                            <img class="img-testimonial" src="images/logo/5.png" alt="">
+                            <img class="img-testimonial" src="images/logo/PRUDENTIAL@4x.png" alt="">
                             <div class="contain-testimoni">
                                 <span class="card__title">Tony Peanut</span>
                                 <span class="card__name"></span>

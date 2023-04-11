@@ -17,8 +17,8 @@
                     <div>
                         <label for="" class="label-footer">Họ và tên</label>
                         <input id="idcontname" name="contname" type="text" placeholder="Họ và tên của bạn" class="cont-name" required />
-                        <label for="" class="label-footer">Số Điện Thoại</label>
-                        <input id="idcontloc" name="contloc" type="location" placeholder="Sđt của bạn" class="cont-loc" pattern="[0-9]{10}" required />
+                        <label for="" class="label-footer">Địa chỉ</label>
+                        <input id="idcontloc" name="contloc" type="location" placeholder="Địa chỉ của bạn " class="cont-loc" required />
                         <label for="" class="label-footer">Số Zalo</label>
                         <input id="idcontphone" name="contphone" type="phone" placeholder="Số Zalo của bạn" class="cont-phone" pattern="[0-9]{10}" required />
                     </div>
