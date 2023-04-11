@@ -15,7 +15,9 @@
     <!--rubik font family -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <!--custom css-->
-    <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="css/style.css?v=<?
+    
+    php echo time(); ?>" rel="stylesheet" type="text/css" />
 
     <!--media css-->
     <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
