@@ -562,8 +562,14 @@ div#faq-accordion {
 }
 
 .owl-img-par img {
+
     transition: all 0.5s ease;
+    border: 1px solid rgb(208, 201, 201);
 }
+
+/*.owl-img-par img:hover {
+    transform: scale(1.1, 1.1);
+}*/
 
 section#project {
     position: relative;
@@ -950,7 +956,7 @@ hr.footer-hr {
 /* Footer */
 .footer-all {
     padding-bottom: 20px;
-    background: linear-gradient(to bottom,  #dd1818,#710808);
+    background: linear-gradient(to right, #710808, #dd1818);
 }
 
 .container-footer {
@@ -1136,7 +1142,6 @@ hr.footer-hr {
 
 .img-about {
     width: 100%;
-    height: auto;
     margin: 30px 0;
 }
 
@@ -1398,7 +1403,7 @@ hr.footer-hr {
 .frm-css {
     margin-top: 45px;
     display: grid;
-    grid-gap: 100px;
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -1430,8 +1435,8 @@ hr.footer-hr {
     border-radius: 10px;
     z-index: 10;
     background-color: white;
-    width: 1150px;
-    height: 98%;
+    width: 77%;
+    height: auto;
     max-width: 100%;
 }
 
@@ -1708,12 +1713,12 @@ hr.footer-hr {
     flex-wrap: wrap;
     margin: 13px;
     text-align: center;
+    height: 450px;
     border-radius: 0.5em;
     justify-content: center;
 }
 
 .card__content2 img {
-    width:280px;
     border-radius: 15px;
 }
 
@@ -1751,7 +1756,7 @@ hr.footer-hr {
     border-radius: 50%;
     border: 1px solid #cac2c2;
     width: 85px;
-    height: auto;
+    height: 70px;
 }
 
 .container-testimoni {
@@ -1980,7 +1985,7 @@ hr.footer-hr {
 }
 
 .bg-hero {
-    margin-bottom: 65px;
+    margin-top: 40px;
     padding: 30px 0px;
     background-color: #fff0f3;
 
@@ -2112,8 +2117,8 @@ hr.footer-hr {
     width: 300px;
     height: 65px;
     position: absolute;
-    top: 46px;
-    right: -40px;
+    top: 49px;
+    right: -80px;
     background: #fff;
     padding: 0px;
     border: 2px solid #fc0404;
@@ -2133,9 +2138,7 @@ form:hover+#search-box,
     cursor: pointer;
 }
 
-
-
-/* Style the modal background */
+/* Styles for the modal container */
 .modal {
     display: none;
     position: fixed;
@@ -2146,31 +2149,57 @@ form:hover+#search-box,
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
-
-}
-
-
-.modal-content1 {
+  }
+  
+  /* Styles for the modal content */
+  .modal-content1 {
+    padding: 30px;
     right: 11%;
     position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin-top: 6px;
     border: 1px solid black;
     border-radius: 10px;
     z-index: 10;
     background-color: white;
     width: 77%;
-    height: 98%;
-    max-width: 100%;
-}
-
-
-.mod-header .close {
-    color: #000;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 1.25rem;
+    height: auto;
+    animation-name: modalopen;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  /* Styles for the close button */
+  .close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 28px;
     font-weight: bold;
-}
+    color: #aaa;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Animation for the modal opening */
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+  }
+  
 
 /*TRANSLATE GG*/
 .translator-en {
@@ -2385,7 +2414,6 @@ input:checked+.slider:before {
 }
 
 .items-price {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     margin: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -2456,7 +2484,7 @@ input:checked+.slider:before {
     font-size: 18px;
     background-color: rgba(0, 0, 0, .3);
     transform-style: preserve-3d;
-    backface-visibility: hidden;   
+    backface-visibility: hidden;
     border-radius: 30px;
     text-transform: uppercase;
     color: #fff;

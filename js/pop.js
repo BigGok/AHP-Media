@@ -35,42 +35,6 @@ overlay.addEventListener('click', () => {
   });
 });
 
-
-
-
-const modal = document.getElementById("modal");
-const btnOpenModal = document.getElementById("open-modal");
-const closeBtn = document.getElementsByClassName("close")[0];
-
-btnOpenModal.onclick = function () {
-  modal.style.display = "block";
-}
-
-closeBtn.onclick = function () {
-  modal.style.display = "none";
-}
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-//Drop-Down Search
-let form = document.getElementById('search-icon');
-let searchBox = document.getElementById('search-box');
-
-form.addEventListener('mouseenter', (e) => {
-  e.preventDefault();
-  searchBox.style.display = 'block';
-});
-
-searchBox.addEventListener('mouseleave', () => {
-  setTimeout(function () {
-    searchBox.style.display = 'none';
-  }, 100);
-});
-
 // khi nhấp vào chỗ bất kì trên màn hình đt thì danh sách menu biến mất
 var navbarToggler = document.querySelector('.navbar-toggler'); // Lấy phần tử toggler
 var navbarCollapse = document.querySelector('.navbar-collapse'); // Lấy phần tử collapse

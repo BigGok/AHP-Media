@@ -381,12 +381,9 @@ img {
     z-index: 300;
     @include trans-duration(500ms);
     .navbar {
-        border-bottom: 1px solid;
         border-color: $color-white;
         @include trans-duration(500ms);
-        height: 55px;
         .navbar-nav {
-            margin-right: 50px;
             .nav-link {
                 padding: 0.5em 1em;
                 font-weight: 500;

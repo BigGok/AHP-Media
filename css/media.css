@@ -586,8 +586,10 @@
     .social-icons-footer {
         display: flex;
     }
-
-
+    
+    .social-icons-footer h4{
+        margin-right: 15px;
+    }
 
     /*NEWS*/
     .img-fluid2 {
@@ -633,8 +635,10 @@
     }
 
     .mod-body {
+        width: 100%;
         display: flex;
         padding: 10px 15px;
+        justify-content: center;
     }
 
     .mod-img {
@@ -914,7 +918,7 @@
     }
 
     .items-pa {
-        margin: 0 15px 10px 21px;
+        margin: 0 10px 10px 12px;
         border-radius: 0 0 0.5rem 0.5rem;
     }
 
@@ -992,7 +996,9 @@
         display: flex;
         width: 100%;
     }
-
+    .mod-items2 {
+        margin: 0;
+    }
     .mod-items2 .contact-items {
         display: flex;
         flex-wrap: wrap;
@@ -1011,7 +1017,6 @@
 
     .modal-content1 {
         margin-top: 0;
-        top: 3%;
         right: 10%;
         position: fixed;
         transition: 200ms ease-in-out;
