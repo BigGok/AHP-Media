@@ -317,7 +317,7 @@ include('includes/config.php');
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/KEN_S MUM@4x.png" alt="">
                             <div class="contain-testimoni">
-                                <span class="card__title">Bếp Bánh Ken's </span>
+                                <span class="card__title">Bếp Bánh Ken's Mum</span>
                                 <span class="card__name"></span>
                             </div>
                         </div>
@@ -357,7 +357,7 @@ include('includes/config.php');
                         <div class="container-testimoni">
                             <img class="img-testimonial" src="images/logo/PRUDENTIAL@4x.png" alt="">
                             <div class="contain-testimoni">
-                                <span class="card__title">Tony Peanut</span>
+                                <span class="card__title">PRUDENTIAL</span>
                                 <span class="card__name"></span>
                             </div>
                         </div>
