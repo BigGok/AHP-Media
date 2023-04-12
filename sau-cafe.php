@@ -81,7 +81,6 @@
 
 
     <?php include 'footer.php'?>
-
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
@@ -89,9 +88,12 @@
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/popup-script.js"></script>
+    <script src="js/popup-mail.js"></script>
+    <script src="js/pop-modal.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/active.js"></script>
-    <script src="js/translate.js?ver=2.0"></script>
+    <script src="js/translate.js?v=1.0"></script>
     <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/swiper.js?ver=1.0"></script>
