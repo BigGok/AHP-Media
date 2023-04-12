@@ -63,6 +63,7 @@
 
     <section class="container">
         <div class="emi">
+            <img class="imgzn" src="images/sau-cafe/ảnh đầu dự án.jpg" alt="">
             <img class="imgzn" src="images/sau-cafe/1.jpg" alt="">
             <img class="imgzn" src="images/sau-cafe/2.jpg" alt="">
             <img class="imgzn" src="images/sau-cafe/3.jpg" alt="">
@@ -72,6 +73,8 @@
             <img class="imgzn" src="images/sau-cafe/7.jpg" alt="">
             <img class="imgzn" src="images/sau-cafe/8.jpg" alt="">
             <img class="imgzn" src="images/sau-cafe/9.jpg" alt="">
+            <img class="imgzn" src="images/sau-cafe/10.jpg" alt="">
+            <img class="imgzn" src="images/sau-cafe/11.jpg" alt="">
        
         </div>  
     </section>

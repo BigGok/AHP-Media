@@ -137,7 +137,7 @@
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Hộp sản phẩm</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Bao bì, hộp sản phẩm</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Decal,tem nhãn</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Túi giấy</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php"s>Túi giấy</a>
                                         </div>
                                     </div>
                                 </li>
