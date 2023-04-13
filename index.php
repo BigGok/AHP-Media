@@ -70,7 +70,7 @@ include('includes/config.php');
 
 
     <!-- AHP-HERE-TO-HELP-YOU -->
-    <section class="container ccc">
+    <section class="container ccc flowup">
         <div class="head-service">
             <h3> AHP AGENCY LUÔN Ở ĐÂY ĐỂ GIÚP BẠN</h3>
         </div>
@@ -90,8 +90,8 @@ include('includes/config.php');
     <!-- END AHP-HERE-TO-HELP-YOU -->
 
     <!-- PARTNER -->
-    <Section id="project">
-        <div class="container">
+    <Section id="project ">
+        <div class="container flowup">
             <div class="head-service">
                 <h3>ĐỐI TÁC</h3>
             </div>
@@ -151,7 +151,7 @@ include('includes/config.php');
     <!-- END PARTNER -->
 
     <!-- SERVICE -->
-    <section class="container ">
+    <section class="container flowup">
         <div class="head-service">
             <h3>DỊCH VỤ TIÊU BIỂU</h3>
         </div>
@@ -267,8 +267,8 @@ include('includes/config.php');
     </section>
     <!-- END SERVICE -->
 
-    <!-- WHY CHOOSE US -->
-    <section class="container">
+    <!-- WHY CHOOSE US --> 
+    <section class="container flowup">
         <div class="hero-about">
             <img class="img-head-about" src="images/huy chuong 2 (1).png" alt="">
             <div class="contain-about">
@@ -304,7 +304,7 @@ include('includes/config.php');
     <!-- END WHY CHOOSE US -->
 
     <!-- REPORT-CUSTOMER -->
-    <section class="container">
+    <section class="container flowup">
         <div class="head-service">
             <h3>KHÁCH HÀNG ĐÁNH GIÁ</h3>
         </div>
@@ -371,7 +371,7 @@ include('includes/config.php');
     <!-- END REPORT-CUSTOMER -->
 
     <!--PROJECT -->
-    <section class="container">
+    <section class="container flowup">
         <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
@@ -442,16 +442,16 @@ include('includes/config.php');
                     </div>
                 </div>
                 <div class="items-project">
-            <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                <img class="img-project" src="images/sau-cafe/Ảnh con mục dự án.jpg" alt="">
-            </div>
-            <div class="items-pa">
-                <a href="./sau-cafe.php">
-                    <h4>SẤU COFFEE</h4>
-                </a>
-                <p>Nhận diện</p>
-            </div>
-        </div>
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                        <img class="img-project" src="images/sau-cafe/Ảnh con mục dự án.jpg" alt="">
+                    </div>
+                    <div class="items-pa">
+                        <a href="./sau-cafe.php">
+                            <h4>SẤU COFFEE</h4>
+                        </a>
+                        <p>Nhận diện</p>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -558,7 +558,9 @@ include('includes/config.php');
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>
@@ -588,7 +590,6 @@ include('includes/config.php');
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
         }
     </script>
-
 </body>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <audio id="notification-sound">

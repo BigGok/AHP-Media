@@ -57,7 +57,7 @@
         <div class="clear"></div>
     </section>
     <?php include 'header.php' ?>
-    <section class="container">
+    <section class="container flowup">
         <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
@@ -210,7 +210,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>

@@ -61,7 +61,7 @@
         <div class="clear"></div>
     </section>
 
-    <section class="container bbb">
+    <section class="container bbb flowup">
 
         <div class="about-text">
             <h1 class="txt-head">AHP AGENCY</h3>
@@ -107,7 +107,7 @@
         </div>
 
     </Section>
-    <section class="container">
+    <section class="container flowup">
         <div class="head-service">
             <h3>THÀNH VIÊN AHP ANGENCY</h3>
         </div>
@@ -156,7 +156,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>
@@ -184,6 +186,16 @@
     <script>
         if (window.location.hostname.substr(0, 4) !== 'www.') {
             window.location.replace('http://www.' + window.location.hostname + window.location.pathname + window.location.hash);
+        }
+    </script>
+    <script>
+        function toggleDropdown(id) {
+            var dropdown = document.getElementById(id);
+            if (dropdown.style.display === "none") {
+                dropdown.style.display = "block";
+            } else {
+                dropdown.style.display = "none";
+            }
         }
     </script>
 

@@ -2150,10 +2150,10 @@ form:hover+#search-box,
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  /* Styles for the modal content */
-  .modal-content1 {
+}
+
+/* Styles for the modal content */
+.modal-content1 {
     padding: 30px;
     right: 11%;
     position: fixed;
@@ -2170,37 +2170,38 @@ form:hover+#search-box,
     animation-name: modalopen;
     animation-duration: 0.3s;
     animation-timing-function: ease-in-out;
-  }
-  
-  /* Styles for the close button */
-  .close {
+}
+
+/* Styles for the close button */
+.close {
     position: absolute;
     top: 0;
     right: 15px;
     font-size: 28px;
     font-weight: bold;
     color: #aaa;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  /* Animation for the modal opening */
-  @keyframes modalopen {
+}
+
+/* Animation for the modal opening */
+@keyframes modalopen {
     from {
-      opacity: 0;
-      transform: translate(-50%, -50%) scale(0.5);
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
     }
+
     to {
-      opacity: 1;
-      transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
     }
-  }
-  
+}
+
 
 /*TRANSLATE GG*/
 .translator-en {
@@ -2466,7 +2467,7 @@ input:checked+.slider:before {
     margin-right: 10px;
 }
 
-.regester-pr{
+.regester-pr {
     cursor: pointer;
     margin-top: 20px;
     width: 200px;
@@ -2475,7 +2476,8 @@ input:checked+.slider:before {
     transform-style: preserve-3d;
     transform-origin: center center;
 }
-.regester-pr span{
+
+.regester-pr span {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2492,23 +2494,27 @@ input:checked+.slider:before {
     transition: 1s;
 }
 
-.regester-pr .front-pr{
+.regester-pr .front-pr {
     transform: rotateX(0deg) translateZ(20px);
-} 
-.regester-pr:hover .front-pr{
+}
+
+.regester-pr:hover .front-pr {
     transform: rotateX(-180deg) translateZ(20px);
-} 
-.regester-pr .back-pr{
+}
+
+.regester-pr .back-pr {
     transform: rotateX(180deg) translateZ(20px);
-} 
-.regester-pr:hover .back-pr{
+}
+
+.regester-pr:hover .back-pr {
     transform: rotateX(0deg) translateZ(20px);
-} 
-.regester-pr .center-pr{
+}
+
+.regester-pr .center-pr {
     background: linear-gradient(to right, #710808, #dd1818);
 }
 
-.regester-pr .center-pr::before{
+.regester-pr .center-pr::before {
     content: '';
     position: absolute;
     top: 0;
@@ -2520,6 +2526,43 @@ input:checked+.slider:before {
     transform: translateZ(-1px);
 }
 
-.regester-pr:hover .center-pr{
+.regester-pr:hover .center-pr {
     transform: rotateX(-180deg);
+}
+
+.flowup {
+    opacity: 0;
+    transform: translateY(300px);
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.flowup.animate {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.smoothflow {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.smoothflow.visible {
+    opacity: 1;
+    transform: translateY(0);
+    animation-name: fadeInUp;
+    animation-duration: 0.8s;
+    animation-delay: var(--delay);
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -40,166 +40,47 @@
 </head>
 
 <body>
-    
+    <?php include 'header.php' ?>
+
     <section class="header-bg-parent">
-        <div class="header-col1"></div>
+        <div class="header-col1">
+
+        </div>
+        </div>
+        <!--header-col1-->
         <div class="swiper1 Swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <picture>
-                        <source media="(max-width: 576px)" srcset="images/hinh2.jpg">
-                        <img class="slider-bar2" src="images/anh-banner-1.png" alt="">
-                    </picture>
-                </div>
-            </div>
+
             <div class="swiper-pagination"></div>
         </div>
-        <div class="clear"></div>
-    </section>
-    <?php include 'header.php' ?>
-    <section class="container">
-        <div class="head-service">
-            <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
-        </div>
-        <!-- slide-1 -->
-        <div id="slide1" class="contain-blk">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./la-sieta.html">
-                            <h4>RESORT & SPA LA SIESTA</h4>
-                        </a>
-                        <p>Nhận diện</p>
-                    </div>
 
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./zony-peanut.html">
-                            <h4>TONY PEANUT</h4>
-                        </a>
-                        <p>Nhận diện, bao bì, quảng cáo</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./Vina-coffee.html">
-                            <h4>VINA COFFEE</h4>
-                        </a>
-                        <p>Bao bì, bộ quà tặng</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/Ken-mum.html">
-                            <h4>KEN'S MUM</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <!--
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="./du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <div class="items-pa">
-                        <a href="/du-an-la-siesta.html">
-                            <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                        </a>
-                        <p>NHẬN DIỆN</p>
-                    </div>
-                </div>
-            -->
-            </div>
-        </div>
-        <!-- slide-2 -->
-        <div id="slide2" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
-        <!-- slide-3 -->
-        <div id="slide3" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <a href="/du-an-la-siesta.html">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
-        <!-- slide 4 -->
-        <div id="slide4" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
-        </div>
-        <!-- slide 5 -->
-        <div id="slide5" class="contain-blk" style="display: none;">
-            <div class="hero-project">
-                <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
-                    </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
-                </div>
-            </div>
+
+        <!--header-col2-->
+        <div class="clear"></div>
+        <!--clear-->
+
+    </section>
+
+    <section class="container">
+        <div class="emi">
+            <img class="imgzn" src="images/Zony peanut/mẫu 1 ảnh đầu dự án.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/1.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/3.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/4.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/5.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/6.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/7.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/8.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/9.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/10.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/11.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/12.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/13.jpg" alt="">
+            <img class="imgzn flowup" src="images/Zony peanut/14.jpg" alt="">
+
+
+
         </div>
     </section>
-    <!-- END PROJECT -->
 
 
     <?php include 'footer.php' ?>
@@ -209,7 +90,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>
@@ -245,4 +128,5 @@
 <audio id="notification-sound">
     <source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
 </audio>
+
 </html>

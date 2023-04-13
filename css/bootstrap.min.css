@@ -9818,14 +9818,6 @@ a.text-dark:hover {
     border: 0
 }
 
-.visible {
-    visibility: visible !important
-}
-
-.invisible {
-    visibility: hidden !important
-}
-
 @media print {
 
     *,

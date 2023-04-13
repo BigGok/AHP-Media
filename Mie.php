@@ -64,14 +64,14 @@
     <section class="container">
         <div class="emi">
             <img class="imgzn" src="images/Mie/1.jpg" alt="">
-            <img class="imgzn" src="images/Mie/2.jpg" alt="">
-            <img class="imgzn" src="images/Mie/3.jpg" alt="">
-            <img class="imgzn" src="images/Mie/4.jpg" alt="">
-            <img class="imgzn" src="images/Mie/5.jpg" alt="">
-            <img class="imgzn" src="images/Mie/6.jpg" alt="">
-            <img class="imgzn" src="images/Mie/7.jpg" alt="">
-            <img class="imgzn" src="images/Mie/8.jpg" alt="">
-            <img class="imgzn" src="images/Mie/9.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/2.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/3.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/4.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/5.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/6.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/7.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/8.jpg" alt="">
+            <img class="imgzn flowup" src="images/Mie/9.jpg" alt="">
        
         </div>  
     </section>
@@ -84,7 +84,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>

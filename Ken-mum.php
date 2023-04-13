@@ -45,15 +45,15 @@
     <section class="header-bg-parent">
         <div class="header-col1">
 
-            </div>
+        </div>
         </div>
         <!--header-col1-->
         <div class="swiper1 Swiper">
-            
+
             <div class="swiper-pagination"></div>
         </div>
 
-      
+
         <!--header-col2-->
         <div class="clear"></div>
         <!--clear-->
@@ -63,34 +63,36 @@
     <section class="container">
         <div class="emi">
             <img class="imgzn" src="images/Ken-mum/1.jpg" alt="">
-            <img class="imgzn" src="images/Ken-mum/2.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/3.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/4.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/5.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/6.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/6.6.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/7.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/8.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/9.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/10.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/11.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/12.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/13.jpg" alt="">
-             <img class="imgzn" src="images/Ken-mum/14.jpg" alt="">
-            
-       
-        </div>  
+            <img class="imgzn flowup" src="images/Ken-mum/2.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/3.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/4.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/5.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/6.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/6.6.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/7.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/8.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/9.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/10.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/11.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/12.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/13.jpg" alt="">
+            <img class="imgzn flowup" src="images/Ken-mum/14.jpg" alt="">
+
+
+        </div>
     </section>
 
-   
-    <?php include 'footer.php'?>
+
+    <?php include 'footer.php' ?>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
     <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>
@@ -126,4 +128,5 @@
 <audio id="notification-sound">
     <source src="./images/Tieng-ting-www_tiengdong_com.mp3" type="audio/mpeg">
 </audio>
+
 </html>

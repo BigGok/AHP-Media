@@ -62,19 +62,19 @@
 
     <section class="container">
         <div class="emi">
-            <img class="imgzn" src="images/La-sieta/1.jpg" alt="">
             <img class="imgzn" src="images/La-sieta/2.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/3.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/4.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/5.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/6.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/7.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/8.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/9.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/10.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/11.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/12.jpg" alt="">
-            <img class="imgzn" src="images/La-sieta/13.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/3.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/1.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/4.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/5.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/6.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/7.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/8.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/9.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/10.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/11.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/12.jpg" alt="">
+            <img class="imgzn flowup" src="images/La-sieta/13.jpg" alt="">
           
        
         </div>  
@@ -87,7 +87,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>

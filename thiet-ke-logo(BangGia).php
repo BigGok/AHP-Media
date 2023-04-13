@@ -66,7 +66,7 @@
             <h3>BẢNG GIÁ THIẾT KẾ LOGO</h3>
         </div>
         <div class="contain-price-list">
-            <div class="items-price">
+            <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CƠ BẢN</h4>
                     <h3>750.000đ</h3>
@@ -83,7 +83,7 @@
                     </a>
                 </div>
             </div>
-            <div class="items-price">
+            <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CƠ BẢN</h4>
                     <h3>750.000đ</h3>
@@ -100,7 +100,7 @@
                     </a>
                 </div>
             </div>
-            <div class="items-price">
+            <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CƠ BẢN</h4>
                     <h3>750.000đ</h3>
@@ -120,7 +120,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container flowup">
         <div class="head-service">
             <h3>DỰ ÁN ĐÃ THỰC HIỆN</h3>
         </div>
@@ -226,6 +226,7 @@
             </div>
         </div>
     </section>
+    <?php include 'footer.php' ?>
     <!-- END PROJECT -->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <Script src="js/jquery-ui.min.js"></Script>
@@ -233,7 +234,10 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/smooth-flowup-price.js"></script>
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>

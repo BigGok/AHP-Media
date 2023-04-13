@@ -64,17 +64,17 @@
     <section class="container">
         <div class="emi">
             <img class="imgzn" src="images/sau-cafe/ảnh đầu dự án.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/1.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/2.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/3.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/4.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/5.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/6.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/7.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/8.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/9.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/10.jpg" alt="">
-            <img class="imgzn" src="images/sau-cafe/11.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/1.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/2.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/3.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/4.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/5.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/6.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/7.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/8.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/9.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/10.jpg" alt="">
+            <img class="imgzn flowup" src="images/sau-cafe/11.jpg" alt="">
        
         </div>  
     </section>
@@ -87,7 +87,9 @@
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
+    <script src="js/flow-up.js"></script>
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
     <script src="js/pop-modal.js"></script>

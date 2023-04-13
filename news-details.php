@@ -458,6 +458,7 @@ if (isset($_POST['submit'])) {
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <Script src="js/extrenaljq.js" type="text/javascript"></Script>
     <script src="js/plugins.js"></script>
+    <script src="js/dropdown-footer.js"></script>
     <!-- Bootstrap js -->
     <script src="js/popup-script.js"></script>
     <script src="js/popup-mail.js"></script>
