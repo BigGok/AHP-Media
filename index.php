@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('includes/config.php');
+include('./includes/config.php');
 
 ?>
 <!DOCTYPE html>
@@ -267,7 +267,7 @@ include('includes/config.php');
     </section>
     <!-- END SERVICE -->
 
-    <!-- WHY CHOOSE US --> 
+    <!-- WHY CHOOSE US -->
     <section class="container flowup">
         <div class="hero-about">
             <img class="img-head-about" src="images/huy chuong 2 (1).png" alt="">
@@ -387,7 +387,7 @@ include('includes/config.php');
             <div class="hero-project">
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                        <a href="./la-sieta.php"> <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt=""></a>
                     </div>
                     <div class="items-pa">
                         <a href="./la-sieta.php">
@@ -395,11 +395,10 @@ include('includes/config.php');
                         </a>
                         <p>Nhận diện</p>
                     </div>
-
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt="">
+                        <a href="./zony-peanut.php"> <img class="img-project" src="images/Zony peanut/Ảnh con mục dự án Tony Peanut.jpg" alt=""></a>
                     </div>
                     <div class="items-pa">
                         <a href="./zony-peanut.php">
@@ -410,7 +409,7 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt="">
+                        <a href="./Vina-coffee.php"> <img class="img-project" src="images/Vina coffee/Ảnh con mục dự án.jpg" alt=""></a>
                     </div>
                     <div class="items-pa">
                         <a href="./Vina-coffee.php">
@@ -421,7 +420,7 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt="">
+                        <a href="./Ken-mum.php"> <img class="img-project" src="images/Ken-mum/Ảnh con mục dự án ken mum.jpg" alt=""></a>
                     </div>
                     <div class="items-pa">
                         <a href="./Ken-mum.php">
@@ -432,7 +431,7 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/Mie/Ảnh con.jpg" alt="">
+                        <a href="./Mie.php"> <img class="img-project" src="images/Mie/Ảnh con.jpg" alt=""></a>
                     </div>
                     <div class="items-pa">
                         <a href="./Mie.php">
@@ -443,7 +442,7 @@ include('includes/config.php');
                 </div>
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/sau-cafe/Ảnh con mục dự án.jpg" alt="">
+                        <a href="./sau-cafe.php"> <img class="img-project" src="images/sau-cafe/Ảnh con mục dự án.jpg" alt=""></a>
                     </div>
                     <div class="items-pa">
                         <a href="./sau-cafe.php">
@@ -460,12 +459,14 @@ include('includes/config.php');
             <div class="hero-project">
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/homecontact-bg.jpg" alt="">
+                        <a href="./la-sieta.php"> <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt=""></a>
                     </div>
-                    <a href="/du-an-la-siesta.php">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>Nhận diện</p>
+                    <div class="items-pa">
+                        <a href="./la-sieta.php">
+                            <h4>RESORT & SPA LA SIESTA</h4>
+                        </a>
+                        <p>Nhận diện</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -474,12 +475,14 @@ include('includes/config.php');
             <div class="hero-project">
                 <div class="items-project">
                     <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                        <a href="./la-sieta.php"> <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt=""></a>
                     </div>
-                    <a href="/du-an-la-siesta.php">
-                        <h4>THIẾT KẾ THƯƠNG HIỆU LA SIESTA</h4>
-                    </a>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="./la-sieta.php">
+                            <h4>RESORT & SPA LA SIESTA</h4>
+                        </a>
+                        <p>Nhận diện</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -487,11 +490,15 @@ include('includes/config.php');
         <div id="slide4" class="contain-blk" style="display: none;">
             <div class="hero-project">
                 <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <a href="./la-sieta.php"> <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt=""></a>
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="./la-sieta.php">
+                            <h4>RESORT & SPA LA SIESTA</h4>
+                        </a>
+                        <p>Nhận diện</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -499,11 +506,15 @@ include('includes/config.php');
         <div id="slide5" class="contain-blk" style="display: none;">
             <div class="hero-project">
                 <div class="items-project">
-                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-                        <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt="">
+                    <div data-tilt data-tilt-glare data-tilt-max-glare="0.7">
+                        <a href="./la-sieta.php"> <img class="img-project" src="images/ảnh phần dự án đã thực hiện La Siesta.jpg" alt=""></a>
                     </div>
-                    <h4>VECO</h4>
-                    <p>NHẬN DIỆN</p>
+                    <div class="items-pa">
+                        <a href="./la-sieta.php">
+                            <h4>RESORT & SPA LA SIESTA</h4>
+                        </a>
+                        <p>Nhận diện</p>
+                    </div>
                 </div>
             </div>
         </div>

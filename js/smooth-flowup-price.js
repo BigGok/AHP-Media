@@ -4,10 +4,10 @@ $(document).ready(function() {
     var currentIndex = 0;
   
     function showNextItem() {
-      items.eq(currentIndex).addClass('visible').css('--delay', currentIndex * 0.2 + 's');
+      items.eq(currentIndex).addClass('visible').css('--delay', currentIndex * 0.1 + 's');
       currentIndex++;
       if (currentIndex < items.length) {
-        setTimeout(showNextItem, 200);
+        setTimeout(showNextItem, 400);
       }
     }
   
