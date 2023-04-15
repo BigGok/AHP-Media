@@ -845,7 +845,7 @@ hr.footer-hr {
 }
 
 .food {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     margin-left: 23px;
 }
@@ -2565,4 +2565,23 @@ input:checked+.slider:before {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.sec-item{
+    left: 100% !important;
+    top: -2.5px !important;
+}
+.service-header{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    color: #fe0707;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    transition: 0.2s;
+}
+.service-header:hover{
+    color: #000;
+    transition: 0.5s;
 }

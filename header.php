@@ -45,13 +45,13 @@
                                 </li>
 
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <div class="name"><span data-text="DỊCH VỤ">DỊCH VỤ</span>
-                                        </div>
+                                    <!-- HTML code -->
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-dich-vu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="service-header">DỊCH VỤ</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <div class="dichvu dic1">
-                                            <a class="food">THIẾT KẾ THƯƠNG HIỆU (BRANDING)</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-dich-vu">
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-thuong-hieu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ THƯƠNG HIỆU (BRANDING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-thuong-hieu">
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế Logo</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế nhận diện thương hiệu</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế bộ nhận diện văn phòng</a>
@@ -60,37 +60,37 @@
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế Mascot/ Linh vật đại diện thương hiệu</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Tư vấn đăng kí bảo hộ thương hiệu và nhãn hiệu</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">THIẾT KẾ ẤN PHẨM TIẾP THỊ TRUYỀN THÔNG  (MEDIA MARKETING PUBLICATIONS)</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ ẤN PHẨM TIẾP THỊ TRUYỀN THÔNG (MEDIA MARKETING PUBLICATIONS)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế hồ sơ năng lực/ Profile</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế Brochure/ Tờ gấp</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế tờ rơi/ Flyer</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế hình ảnh truyền thông (Banner/Poster/Backdrop/Poster)</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế video quảng cáo</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">DỊCH VỤ QUẢNG CÁO - QUẢN TRỊ (DIGITAL MARKETING)</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DỊCH VỤ QUẢNG CÁO - QUẢN TRỊ (DIGITAL MARKETING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Chạy quảng cáo google</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Chạy quảng cáo facebook</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Dịch vụ quản trị fanpage facebook</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Dịch vụ quản trị website</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">THIẾT KẾ NHẬN DIỆN THƯƠNG HIỆU SỐ (DIGITAL BRANDING)</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ NHẬN DIỆN THƯƠNG HIỆU SỐ (DIGITAL BRANDING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế website</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế landing page</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế và xây dựng sàn E - Commerce/ Sàn thương mại điện tử</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế và trang trí gian hàng Shopee/Lazada</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">PHÒNG MARKETING THUÊ NGOÀI</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHÒNG MARKETING THUÊ NGOÀI</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Lập kế hoạch marketing và chiến lược truyền thông</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế triển khai chiến dịch quảng cáo</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Xây dựng và quản lí các kênh truyền thông xã hội</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Tư vấn và hỗ trợ định hướng thương hiệu</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">THIẾT KẾ BAO BÌ (BACKAGING)</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ BAO BÌ (BACKAGING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế bao bì</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo.php">Thiết kế tem nhãn</a>
                                         </div>
@@ -98,50 +98,54 @@
                                 </li>
 
                                 <li class="nav-item n1">
-                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <div class="name"><span data-text="DỊCH VỤ">BẢNG GIÁ</span>
-                                        </div>
+                                    <!-- HTML code -->
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-dich-vu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="service-header">BẢNG GIÁ</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <div class="dichvu dic1">
-                                            <a class="food">Thiết kế thương hiệu</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown-dich-vu">
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-thuong-hieu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ THƯƠNG HIỆU (BRANDING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-thuong-hieu">
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế Logo</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế nhận diện thương hiệu</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Đặt tên thương hiệu</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Sáng tác slogan</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Đăng ký bản quyền Logo</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Nhận diện thương hiệu văn phòng</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Nhận diện thương hiệu tại điểm bán</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Nhận diện thương hiệu Sản Phẩm</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế bộ nhận diện văn phòng</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế bộ nhận diện điểm bán</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Đổi mới, nâng cấp thương hiệu/ Rebranding</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế Mascot/ Linh vật đại diện thương hiệu</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Tư vấn đăng kí bảo hộ thương hiệu và nhãn hiệu</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">Thiết kế Marketing</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Name card</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Bao thư</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Profile</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Kẹp file,folder</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Catalogue</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Brochure,Tờ gấp</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Tờ rơi,Flyer</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Giấy tiêu đề,Letterhead</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ ẤN PHẨM TIẾP THỊ TRUYỀN THÔNG (MEDIA MARKETING PUBLICATIONS)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế hồ sơ năng lực/ Profile</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế Brochure/ Tờ gấp</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế tờ rơi/ Flyer</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế hình ảnh truyền thông (Banner/Poster/Backdrop/Poster)</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế video quảng cáo</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">Thiết kế quảng cáo</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Quảng cáo</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Backdrop,bảng hiệu</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Standee</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Poster</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Tranh Canvas</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Menu</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Bao lì xì</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Lịch tết</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DỊCH VỤ QUẢNG CÁO - QUẢN TRỊ (DIGITAL MARKETING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Chạy quảng cáo google</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Chạy quảng cáo facebook</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Dịch vụ quản trị fanpage facebook</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Dịch vụ quản trị website</a>
                                         </div>
-                                        <div class="dichvu dic2">
-                                            <a class="food">Thiết kế bao bì sản phẩm</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Hộp sản phẩm</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Bao bì, hộp sản phẩm</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Decal,tem nhãn</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php"s>Túi giấy</a>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ NHẬN DIỆN THƯƠNG HIỆU SỐ (DIGITAL BRANDING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế website</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế landing page</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế và xây dựng sàn E - Commerce/ Sàn thương mại điện tử</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế và trang trí gian hàng Shopee/Lazada</a>
+                                        </div>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHÒNG MARKETING THUÊ NGOÀI</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Lập kế hoạch marketing và chiến lược truyền thông</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế triển khai chiến dịch quảng cáo</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Xây dựng và quản lí các kênh truyền thông xã hội</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Tư vấn và hỗ trợ định hướng thương hiệu</a>
+                                        </div>
+                                        <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ BAO BÌ (BACKAGING)</a>
+                                        <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế bao bì</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế tem nhãn</a>
                                         </div>
                                     </div>
                                 </li>
@@ -258,8 +262,7 @@
         <a class=" blinking-phone" href="tel:0968868227"> <i class="fa fa-phone"> </i></a>
 
         <a id="open-modal2" class=" blinking-email"> <i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i
-                class="fab fa-facebook-messenger"></i></a>
+        <a class="blinking-messenger" href="https://m.me/ahp.agency" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
     </div>
 
 
@@ -307,16 +310,11 @@
                             tiên
                             tiến và chất lượng cao cho các doanh nghiệp và tổ chức.</p>
                         <form id="form" class="hero-form" action="/">
-                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name"
-                                required />
-                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc"
-                                required />
-                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại"
-                                class="cont-phone" pattern="[0-9]{10}" required />
-                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email"
-                                required />
-                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung"
-                                required></textarea>
+                            <input id="idcontname" name="contname" type="text" placeholder="Họ Tên" class="cont-name" required />
+                            <input id="idcontloc" name="contloc" type="location" placeholder="Địa Chỉ" class="cont-loc" required />
+                            <input id="idcontphone" name="contphone" type="phone" placeholder="Số Điện Thoại" class="cont-phone" pattern="[0-9]{10}" required />
+                            <input id="idcontemail" name="contemail" type="email" placeholder="Email" class="cont-email" required />
+                            <textarea class="cont-contect" cols="80" rows="6" placeholder="Nội dung" required></textarea>
                             <input type="submit" value="Gửi yêu cầu" class="submit-btn" />
                         </form>
                         <div class="contact-items">
@@ -340,24 +338,11 @@
         </div>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const dropdowns = document.querySelectorAll('.nav-item');
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/multi-dropdown-header.js"></script>
 
-            dropdowns.forEach((dropdown) => {
-                const link = dropdown.querySelector('.nav-link');
-                const menu = dropdown.querySelector('.dropdown-menu');
-
-                link.addEventListener('mouseover', (e) => {
-                    menu.style.display = 'block';
-                });
-
-                dropdown.addEventListener('mouseleave', (e) => {
-                    menu.style.display = 'none';
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>

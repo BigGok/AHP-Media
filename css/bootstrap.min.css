@@ -4566,7 +4566,8 @@ tbody.collapse.show {
     }
 
     .navbar-expand-lg .navbar-nav .dropdown-menu {
-        width: 100%;
+        top:97%;
+        left: 10%;
         position: absolute;
     }
 
