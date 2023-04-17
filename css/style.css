@@ -2416,6 +2416,7 @@ input:checked+.slider:before {
 }
 
 .items-price {
+    width: 100%;
     margin: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -2432,14 +2433,16 @@ input:checked+.slider:before {
 }
 
 .head-item-price h4 {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .head-item-price h3 {
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .center-item-price {
+    justify-content: center;
+    flex:1;
     border-radius: 0px 0px 5px 5px;
     border: 1px solid #bdbdbd;
     background-color: #f6f6f6;
@@ -2448,10 +2451,9 @@ input:checked+.slider:before {
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    justify-content: center;
 }
 
-.center-item-price li {
+.center-item-price .items-li-price {
     width: 100%;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -2459,12 +2461,22 @@ input:checked+.slider:before {
     align-items: center;
 }
 
-.center-item-price li::before {
+.center-item-price .items-li-price::before {
     content: "•";
     display: inline-block;
     width: 10px;
     text-align: center;
     margin-right: 10px;
+}
+
+.span-li-contain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.span-li-price::before {
+  content: "+";
+  margin-right: 5px;
 }
 
 .regester-pr {

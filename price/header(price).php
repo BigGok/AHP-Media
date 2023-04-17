@@ -4,10 +4,10 @@
 <head>
 
     <head>
-        <link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+        <link href="../css/bootstrap.min.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
         <!--media css-->
-        <link href="css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+        <link href="../css/media.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
     </head>
 
 </head>
@@ -23,21 +23,21 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="./"><img class="bfg" src="images/logo AHP Agency.png" alt="Logo"></a>
+                        <a class="navbar-brand" href="../index.php"><img class="bfg" src="../images/logo AHP Agency.png" alt="Logo"></a>
                         <!-- Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-sliders"></i></button>
                         <!-- Navbar -->
                         <div class="collapse navbar-collapse" id="worldNav">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="./">
+                                    <a class="nav-link" href="../index.php">
                                         <div class="name">
                                             <span data-text="TRANG CHỦ"> TRANG CHỦ </span>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="About-Us.php">
+                                    <a class="nav-link" href="../About-Us.php">
                                         <div class="name">
                                             <span data-text="VỀ CHÚNG TÔI">VỀ CHÚNG TÔI</span>
                                         </div>
@@ -105,8 +105,8 @@
                                     <div class="dropdown-menu" aria-labelledby="dropdown-dich-vu">
                                         <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-thuong-hieu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ THƯƠNG HIỆU (BRANDING)</a>
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-thuong-hieu">
-                                            <a class="dropdown-item" href="./price/thiet-ke-logo(BangGia).php">Thiết kế Logo</a>
-                                            <a class="dropdown-item" href="./price/thiet-ke-bo-nhan-dien(price).php">Thiết kế nhận diện thương hiệu</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế Logo</a>
+                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế nhận diện thương hiệu</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế bộ nhận diện văn phòng</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế bộ nhận diện điểm bán</a>
                                             <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Đổi mới, nâng cấp thương hiệu/ Rebranding</a>
@@ -152,7 +152,7 @@
 
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="News.php">
+                                    <a class="nav-link" href="../News.php">
                                         <div class="name"><span data-text="TIN TỨC">TIN TỨC</span></div>
                                     </a>
                                 </li>
@@ -184,7 +184,7 @@
                                                     của bạn.
                                                     Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                                                 </p>
-                                                <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
+                                                <img class="mod-img" src="../images/homecontact-bg.jpg" alt="">
                                                 <div class="contain-contact">
                                                     <div class="nav-contact">
                                                         <div class="contact-items">
@@ -280,7 +280,7 @@
                         của bạn.
                         Liên hệ ngay với chúng tôi để được tư vấn tận tình.
                     </p>
-                    <img class="mod-img" src="images/homecontact-bg.jpg" alt="">
+                    <img class="mod-img" src="../images/homecontact-bg.jpg" alt="">
                     <div class="contain-contact">
                         <div class="nav-contact">
                             <div class="contact-items">
@@ -341,7 +341,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/multi-dropdown-header.js"></script>
+    <script src="../js/multi-dropdown-header.js"></script>
 
 </body>
 
