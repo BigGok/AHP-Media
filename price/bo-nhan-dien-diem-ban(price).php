@@ -61,28 +61,19 @@
 
     <section class="container">
         <div class="head-service-price">
-            <h3>BẢNG GIÁ THIẾT KẾ NHẬN DIỆN THƯƠNG HIỆU</h3>
+            <h3>BẢNG GIÁ THIẾT KẾ BỘ NHẬN DIỆN ĐIỂM BÁN</h3>
         </div>
         <div class="contain-price-list">
             <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CƠ BẢN</h4>
-                    <h3>4.000.000 VND</h3>
+                    <h3>2.500.000 VND</h3>
                 </div>
                 <div class="center-item-price">
-                    <li class="items-li-price">Khách hàng kinh doanh quy mô nhỏ không yêu cầu phức tạp.</li>
-                    <li class="items-li-price">Chỉnh sửa 2 lần.</li>
-                    <li class="items-li-price">Thời gian thực hiện từ 3 - 5 ngày.</li>
-                    <li class="items-li-price">Bàn giao các định dạng: JPG, PNG, PDF, font chữ và file thiết kế gốc AI vector chuyên nghiệp.</li>
-                    <li class="items-li-price">Các dạng thiết kế bao gồm:</li>
-                    <div class="span-li-contain">
-                        <li><span class="span-li-price">Thiết kế logo.</span></li>
-                        <li><span class="span-li-price">Namecard.</span></li>
-                        <li><span class="span-li-price">Phong thư nhỏ 12x22cm.</span></li>
-                        <li><span class="span-li-price">Phong thư A4.</span></li>
-                        <li><span class="span-li-price">Thẻ nhân viên.</span></li>
-                        <li><span class="span-li-price">Đồng phục nhân viên.</span></li>
-                    </div>
+                    <li class="items-li-price">Thiết kế logo.</li>
+                    <li class="items-li-price">Thiết kế giao diện booth bán hàng, quầy kệ sản phẩm.</li>
+                    <li class="items-li-price">Standee, poster.</li>
+                    <li class="items-li-price">Tờ rơi quảng cáo.</li>
                     <a id="open-modal" class="regester-pr">
                         <span class="front-pr">Đăng ký tư vấn</span>
                         <span class="center-pr"></span>
@@ -93,26 +84,15 @@
             <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CHUYÊN NGHIỆP</h4>
-                    <h3>LIÊN HỆ</h3>
+                    <h3>4.500.000 VND</h3>
                 </div>
                 <div class="center-item-price">
-                    <li class="items-li-price">Khách hàng kinh doanh quy mô vừa và nhỏ, phát triển cửa hàng ở ngoài.</li>
-                    <li class="items-li-price">Chỉnh sửa 3 lần.</li>
-                    <li class="items-li-price">Thời gian thực hiện từ 5 - 7 ngày.</li>
-                    <li class="items-li-price">Bàn giao các định dạng: JPG, PNG, PDF, font chữ và file thiết kế gốc AI vector chuyên nghiệp.</li>
-                    <li class="items-li-price">Các dạng thiết kế bao gồm:</li>
-                    <div class="span-li-contain">
-                        <li><span class="span-li-price">Logo và cẩm nang quy quy chuẩn logo.</span></li>
-                        <li><span class="span-li-price">Namecard.</span></li>
-                        <li><span class="span-li-price">Phong bì thư nhỏ 12x22cm.</span></li>
-                        <li><span class="span-li-price">Phong bì thư A4.</span></li>
-                        <li><span class="span-li-price">Thẻ nhân viên.</span></li>
-                        <li><span class="span-li-price">Bảng tên phòng ban.</span></li>
-                        <li><span class="span-li-price">Bảng hiệu công ty.</span></li>
-                        <li><span class="span-li-price">Banner các trang social.</span></li>
-                        <li><span class="span-li-price">Thư mời, phiếu giảm giá.</span></li>
-                        <li><span class="span-li-price">Đồng phục công ty.</span></li>
-                    </div>
+                    <li class="items-li-price">Thiết kế logo.</li>
+                    <li class="items-li-price">Cẩm nang quy chuẩn sử dụng logo.</li>
+                    <li class="items-li-price">Thiết kế giao diện booth bán hàng, quầy kệ sản phẩm.</li>
+                    <li class="items-li-price">Standee, poster.</li>
+                    <li class="items-li-price">Tờ rơi quảng cáo.</li>
+                    <li class="items-li-price">Ô/dù, mũ/nón, tập dề.</li>
                     <a id="open-modal" class="regester-pr">
                         <span class="front-pr">Đăng ký tư vấn</span>
                         <span class="center-pr"></span>
@@ -123,29 +103,17 @@
             <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CAO CẤP</h4>
-                    <h3>LIÊN HỆ</h3>
+                    <h3>6.500.000 VND</h3>
                 </div>
                 <div class="center-item-price">
-                    <li class="items-li-price">Khách hàng kinh doanh quy mô lớn, thương hiệu lớn, tổng công ty có yêu cầu phức tạp với chất lượng logo.</li>
-                    <li class="items-li-price">Chỉnh sửa tối đa 5 lần dựa trên mẫu demo đã duyệt.</li>
-                    <li class="items-li-price">Thời gian thực hiện từ 12 - 14 ngày.</li>
-                    <li class="items-li-price">Bàn giao các định dạng: JPG, PNG, PDF, font chữ và file thiết kế gốc AI vector chuyên nghiệp.</li>
-                    <li class="items-li-price">Các dạng thiết kế bao gồm:</li>
-                    <div class="span-li-contain">
-                        <li><span class="span-li-price">Logo và cẩm nang quy quy chuẩn logo.</span></li>
-                        <li><span class="span-li-price">Namecard.</span></li>
-                        <li><span class="span-li-price">Phong bì thư nhỏ 12x22cm.</span></li>
-                        <li><span class="span-li-price">Phong bì thư A4.</span></li>
-                        <li><span class="span-li-price">Thẻ nhân viên.</span></li>
-                        <li><span class="span-li-price">Bảng tên chức danh.</span></li>
-                        <li><span class="span-li-price">Bảng tên phòng ban.</span></li>
-                        <li><span class="span-li-price">Bảng hiệu công ty.</span></li>
-                        <li><span class="span-li-price">Banner các trang social.</span></li>
-                        <li><span class="span-li-price">Thư mời, phiếu giảm giá.</span></li>
-                        <li><span class="span-li-price">Đồng phục công ty.</span></li>
-                        <li><span class="span-li-price">Catalogue công ty tối đa 12 trang.</span></li>
-                        <li><span class="span-li-price">Thiết kế hiển thị giao diện trang chủ website.</span></li>
-                    </div>
+                    <li class="items-li-price">Thiết kế logo.</li>
+                    <li class="items-li-price">Cẩm nang quy chuẩn sử dụng logo.</li>
+                    <li class="items-li-price">Thiết kế giao diện booth bán hàng, quầy kệ sản phẩm.</li>
+                    <li class="items-li-price">Standee, poster.</li>
+                    <li class="items-li-price">Tờ rơi quảng cáo..</li>
+                    <li class="items-li-price">Ô/dù, mũ/nón, tập dề.</li>
+                    <li class="items-li-price">Bảng tên điển bán.</li>
+                    <li class="items-li-price">Shopbanner, biển quảng cáo.</li>
                     <a id="open-modal" class="regester-pr">
                         <span class="front-pr">Đăng ký tư vấn</span>
                         <span class="center-pr"></span>

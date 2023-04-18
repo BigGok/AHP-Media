@@ -60,7 +60,7 @@
 
 
     <section class="container">
-        <div class="head-service">
+        <div class="head-service-price">
             <h3>BẢNG GIÁ THIẾT KẾ LOGO</h3>
         </div>
         <div class="contain-price-list">

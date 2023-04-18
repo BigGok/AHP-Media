@@ -61,28 +61,22 @@
 
     <section class="container">
         <div class="head-service-price">
-            <h3>BẢNG GIÁ THIẾT KẾ NHẬN DIỆN THƯƠNG HIỆU</h3>
+            <h3>BẢNG GIÁ THIẾT KẾ TRANG TRÍ GIAN HÀNG SHOPEE/LAZADA</h3>
         </div>
         <div class="contain-price-list">
             <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CƠ BẢN</h4>
-                    <h3>4.000.000 VND</h3>
+                    <h3>2.000.000 VND</h3>
                 </div>
                 <div class="center-item-price">
-                    <li class="items-li-price">Khách hàng kinh doanh quy mô nhỏ không yêu cầu phức tạp.</li>
-                    <li class="items-li-price">Chỉnh sửa 2 lần.</li>
-                    <li class="items-li-price">Thời gian thực hiện từ 3 - 5 ngày.</li>
-                    <li class="items-li-price">Bàn giao các định dạng: JPG, PNG, PDF, font chữ và file thiết kế gốc AI vector chuyên nghiệp.</li>
-                    <li class="items-li-price">Các dạng thiết kế bao gồm:</li>
-                    <div class="span-li-contain">
-                        <li><span class="span-li-price">Thiết kế logo.</span></li>
-                        <li><span class="span-li-price">Namecard.</span></li>
-                        <li><span class="span-li-price">Phong thư nhỏ 12x22cm.</span></li>
-                        <li><span class="span-li-price">Phong thư A4.</span></li>
-                        <li><span class="span-li-price">Thẻ nhân viên.</span></li>
-                        <li><span class="span-li-price">Đồng phục nhân viên.</span></li>
-                    </div>
+                    <li class="items-li-price">Thiết kế dựa trên yêu cầu của khách hàng.</li>
+                    <li class="items-li-price">Chỉnh sửa tối đa 2 lần dựa trên mẫu demo đã duyệt.</li>
+                    <li class="items-li-price">Thời gian thực hiện: 3 - 5 ngày.</li>
+                    <li class="items-li-price">Khách hàng cung cấp hình ảnh sản phẩm tách nền sẵn sẽ được giảm 100.000 VND.</li>
+                    <li class="items-li-price">Số lượng banner tối đa: 4 banner.</li>
+                    <li class="items-li-price">Thanh tiêu đề danh mục: Không giới hạn.</li>
+                    <li class="items-li-price">Bàn giao các file: File hình ảnh: PNG, JPEG.</li>
                     <a id="open-modal" class="regester-pr">
                         <span class="front-pr">Đăng ký tư vấn</span>
                         <span class="center-pr"></span>
@@ -93,26 +87,19 @@
             <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CHUYÊN NGHIỆP</h4>
-                    <h3>LIÊN HỆ</h3>
+                    <h3>3.000.000 VND</h3>
                 </div>
                 <div class="center-item-price">
-                    <li class="items-li-price">Khách hàng kinh doanh quy mô vừa và nhỏ, phát triển cửa hàng ở ngoài.</li>
-                    <li class="items-li-price">Chỉnh sửa 3 lần.</li>
-                    <li class="items-li-price">Thời gian thực hiện từ 5 - 7 ngày.</li>
-                    <li class="items-li-price">Bàn giao các định dạng: JPG, PNG, PDF, font chữ và file thiết kế gốc AI vector chuyên nghiệp.</li>
-                    <li class="items-li-price">Các dạng thiết kế bao gồm:</li>
-                    <div class="span-li-contain">
-                        <li><span class="span-li-price">Logo và cẩm nang quy quy chuẩn logo.</span></li>
-                        <li><span class="span-li-price">Namecard.</span></li>
-                        <li><span class="span-li-price">Phong bì thư nhỏ 12x22cm.</span></li>
-                        <li><span class="span-li-price">Phong bì thư A4.</span></li>
-                        <li><span class="span-li-price">Thẻ nhân viên.</span></li>
-                        <li><span class="span-li-price">Bảng tên phòng ban.</span></li>
-                        <li><span class="span-li-price">Bảng hiệu công ty.</span></li>
-                        <li><span class="span-li-price">Banner các trang social.</span></li>
-                        <li><span class="span-li-price">Thư mời, phiếu giảm giá.</span></li>
-                        <li><span class="span-li-price">Đồng phục công ty.</span></li>
-                    </div>
+                    <li class="items-li-price">Thiết kế dựa trên yêu cầu của khách hàng.</li>
+                    <li class="items-li-price">Chỉnh sửa tối đa 2 lần dựa trên mẫu demo đã duyệt.</li>
+                    <li class="items-li-price">Thời gian thực hiện: 5 - 7 ngày.</li>
+                    <li class="items-li-price">Khách hàng cung cấp hình ảnh sản phẩm tách nền sẵn sẽ được giảm 150.000 VND.</li>
+                    <li class="items-li-price">Số lượng banner tối đa: 6 banner.</li>
+                    <li class="items-li-price">Thanh tiêu đề danh mục: Không giới hạn.</li>
+                    <li class="items-li-price">Khung viền sản phẩm shopee.</li>
+                    <li class="items-li-price">Bộ icon danh mục.</li>
+                    <li class="items-li-price">Hỗ trợ gắn khung sản phẩm tối đa 20 sản phẩm.</li>
+                    <li class="items-li-price">Bàn giao các file: File hình ảnh: PNG, JPEG.</li>
                     <a id="open-modal" class="regester-pr">
                         <span class="front-pr">Đăng ký tư vấn</span>
                         <span class="center-pr"></span>
@@ -123,29 +110,20 @@
             <div class="items-price smoothflow">
                 <div class="head-item-price">
                     <h4>GÓI CAO CẤP</h4>
-                    <h3>LIÊN HỆ</h3>
+                    <h3>4.500.000 VND</h3>
                 </div>
                 <div class="center-item-price">
-                    <li class="items-li-price">Khách hàng kinh doanh quy mô lớn, thương hiệu lớn, tổng công ty có yêu cầu phức tạp với chất lượng logo.</li>
-                    <li class="items-li-price">Chỉnh sửa tối đa 5 lần dựa trên mẫu demo đã duyệt.</li>
-                    <li class="items-li-price">Thời gian thực hiện từ 12 - 14 ngày.</li>
-                    <li class="items-li-price">Bàn giao các định dạng: JPG, PNG, PDF, font chữ và file thiết kế gốc AI vector chuyên nghiệp.</li>
-                    <li class="items-li-price">Các dạng thiết kế bao gồm:</li>
-                    <div class="span-li-contain">
-                        <li><span class="span-li-price">Logo và cẩm nang quy quy chuẩn logo.</span></li>
-                        <li><span class="span-li-price">Namecard.</span></li>
-                        <li><span class="span-li-price">Phong bì thư nhỏ 12x22cm.</span></li>
-                        <li><span class="span-li-price">Phong bì thư A4.</span></li>
-                        <li><span class="span-li-price">Thẻ nhân viên.</span></li>
-                        <li><span class="span-li-price">Bảng tên chức danh.</span></li>
-                        <li><span class="span-li-price">Bảng tên phòng ban.</span></li>
-                        <li><span class="span-li-price">Bảng hiệu công ty.</span></li>
-                        <li><span class="span-li-price">Banner các trang social.</span></li>
-                        <li><span class="span-li-price">Thư mời, phiếu giảm giá.</span></li>
-                        <li><span class="span-li-price">Đồng phục công ty.</span></li>
-                        <li><span class="span-li-price">Catalogue công ty tối đa 12 trang.</span></li>
-                        <li><span class="span-li-price">Thiết kế hiển thị giao diện trang chủ website.</span></li>
-                    </div>
+                    <li class="items-li-price">Thiết kế dựa trên yêu cầu của khách hàng.</li>
+                    <li class="items-li-price">Chỉnh sửa tối đa 2 lần dựa trên mẫu demo đã duyệt./li>
+                    <li class="items-li-price">Thời gian thực hiện: 7 - 9 ngày.</li>
+                    <li class="items-li-price">Khách hàng cung cấp hình ảnh sản phẩm tách nền sẵn sẽ được giảm 200.000 VND.</li>
+                    <li class="items-li-price">Số lượng banner tối đa: 8 banner.</li>
+                    <li class="items-li-price">Thanh tiêu đề danh mục: Không giới hạn.</li>
+                    <li class="items-li-price">Khung viền sản phẩm shopee.</li>
+                    <li class="items-li-price">Bộ icon danh mục.</li>
+                    <li class="items-li-price">Hỗ trợ gắn khung sản phẩm tối đa 30 sản phẩm.</li>
+                    <li class="items-li-price">Thiết kế ảnh đại diện shopee và ảnh cover shopee.</li>
+                    <li class="items-li-price">Bàn giao các file: File hình ảnh: PNG, JPEG.</li>
                     <a id="open-modal" class="regester-pr">
                         <span class="front-pr">Đăng ký tư vấn</span>
                         <span class="center-pr"></span>
