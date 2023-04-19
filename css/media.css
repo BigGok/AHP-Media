@@ -1125,6 +1125,12 @@
         display: flex;
         flex-wrap: wrap;
     }
+    .text-service1::before{
+        display: none;
+    }
+    .text-service::before{
+        display: none;
+    }
 }
 
 /* Styles for screens between 576px and 768px */

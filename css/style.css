@@ -2623,3 +2623,50 @@ input:checked+.slider:before {
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
+.service-contain h3{
+    text-align: center;
+    color: #D00000;
+    font-size: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.text-service{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.text-service::before{
+    content: "-";
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.text-service1{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.text-service1::before{
+    content: "+";
+    display: inline-block;
+    width: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+.footer-service-p{
+    margin-left: 16px;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}

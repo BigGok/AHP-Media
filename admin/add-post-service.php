@@ -112,16 +112,16 @@ if (strlen($_SESSION['login']) == 0) {
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="page-title-box">
-                                    <h4 class="page-title">Add Post </h4>
+                                    <h4 class="page-title">Add Service </h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="#">Post</a>
+                                            <a href="#">Service</a>
                                         </li>
                                         <li>
-                                            <a href="#">Add Post </a>
+                                            <a href="#">Add Service </a>
                                         </li>
                                         <li class="active">
-                                            Add Post
+                                            Add Service
                                         </li>
                                     </ol>
                                     <div class="clearfix"></div>
@@ -157,7 +157,7 @@ if (strlen($_SESSION['login']) == 0) {
                                     <div class="">
                                         <form name="addpost" method="post" enctype="multipart/form-data">
                                             <div class="form-group m-b-20">
-                                                <label for="exampleInputEmail1">Post Title</label>
+                                                <label for="exampleInputEmail1">Service Title</label>
                                                 <input type="text" class="form-control" id="posttitle" name="posttitle" placeholder="Enter title" required>
                                             </div>
 
@@ -189,7 +189,7 @@ if (strlen($_SESSION['login']) == 0) {
                                             <div class="row">
                                                 <div class="col-sm-12">
                                                     <div class="card-box">
-                                                        <h4 class="m-b-30 m-t-0 header-title"><b>Post Details</b></h4>
+                                                        <h4 class="m-b-30 m-t-0 header-title"><b>Service Details</b></h4>
                                                         <textarea class="summernote" name="postdescription" required></textarea>
                                                     </div>
                                                 </div>
