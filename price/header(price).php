@@ -107,45 +107,45 @@
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-thuong-hieu">
                                             <a class="dropdown-item" href="thiet-ke-logo(BangGia).php">Thiết kế Logo</a>
                                             <a class="dropdown-item" href="thiet-ke-bo-nhan-dien(price).php">Thiết kế nhận diện thương hiệu</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế bộ nhận diện văn phòng</a>
+                                            <a class="dropdown-item" href="#">Thiết kế bộ nhận diện văn phòng</a>
                                             <a class="dropdown-item" href="bo-nhan-dien-diem-ban(price).php">Thiết kế bộ nhận diện điểm bán</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Đổi mới, nâng cấp thương hiệu/ Rebranding</a>
+                                            <a class="dropdown-item" href="#">Đổi mới, nâng cấp thương hiệu/ Rebranding</a>
                                             <a class="dropdown-item" href="linh-vat-dai-dien-thuong-hieu(price).php">Thiết kế Mascot/ Linh vật đại diện thương hiệu</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Tư vấn đăng kí bảo hộ thương hiệu và nhãn hiệu</a>
+                                            <a class="dropdown-item" href="#">Tư vấn đăng kí bảo hộ thương hiệu và nhãn hiệu</a>
                                         </div>
                                         <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ ẤN PHẨM TIẾP THỊ TRUYỀN THÔNG (MEDIA MARKETING PUBLICATIONS)</a>
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
-                                            <a class="dropdown-item" href="thiet-ke-catalouge-profile(price)">Thiết kế hồ sơ năng lực/ Profile</a>
+                                            <a class="dropdown-item" href="thiet-ke-catalouge-profile(price).php">Thiết kế hồ sơ năng lực/ Profile</a>
                                             <a class="dropdown-item" href="thiet-ke-brochure(price).php">Thiết kế Brochure/ Tờ gấp</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế tờ rơi/ Flyer</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế hình ảnh truyền thông (Banner/Poster/Backdrop/Poster)</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế video quảng cáo</a>
+                                            <a class="dropdown-item" href="#">Thiết kế tờ rơi/ Flyer</a>
+                                            <a class="dropdown-item" href="#">Thiết kế hình ảnh truyền thông (Banner/Poster/Backdrop/Poster)</a>
+                                            <a class="dropdown-item" href="#">Thiết kế video quảng cáo</a>
                                         </div>
                                         <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ BAO BÌ (BACKAGING)</a>
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="thiet-ke-bao-bi(price).php">Thiết kế bao bì</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế tem nhãn</a>
+                                            <a class="dropdown-item" href="#">Thiết kế tem nhãn</a>
                                         </div>
                                         <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">THIẾT KẾ NHẬN DIỆN THƯƠNG HIỆU SỐ (DIGITAL BRANDING)</a>
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="thiet-ke-website(price).php">Thiết kế website</a>
                                             <a class="dropdown-item" href="thiet-ke-landing-page-website.php">Thiết kế landing page</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế và xây dựng sàn E - Commerce/ Sàn thương mại điện tử</a>
+                                            <a class="dropdown-item" href="#">Thiết kế và xây dựng sàn E - Commerce/ Sàn thương mại điện tử</a>
                                             <a class="dropdown-item" href="thiet-ke-dan-hang-shopee-laza(price).php">Thiết kế và trang trí gian hàng Shopee/Lazada</a>
                                         </div>
                                         <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DỊCH VỤ QUẢNG CÁO - QUẢN TRỊ (DIGITAL MARKETING)</a>
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
                                             <a class="dropdown-item" href="quang-cao-google.php">Chạy quảng cáo google</a>
                                             <a class="dropdown-item" href="quang-cao-facebook(price).php">Chạy quảng cáo facebook</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Dịch vụ quản trị fanpage facebook</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Dịch vụ quản trị website</a>
+                                            <a class="dropdown-item" href="#">Dịch vụ quản trị fanpage facebook</a>
+                                            <a class="dropdown-item" href="#">Dịch vụ quản trị website</a>
                                         </div>
                                         <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-thiet-ke-marketing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PHÒNG MARKETING THUÊ NGOÀI</a>
                                         <div class="dropdown-menu sec-item" aria-labelledby="dropdown-thiet-ke-marketing">
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Lập kế hoạch marketing và chiến lược truyền thông</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Thiết kế triển khai chiến dịch quảng cáo</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Xây dựng và quản lí các kênh truyền thông xã hội</a>
-                                            <a class="dropdown-item" href="./thiet-ke-logo(BangGia).php">Tư vấn và hỗ trợ định hướng thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Lập kế hoạch marketing và chiến lược truyền thông</a>
+                                            <a class="dropdown-item" href="#">Thiết kế triển khai chiến dịch quảng cáo</a>
+                                            <a class="dropdown-item" href="#">Xây dựng và quản lí các kênh truyền thông xã hội</a>
+                                            <a class="dropdown-item" href="#">Tư vấn và hỗ trợ định hướng thương hiệu</a>
                                         </div>
                                     </div>
                                 </li>

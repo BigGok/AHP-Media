@@ -2441,10 +2441,6 @@ input:checked+.slider:before {
     text-align: center;
     font-size: 14px;
 }
-.head-item-price h5{
-    text-align: center;
-    font-size: 12px;
-}
 .center-item-price {
     justify-content: center;
     flex:1;
