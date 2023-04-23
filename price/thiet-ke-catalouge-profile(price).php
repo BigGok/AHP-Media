@@ -61,7 +61,7 @@
 
     <section class="container">
         <div class="head-service-price">
-            <h3>BẢNG GIÁ THIẾT KẾ CATALOGUE/ PROFILE</h3>
+            <h3>BẢNG GIÁ THIẾT KẾ CATALOGUE</h3>
         </div>
         <div class="contain-price-list">
             <div class="items-price smoothflow">

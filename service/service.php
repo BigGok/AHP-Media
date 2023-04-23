@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "newsportal";
 
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+$tmp = $_REQUEST["id"];
+$stmt = $conn->prepare("SELECT * FROM tblservice WHERE id=?");
+$stmt->bind_param("i", $tmp);
+$stmt->execute();
+$result = $stmt->get_result();
+$row = $result->fetch_assoc();
+?>
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.css" integrity="sha512-Sp6v1zcpU5eAR9MmWRH1IMiYpmDR8+b2c+z5U6w5U6FhU6E+hBLpX9bKjOKRnYRoYr/5i3Em3fZCxx2UiNn17g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.5/sweetalert2.min.js" integrity="sha512-zhe8W0C+ZweTZwZJfymcwGMa8GRQenmY/S8/bpWcA9Jk+cdmQ2ggh+DGLWJxM7wZD/wN+GdIbAaDK2nCfJq3sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -60,42 +74,7 @@
 
 
     <section class="container">
-        <div class="service-contain">
-            <h3>AHP AGENCY - DỊCH VỤ CHẠY QUẢNG CÁO THUÊ NGOÀI</h3>
-            <p><span class="text-service">Trong thời đại số hiện nay, việc quảng cáo trực tuyến đang trở thành một phần không thể thiếu trong chiến lược marketing của các doanh nghiệp, nhãn hiệu và thương hiệu. Trong đó, việc chạy quảng cáo Google là một phương tiện quảng cáo trực tuyến hiệu quả và được ưa chuộng nhất.</span></p>
-            <h3>Ý NGHĨA CỦA VIỆC CHẠY QUẢNG CÁO GOOGLE</h3>
-            <p><span class="text-service">Quảng cáo Google là hình thức quảng cáo trực tuyến cho phép doanh nghiệp, nhãn hiệu và thương hiệu hiển thị thông tin quảng cáo của mình trên kết quả tìm kiếm của Google. Khi khách hàng tìm kiếm từ khóa liên quan đến sản phẩm hoặc dịch vụ của bạn, quảng cáo của bạn sẽ xuất hiện trên trang kết quả tìm kiếm của Google, giúp sản phẩm hoặc dịch vụ của bạn được chú ý hơn.</span></p>
-            <h3>TẠI SAO CÁC DOANH NGHIỆP, CÁC HỘ KINH DOANH, THƯƠNG HIỆU NÊN CHỌN DỊCH VỤ QUẢNG CÁO GOOGLE THUÊ NGOÀI</h3>
-            <p><span class="text-service">Khi các doanh nghiệp, các hộ kinh doanh thuê gói dịch vụ chạy quảng cáo ngoài sẽ giúp được giảm được cho phí thuê nhân sự, tối ưu chi phí và nâng cao hiệu quả.</span></p>
-            <p><span class="text-service">Việc chạy quảng cáo Google giúp cho các doanh nghiệp, hộ kinh doanh, thương hiệu có thể tiếp cận đến đối tượng khách hàng tiềm năng một cách dễ dàng và nhanh chóng. Bên cạnh đó, quảng cáo Google còn có những ưu điểm sau:</span></p>
-            <p><span class="text-service1">Tăng lượng khách hàng tiềm năng: Với việc sử dụng các từ khóa và định vị đối tượng khách hàng mục tiêu, quảng cáo Google giúp cho các doanh nghiệp, thương hiệu, nhãn hiệu có thể tiếp cận được đến khách hàng tiềm năng.</span></p>
-            <p><span class="text-service1">Chi phí quảng cáo hiệu quả: So với các hình thức quảng cáo truyền thống, quảng cáo Google giúp các doanh nghiệp có thể sử dụng mức chi phí thấp để đạt được hiệu quả quảng cáo cao.</span></p>
-            <p><span class="text-service1">Theo dõi và đo lường kết quả: Quảng cáo Google cung cấp các công cụ để doanh nghiệp có thể theo dõi và đo lường kết quả quảng cáo, từ đó điều chỉnh chiến lược quảng cáo một cách phù hợp hơn.</span></p>
-            <h3>ĐẾN VỚI DỊCH VỤ CHẠY QUẢNG CÁO GOOGLE CỦA AHP AGENCY, CÁC DOANH NGHIỆP, HỘ KINH DOANH NHỎ SẼ ĐƯỢC GÌ?</h3>
-            <p><span class="text-service">AHP Agency là một đơn vị chuyên cung cấp dịch vụ quảng cáo Google chuyên nghiệp, đem lại các lợi ích sau cho các doanh nghiệp và hộ kinh doanh nhỏ.</span></p>
-            <p><span class="text-service">Tư vấn chiến lược quảng cáo: AHP Agency sẽ đưa ra các giải pháp chiến lược quảng cáo phù hợp với nhu cầu và ngân sách của từng doanh nghiệp và hộ kinh doanh nhỏ, giúp tăng hiệu quả quảng cáo và tiết kiệm chi phí.</span></p>
-            <p><span class="text-service">Thiết kế và quản lý quảng cáo: AHP Agency sẽ đảm nhận việc thiết kế quảng cáo đẹp mắt và thu hút khách hàng, cũng như quản lý và theo dõi kết quả quảng cáo để điều chỉnh chiến lược phù hợp.</span></p>
-            <p><span class="text-service">Tối ưu chiến dịch quảng cáo: AHP Agency sẽ tối ưu hóa chiến dịch quảng cáo để đạt được hiệu quả cao nhất với chi phí thấp nhất, đồng thời đưa ra các báo cáo chi tiết để doanh nghiệp có thể đánh giá kết quả và điều chỉnh chiến lược.</span></p>
-            <h3>VÌ SAO NÊN CHỌN AHP AGENCY</h3>
-            <p><span class="text-service">AHP Agency là đơn vị chuyên cung cấp dịch vụ quảng cáo Google uy tín và chuyên nghiệp, có đội ngũ nhân viên giàu kinh nghiệm và am hiểu sâu về quảng cáo Google. Bên cạnh đó, AHP Agency luôn đặt lợi ích của khách hàng lên hàng đầu, đảm bảo đem lại cho khách hàng những giải pháp quảng cáo tốt nhất và chi phí phù hợp. Với AHP Agency, các doanh nghiệp và hộ kinh doanh nhỏ có thể yên tâm tin tưởng và đạt được kết quả quảng cáo tốt nhất trên Google.</span></p>
-            <h3>QUY TRÌNH DỊCH VỤ AHP AGENCY</h3>
-            <p class="footer-service-p">1. Thu thập thông tin, thấu hiểu khách hàng.</p>
-            <p class="footer-service-p">2. Nghiên cứu, phân tích, tư vấn.</p>
-            <p class="footer-service-p">3. Ký hợp đồng.</p>
-            <p class="footer-service-p">4. Xây dựng kế hoạch, tạo ý tưởng, phát thảo.</p>
-            <p class="footer-service-p">5. Triển khai, trình bày, đánh giá.</p>
-            <p class="footer-service-p">6. Hiệu chỉnh, chỉnh sửa.</p>
-            <p class="footer-service-p">7. Hoàn thiện, xuất bản, bàn giao.</p>
-            <h3>ƯU ĐIỂM DỊCH VỤ THIẾT KẾ AHP AGENCY</h3>
-            <p class="footer-service-p">1. Luôn luôn thực hiện dịch vụ đáp ứng mục tiêu doanh nghiệp.</p>
-            <p class="footer-service-p">2. Đội ngũ thiết kế trẻ, năng động, sáng tạo.</p>
-            <p class="footer-service-p">3. Sáng tạo dựa trên nghiên cứu và yêu cầu thực tế của khách hàng.</p>
-            <p class="footer-service-p">4. Phối hợp chặt chẽ với khách hàng theo quy trình chuyên nghiệp.</p>
-            <p class="footer-service-p">5. Thiết kế đảm bảo tính thẩm mỹ và ứng dụng.</p>
-            <p class="footer-service-p">6. Đa dạng phong cách thiết kế, kinh nghiệm đa lĩnh vực.</p>
-            <p class="footer-service-p">7. Cam kết 100% hài lòng với sản phẩm/ dịch vụ.</p>
-            
-        </div>
+        <div><?= $row['contain'] ?></div>
     </section>
 
     <!--PROJECT -->
